@@ -14,6 +14,44 @@ El ecosistema de NodeSecure funciona utilizando dispositivos físicos simples, c
 La propuesta de valor de SafeZone está diseñada bajo un modelo altamente escalable, adaptándose tanto a dueños de PYMES que buscan soluciones accesibles para evitar mermas diarias, como a jefes de operaciones que requieren controlar redes complejas y auditar incidentes de forma rigurosa. El verdadero diferencial comercial de NodeSecure radica en brindar una visibilidad operativa total: permite a los usuarios saber con precisión qué mercancía salió, quién fue el responsable de registrarla, en qué momento exacto ocurrió y, lo más importante, advertir al instante si hubo alguna actividad física anómala que no cuadre con el registro oficial.
 
 
+#### 1.1.2 Integrantes del equipo
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="images/liz-foto.png" width="150" alt="Foto de Liz">
+    </td>
+    <td>
+      <strong>Nombres y Apellidos:</strong> Anahua Ancachi Liz Maribel[cite: 1]<br>
+      <strong>Código:</strong> U202421123[cite: 1]<br>
+      <strong>Carrera:</strong> Ingeniería de Software[cite: 1]<br><br>
+      Estudiante de Ingeniería de Software en la UPC de quinto ciclo de la carrera[cite: 1]. Tengo conocimientos básicos en C++, SQL[cite: 1]. Me considero una persona responsable y empática a la hora de colaborar en equipo[cite: 1]. Además, me encanta el diseño y plantear soluciones creativas a los problemas para entregar el mejor resultado posible[cite: 1].
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="images/sebastian-foto.png" width="150" alt="Foto de Fernando">
+    </td>
+    <td>
+      <strong>Nombres y Apellidos:</strong> Fernando Sebastián Pérez Bellido[cite: 1]<br>
+      <strong>Código:</strong> U202410420[cite: 1]<br>
+      <strong>Carrera:</strong> Ingeniería de Software[cite: 1]<br><br>
+      Estudiante de Ingeniería de Software en la UPC con un enfoque en la creación de soluciones tecnológicas que generen impacto real[cite: 1]. Cuento con bases sólidas en C++, Python y un poco de conocimiento en React, complementadas con conocimientos en SQL y entornos cloud[cite: 1]. Me apasiona aplicar la lógica algorítmica para resolver problemas complejos[cite: 1].
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="images/luciana-foto.png" width="150" alt="Foto de Luciana">
+    </td>
+    <td>
+      <strong>Nombres y Apellidos:</strong> Ravello Cárdenas Luciana Angielina[cite: 1]<br>
+      <strong>Código:</strong> U20221F887[cite: 1]<br>
+      <strong>Carrera:</strong> Ingeniería de Software[cite: 1]<br><br>
+      Estudiante de Ingeniería de Software en la UPC cursando el quinto ciclo de la carrera[cite: 1]. Tengo conocimientos en C++, SQL y Figma[cite: 1]. Se me considera una persona amable y responsable, lo que ayuda a crear un buen ambiente en equipo[cite: 1]. Siempre estoy dispuesta a escuchar opiniones y sugerencias para mejorar la calidad de los trabajos entregados[cite: 1].
+    </td>
+  </tr>
+</table>
+
 ## Capítulo II: Requirements Elicitation & Analysis 
 ### 2.1. Competidores
 #### 2.1.1. Análisis competitivo
