@@ -12,6 +12,10 @@
 
 
 
+
+
+
+
 # NodeSecure-Report
 ## Capítulo II: Requirements Elicitation & Analysis 
 ### 2.1. Competidores
@@ -36,19 +40,19 @@ Samsara: Plataforma SaaS de operaciones conectadas con sensores IoT para el segu
       <td><b>En la cabecera colocar por cada competidor nombre y logo</b></td>
       <td align="center" width="20%">
         <b>Su Startup:</b><br><b>NodeSecure</b><br><br>
-        <img src="./images/image1.png" width="80" alt="NodeSecure">
+        <img src="./images/image1.png" width="70" alt="NodeSecure">
       </td>
       <td align="center" width="20%">
         <b>Competidor 1:</b><br><b>Verkada</b><br><br>
-        <img src="./images/image2.png" width="80" alt="Verkada">
+        <img src="./images/image2.png" width="70" alt="Verkada">
       </td>
       <td align="center" width="20%">
         <b>Competidor 2:</b><br><b>Quaker Software</b><br><br>
-        <img src="./images/image3.png" width="80" alt="Quaker Software">
+        <img src="./images/image3.png" width="70" alt="Quaker Software">
       </td>
       <td align="center" width="20%">
         <b>Competidor 3:</b><br><b>Samsara</b><br><br>
-        <img src="./images/image4.png" width="80" alt="Samsara">
+        <img src="./images/image4.png" width="70" alt="Samsara">
       </td>
     </tr>
     <!-- PERFIL OVERVIEW -->
