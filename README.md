@@ -37,35 +37,35 @@ La propuesta de valor de SafeZone está diseñada bajo un modelo altamente escal
 <table>
   <tr>
     <td align="center">
-      <img src="images/liz-foto.png" width="350" alt="Foto de Liz">
+      <img src="images/liz-foto.png" width="600" alt="Foto de Liz">
     </td>
     <td>
-      <strong>Nombres y Apellidos:</strong> Anahua Ancachi Liz Maribel[cite: 1]<br>
-      <strong>Código:</strong> U202421123[cite: 1]<br>
-      <strong>Carrera:</strong> Ingeniería de Software[cite: 1]<br><br>
-      Estudiante de Ingeniería de Software en la UPC de quinto ciclo de la carrera[cite: 1]. Tengo conocimientos básicos en C++, SQL[cite: 1]. Me considero una persona responsable y empática a la hora de colaborar en equipo[cite: 1]. Además, me encanta el diseño y plantear soluciones creativas a los problemas para entregar el mejor resultado posible[cite: 1].
+      <strong>Nombres y Apellidos:</strong> Anahua Ancachi Liz Maribel<br>
+      <strong>Código:</strong> U202421123<br>
+      <strong>Carrera:</strong> Ingeniería de Software<br><br>
+      Estudiante de Ingeniería de Software en la UPC de quinto ciclo de la carrera. Tengo conocimientos básicos en C++, SQL. Me considero una persona responsable y empática a la hora de colaborar en equipo. Además, me encanta el diseño y plantear soluciones creativas a los problemas para entregar el mejor resultado posible.
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="images/sebastian-foto.png" width="350" alt="Foto de Fernando">
+      <img src="images/sebastian-foto.png" width="600" alt="Foto de Fernando">
     </td>
     <td>
-      <strong>Nombres y Apellidos:</strong> Fernando Sebastián Pérez Bellido[cite: 1]<br>
-      <strong>Código:</strong> U202410420[cite: 1]<br>
-      <strong>Carrera:</strong> Ingeniería de Software[cite: 1]<br><br>
-      Estudiante de Ingeniería de Software en la UPC con un enfoque en la creación de soluciones tecnológicas que generen impacto real[cite: 1]. Cuento con bases sólidas en C++, Python y un poco de conocimiento en React, complementadas con conocimientos en SQL y entornos cloud[cite: 1]. Me apasiona aplicar la lógica algorítmica para resolver problemas complejos[cite: 1].
+      <strong>Nombres y Apellidos:</strong> Fernando Sebastián Pérez Bellido<br>
+      <strong>Código:</strong> U202410420<br>
+      <strong>Carrera:</strong> Ingeniería de Software<br><br>
+      Estudiante de Ingeniería de Software en la UPC con un enfoque en la creación de soluciones tecnológicas que generen impacto real. Cuento con bases sólidas en C++, Python y un poco de conocimiento en React, complementadas con conocimientos en SQL y entornos cloud. Me apasiona aplicar la lógica algorítmica para resolver problemas complejos.
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="images/luciana-foto.png" width="350" alt="Foto de Luciana">
+      <img src="images/luciana-foto.png" width="600" alt="Foto de Luciana">
     </td>
     <td>
-      <strong>Nombres y Apellidos:</strong> Ravello Cárdenas Luciana Angielina[cite: 1]<br>
-      <strong>Código:</strong> U20221F887[cite: 1]<br>
-      <strong>Carrera:</strong> Ingeniería de Software[cite: 1]<br><br>
-      Estudiante de Ingeniería de Software en la UPC cursando el quinto ciclo de la carrera[cite: 1]. Tengo conocimientos en C++, SQL y Figma[cite: 1]. Se me considera una persona amable y responsable, lo que ayuda a crear un buen ambiente en equipo[cite: 1]. Siempre estoy dispuesta a escuchar opiniones y sugerencias para mejorar la calidad de los trabajos entregados[cite: 1].
+      <strong>Nombres y Apellidos:</strong> Ravello Cárdenas Luciana Angielina<br>
+      <strong>Código:</strong> U20221F887<br>
+      <strong>Carrera:</strong> Ingeniería de Software<br><br>
+      Estudiante de Ingeniería de Software en la UPC cursando el quinto ciclo de la carrera. Tengo conocimientos en C++, SQL y Figma. Se me considera una persona amable y responsable, lo que ayuda a crear un buen ambiente en equipo. Siempre estoy dispuesta a escuchar opiniones y sugerencias para mejorar la calidad de los trabajos entregados.
     </td>
   </tr>
 </table>
