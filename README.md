@@ -37,7 +37,7 @@ La propuesta de valor de SafeZone está diseñada bajo un modelo altamente escal
 <table>
   <tr>
     <td align="center">
-      <img src="images/liz-foto.png" width="150" alt="Foto de Liz">
+      <img src="images/liz-foto.png" width="350" alt="Foto de Liz">
     </td>
     <td>
       <strong>Nombres y Apellidos:</strong> Anahua Ancachi Liz Maribel[cite: 1]<br>
@@ -48,7 +48,7 @@ La propuesta de valor de SafeZone está diseñada bajo un modelo altamente escal
   </tr>
   <tr>
     <td align="center">
-      <img src="images/sebastian-foto.png" width="150" alt="Foto de Fernando">
+      <img src="images/sebastian-foto.png" width="350" alt="Foto de Fernando">
     </td>
     <td>
       <strong>Nombres y Apellidos:</strong> Fernando Sebastián Pérez Bellido[cite: 1]<br>
@@ -59,7 +59,7 @@ La propuesta de valor de SafeZone está diseñada bajo un modelo altamente escal
   </tr>
   <tr>
     <td align="center">
-      <img src="images/luciana-foto.png" width="150" alt="Foto de Luciana">
+      <img src="images/luciana-foto.png" width="350" alt="Foto de Luciana">
     </td>
     <td>
       <strong>Nombres y Apellidos:</strong> Ravello Cárdenas Luciana Angielina[cite: 1]<br>
