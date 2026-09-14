@@ -119,6 +119,44 @@ Hoy en día, la gestión logística y el sector retail enfrentan un desafío cr�
 **Sabremos que tenemos éxito cuando veamos** una alta tasa de retención en nuestros planes de suscripción, una adopción rápida de la plataforma sin necesidad de capacitaciones complejas, y una reducción comprobable en los tiempos de respuesta ante intrusiones y en las pérdidas originadas por robos internos en los almacenes de los clientes.
 
 
+##### 1.2.2.2. Lean UX Assumptions
+
+**Business Assumptions (Supuestos de Negocio)**
+- Creemos que ofrecer un modelo SaaS por suscripción mensual escalable en tres niveles  (Básico, Premium y Corporativo) será financieramente viable y atractivo para distintos tamaños de empresa, permitiendo que las PYMES adopten nuestra solución sin barreras de entrada.
+- Asumimos que NodeSecure logrará posicionarse y diferenciarse de la competencia no como un sistema de alarmas tradicional, sino como una plataforma inteligente que cruza en tiempo real los eventos físicos del almacén con los registros digitales de inventario. 
+- Creemos que delegar la detección física a dispositivos de hardware y accesibles (como ESP32 y sensores magnéticos de puerta) nos permitirá enfocar todos nuestros recursos en perfeccionar el desarrollo de la plataforma de software, sin tener que asumir altos costos de mantenimiento de hardware.
+- Asumimos que lograremos captar la retención de nuestro mercado objetivo de manera satisfactoria destacando la accesibilidad económica de la solución y su facilidad de despliegue, frente a los sistemas tradicionales que las empresas perciben como altamente costosos o complejos.
+
+
+**Business Outcome Assumptions (Supuestos de Resultados de Negocio)**
+- Creemos que el éxito de SafeZone se reflejará en un incremento sostenido de empresas suscritas a la plataforma NodeSecure a través de sus distintos planes.
+- Asumimos que garantizaremos una alta tasa de retención, particularmente de clientes corporativos, siempre que la plataforma web sea estable, confiable y precisa en la emisión de notificaciones en tiempo real.
+- Creemos que las empresas que implementen nuestro producto lograrán reducir de forma significativa sus mermas económicas y pérdidas provocadas por el "robo hormiga" y los accesos no autorizados.
+- Asumimos que el uso de nuestro sistema impulsará un cambio en la forma en que las empresas y comercios gestionan su seguridad, logrando que las empresas migren de un modelo de vigilancia reactiva a una gestión de seguridad preventiva.
+
+
+**User Assumptions (Supuestos del Usuario)**
+- Creemos que nuestros usuarios para los planes básicos son dueños o administradores de PYMES que gestionan pequeños almacenes y que actualmente dependen de controles manuales o en hojas de cálculo.
+- Asumimos que nuestros usuarios para los planes superiores son jefes de seguridad o de operaciones a cargo de supervisar redes complejas de múltiples zonas logísticas.
+- Creemos que ambos perfiles de usuario valoran profundamente las interfaces limpias, directas y accesibles desde cualquier lugar, buscando evitar el uso de configuraciones tecnológicas complejas.
+- Consideramos que el principal problema de estos públicos radica en la molestia que genera rastrear mermas a través de plataformas fragmentadas, dificultando determinar con claridad qué pasó y en qué instante exacto.
+
+
+**User Outcome and Benefit Assumptions (Supuestos de Resultados y Beneficios para el Usuario)**
+- Creemos que los dueños de PYMES podrán tener mayor tranquilidad operativa al mantener el control de sus negocios y supervisar las aperturas de forma remota, sin necesidad de estar físicamente en el local.
+- Asumimos que los jefes de operaciones podrán actuar rápidamente ante cualquier irregularidad gracias a las alertas automáticas que recibirán a través de un panel centralizado.
+- Creemos que el personal de auditoría podrá reducir considerablemente las tareas manuales al utilizar las marcas de tiempo exactas de los eventos registrados para ubicar rápidamente las grabaciones de CCTV, evitando revisar horas de video sin una referencia clara .
+- Asumimos que las empresas con múltiples sucursales lograrán estandarizar y centralizar la toma de decisiones al visualizar el estado de toda su infraestructura logística desde un único punto de acceso.
+
+
+**Feature Assumptions (Supuestos de Funcionalidades)**
+- Creemos que nuestra propuesta de valor residirá en un Dashboard Unificado que consolide el inventario disponible, el historial de movimientos, las alertas críticas y el estado de conexión de los sensores IoT en un solo lugar.
+- Asumimos que el motor de detección de discrepancias, el cual comparará los eventos físicos del IoT con los movimientos de inventario registrados, será la herramienta funcional clave para descubrir sustracciones no reportadas.
+- Creemos que establecer roles y permisos para cada tipo de usuario (Administrador, Almacenero, Auditor) permitirá proteger el acceso y la manipulación al stock controlando qué acciones puede realizar cada usuario según sus funciones.
+- Asumimos que el desarrollo de una API RESTful estructurada para recibir los eventos (POST) emitidos por los microcontroladores permitirá procesar los registros de forma asíncrona, garantizando que el sistema sea capaz de registrar eventos críticos en tiempo real.
+
+
+
 
 ## Capítulo II: Requirements Elicitation & Analysis 
 ### 2.1. Competidores
