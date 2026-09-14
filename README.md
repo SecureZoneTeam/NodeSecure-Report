@@ -385,3 +385,20 @@ El flujo de facturación guía al usuario desde la comparación de planes hasta 
 
 **Mobile**
 ![Mobile Wireframes - User Goal 6](images/ug6-wireframe-mobile.png)
+
+#### 7. User Goal: Configuración de cuenta y notificaciones
+
+Dar control al usuario sobre sus credenciales de acceso y los canales por los cuales desea recibir alertas sobre discrepancias de inventario.
+
+La sección de configuración organiza las preferencias operativas mediante una arquitectura categórica, aplicando el principio de agrupamiento para mantener juntas las opciones relacionadas y facilitar su comprensión. Se utilizan controles estándar y líneas divisorias sutiles que ordenan la interfaz sin recargarla, manteniendo una experiencia limpia y clara.
+
+**Pantallas de flujo:**
+* Menú de ajustes con interruptores para activar o desactivar notificaciones Push, Email y SMS enfocadas en reportes de auditoría y descuadres físicos.
+* Ventana emergente que advierte al usuario sobre el riesgo operativo (pérdida de trazabilidad en tiempo real) si intenta silenciar por completo las notificaciones del sistema.
+* Ventana emergente de confirmación que avisa sobre la pausa de recepción de alertas Push de inventario en el dispositivo actual al salir de la cuenta.
+
+**Desktop**
+![Desktop Wireframes - User Goal 7](images/ug7-wireframe-desktop.png)
+
+**Mobile**
+![Mobile Wireframes - User Goal 7](images/ug7-wireframe-mobile.png)
