@@ -311,3 +311,21 @@ Otro aspecto de la información crítica no depende únicamente del color, ya qu
 
 **Mobile**
 ![Mobile Wireframes - User Goal 2](images/ug2-wireframe-mobile.png)
+
+#### 3. User Goal: Administración de dispositivos IoT
+
+Facilitar la vinculación de nuevos sensores IoT a zonas específicas del almacén para la recolección de evidencia física, visualizar su estado de conexión y controlar los límites de uso según la suscripción.
+
+La vinculación y gestión de dispositivos se diseña con el objetivo de reducir la carga cognitiva, agrupando el hardware por categorías (ej. Sensores Magnéticos, Lectores RFID) para facilitar su identificación y acceso. Se aplica el principio de proximidad de Gestalt para organizar de forma clara la información de cada dispositivo junto a su estado de conexión, mientras que el uso de modales superpuestos permite realizar acciones sin perder el contexto de la pantalla principal. Desde un enfoque inclusivo, los formularios y acciones críticas, como la desvinculación de un sensor, presentan alto contraste y botones con descripciones claras y directas (“Sí, desvincular” y “Cancelar”), evitando ambigüedades y mejorando la comprensión para todo tipo de usuarios.
+
+**Pantallas de flujo:**
+* Inventario visual del hardware conectado que reporta evidencia física, indicando si están Online/Offline y mostrando el uso actual de la cuota del plan.
+* Formulario para ingresar el número de serie de un equipo nuevo y asignarlo a una zona específica del almacén para cruzar su data con los movimientos digitales.
+* Ventana emergente de éxito que confirma la correcta sincronización del nuevo sensor con el sistema.
+* Ventana emergente de advertencia que bloquea la vinculación cuando el usuario ha alcanzado el límite de hardware permitido por su plan.
+
+**Desktop**
+![Desktop Wireframes - User Goal 3](images/ug3-wireframe-desktop.png)
+
+**Mobile**
+![Mobile Wireframes - User Goal 3](images/ug3-wireframe-mobile.png)
