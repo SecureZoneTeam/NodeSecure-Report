@@ -360,7 +360,28 @@ Este módulo utiliza una arquitectura de información facetada que separa claram
 * Ventana emergente de advertencia destructiva para revocar definitivamente el acceso de un empleado a la plataforma.
 
 **Desktop**
-![Desktop Wireframes - User Goal 5](images/u5-wireframe-desktop.png)
+![Desktop Wireframes - User Goal 5](images/ug5-wireframe-desktop.png)
 
 **Mobile**
 ![Mobile Wireframes - User Goal 5](images/ug5-wireframe-mobile.png)
+
+#### 6. User Goal: Administración de suscripción y facturación
+
+Permitir a la empresa escalar sus operaciones mejorando su plan, personalizar límites a medida o gestionar la cancelación del servicio para adecuar la plataforma a su volumen de inventario.
+
+El flujo de facturación guía al usuario desde la comparación de planes hasta el pago mediante una arquitectura de información progresiva. Además, se incorporan elementos interactivos como sliders y resúmenes de pago claros que facilitan la comprensión del proceso. Desde el enfoque inclusivo, se prioriza la legibilidad financiera mediante tipografías grandes para los montos y textos simples, evitando jerga técnica. Esto permite que usuarios con distintos niveles de conocimiento o limitaciones visuales comprendan fácilmente la información y tomen decisiones con mayor confianza al escalar su capacidad de auditoría.
+
+**Pantallas de flujo:**
+* Panel de resumen con el plan actual, fecha de próximo cobro y barras de progreso que muestran los límites consumidos de almacenes y nodos IoT.
+* Pantalla comparativa de beneficios y precios entre los diferentes planes ofrecidos para la gestión de inventario.
+* Interfaz de cotizador interactivo con controles deslizables para elegir la cantidad exacta de almacenes y sensores de evidencia necesarios.
+* Pantalla de checkout que detalla el costo total, prorrateos y permite confirmar el método de pago con tarjeta.
+* Ventana emergente de retención que advierte al usuario sobre las funcionalidades clave de trazabilidad que perderá si decide cancelar.
+* Ventana emergente de confirmación de transacción aprobada y notificación de actualización de los límites del plan.
+* Vista del dashboard en estado "sin plan" cuando la cuenta no posee una suscripción activa, bloqueando nuevas auditorías.
+
+**Desktop**
+![Desktop Wireframes - User Goal 6](images/ug6-wireframe-desktop.png)
+
+**Mobile**
+![Mobile Wireframes - User Goal 6](images/ug6-wireframe-mobile.png)
