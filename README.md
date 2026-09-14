@@ -68,6 +68,17 @@ La propuesta de valor de SafeZone está diseñada bajo un modelo altamente escal
       Estudiante de Ingeniería de Software en la UPC cursando el quinto ciclo de la carrera. Tengo conocimientos en C++, SQL y Figma. Se me considera una persona amable y responsable, lo que ayuda a crear un buen ambiente en equipo. Siempre estoy dispuesta a escuchar opiniones y sugerencias para mejorar la calidad de los trabajos entregados.
     </td>
   </tr>
+  <tr>
+    <td align="center">
+      <img src="images/kelber-foto.png" width="600" alt="Foto de Kelber">
+    </td>
+    <td>
+      <strong>Nombres y Apellidos:</strong> Sandoval Aiquipa Kelber Yamir<br>
+      <strong>Código:</strong> U202418645<br>
+      <strong>Carrera:</strong> Ingeniería de Software<br><br>
+      Estudiante de Ingeniería de Software en la UPC, cursando el quinto ciclo. Soy un apasionado por el diseño de experiencia de usuario (UX/UI) y la creación de interfaces limpias, accesibles e intuitivas. Gracias a mi experiencia liderando equipos y gestionando la atención directa con el público, he desarrollado una gran empatía para entender las necesidades de los usuarios y traducirlas en soluciones tecnológicas efectivas. Me gusta aportar creatividad, orden y una excelente comunicación para asegurar que el producto final no solo funcione bien, sino que se vea increíble.
+    </td>
+  </tr>
 </table>
 
 
