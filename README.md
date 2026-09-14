@@ -329,3 +329,20 @@ La vinculación y gestión de dispositivos se diseña con el objetivo de reducir
 
 **Mobile**
 ![Mobile Wireframes - User Goal 3](images/ug3-wireframe-mobile.png)
+
+#### 4. User Goal: Auditoría de Eventos y Discrepancias
+
+Permitir al usuario revisar la bitácora de trazabilidad del inventario, buscar movimientos o discrepancias mediante filtros y acceder al detalle de las alertas físicas no registradas.
+
+Dado que el historial maneja grandes volúmenes de datos operativos, su arquitectura de información se organiza de forma secuencial y con opciones de filtrado claras para facilitar la búsqueda. Se aplica una jerarquía visual donde la hora y la gravedad de la discrepancia destacan en el primer nivel de lectura, permitiendo identificar rápidamente eventos donde el stock digital no coincide con la evidencia física del IoT.
+
+**Pantallas de flujo:**
+* Lista cronológica detallada de todas las actividades del almacén, diferenciando movimientos de stock validados de alertas por discrepancia física.
+* Menús desplegables que permiten filtrar el historial por "Tipo de evento" (Entrada, Salida, Discrepancia) o "Rango de fechas".
+* Ventana emergente y vista de detalle que muestra el resumen inmediato de una discrepancia sin perder el contexto de la auditoría.
+
+**Desktop**
+![Desktop Wireframes - User Goal 4](images/ug4-wireframe-desktop.png)
+
+**Mobile**
+![Mobile Wireframes - User Goal 4](images/ug4-wireframe-mobile.png)
