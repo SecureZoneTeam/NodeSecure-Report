@@ -156,6 +156,45 @@ Hoy en día, la gestión logística y el sector retail enfrentan un desafío cr�
 - Asumimos que el desarrollo de una API RESTful estructurada para recibir los eventos (POST) emitidos por los microcontroladores permitirá procesar los registros de forma asíncrona, garantizando que el sistema sea capaz de registrar eventos críticos en tiempo real.
 
 
+##### 1.2.2.3. Lean UX Hypothesis Statement
+
+**Hypothesis Statement 1:**
+Creemos que lograremos incrementar la cantidad de empresas suscritas y mejorar la retención de nuestros clientes
+
+Si los dueños de PYMES y jefes de seguridad
+
+Obtienen el beneficio de centralizar la supervisión de todas sus sedes y mantener un control claro sin necesidad de estar físicamente presentes
+
+Con un Dashboard Unificado que consolide el inventario disponible, el historial de movimientos, las alertas críticas y el estado de conexión de los sensores IoT en una sola pantalla.
+
+
+**Hypothesis Statement 2:**
+Creemos que lograremos reducir drásticamente las pérdidas económicas causadas por robos internos y accesos no autorizados en los almacenes
+
+Si los jefes de operaciones y dueños de negocios
+
+Obtienen la capacidad de descubrir sustracciones no reportadas y reaccionar rápidamente ante cualquier incidente
+
+Con un motor de detección de discrepancias que compare de forma automática los eventos físicos reportados por el IoT con los movimientos de inventario registrados en el sistema.
+
+
+**Hypothesis Statement 3:**
+Creemos que lograremos brindar un servicio estable y confiable que asegure la retención de clientes del sector corporativo
+
+Si los administradores, almaceneros y auditores
+
+Logran interactuar con la plataforma de forma segura, garantizando que la manipulación del stock y la información estén protegidas de acuerdo a su jerarquía
+
+Con la implementación de un modelo estricto de roles y permisos que delimite exactamente qué funciones y zonas puede consultar cada usuario.
+
+
+**Hypothesis Statement 4:**
+Creemos que lograremos que las empresas modernicen su seguridad y pasen de un enfoque reactivo a uno puramente preventivo
+
+Si el personal de seguridad y auditoría
+Obtiene notificaciones críticas exactas y una marca de tiempo confiable para buscar evidencias precisas en sus cámaras CCTV
+
+Con el desarrollo de una API RESTful estructurada (mediante peticiones POST) que reciba, asocie y procese en tiempo real los eventos físicos emitidos por los microcontroladores (ESP32).
 
 
 ## Capítulo II: Requirements Elicitation & Analysis 
