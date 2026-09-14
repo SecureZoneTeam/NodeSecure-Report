@@ -267,6 +267,48 @@ Con el desarrollo de una API RESTful estructurada (mediante peticiones POST) que
 
 <br>
 
+## 1.3. Segmentos objetivo.
+El modelo de negocio de SafeZone opera en el ámbito B2B (Business-to-Business) y busca reducir riesgos mientras digitaliza el control diario en almacenes e inventarios. Mediante nuestra plataforma NodeSecure, hemos identificado dos perfiles principales de clientes, cuyas necesidades cambian según el tamaño de su infraestructura y el nivel de control que requieren:
+
+**Segmento 1: Dueños y Administradores de PYMES (Retail, Tiendas y Pequeños Almacenes)**<br>
+Este segmento representa a los emprendedores, gerentes y dueños de pequeñas y medianas empresas. Constituyen el cliente ideal para los planes de entrada de la plataforma, ya que no suelen contar con el capital para mantener equipos de vigilancia física las 24 horas, pero tienen la necesidad crítica de proteger su inventario.
+
+Aspectos demográficos:
+- Edad: Entre 25 y 55 años.
+- Ocupación: Dueños de negocio, gerentes generales o administradores comerciales.
+- Nivel de digitalización: Medio-Alto en herramientas de uso cotidiano. Gestionan gran parte de la operación de su negocio desde dispositivos móviles y buscan interfaces intuitivas (dashboards limpios) que no requieran una curva de aprendizaje técnica.
+
+<br>
+
+
+Aspectos psicográficos y de comportamiento:
+- Motivaciones: Obtener tranquilidad operativa y mantener el control de su patrimonio a distancia, evitando gastos asfixiantes en infraestructuras de seguridad tradicionales.
+- Comportamiento y Dolores (Pain points): Viven con la preocupación constante de la merma por "robo hormiga". Su mayor frustración es depender de revisiones manuales y enterarse de los incidentes mucho tiempo después de que ocurrieron.
+- Necesidades: Buscan herramientas digitales intuitivas y rápidas de poner en marcha, priorizando soluciones que envíen alertas inmediatas al móvil para reaccionar al instante ante cualquier anomalía o acceso no autorizado.
+
+**Dato estadístico:** Las micro y pequeñas empresas representan el 99.2% del tejido empresarial peruano, siendo vitales para la economía nacional (Gobierno del Perú, 2024). Sin embargo, el 73% (de MYPES y de PYMES) carece de sistemas automatizados, lo que dificulta su transformación digital (Redacción EC, 2025). Esta carencia, agravada por una gestión de inventarios deficiente y el "robo hormiga", provoca pérdidas de hasta el 10% en sus ingresos, poniendo en riesgo su estabilidad financiera y subrayando la necesidad urgente de soluciones tecnológicas para un control eficaz (Loarte y Temple, 2024).
+
+<br>
+
+**Segmento 2: Jefes de Seguridad y Operaciones (Medianas y Grandes Corporaciones)**<br>
+Este segmento agrupa a profesionales responsables de la integridad, seguridad industrial y eficiencia logística en grandes empresas (como centros de distribución, cadenas de retail y fábricas). Son el público objetivo de los planes corporativos,  pues operan bajo estrictas normativas y necesitan escalar el control a múltiples ubicaciones.
+ 
+Aspectos demográficos:
+- Edad: Entre 35 y 60 años.
+- Ocupación: Jefes de Seguridad Industrial, Supervisores Logísticos, Supply Chain Managers o Jefes de Planta.
+- Nivel de digitalización: Avanzado. Están habituados a la lectura de métricas de rendimiento, uso de sistemas de planificación (ERP) y software de gestión de almacenes (WMS).
+
+<br>
+
+Aspectos psicográficos y de comportamiento:
+- Motivaciones: Buscan escalabilidad, reducción sistemática de riesgos operativos y lograr una visibilidad ininterrumpida de todas las sucursales a su cargo simultáneamente.
+- Comportamiento y Dolores (Pain points): Sufren por la alta carga manual que implica cruzar información fragmentada (por ejemplo, buscar horas en grabaciones de cámaras para justificar una pérdida en el registro de Excel).
+- Necesidades: Exigen trazabilidad absoluta (quién, qué, cuándo y dónde). Requieren configurar roles de usuario, permisos granulares por zonas de riesgo y contar con un sistema automatizado que funcione como un índice exacto para auditorías.<br>
+
+**Dato estadístico:** La modernización logística es clave para la rentabilidad corporativa. Mientras un 30% de empresas aún opera con procesos convencionales y riesgos elevados (Aguilar y Chingay, 2025), la automatización mediante sensores IoT ha demostrado elevar la exactitud del inventario del 33% al 94% y la eficiencia operativa hasta en un 90% (Cespedes y Ponce, 2025). Esta integración minimiza pérdidas y optimiza la seguridad, reduciendo drásticamente los errores de supervisión.<br><br><br><br>
+
+
+
 # Capítulo II: Requirements Elicitation & Analysis 
 ## 2.1. Competidores
 ### 2.1.1. Análisis competitivo
