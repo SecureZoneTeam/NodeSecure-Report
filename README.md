@@ -17,11 +17,13 @@
 
 
 # NodeSecure-Report
-## Capítulo I: Introducción
+<br>
 
-### 1.1. Startup Profile
+# Capítulo I: Introducción
 
-#### 1.1.1. Descripción de la Startup
+## 1.1. Startup Profile
+
+### 1.1.1. Descripción de la Startup
 
 En el entorno logístico y empresarial actual, el control de inventarios y la seguridad de los almacenes enfrentan grandes desafíos, especialmente debido a las pérdidas por el "robo hormiga", accesos no autorizados y a un monitoreo deficiente en tiempo real. Los sistemas de seguridad tradicionales suelen ser puramente reactivos, limitándose a grabar incidentes sin ofrecer herramientas analíticas para prevenirlos de forma inmediata. Frente a este escenario, SafeZone emerge como una startup tecnológica enfocada en transformar la gestión de la seguridad industrial y comercial. Nuestra misión es ofrecer un ecosistema inteligente que permita a los negocios dejar atrás la vigilancia pasiva, otorgándoles un control activo y preventivo sobre sus activos más valiosos.
 
@@ -32,7 +34,7 @@ El ecosistema de NodeSecure funciona utilizando dispositivos físicos simples, c
 La propuesta de valor de SafeZone está diseñada bajo un modelo altamente escalable, adaptándose tanto a dueños de PYMES que buscan soluciones accesibles para evitar mermas diarias, como a jefes de operaciones que requieren controlar redes complejas y auditar incidentes de forma rigurosa. El verdadero diferencial comercial de NodeSecure radica en brindar una visibilidad operativa total: permite a los usuarios saber con precisión qué mercancía salió, quién fue el responsable de registrarla, en qué momento exacto ocurrió y, lo más importante, advertir al instante si hubo alguna actividad física anómala que no cuadre con el registro oficial.
 
 
-#### 1.1.2 Integrantes del equipo
+### 1.1.2 Integrantes del equipo
 
 <table>
   <tr>
@@ -82,9 +84,9 @@ La propuesta de valor de SafeZone está diseñada bajo un modelo altamente escal
 </table>
 
 
-### 1.2. Solution Profile
+## 1.2. Solution Profile
 
-#### 1.2.1. Antecedentes y problemática
+### 1.2.1. Antecedentes y problemática
 
 Hoy en día, la gestión logística y el sector retail enfrentan un desafío crítico que compromete directamente su rentabilidad: la pérdida sistemática de inventario. En Perú, estudios revelan que las mermas en el sector comercial peruano generan pérdidas de entre S/ 700 y S/ 1,000 millones anuales. Lo más preocupante es que cerca del 52% de estas pérdidas corresponde a la llamada "merma desconocida", una categoría conformada en su gran mayoría por hurtos, fraudes y el persistente "robo hormiga". Este último fenómeno, caracterizado por la sustracción de pequeñas cantidades de mercadería a lo largo del tiempo, resulta sumamente complejo de detectar mediante auditorías convencionales, acumulando daños financieros severos para las empresas (Conexión ESAN, 2026).
 
@@ -104,9 +106,9 @@ Hoy en día, la gestión logística y el sector retail enfrentan un desafío cr�
 
 - **How much? (¿Cuánto afecta?):**  Provoca continuas mermas económicas por falta de control físico, pérdida de inventario por "robos hormiga" y un elevado costo de oportunidad debido a la excesiva carga de tareas manuales al tener que auditar cámaras e incidentes de forma tardía.
 
-#### 1.2.2. Lean UX Process
+### 1.2.2. Lean UX Process
 
-##### 1.2.2.1. Lean UX Problem Statement
+#### 1.2.2.1. Lean UX Problem Statement
 
 **El estado actual de** la gestión de inventario y seguridad operativa en almacenes **se ha enfocado principalmente en** el uso de sistemas de vigilancia estrictamente reactivos (como cámaras CCTV o candados) y en registros digitales aislados, obligando a las empresas a realizar auditorías manuales lentas y a depender de sistemas desconectados para investigar las mermas.
 
@@ -119,7 +121,7 @@ Hoy en día, la gestión logística y el sector retail enfrentan un desafío cr�
 **Sabremos que tenemos éxito cuando veamos** una alta tasa de retención en nuestros planes de suscripción, una adopción rápida de la plataforma sin necesidad de capacitaciones complejas, y una reducción comprobable en los tiempos de respuesta ante intrusiones y en las pérdidas originadas por robos internos en los almacenes de los clientes.
 
 
-##### 1.2.2.2. Lean UX Assumptions
+#### 1.2.2.2. Lean UX Assumptions
 
 **Business Assumptions (Supuestos de Negocio)**
 - Creemos que ofrecer un modelo SaaS por suscripción mensual escalable en tres niveles  (Básico, Premium y Corporativo) será financieramente viable y atractivo para distintos tamaños de empresa, permitiendo que las PYMES adopten nuestra solución sin barreras de entrada.
@@ -155,10 +157,11 @@ Hoy en día, la gestión logística y el sector retail enfrentan un desafío cr�
 - Creemos que establecer roles y permisos para cada tipo de usuario (Administrador, Almacenero, Auditor) permitirá proteger el acceso y la manipulación al stock controlando qué acciones puede realizar cada usuario según sus funciones.
 - Asumimos que el desarrollo de una API RESTful estructurada para recibir los eventos (POST) emitidos por los microcontroladores permitirá procesar los registros de forma asíncrona, garantizando que el sistema sea capaz de registrar eventos críticos en tiempo real.
 
+<br>
 
-##### 1.2.2.3. Lean UX Hypothesis Statement
+#### 1.2.2.3. Lean UX Hypothesis Statement
 
-**Hypothesis Statement 1:**
+**Hypothesis Statement 1:**<br>
 Creemos que lograremos incrementar la cantidad de empresas suscritas y mejorar la retención de nuestros clientes
 
 Si los dueños de PYMES y jefes de seguridad
@@ -168,7 +171,7 @@ Obtienen el beneficio de centralizar la supervisión de todas sus sedes y manten
 Con un Dashboard Unificado que consolide el inventario disponible, el historial de movimientos, las alertas críticas y el estado de conexión de los sensores IoT en una sola pantalla.
 
 
-**Hypothesis Statement 2:**
+**Hypothesis Statement 2:**<br>
 Creemos que lograremos reducir drásticamente las pérdidas económicas causadas por robos internos y accesos no autorizados en los almacenes
 
 Si los jefes de operaciones y dueños de negocios
@@ -178,7 +181,7 @@ Obtienen la capacidad de descubrir sustracciones no reportadas y reaccionar ráp
 Con un motor de detección de discrepancias que compare de forma automática los eventos físicos reportados por el IoT con los movimientos de inventario registrados en el sistema.
 
 
-**Hypothesis Statement 3:**
+**Hypothesis Statement 3:**<br>
 Creemos que lograremos brindar un servicio estable y confiable que asegure la retención de clientes del sector corporativo
 
 Si los administradores, almaceneros y auditores
@@ -188,7 +191,7 @@ Logran interactuar con la plataforma de forma segura, garantizando que la manipu
 Con la implementación de un modelo estricto de roles y permisos que delimite exactamente qué funciones y zonas puede consultar cada usuario.
 
 
-**Hypothesis Statement 4:**
+**Hypothesis Statement 4:**<br>
 Creemos que lograremos que las empresas modernicen su seguridad y pasen de un enfoque reactivo a uno puramente preventivo
 
 Si el personal de seguridad y auditoría
@@ -196,10 +199,77 @@ Obtiene notificaciones críticas exactas y una marca de tiempo confiable para bu
 
 Con el desarrollo de una API RESTful estructurada (mediante peticiones POST) que reciba, asocie y procese en tiempo real los eventos físicos emitidos por los microcontroladores (ESP32).
 
+<br>
 
-## Capítulo II: Requirements Elicitation & Analysis 
-### 2.1. Competidores
-#### 2.1.1. Análisis competitivo
+#### 1.2.2.4. Lean UX Canvas
+
+
+
+<table>
+  <tbody>
+    <tr>
+      <td valign="top">
+        <b>1. Business</b><br><br>
+        Las mermas desconocidas y el "robo hormiga" generan pérdidas millonarias en el sector comercial peruano. Existe una desconexión operativa entre el registro digital en software y los eventos físicos reales en almacenes. Las PYMES perciben la tecnología IoT como compleja y costosa.
+      </td>
+      <td valign="top">
+        <b>5. Solutions</b><br>
+        <ul>
+          <li>Plataforma Web SPA (Vue.js + ASP.NET Core) para gestión de inventario, movimientos y stock.</li>
+          <li>Integración IoT pasiva (ESP32 con sensores magnéticos en puertas) para registrar aperturas físicas.</li>
+          <li>Motor de detección automática de discrepancias entre aperturas físicas y registros.</li>
+          <li>Registro histórico con timestamps para servir de índice en auditorías con CCTV.</li>
+        </ul>
+      </td>
+      <td valign="top">
+        <b>2. Business Outcomes</b><br>
+        <ul>
+          <li>Reducción del 30% en tiempo dedicado a investigar pérdidas en cámaras CCTV.</li>
+          <li>Disminución de un 25% en incidencias por descuadres de stock no justificados.</li>
+          <li>Adopción del modelo SaaS en PYMES mediante el plan Básico.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top">
+        <b>3. Users</b><br>
+        <ul>
+          <li><b>Segmento 1:</b> Dueños de PYMES, Gerentes de Operaciones y Jefes de Seguridad.</li>
+          <li><b>Segmento 2:</b> Encargados de Logística, Almaceneros y Personal Operativo.</li>
+        </ul>
+      </td>
+      <td valign="top">
+        <b>4. User Benefits</b><br>
+        <ul>
+          <li>Visibilidad operativa total en tiempo real de lo que ocurre en sus almacenes.</li>
+          <li>Respaldo laboral para el personal operativo al registrar quién y cuándo se realizó cada movimiento.</li>
+          <li>Solución escalable y de bajo costo sin inversiones pesadas en hardware.</li>
+        </ul>
+      </td>
+      <td valign="top"></td>
+    </tr>
+    <tr>
+      <td valign="top">
+        <b>6. Hypothesis</b><br><br>
+        Creemos que al cruzar eventos físicos (IoT) con movimientos digitales de inventario en tiempo real, lograremos reducir las mermas desconocidas en almacenes de PYMES, sabremos que tuvimos éxito cuando las alertas de discrepancia reduzcan el tiempo de auditoría en un 30%.
+      </td>
+      <td valign="top">
+        <b>7. What’s the most important thing we need to learn first?</b><br><br>
+        Validar si los dueños de almacenes valoran tener una marca de tiempo exacta (timestamp) para cruzar con sus cámaras CCTV en lugar de requerir una integración directa de video en el software.
+      </td>
+      <td valign="top">
+        <b>8. What’s the least amount of work we need to do to learn the next most important thing?</b><br><br>
+        Desarrollar un MVP funcional compuesto por un backend en ASP.NET Core, una SPA en Vue.js y un dispositivo ESP32 con sensor magnético de puerta para simular el flujo completo de detección de discrepancias.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+# Capítulo II: Requirements Elicitation & Analysis 
+## 2.1. Competidores
+### 2.1.1. Análisis competitivo
 Para evaluar la posición estratégica de NodeSecure en el mercado de gestión de inventarios y trazabilidad con evidencia IoT, se seleccionaron tres competidores directos e indirectos clave:
 Verkada: Plataforma empresarial de seguridad física basada en la nube que integra videovigilancia, sensores ambientales y control de accesos.
 Quaker Software: Firma de desarrollo tecnológico especializada en la arquitectura e implementación personalizada de sistemas ERP, CRM y control de inventarios a medida para grandes industrias.
@@ -339,7 +409,7 @@ Samsara: Plataforma SaaS de operaciones conectadas con sensores IoT para el segu
 
 
 
-##### 2.1.2. Estrategias y tácticas frente a competidores
+#### 2.1.2. Estrategias y tácticas frente a competidores
 
 Estrategia de diferenciación mediante trazabilidad físico-digital:
 Posicionar a NodeSecure como una solución que integra la gestión de inventario con la evidencia generada por dispositivos IoT. A diferencia de las plataformas enfocadas únicamente en videovigilancia, control de accesos o gestión logística, NodeSecure busca relacionar los movimientos registrados digitalmente con los eventos físicos detectados en el almacén.
