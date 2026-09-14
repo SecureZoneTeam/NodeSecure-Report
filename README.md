@@ -346,3 +346,21 @@ Dado que el historial maneja grandes volúmenes de datos operativos, su arquitec
 
 **Mobile**
 ![Mobile Wireframes - User Goal 4](images/ug4-wireframe-mobile.png)
+
+#### 5. User Goal: Gestión de personal y accesos
+
+Controlar de forma segura qué empleados tienen acceso a la plataforma, invitar nuevos miembros y delimitar qué zonas de inventario pueden auditar o gestionar.
+
+Este módulo utiliza una arquitectura de información facetada que separa claramente los roles de administrador y personal operativo (almaceneros/auditores), reduciendo el riesgo de errores en la asignación de permisos. Se aplica el principio de repetición en las tarjetas de usuario para mantener un orden visual consistente y fácil de seguir, mientras que elementos como los badges de roles emplean variaciones tonales sutiles para diferenciarlos sin sobrecargar la interfaz. Desde un enfoque inclusivo, la edición de permisos se apoya en interruptores visuales grandes acompañados de texto claro y confirmatorio, además de un diseño tolerante a errores que evita cambios accidentales, especialmente en usuarios con dificultades motoras.
+
+**Pantallas de flujo:**
+* Panel central que lista al equipo de trabajo, separando claramente a los Administradores del personal operativo asignado a los almacenes.
+* Formulario para enviar una invitación por correo asignando un rol de sistema específico (Administrador, Almacenero o Auditor) a un nuevo miembro.
+* Panel de configuración con opciones para habilitar o deshabilitar el acceso de un empleado a zonas de inventario específicas.
+* Ventana emergente de advertencia destructiva para revocar definitivamente el acceso de un empleado a la plataforma.
+
+**Desktop**
+![Desktop Wireframes - User Goal 5](images/u5-wireframe-desktop.png)
+
+**Mobile**
+![Mobile Wireframes - User Goal 5](images/ug5-wireframe-mobile.png)
