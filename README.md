@@ -291,3 +291,23 @@ En el diseño del flujo de acceso, la arquitectura de información sigue un mode
 
 **Mobile**
 ![Mobile Wireframes - User Goal 1](images/ug1-wireframe-mobile.png)
+
+#### 2. User Goal: Registro y Monitoreo de Almacenes e Inventario
+
+Proveer un panel de control para visualizar el estado de conciliación de stock de todas las sucursales en tiempo real y permitir la configuración de nuevos locales operativos.
+
+Para el panel principal de almacenes, la arquitectura de información sigue un modelo jerárquico basado en cards, lo que permite visualizar y entender rápidamente el volumen de operaciones de múltiples sucursales. Se aplica el principio de contraste para resaltar claramente los estados de "Discrepancia Detectada" frente a los estados de "Stock Conciliado", facilitando una lectura rápida y priorizada de la información de auditoría en lugar de un simple monitoreo físico.
+
+Otro aspecto de la información crítica no depende únicamente del color, ya que se complementa con etiquetas en texto que indican el tipo de evento físico no registrado o el desfase de inventario. Los botones de acción también cuentan con áreas táctiles amplias, lo que mejora la accesibilidad para usuarios con dificultades motrices.
+
+**Pantallas de flujo:**
+* Lista principal que muestra el estado en tiempo real de conciliación de inventario de cada sucursal registrada.
+* Formulario para registrar una nueva sucursal y establecer sus parámetros de auditoría y horarios de operación de turnos.
+* Estado del formulario que resalta visualmente en rojo los campos obligatorios faltantes o con formato incorrecto.
+* Ventana emergente que confirma que el nuevo almacén ha sido guardado y está listo para vincularse al registro de movimientos de stock.
+
+**Desktop**
+![Desktop Wireframes - User Goal 2](images/ug2-wireframe-desktop.png)
+
+**Mobile**
+![Mobile Wireframes - User Goal 2](images/ug2-wireframe-mobile.png)
