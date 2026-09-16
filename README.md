@@ -823,7 +823,9 @@ Segmento 02:
 
 ![Big Picture Event Storming](./images/2.4.png)
 
+## 2.5. Ubiquitous Language
 
+![Ubiquitous Language](./images/2.5.png)
 
 
 ## 4.4. Web Applications UX/UI Design.
