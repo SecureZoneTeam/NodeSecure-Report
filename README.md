@@ -444,13 +444,6 @@ Samsara: Plataforma SaaS de operaciones conectadas con sensores IoT para el segu
   </tbody>
 </table>
 
-
-
-
-
-
-
-
 #### 2.1.2. Estrategias y tácticas frente a competidores
 
 Estrategia de diferenciación mediante trazabilidad físico-digital:
@@ -466,6 +459,270 @@ Táctica: diseñar una interfaz web con procesos de registro de entradas y salid
 Estrategia de confianza basada en evidencia y trazabilidad:
 Construir la propuesta de valor alrededor de la generación de evidencia verificable sobre las operaciones realizadas. La plataforma debe permitir identificar quién realizó una operación, qué movimiento efectuó y cuándo ocurrió, complementando esta información con los eventos físicos registrados por los sensores.
 Táctica: utilizar dashboards, alertas, historial de eventos y marcas de tiempo para facilitar la supervisión y las posteriores auditorías. 
+
+## 2.2.1. Diseño de entrevistas
+Para comprender a fondo los dolores y validar las necesidades de nuestro público y  levantar los requerimientos del sistema SafeZone (NodeSecure), se diseñaron dos guiones de entrevistas semiestructuradas enfocados en nuestros dos segmentos de usuario objetivo.
+
+Entrevista - Segmento 1: Dueños de PYMES y Jefes de Operaciones / Almacén 
+
+¿Cuáles son los principales problemas o pérdidas que ha detectado en el control diario de su almacén o negocio?
+¿Ha tenido problemas con robos, pérdidas o faltantes de mercadería? ¿Qué suele ocurrir cuando se presenta alguno de estos casos?
+¿Cómo realizan actualmente el registro y control de las entradas, salidas y del stock disponible de mercadería?
+¿Con qué mecanismos cuentan actualmente para supervisar quién entra o sale de las zonas de almacenamiento?
+Por ejemplo, cámaras y registros
+¿Con qué frecuencia encuentran diferencias entre el stock que tienen registrado y la mercadería que realmente tienen físicamente?
+Cuando detectan un faltante, ¿qué tan difícil les resulta determinar qué ocurrió y quiénes estuvieron presentes en ese momento?
+¿Qué tan útil sería para usted recibir una alerta en su celular cuando ocurra algo fuera de lo normal, como una apertura de puerta fuera de horario o una posible discrepancia de inventario?
+Si pudiera consultar la fecha y hora exacta en que ocurrió un incidente, ¿consideraría útil esa información para revisar directamente ese momento en sus cámaras o registros? ¿Por qué?
+Pensando en una herramienta que ayude a controlar el inventario y detectar este tipo de situaciones, ¿qué características considera más importantes para que realmente le resulte útil en su negocio?
+¿Estaría dispuesto a utilizar una solución de este tipo en su negocio? ¿Qué factores tendría en cuenta para decidir adoptarla?
+
+
+Entrevista - Segmento 2: Encargados de Logística y Personal Operativo 
+
+¿Cómo es normalmente el proceso cuando realizas una entrada o salida de productos en el almacén?
+¿Qué herramientas utilizas habitualmente para registrar los movimientos de productos?
+ Por ejemplo: computadora, celular, tablet, Excel u otro sistema.
+¿Cuánto tiempo aproximadamente te toma registrar una entrada o salida de productos?
+¿Qué dificultades encuentras actualmente al registrar y controlar el inventario?
+¿Qué ocurre cuando necesitas registrar una salida rápidamente y el sistema resulta lento o complicado de utilizar?
+¿Con qué frecuencia se presentan descuadres entre el stock registrado y la cantidad de productos que realmente tienen?
+Cuando ocurre un descuadre de stock, ¿qué tan fácil o difícil es identificar quién realizó el movimiento y cuándo ocurrió?
+¿Qué características consideras indispensables en una aplicación para registrar los movimientos de productos de forma rápida y sencilla?
+¿Qué tan útil sería para ti que la plataforma genere automáticamente un registro de la fecha y hora del evento?
+¿Crees que contar con este tipo de registros te ayudaría a identificar mejor qué ocurrió cuando se presenta un descuadre de inventario?
+¿Te gustaría controlar toda la información importante de manera remota?
+
+<h3>Segmento 01: Dueños y Administradores de Almacén</h3>
+
+<table>
+  <tr>
+    <td width="20%"><strong>Entrevistador</strong></td>
+    <td>[Nombre del Entrevistador]</td>
+  </tr>
+  <tr>
+    <td><strong>Entrevistado</strong></td>
+    <td>Francisco Robles Mendoza</td>
+  </tr>
+  <tr>
+    <td><strong>Edad</strong></td>
+    <td>38 años</td>
+  </tr>
+  <tr>
+    <td><strong>Distrito</strong></td>
+    <td>Ate, Lima</td>
+  </tr>
+  <tr>
+    <td><strong>Evidencia</strong></td>
+    <td><a href="#" target="_blank">Ver Evidencia</a></td>
+  </tr>
+  <tr>
+    <td><strong>Resumen</strong></td>
+    <td>Administra un almacén de suministros eléctricos. Menciona que las mermas no explicadas al mes representan una pérdida de hasta el 8% al trimestre. Registra inventarios en Excel e inspeccionan con cámaras analógicas fijas. Expresa que revisar horas de video para hallar un faltante es ineficiente. Considera de enorme utilidad recibir alertas en el celular ante eventos anómalos y contar con la fecha y hora (<em>timestamp</em>) exacta para auditar las grabaciones directamente.</td>
+  </tr>
+</table>
+
+<br>
+
+<table>
+  <tr>
+    <td width="20%"><strong>Entrevistador</strong></td>
+    <td>[Nombre del Entrevistador]</td>
+  </tr>
+  <tr>
+    <td><strong>Entrevistado</strong></td>
+    <td>Patricia Sofía Ramos Vílchez</td>
+  </tr>
+  <tr>
+    <td><strong>Edad</strong></td>
+    <td>[Edad]</td>
+  </tr>
+  <tr>
+    <td><strong>Distrito</strong></td>
+    <td>San Juan de Miraflores, Lima</td>
+  </tr>
+  <tr>
+    <td><strong>Evidencia</strong></td>
+    <td><a href="#" target="_blank">Ver Evidencia</a></td>
+  </tr>
+  <tr>
+    <td><strong>Resumen</strong></td>
+    <td>Dueña de una distribuidora de abarrotes al por mayor. Presenta problemas con el "robo hormiga" y desbalances de productos no anotados a tiempo. Actualmente utiliza un cuaderno físico y control visual. Destaca que recibir alertas remotas en el celular le daría un control absoluto para supervisar su negocio a distancia y cruzar la hora de apertura de puertas con las ventas realizadas.</td>
+  </tr>
+</table>
+
+<br>
+
+<table>
+  <tr>
+    <td width="20%"><strong>Entrevistador</strong></td>
+    <td>[Nombre del Entrevistador]</td>
+  </tr>
+  <tr>
+    <td><strong>Entrevistado</strong></td>
+    <td>Roberto Alonzo Gutiérrez Farfán</td>
+  </tr>
+  <tr>
+    <td><strong>Edad</strong></td>
+    <td>[Edad]</td>
+  </tr>
+  <tr>
+    <td><strong>Distrito</strong></td>
+    <td>San Luis, Lima</td>
+  </tr>
+  <tr>
+    <td><strong>Evidencia</strong></td>
+    <td><a href="#" target="_blank">Ver Evidencia</a></td>
+  </tr>
+  <tr>
+    <td><strong>Resumen</strong></td>
+    <td>Jefe de Operaciones de 3 sedes ferreteras. Sufre por el desfase de información entre tiendas y el tiempo invertido en auditorías por faltantes de herramientas. Ve indispensable un Dashboard centralizado para monitorear las sedes de manera simultánea, junto con la gestión de permisos por roles de usuario e historial de registros inalterables para agilizar las investigaciones.</td>
+  </tr>
+</table>
+
+<br>
+
+<!-- ========================================== -->
+<!-- REGISTRO DE ENTREVISTAS - SEGMENTO 02      -->
+<!-- ========================================== -->
+<h3>Segmento 02: Personal Operativo y Almaceneros</h3>
+
+<table>
+  <tr>
+    <td width="20%"><strong>Entrevistador</strong></td>
+    <td>[Nombre del Entrevistador]</td>
+  </tr>
+  <tr>
+    <td><strong>Entrevistado</strong></td>
+    <td>Jorge Luis Huamán Quispe</td>
+  </tr>
+  <tr>
+    <td><strong>Edad</strong></td>
+    <td>[Edad]</td>
+  </tr>
+  <tr>
+    <td><strong>Distrito</strong></td>
+    <td>Santiago de Surco, Lima</td>
+  </tr>
+  <tr>
+    <td><strong>Evidencia</strong></td>
+    <td><a href="#" target="_blank">Ver Evidencia</a></td>
+  </tr>
+  <tr>
+    <td><strong>Resumen</strong></td>
+    <td>Encargado de recepción e inventario. Registra movimientos combinando libretas de papel con una computadora fija, lo que le toma entre 15 y 20 minutos por lote. Solicita una aplicación móvil rápida que se pueda usar desde celular o tablet con botones grandes. Valora el registro automático de fecha y hora para respaldar formalmente la recepción de carga en su turno.</td>
+  </tr>
+</table>
+
+<br>
+
+<table>
+  <tr>
+    <td width="20%"><strong>Entrevistador</strong></td>
+    <td>[Nombre del Entrevistador]</td>
+  </tr>
+  <tr>
+    <td><strong>Entrevistado</strong></td>
+    <td>Valeria Isabel Morales Castro</td>
+  </tr>
+  <tr>
+    <td><strong>Edad</strong></td>
+    <td>[Edad]</td>
+  </tr>
+  <tr>
+    <td><strong>Distrito</strong></td>
+    <td>Villa El Salvador, Lima</td>
+  </tr>
+  <tr>
+    <td><strong>Evidencia</strong></td>
+    <td><a href="#" target="_blank">Ver Evidencia</a></td>
+  </tr>
+  <tr>
+    <td><strong>Resumen</strong></td>
+    <td>Auxiliar de almacén. Llenan formatos impresos en papel que demoran horas en procesarse administrativamente, generando confusión sobre el stock real. Considera que un sistema web amigable asociado a registros personales automáticos protegerá a los trabajadores honestos, aclarando la hora exacta en que ocurrió cualquier inconsistencia.</td>
+  </tr>
+</table>
+
+<br>
+
+<table>
+  <tr>
+    <td width="20%"><strong>Entrevistador</strong></td>
+    <td>[Nombre del Entrevistador]</td>
+  </tr>
+  <tr>
+    <td><strong>Entrevistado</strong></td>
+    <td>Carla Paredes Benítez</td>
+  </tr>
+  <tr>
+    <td><strong>Edad</strong></td>
+    <td>26 años</td>
+  </tr>
+  <tr>
+    <td><strong>Distrito</strong></td>
+    <td>Ate, Lima</td>
+  </tr>
+  <tr>
+    <td><strong>Evidencia</strong></td>
+    <td><a href="#" target="_blank">Ver Evidencia</a></td>
+  </tr>
+  <tr>
+    <td><strong>Resumen</strong></td>
+    <td>Encargada de operaciones de despacho. Experimenta cuellos de botella al usar una única computadora compartida con hojas de Excel. Requiere una aplicación ágil que le permita registrar salidas en menos de 30 segundos de forma remota. Resalta que los registros automáticos con marcas de tiempo (timestamps) garantizarían total transparencia en el historial de movimientos de inventario.</td>
+  </tr>
+</table>
+
+<br>
+
+### 2.2.3. Análisis de entrevistas
+Segmento 01 (Administrativo / Toma de decisiones):
+La principal molestia de la gerencia es la pérdida de tiempo al investigar faltantes. La integración del sensor IoT con la plataforma web soluciona este problema al generar marcas de tiempo (timestamps) exactas que dirigen la revisión del video CCTV al minuto preciso del evento. 
+
+Segmento 02 (Operativo / Campo):  
+El personal de campo rechaza los sistemas complejos que entorpecen el despacho. Valoran la automatización de la fecha y hora porque agiliza el flujo de trabajo y sirve como prueba objetiva para deslindar responsabilidades en descuadres de stock. 
+
+Variables de análisis identificadas:
+
+<h3>Análisis Comparativo entre Segmentos</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Variable</th>
+      <th>Segmento 1 (Dueños / Administradores)</th>
+      <th>Segmento 2 (Operativo / Almaceneros)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Problemas y pérdidas recurrentes</strong></td>
+      <td>Mermas no explicadas (hasta un 8% trimestral) y "robo hormiga" de productos de alto valor. Dificultad para supervisar múltiples sedes sin desfase de información.</td>
+      <td>Descuadres semanales de inventario por olvido de registro manual en horas pico. Archivos de Excel bloqueados por uso concurrente y hojas de papel que se pierden.</td>
+    </tr>
+    <tr>
+      <td><strong>Herramientas e infraestructura actual</strong></td>
+      <td>Uso de hojas de cálculo en Excel o cuadernos físicos en recepción. Cámaras CCTV analógicas/IP que graban continuamente sin sensores asociados.</td>
+      <td>Libretas de apunte, vales impresos en papel y uso de una única computadora de escritorio compartida.</td>
+    </tr>
+    <tr>
+      <td><strong>Monitoreo y control de accesos</strong></td>
+      <td>Control visual directo del encargado o cerraduras tradicionales. Las cámaras no permiten identificar el momento exacto de un incidente sin revisar horas de video.</td>
+      <td>Responsabilidad diluida entre todo el personal del turno al no haber un control individualizado de quién ingresa al almacén o modifica el stock.</td>
+    </tr>
+    <tr>
+      <td><strong>Impacto de las alertas y trazabilidad (timestamps)</strong></td>
+      <td>Consideran crucial recibir alertas en el celular ante cierres/aperturas fuera de horario. Usar el timestamp exacto permite auditar las cámaras directamente en minutos.</td>
+      <td>Exigen que el sistema registre la fecha, hora y usuario automáticamente como respaldo laboral de transparencia ante la gerencia por faltantes injustificados.</td>
+    </tr>
+    <tr>
+      <td><strong>Requerimientos de la plataforma web/IoT</strong></td>
+      <td>Dashboard centralizado para ver el estado del inventario y seguridad en tiempo real. Gestión estricta de permisos por roles de usuario y bajo costo de implementación.</td>
+      <td>Aplicación web móvil/responsive para tablets y celular con interfaz sencilla, botones grandes y registros que tomen menos de 30 segundos.</td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
 
 ## 4.4. Web Applications UX/UI Design.
 
