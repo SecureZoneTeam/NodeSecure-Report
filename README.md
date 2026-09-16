@@ -724,6 +724,102 @@ Variables de análisis identificadas:
 
 <br>
 
+## 2.3. Needfinding
+A partir del análisis se identificaron necesidades recurrentes en ambos segmentos. Estas necesidades permiten orientar los siguientes artefactos de diseño.
+
+Necesidades identificadas
+Registrar las entradas y salidas de productos de manera rápida.
+Mantener actualizado el stock disponible.
+Identificar quién realizó cada movimiento.
+Registrar automáticamente la fecha y hora de las operaciones.
+Detectar diferencias entre movimientos digitales y eventos físicos.
+Recibir alertas ante situaciones anómalas.
+Consultar un historial de eventos.
+Reducir el tiempo necesario para investigar incidentes.
+Facilitar la consulta remota de información.
+Mantener una interfaz sencilla para el personal operativo.
+
+
+### 2.3.1. User Personas
+Segmento 01: 
+![User Persona Segmento 01](./images/2.3.1.1.png)
+
+Segmento 02: 
+![User Persona Segmento 02](./images/2.3.1.2.png)
+
+#### 2.3.2. User Task Matrix
+<h3>Priorización de Tareas por Segmento</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tareas</th>
+      <th>(Segmento 1) Francisco Robles</th>
+      <th>(Segmento 2) Carla Paredes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Inicio de Sesión y Autenticación</strong></td>
+      <td>Media</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td><strong>Gestión de Permisos y Roles</strong></td>
+      <td>Alta</td>
+      <td>Baja</td>
+    </tr>
+    <tr>
+      <td><strong>Registro de Entradas y Salidas</strong></td>
+      <td>Baja</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td><strong>Generación Automática de Timestamps</strong></td>
+      <td>Alta</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td><strong>Monitoreo IoT y Sensores de Puertas</strong></td>
+      <td>Alta</td>
+      <td>Media</td>
+    </tr>
+    <tr>
+      <td><strong>Alertas e Incidencias en Tiempo Real</strong></td>
+      <td>Alta</td>
+      <td>Baja</td>
+    </tr>
+    <tr>
+      <td><strong>Dashboard Centralizado y Reportes</strong></td>
+      <td>Alta</td>
+      <td>Baja</td>
+    </tr>
+    <tr>
+      <td><strong>Consulta Rápida de Inventario</strong></td>
+      <td>Baja</td>
+      <td>Baja</td>
+    </tr>
+  </tbody>
+</table>
+
+##### 2.3.3. User Journey Mapping
+
+Segmento 01: 
+![User Journey Map Segmento 01](./images/2.3.3.1.png)
+
+Segmento 02:
+![User Journey Map Segmento 02](./images/2.3.3.2.png)
+
+
+###### 2.3.4. Empathy Mapping
+
+Segmento 01:
+![Empathy Map Segmento 01](./images/2.3.4.1.png)
+
+Segmento 02: 
+![Empathy Map Segmento 01](./images/2.3.4.2.png)
+
+
 ## 4.4. Web Applications UX/UI Design.
 
 El diseño de la experiencia de usuario (UX) y de la interfaz (UI) de la plataforma NodeSecure se ha centrado en la operatividad bajo presión. Entendemos que un jefe de seguridad o un dueño de negocio entra a la aplicación web buscando respuestas rápidas: "¿Coincide mi inventario digital con la mercadería física?", "¿Hubo alguna salida de stock no registrada?". Por ello, la UX prioriza la conciliación del inventario en tiempo real, la gestión de entradas/salidas y la visualización de discrepancias detectadas por los sensores IoT. La UI, basada en Material Design, utiliza una estética limpia y profesional que reduce la carga cognitiva, permitiendo que el usuario identifique anomalías de stock o accesos mediante el uso estratégico de colores semánticos (rojo para discrepancias, verde para stock conciliado).
