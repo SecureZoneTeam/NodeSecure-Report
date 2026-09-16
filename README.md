@@ -1022,3 +1022,21 @@ Este flujo describe el proceso de gestión de hardware IoT de auditoría en el s
 
 **Diagrama Visual (Wireflow):**
 ![Visual Wireflow - User Goal 3](images/ug3-wireflow-visual.png)
+
+#### 4. User Goal: Auditoría de Eventos y Discrepancias
+
+Este flujo ilustra cómo un administrador audita la trazabilidad del inventario mediante la bitácora del sistema. Desde la vista principal, el usuario puede utilizar filtros inferiores para acotar la lista cronológica por tipo de movimiento (ej. discrepancias físicas) o rango de fechas, facilitando la búsqueda de mermas. Al localizar una anomalía de stock específica, el usuario puede seleccionarla para desplegar una ventana emergente que brinda evidencia detallada del sensor IoT sin perder su contexto en la lista de auditoría principal.
+
+**El happy path:**
+* **Inicio:** El usuario ingresa a la vista de "Auditoría y Trazabilidad".
+* **Interacción:** El usuario hace clic en el botón superior "Tipo de evento".
+* **Filtrado:** Se despliega el menú inferior correspondiente; el usuario selecciona "Discrepancias Físicas" y presiona "Aplicar Filtros".
+* **Actualización:** El menú se cierra y la lista principal se actualiza mostrando solo las salidas de stock no registradas.
+* **Selección:** El usuario hace clic sobre una tarjeta específica de la lista.
+* **Fin del flujo:** El sistema despliega la ventana central (modal) mostrando el resumen de la discrepancia, la causa y el botón para justificar el descuadre.
+
+**Diagrama Lógico:**
+![Logical Flow - User Goal 4](images/ug4-wireflow-logical.png)
+
+**Diagrama Visual (Wireflow):**
+![Visual Wireflow - User Goal 4](images/ug4-wireflow-visual.png)
