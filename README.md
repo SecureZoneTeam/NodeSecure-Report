@@ -1004,3 +1004,21 @@ Este flujo ilustra cómo un administrador registra un nuevo nodo logístico o su
 
 **Diagrama Visual (Wireflow):**
 ![Visual Wireflow - User Goal 2](images/ug2-wireflow-visual.png)
+
+#### 3. User Goal: Administración de dispositivos IoT
+
+Este flujo describe el proceso de gestión de hardware IoT de auditoría en el sistema. Desde el panel principal de dispositivos, el usuario puede intentar agregar un sensor o nodo nuevo. El sistema realiza una validación preventiva de la cuota del plan; si se alcanzó el límite, bloquea la acción con una ventana informativa. Si existe cupo disponible, el usuario accede al formulario donde ingresa el número de serie y la zona para registrar y sincronizar el equipo logístico. De igual manera, el módulo permite desvincular hardware obsoleto, acción protegida por una ventana de advertencia para evitar eliminaciones accidentales de evidencia física.
+
+**El happy path:**
+* **Inicio:** El usuario se encuentra en la vista principal de "Dispositivos IoT".
+* **Acción de registro:** Hace clic en el botón oscuro "+ Vincular nuevo dispositivo".
+* **Validación interna:** El sistema verifica que el usuario tiene cupo disponible en su plan SaaS.
+* **Ingreso de datos:** El sistema despliega el formulario y el usuario ingresa el Número de Serie, Nombre y asigna una Zona del almacén.
+* **Guardar:** Hace clic en el botón "Vincular Dispositivo".
+* **Fin del flujo:** El sistema sincroniza el equipo y devuelve al usuario al dashboard, donde el nuevo sensor ya figura en la lista con el estado "Online".
+
+**Diagrama Lógico:**
+![Logical Flow - User Goal 3](images/ug3-wireflow-logical.png)
+
+**Diagrama Visual (Wireflow):**
+![Visual Wireflow - User Goal 3](images/ug3-wireflow-visual.png)
