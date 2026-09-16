@@ -1,23 +1,57 @@
 
+<div align="center">
+<img src="images/logo-upc.png" width="150" alt="Logo de la UPC"><br><br>
 
+**UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS**<br>
+**FACULTAD DE INGENIERÍA**<br>
+**CARRERAS: INGENIERÍA DE SOFTWARE / INGENIERÍA DE SISTEMAS DE INFORMACIÓN**<br>
+**Desarrollo de Aplicaciones Open Source - 7800**<br><br>
 
+**DOCENTE**<br>
+Iván Robles Fernandez<br><br>
 
+**Informe Trabajo Final**<br><br>
 
+**Nombre Start up:** SafeZone<br>
+**Nombre Producto:** NodeSecure<br><br>
 
+**2026-02**<br><br>
 
+**INTEGRANTES**<br><br>
 
-
-
-
-
-
-
-
-
-
-
-# NodeSecure-Report
+<table>
+  <thead>
+    <tr>
+      <th>Apellidos y Nombres</th>
+      <th>Código</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Anahua Ancachi, Liz Maribel</td>
+      <td>U202421123</td>
+    </tr>
+    <tr>
+      <td>Sandoval Aiquipa, Kelber Yamir</td>
+      <td>U202418645</td>
+    </tr>
+    <tr>
+      <td>Pérez Bellido, Fernando Sebastián</td>
+      <td>U202410420</td>
+    </tr>
+    <tr>
+      <td>Ravello Cárdenas, Luciana Angielina</td>
+      <td>U20221F887</td>
+    </tr>
+  </tbody>
+</table>
 <br>
+
+**Lima, 16 de Setiembre del 2026**
+
+</div>
+<br><br><br><br><br><br>
+
 
 # Capítulo I: Introducción
 
