@@ -985,3 +985,22 @@ El flujo visual comienza con un nodo de inicio que lleva a la pantalla de presen
 
 **Diagrama Visual (Wireflow):**
 ![Visual Wireflow - User Goal 1](images/ug1-wireflow-visual.png)
+
+#### 2. User Goal: Registro y monitoreo de almacenes
+
+Este flujo ilustra cómo un administrador registra un nuevo nodo logístico o sucursal desde el panel principal. El usuario completa un formulario con datos y horarios operativos; en caso de que la información sea incorrecta o falten campos obligatorios, el sistema bloquea el avance y muestra alertas preventivas en rojo. Al validar correctamente los datos, se confirma el registro mediante una ventana emergente de éxito y se redirige al usuario de vuelta al dashboard, donde el nuevo almacén ya aparece activo y listo para la conciliación de inventario.
+
+**El happy path:**
+* **Inicio:** El usuario se encuentra en el dashboard principal de "Mis Almacenes".
+* **Acción:** Hace clic en el botón "+ Registrar nuevo almacén".
+* **Ingreso de datos:** Llena el formulario de información general y horarios sin cometer errores.
+* **Guardar:** Hace clic en el botón "Guardar Almacén".
+* **Validación interna:** El sistema verifica que la dirección es válida y los campos obligatorios están completos.
+* **Confirmación:** Aparece la ventana emergente con el mensaje "Almacén Guardado".
+* **Fin del flujo:** El usuario regresa automáticamente al dashboard y visualiza la nueva sucursal en la lista, lista para auditar.
+
+**Diagrama Lógico:**
+![Logical Flow - User Goal 2](images/ug2-wireflow-logical.png)
+
+**Diagrama Visual (Wireflow):**
+![Visual Wireflow - User Goal 2](images/ug2-wireflow-visual.png)
