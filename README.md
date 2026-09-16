@@ -961,3 +961,25 @@ La sección de configuración organiza las preferencias operativas mediante una 
 
 **Mobile**
 ![Mobile Wireframes - User Goal 7](images/ug7-wireframe-mobile.png)
+
+### 4.4.2. Web Applications Wireflow Diagrams
+
+El Wireflow es un artefacto que combina la estructura de los wireframes con la lógica de un diagrama de flujo. Su importancia radica en que permite visualizar no solo qué elementos hay en cada pantalla, sino cómo el usuario se desplaza entre ellas para completar un proceso. Para **NodeSecure**, esto es vital porque el sistema debe ser capaz de guiar al usuario de forma intuitiva desde la detección de una discrepancia de stock hasta la conciliación del inventario en el menor número de pasos posible. En esta sección se detalla la arquitectura de navegación, mostrando los caminos que conectan el panel de control con los módulos de configuración de sensores IoT y revisión de historiales de auditoría.
+
+#### 1. User Goal: Acceso al sistema
+
+El flujo visual comienza con un nodo de inicio que lleva a la pantalla de presentación. Luego se presenta un rombo de decisión que evalúa si el usuario posee credenciales. De esa decisión se desprenden dos ramas: una que va hacia el registro de una nueva empresa y otra hacia el inicio de sesión tradicional. Ambas terminan en la validación y finalizan con el acceso al dashboard.
+
+**El happy path:**
+* **Inicio de la aplicación:** El administrador abre la plataforma web o móvil.
+* **Pantalla principal:** Se muestra directamente la vista de inicio de sesión.
+* **Decisión:** "¿El usuario tiene una cuenta?". En el *happy path* suponemos que el usuario ya es un cliente registrado.
+* **Ingreso de datos:** El usuario completa los campos de correo electrónico y contraseña en el formulario.
+* **Autenticación:** El usuario hace clic en el botón "Ingresar" y el sistema valida las credenciales correctamente en la base de datos.
+* **Fin del flujo de acceso:** El usuario entra de manera exitosa a la aplicación y aterriza directamente en el dashboard de "Mis Almacenes" para comenzar a auditar su inventario.
+
+**Diagrama Lógico:**
+![Logical Flow - User Goal 1](images/ug1-wireflow-logical.png)
+
+**Diagrama Visual (Wireflow):**
+![Visual Wireflow - User Goal 1](images/ug1-wireflow-visual.png)
