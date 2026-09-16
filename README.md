@@ -819,6 +819,12 @@ Segmento 01:
 Segmento 02: 
 ![Empathy Map Segmento 01](./images/2.3.4.2.png)
 
+## 2.4. Big Picture Event Storming
+
+![Big Picture Event Storming](./images/2.4.png)
+
+
+
 
 ## 4.4. Web Applications UX/UI Design.
 
