@@ -1154,4 +1154,22 @@ Este flujo ilustra cómo un administrador audita la trazabilidad del inventario 
 ![Logical Flow - User Goal 4](images/ug4-wireflow-logical.png)
 
 **Diagrama Visual (Wireflow):**
-![Visual Wireflow - User Goal 4](images/ug4-wireflow-visual.png)
+![Visual Wireflow - User Goal 4](images/ug4-wireflow-visual.png)git checkout -b feature/ux-wireflow-ug5-update
+
+#### 5. User Goal: Gestión de personal y accesos
+
+Este flujo ilustra el proceso de administración de usuarios operativos en la plataforma. Desde el panel "Equipo y Accesos", el administrador puede añadir nuevos miembros abriendo un formulario donde ingresa el correo y asigna el nivel de permisos (Ej. Almacenero o Auditor). Además, el administrador puede gestionar al personal existente seleccionando el menú de opciones en la tarjeta de un empleado. Desde allí, puede abrir un menú inferior para eliminarlo, acción que requiere confirmación mediante una ventana emergente de advertencia para evitar la revocación accidental de accesos, garantizando así un control seguro sobre quién puede auditar el inventario.
+
+**El happy path:**
+* **Inicio:** El usuario administrador ingresa a la vista "Equipo y Accesos".
+* **Acción:** Hace clic en el botón superior "+ Invitar nuevo usuario".
+* **Ingreso de datos:** El sistema muestra el formulario; el administrador escribe el correo electrónico y selecciona el "Rol en el sistema".
+* **Asignación:** Se despliega el selector para asignar las zonas del almacén que el nuevo usuario podrá auditar.
+* **Confirmación:** Hace clic en el botón oscuro "Enviar Invitación".
+* **Fin del flujo:** El sistema procesa la solicitud, envía el correo al invitado y devuelve al administrador a la lista actualizada del equipo.
+
+**Diagrama Lógico:**
+![Logical Flow - User Goal 5](images/ug5-wireflow-logical.png)
+
+**Diagrama Visual (Wireflow):**
+![Visual Wireflow - User Goal 5](images/ug5-wireflow-visual.png)
