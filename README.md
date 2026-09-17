@@ -10,7 +10,7 @@
 **DOCENTE**<br>
 Iván Robles Fernandez<br><br>
 
-**Informe Trabajo Final**<br><br>
+**Informe AV1 Sprint Review**<br><br>
 
 **Nombre Start up:** SafeZone<br>
 **Nombre Producto:** NodeSecure<br><br>
@@ -51,6 +51,87 @@ Iván Robles Fernandez<br><br>
 
 </div>
 <br><br><br><br><br><br>
+
+# Contenido
+**Capítulo I: Introducción**<br>
+&nbsp;&nbsp;&nbsp;&nbsp;*1.1. Startup Profile*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.1.1. Descripción de la Startup<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.1.2. Perfiles de integrantes del equipo<br>
+&nbsp;&nbsp;&nbsp;&nbsp;*1.2. Solution Profile*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.2.1 Antecedentes y problemática<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.2.2 Lean UX Process.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.2.2.1. Lean UX Problem Statements.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.2.2.2. Lean UX Assumptions.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.2.2.3. Lean UX Hypothesis Statements.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.2.2.4. Lean UX Canvas.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;1.3. Segmentos objetivo.<br><br>
+**Capítulo II: Requirements Elicitation & Analysis**<br>
+&nbsp;&nbsp;&nbsp;&nbsp;2.1. Competidores.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.1.1. Análisis competitivo.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.1.2. Estrategias y tácticas frente a competidores.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;2.2. Entrevistas.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2.1. Diseño de entrevistas.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2.2. Registro de entrevistas.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2.3. Análisis de entrevistas.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;2.3. Needfinding.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.3.1. User Personas.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.3.2. User Task Matrix.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.3.3. User Journey Mapping.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.3.4. Empathy Mapping.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;2.4. Big Picture Event Storming.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;2.5. Ubiquitous Language.<br><br>
+**Capítulo III: Requirements Specification**<br>
+&nbsp;&nbsp;&nbsp;&nbsp;3.1. User Stories.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;3.2. Impact Mapping.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;3.3. Product Backlog.<br><br>
+**Capítulo IV: Product Design**<br>
+&nbsp;&nbsp;&nbsp;&nbsp;4.1. Style Guidelines.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.1. General Style Guidelines.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.2. Web Style Guidelines.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;4.2. Information Architecture.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2.1. Organization Systems.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2.2. Labeling Systems.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2.3. SEO Tags and Meta Tags<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2.4. Searching Systems.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2.5. Navigation Systems.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;4.3. Landing Page UI Design.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.3.1. Landing Page Wireframe.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.3.2. Landing Page Mock-up.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;4.4. Web Applications UX/UI Design.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.4.1. Web Applications Wireframes.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.4.2. Web Applications Wireflow Diagrams.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.4.2. Web Applications Mock-ups.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.4.3. Web Applications User Flow Diagrams.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;4.5. Web Applications Prototyping.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;4.6. Domain-Driven Software Architecture.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.6.1. Design-Level Event Storming.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.6.2. Software Architecture Context Diagram.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.6.3. Software Architecture Container Diagrams.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.6.4. Software Architecture Components Diagrams.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;4.7. Software Object-Oriented Design.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.7.1. Class Diagrams.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;4.8. Database Design.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.8.1. Database Diagrams.<br><br>
+**Capítulo V: Product Implementation, Validation & Deployment**<br>
+&nbsp;&nbsp;&nbsp;&nbsp;5.1. Software Configuration Management.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.1.1. Software Development Environment Configuration.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.1.2. Source Code Management.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.1.3. Source Code Style Guide & Conventions.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.1.4. Software Deployment Configuration.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;5.2. Landing Page, Services & Applications Implementation.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1. Sprint 1<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.1. Sprint Planning 1.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.2. Aspect Leaders and Collaborators.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.3. Sprint Backlog 1.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.4. Development Evidence for Sprint Review.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.5. Execution Evidence for Sprint Review.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.6. Services Documentation Evidence for Sprint Review.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.7. Software Deployment Evidence for Sprint Review.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.8. Team Collaboration Insights during Sprint.<br>
+
+Conclusiones<br>
+Bibliografía<br>
+Anexos<br><br><br>
 
 
 # Capítulo I: Introducción
