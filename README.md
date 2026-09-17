@@ -1191,3 +1191,20 @@ Este flujo describe cómo un usuario administra la facturación y escalabilidad 
 
 **Diagrama Visual (Wireflow):**
 ![Visual Wireflow - User Goal 6](images/ug6-wireflow-visual.png)
+
+#### 7. User Goal: Configuración de cuenta y notificaciones
+
+Este flujo ilustra la gestión de preferencias y seguridad de la cuenta del usuario. Desde el panel principal de configuración, el administrador interactúa con los canales de notificaciones o selecciona la opción para salir de la plataforma. El sistema integra validaciones preventivas antes de ejecutar acciones definitivas; por ejemplo, si el usuario intenta silenciar las alertas, se le advierte del riesgo operativo (pérdida de trazabilidad de stock) mediante una ventana emergente. De manera similar, al intentar finalizar su sesión, se exige una confirmación explícita para evitar cierres accidentales y garantizar que el usuario comprenda que dejará de recibir alertas de inventario inmediatas en ese dispositivo.
+
+**El happy path (Cierre de sesión):**
+* **Inicio:** El usuario ingresa a la vista principal de Configuración.
+* **Acción:** Hace clic en el botón inferior con el texto "Cerrar Sesión".
+* **Advertencia:** El sistema detecta el intento de salida y despliega el modal de confirmación para evitar un cierre por error táctil.
+* **Confirmación:** El usuario hace clic en el botón oscuro "Cerrar Sesión" dentro de la ventana.
+* **Fin del flujo:** La plataforma cierra la sesión de forma segura y redirige automáticamente al usuario a la pantalla inicial de inicio de sesión.
+
+**Diagrama Lógico:**
+![Logical Flow - User Goal 7](images/ug7-wireflow-logical.png)
+
+**Diagrama Visual (Wireflow):**
+![Visual Wireflow - User Goal 7](images/ug7-wireflow-visual.png)
