@@ -1173,3 +1173,21 @@ Este flujo ilustra el proceso de administración de usuarios operativos en la pl
 
 **Diagrama Visual (Wireflow):**
 ![Visual Wireflow - User Goal 5](images/ug5-wireflow-visual.png)
+
+#### 6. User Goal: Administración de suscripción y facturación
+
+Este flujo describe cómo un usuario administra la facturación y escalabilidad de su cuenta SaaS. Desde el panel principal de suscripción, el administrador puede optar por cancelar su servicio o mejorar su plan actual. Si decide actualizar, navega por un catálogo comparativo y accede a un cotizador interactivo para el plan Enterprise, donde ajusta sus límites de almacenes y nodos IoT de evidencia de forma dinámica. Por último, el usuario revisa el resumen de pago con los montos prorrateados y confirma la transacción, logrando que el sistema actualice inmediatamente la capacidad operativa de su cuenta.
+
+**El happy path:**
+* **Inicio:** El administrador ingresa a la vista "Mi Suscripción".
+* **Acción:** Hace clic en el botón oscuro "Cambiar Plan".
+* **Selección:** En el catálogo de "Mejorar Plan", revisa las opciones y hace clic en "Actualizar a Enterprise".
+* **Configuración:** Utiliza los controles deslizantes para establecer la cantidad exacta de Almacenes y Dispositivos IoT que necesita su operación, y presiona "Continuar al Pago".
+* **Pago:** Revisa el detalle del "Resumen de Pago", valida su tarjeta y hace clic en el botón oscuro "Confirmar y Pagar".
+* **Fin del flujo:** La plataforma procesa el cobro y redirige al usuario de vuelta al panel "Mi Suscripción", donde ahora se visualiza el plan Enterprise activo junto con las nuevas barras de límites extendidos para auditoría.
+
+**Diagrama Lógico:**
+![Logical Flow - User Goal 6](images/ug6-wireflow-logical.png)
+
+**Diagrama Visual (Wireflow):**
+![Visual Wireflow - User Goal 6](images/ug6-wireflow-visual.png)
