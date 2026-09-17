@@ -629,7 +629,11 @@ Cuando ocurre un descuadre de stock, ¿qué tan fácil o difícil es identificar
   </tr>
   <tr>
     <td><strong>Evidencia</strong></td>
-    <td><a href="#" target="_blank">Ver Evidencia</a></td>
+    <td><a href="https://canva.link/9w4klnpwqeadxqt" target="_blank">Ver Evidencia</a></td>
+  </tr>
+    <tr>
+    <td><strong>Inicio</strong></td>
+    <td> </td>
   </tr>
   <tr>
     <td><strong>Resumen</strong></td>
@@ -650,7 +654,7 @@ Cuando ocurre un descuadre de stock, ¿qué tan fácil o difícil es identificar
   </tr>
   <tr>
     <td><strong>Edad</strong></td>
-    <td>[Edad]</td>
+    <td>45 años</td>
   </tr>
   <tr>
     <td><strong>Distrito</strong></td>
@@ -658,7 +662,11 @@ Cuando ocurre un descuadre de stock, ¿qué tan fácil o difícil es identificar
   </tr>
   <tr>
     <td><strong>Evidencia</strong></td>
-    <td><a href="#" target="_blank">Ver Evidencia</a></td>
+    <td><a href="https://canva.link/9w4klnpwqeadxqt" target="_blank">Ver Evidencia</a></td>
+  </tr>
+  <tr>
+    <td><strong>Inicio</strong></td>
+    <td> </td>
   </tr>
   <tr>
     <td><strong>Resumen</strong></td>
@@ -679,7 +687,7 @@ Cuando ocurre un descuadre de stock, ¿qué tan fácil o difícil es identificar
   </tr>
   <tr>
     <td><strong>Edad</strong></td>
-    <td>[Edad]</td>
+    <td>48 años</td>
   </tr>
   <tr>
     <td><strong>Distrito</strong></td>
@@ -687,7 +695,11 @@ Cuando ocurre un descuadre de stock, ¿qué tan fácil o difícil es identificar
   </tr>
   <tr>
     <td><strong>Evidencia</strong></td>
-    <td><a href="#" target="_blank">Ver Evidencia</a></td>
+    <td><a href="https://canva.link/9w4klnpwqeadxqt" target="_blank">Ver Evidencia</a></td>
+  </tr>
+    <tr>
+    <td><strong>Inicio</strong></td>
+    <td> </td>
   </tr>
   <tr>
     <td><strong>Resumen</strong></td>
@@ -705,7 +717,7 @@ Cuando ocurre un descuadre de stock, ¿qué tan fácil o difícil es identificar
 <table>
   <tr>
     <td width="20%"><strong>Entrevistador</strong></td>
-    <td>[Nombre del Entrevistador]</td>
+    <td>Luciana Angielina Ravello Cárdenas</td>
   </tr>
   <tr>
     <td><strong>Entrevistado</strong></td>
@@ -713,7 +725,7 @@ Cuando ocurre un descuadre de stock, ¿qué tan fácil o difícil es identificar
   </tr>
   <tr>
     <td><strong>Edad</strong></td>
-    <td>[Edad]</td>
+    <td>27 años</td>
   </tr>
   <tr>
     <td><strong>Distrito</strong></td>
@@ -721,7 +733,11 @@ Cuando ocurre un descuadre de stock, ¿qué tan fácil o difícil es identificar
   </tr>
   <tr>
     <td><strong>Evidencia</strong></td>
-    <td><a href="#" target="_blank">Ver Evidencia</a></td>
+    <td><a href="https://canva.link/9w4klnpwqeadxqt" target="_blank">Ver Evidencia</a></td>
+  </tr>
+    <tr>
+    <td><strong>Inicio</strong></td>
+    <td> 30 s </td>
   </tr>
   <tr>
     <td><strong>Resumen</strong></td>
@@ -734,7 +750,7 @@ Cuando ocurre un descuadre de stock, ¿qué tan fácil o difícil es identificar
 <table>
   <tr>
     <td width="20%"><strong>Entrevistador</strong></td>
-    <td>[Nombre del Entrevistador]</td>
+    <td>Liz Maribel Anahua Ancachi</td>
   </tr>
   <tr>
     <td><strong>Entrevistado</strong></td>
@@ -742,7 +758,7 @@ Cuando ocurre un descuadre de stock, ¿qué tan fácil o difícil es identificar
   </tr>
   <tr>
     <td><strong>Edad</strong></td>
-    <td>[Edad]</td>
+    <td>23 años</td>
   </tr>
   <tr>
     <td><strong>Distrito</strong></td>
@@ -750,7 +766,12 @@ Cuando ocurre un descuadre de stock, ¿qué tan fácil o difícil es identificar
   </tr>
   <tr>
     <td><strong>Evidencia</strong></td>
-    <td><a href="#" target="_blank">Ver Evidencia</a></td>
+    <td><a href="https://canva.link/9w4klnpwqeadxqt" target="_blank">Ver Evidencia</a></td>
+  </tr>
+  </tr>
+    <tr>
+    <td><strong>Inicio</strong></td>
+    <td> 4:30 </td>
   </tr>
   <tr>
     <td><strong>Resumen</strong></td>
@@ -763,7 +784,7 @@ Cuando ocurre un descuadre de stock, ¿qué tan fácil o difícil es identificar
 <table>
   <tr>
     <td width="20%"><strong>Entrevistador</strong></td>
-    <td>[Nombre del Entrevistador]</td>
+    <td>Luciana Angielina Ravello Cárdenas</td>
   </tr>
   <tr>
     <td><strong>Entrevistado</strong></td>
@@ -779,7 +800,11 @@ Cuando ocurre un descuadre de stock, ¿qué tan fácil o difícil es identificar
   </tr>
   <tr>
     <td><strong>Evidencia</strong></td>
-    <td><a href="#" target="_blank">Ver Evidencia</a></td>
+    <td><a href="https://canva.link/9w4klnpwqeadxqt" target="_blank">Ver Evidencia</a></td>
+  </tr>
+  <tr>
+    <td><strong>Inicio</strong></td>
+    <td> 7:40 </td>
   </tr>
   <tr>
     <td><strong>Resumen</strong></td>
