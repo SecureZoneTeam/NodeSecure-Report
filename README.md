@@ -1412,6 +1412,118 @@ A nivel interactivo, se priorizan patrones propios del entorno móvil, como el u
 ![Preferencias de Cuenta](images/mobile-mockup-07.png)
 ![Cierre de Sesión Seguro](images/mobile-mockup-08.png)
 
+### 4.4.4. Web Applications User Flow Diagrams
+
+Mientras que el wireflow se enfoca en la estructura visual de las pantallas, el User Flow o Diagrama de Flujo de Usuario se centra en el proceso de toma de decisiones de la persona que opera NodeSecure. Este diagrama ayuda a comprender el camino lógico que sigue un Administrador Logístico o Jefe de Operaciones para alcanzar un objetivo específico, como puede ser la auditoría de una discrepancia de stock o una salida sin registro. Al desglosar cada acción y punto de decisión, podemos identificar posibles fricciones en la experiencia y asegurar que el sistema responda de manera coherente a las necesidades operativas de la empresa, garantizando que el flujo de información para prevenir mermas sea siempre claro y directo.
+
+#### User Goal 1: Acceso e Inicio en el Sistema
+Francisco, dueño de PYME, interactúa con la aplicación para registrarse o acceder a su cuenta mediante un flujo claro y sin fricciones. Si es su primera vez, sigue la ruta de registro completando sus datos comerciales. Si ya cuenta con credenciales, ingresa directamente con su correo y contraseña para acceder al panel principal. El sistema cuenta con un proceso de recuperación que le permite restablecer su acceso de forma segura a través de un enlace enviado a su correo electrónico, garantizando continuidad operativa sin bloqueos.
+
+**El happy path: Inicio de sesión exitoso**
+* **Inicio** ➔ Francisco abre la aplicación móvil y visualiza la pantalla de Acceso.
+* **Decisión** ➔ El sistema le presenta las opciones y Francisco determina que ya tiene una cuenta activa.
+* **Ingreso de datos** ➔ Francisco escribe su correo electrónico y su contraseña.
+* **Acción** ➔ Presiona el botón azul "Ingresar".
+* **Fin del flujo** ➔ El sistema valida las credenciales y Francisco entra exitosamente al panel de auditoría de sus almacenes.
+
+**El unhappy path: Recuperación de Contraseña**
+* **Inicio** ➔ Francisco abre la aplicación, pero no recuerda su contraseña.
+* **Acción** ➔ Presiona el enlace "¿Olvidaste tu contraseña?".
+* **Navegación** ➔ El sistema lo redirige a la vista de "Recuperar Contraseña".
+* **Ingreso de datos** ➔ Francisco escribe el correo electrónico asociado a su empresa.
+* **Confirmación** ➔ Presiona el botón "Enviar Enlace".
+* **Fin del flujo** ➔ El sistema envía las instrucciones de restablecimiento al correo para que pueda recuperar su acceso de forma segura.
+
+![User Flow - User Goal 1](images/ug1-userflow.png)
+
+#### User Goal 2: Registro y Monitoreo de Almacenes
+Como Jefe de Operaciones, Roberto quiere registrar nuevas sucursales y ver el estado de conciliación de todos los almacenes de la empresa en una sola plataforma para detectar rápidamente cualquier incidente.
+En este escenario, Roberto agrega una nueva sucursal desde el panel principal. El flujo le solicita datos básicos y horarios de operación, incorporando validaciones en tiempo real (campos obligatorios en rojo) para evitar errores. Además, el sistema controla los límites del plan, mostrando una alerta restrictiva si ya alcanzó la cantidad máxima de almacenes permitidos.
+
+**El happy path: Registro de almacén exitoso**
+* **Inicio** ➔ Roberto se encuentra en la vista principal de "Mis Almacenes".
+* **Acción** ➔ Presiona el botón azul "+ Registrar nuevo almacén".
+* **Navegación** ➔ El sistema despliega el formulario "Nuevo Almacén".
+* **Ingreso de datos** ➔ Roberto completa los campos y configura los Horarios de Operación mediante los interruptores interactivos.
+* **Confirmación** ➔ Hace clic en "Guardar Almacén".
+* **Fin del flujo** ➔ El sistema valida la información, muestra la ventana de "Registro Exitoso" y Roberto vuelve al dashboard donde la nueva sucursal ya figura en estado "Auditando".
+
+**El unhappy path: Límite de Plan Alcanzado**
+* **Inicio** ➔ Roberto presiona "+ Registrar nuevo almacén".
+* **Intercepción** ➔ El sistema verifica la suscripción y detecta que la empresa ya alcanzó el límite máximo de almacenes.
+* **Notificación** ➔ En lugar de abrir el formulario, se despliega la ventana "Límite de Almacenes", bloqueando el registro.
+* **Fin del flujo** ➔ Roberto debe decidir: presionar "Mejorar a Plan Premium" para escalar la cuenta, o "Quizás más tarde" para regresar al dashboard sin cambios.
+
+![User Flow - User Goal 2](images/ug2-userflow.png)
+
+#### User Goal 3: Gestión de Dispositivos IoT
+Roberto necesita registrar, vincular y administrar los sensores magnéticos y lectores RFID de cada almacén para cruzar la evidencia física con los registros de inventario.
+Desde el panel de IoT, Roberto visualiza el estado de conexión (Online/Offline) de cada nodo. Puede vincular nuevos equipos si su plan lo permite; de lo contrario, el sistema bloquea la acción. También puede desvincular sensores obsoletos, acción que está protegida con una confirmación destructiva para evitar la pérdida accidental de trazabilidad.
+
+**El happy path: Vinculación de dispositivo exitosa**
+* **Inicio** ➔ Roberto ingresa a "Dispositivos IoT" y visualiza la lista de sensores.
+* **Acción** ➔ Presiona el botón "+ Vincular nuevo dispositivo".
+* **Navegación** ➔ Al tener cupo, el sistema lo dirige al formulario.
+* **Ingreso de datos** ➔ Roberto ingresa el Número de Serie (S/N) y asigna la Zona (ej. Zona de Carga).
+* **Procesamiento** ➔ Presiona "Vincular Dispositivo". Se muestra un modal de espera "Activando Dispositivo...".
+* **Fin del flujo** ➔ Se confirma con "Dispositivo en línea" y Roberto regresa al panel donde el nuevo sensor aparece "Online".
+
+![User Flow - User Goal 3](images/ug3-userflow.png)
+
+#### User Goal 4: Auditoría de Eventos y Discrepancias
+Roberto quiere ver un registro cronológico detallado de las actividades del almacén y filtrar la información para auditar cualquier salida sin registro o merma detectada.
+El flujo permite aplicar filtros precisos. Al ubicar una alerta crítica, el usuario revisa la evidencia del sensor IoT. Tras evaluarla, decide si justificar la discrepancia (falsa alarma) o si reportar la merma directamente a la supervisión.
+
+**El happy path: Auditoría y Escalamiento de Incidente**
+* **Inicio** ➔ Roberto ingresa a "Auditoría y Trazabilidad" y observa la lista cronológica.
+* **Acción** ➔ Hace clic en la tarjeta roja "Salida física sin registro".
+* **Vista Rápida** ➔ El sistema despliega un modal de resumen. Roberto presiona "Ver Detalles y Evidencia".
+* **Análisis** ➔ En "Detalle del Evento", revisa la hora exacta (timestamp) y la causa de activación.
+* **Decisión** ➔ Al confirmar la merma, presiona el botón "Reportar Merma".
+* **Fin del flujo** ➔ El sistema muestra el modal "Contactar a Supervisor". Roberto presiona "Sí, Llamar" para escalar el incidente de inventario.
+
+![User Flow - User Goal 4](images/ug4-userflow.png)
+
+#### User Goal 5: Gestión de Equipo y Accesos
+Francisco, como dueño del negocio, quiere invitar a su personal operativo al sistema y asignar permisos por zonas logísticas para delegar auditorías sin perder el control de la seguridad.
+El flujo abarca la invitación de nuevos miembros (asignando roles como Almacenero o Auditor) y la edición o revocación de accesos existentes, procesos siempre respaldados por modales de confirmación.
+
+**El happy path: Invitación de usuario exitosa**
+* **Inicio** ➔ Francisco ingresa a "Equipo y Accesos" para ver a su personal activo.
+* **Acción** ➔ Presiona el botón "+ Invitar nuevo usuario".
+* **Ingreso de datos** ➔ Escribe el correo del empleado, selecciona el rol (Almacenero) y las zonas asignadas.
+* **Confirmación** ➔ Presiona "Enviar Invitación".
+* **Fin del flujo** ➔ El sistema despliega "Invitación Enviada" y Francisco regresa a la lista donde el correo figura como "Pendiente".
+
+![User Flow - User Goal 5](images/ug5-userflow.png)
+
+#### User Goal 6: Suscripción y Facturación
+Francisco necesita ampliar los límites operativos de su cuenta SaaS para registrar más almacenes y vincular más nodos IoT a medida que su negocio crece.
+El flujo guía al usuario desde la selección del plan hasta un cotizador interactivo, calculando prorrateos y culminando en el checkout de pago para habilitar inmediatamente los nuevos límites.
+
+**El happy path: Actualización a Plan Enterprise**
+* **Inicio** ➔ Francisco ingresa a "Mi Suscripción" y nota que sus límites están al tope.
+* **Acción** ➔ Presiona "Cambiar Plan".
+* **Selección** ➔ Revisa el catálogo y elige "Actualizar a Enterprise".
+* **Configuración** ➔ En el cotizador, ajusta los *sliders* a 5 almacenes y 25 dispositivos IoT. Presiona "Continuar al Pago".
+* **Pago** ➔ En el Resumen de Pago, valida su método de pago y presiona "Confirmar y Pagar".
+* **Fin del flujo** ➔ Aparece "¡Actualización Exitosa!". Al presionar "Ir a mi suscripción", visualiza sus límites operativos ampliados.
+
+![User Flow - User Goal 6](images/ug6-userflow.png)
+
+#### User Goal 7: Configuración de cuenta y notificaciones
+Francisco gestiona sus preferencias de notificaciones para asegurar que recibe alertas de mermas sin interrupciones. 
+El flujo incluye validaciones preventivas: si intenta apagar todas las alertas o cancelar su suscripción, se le advierte sobre la pérdida de trazabilidad. El cierre de sesión también exige confirmación para evitar la desconexión accidental del auditor en campo.
+
+**El happy path: Cierre de sesión seguro**
+* **Inicio** ➔ Francisco ingresa a la vista de "Configuración".
+* **Acción** ➔ Toca el botón rojo "Cerrar Sesión".
+* **Advertencia** ➔ El sistema despliega el modal "¿Cerrar sesión?" advirtiendo que dejará de recibir alertas en el dispositivo.
+* **Confirmación** ➔ Francisco presiona "Sí, salir".
+* **Fin del flujo** ➔ La plataforma finaliza la sesión y lo redirige a la pantalla inicial de acceso.
+
+![User Flow - User Goal 7](images/ug7-userflow.png)
+
 # 5. Product Implementation, Validation & Deployment
 
 
