@@ -52,6 +52,52 @@ Iván Robles Fernandez<br><br>
 </div>
 <br><br><br><br><br><br>
 
+## Registro de versiones del informe
+
+<table>
+  <thead>
+    <tr>
+      <th>Versión</th>
+      <th>Fecha</th>
+      <th>Autor</th>
+      <th>Descripción de modificación</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td valign="top"><b>AV1</b></td>
+      <td valign="top">16/09/2026</td>
+      <td valign="top">
+        Anahua Ancachi, Liz Maribel<br>
+        Sandoval Aiquipa, Kelber Yamir<br>
+        Pérez Bellido, Fernando Sebastián<br>
+        Ravello Cárdenas, Luciana Angielina
+      </td>
+      <td valign="top">Se realizó todo lo detallado en la primera entrega de AV1 – Sprint Review, que consiste desde el capítulo 1 hasta el punto 5.2.1.8. Team Collaboration Insights during Sprint. A esto se le agregó la primera versión de las conclusiones, la bibliografía y los anexos.</td>
+    </tr>
+    <tr>
+      <td><b>TB1</b></td>
+      <td>-</td>
+      <td>-</td>
+      <td>En proceso</td>
+    </tr>
+    <tr>
+      <td><b>AV2</b></td>
+      <td>-</td>
+      <td>-</td>
+      <td>En proceso</td>
+    </tr>
+    <tr>
+      <td><b>TF1</b></td>
+      <td>-</td>
+      <td>-</td>
+      <td>En proceso</td>
+    </tr>
+  </tbody>
+</table>
+
+<br><br><br><br>
+
 # Contenido
 **Capítulo I: Introducción**<br>
 &nbsp;&nbsp;&nbsp;&nbsp;*1.1. Startup Profile*<br>
