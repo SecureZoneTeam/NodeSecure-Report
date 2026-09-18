@@ -1566,7 +1566,7 @@ El Software Architecture Context Diagram presenta una visión general del sistem
 
 
 <div align="center">
-  <img src="images/context.png.png" alt="repositorio">
+  <img src="images/context.png" alt="repositorio">
 </div>
 
 
@@ -1578,7 +1578,7 @@ Los contenedores se organizan de acuerdo con las principales capacidades funcion
 
 
 <div align="center">
-  <img src="images/container.png.png" alt="repositorio">
+  <img src="images/container.png" alt="repositorio">
 </div>
 
 ### 4.6.4. Software Architecture Components Diagrams
@@ -1589,7 +1589,7 @@ Se detallan los componentes correspondientes a los diferentes servicios de la pl
 
 
 <div align="center">
-  <img src="images/AUTH.png.png" alt="repositorio">
+  <img src="images/AUTH.png" alt="repositorio">
 </div>
 
 
