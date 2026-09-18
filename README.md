@@ -1236,121 +1236,135 @@ Este flujo ilustra la gestión de preferencias y seguridad de la cuenta del usua
 
 # 5. Product Implementation, Validation & Deployment
 
+
 ## 5.1. Software Configuration Management
-La gestiÃƒÂ³n de configuraciÃƒÂ³n del software de NodeSecure permite organizar y controlar los artefactos generados durante el desarrollo, mantener trazabilidad de los cambios y facilitar el trabajo colaborativo. Para AV1, esta secciÃƒÂ³n documenta las herramientas empleadas, la administraciÃƒÂ³n del cÃƒÂ³digo fuente, las convenciones adoptadas y la configuraciÃƒÂ³n de despliegue de la primera versiÃƒÂ³n de la Landing Page.
+La gestión de configuración del software de NodeSecure permite organizar y controlar los artefactos generados durante el desarrollo, mantener trazabilidad de los cambios y facilitar el trabajo colaborativo. Para AV1, esta sección documenta las herramientas empleadas, la administración del código fuente, las convenciones adoptadas y la configuración de despliegue de la primera versión de la Landing Page.
+
 
 ### 5.1.1. Software Development Environment Configuration
 
+
 #### Project Management
+
 
 <table>
 <tr>
 <th>Producto</th>
-<th>PropÃƒÂ³sito</th>
+<th>Propósito</th>
 <th>Ruta</th>
 </tr>
 <tr>
 <td>GitHub Projects</td>
-<td>PlanificaciÃƒÂ³n y seguimiento de issues, user stories y tareas del equipo.</td>
+<td>Planificación y seguimiento de issues, user stories y tareas del equipo.</td>
 <td>https://github.com</td>
 </tr>
 </table>
 
+
 #### Requirements Management
+
 
 <table>
 <tr>
 <th>Producto</th>
-<th>PropÃƒÂ³sito</th>
+<th>Propósito</th>
 <th>Ruta</th>
 </tr>
 <tr>
 <td>GitHub</td>
-<td>GestiÃƒÂ³n de requerimientos mediante Issues y documentaciÃƒÂ³n versionada del proyecto.</td>
+<td>Gestión de requerimientos mediante Issues y documentación versionada del proyecto.</td>
 <td>https://github.com</td>
 </tr>
 <tr>
 <td>Markdown</td>
-<td>DocumentaciÃƒÂ³n estructurada de requerimientos y del informe dentro del repositorio.</td>
+<td>Documentación estructurada de requerimientos y del informe dentro del repositorio.</td>
 <td>Integrado en GitHub</td>
 </tr>
 </table>
 
+
 #### Product UX/UI Design
+
 
 <table>
 <tr>
 <th>Producto</th>
-<th>PropÃƒÂ³sito</th>
+<th>Propósito</th>
 <th>Ruta</th>
 </tr>
 <tr>
 <td>Figma</td>
-<td>DiseÃƒÂ±o de wireframes, mockups y prototipos de la interfaz de usuario.</td>
+<td>Diseño de wireframes, mockups y prototipos de la interfaz de usuario.</td>
 <td>https://figma.com</td>
 </tr>
 <tr>
 <td>UXPressia</td>
-<td>Mapeo de la experiencia del cliente, incluyendo User Personas, mapas de empatÃƒÂ­a y Customer Journey Maps.</td>
+<td>Mapeo de la experiencia del cliente, incluyendo User Personas, mapas de empatía y Customer Journey Maps.</td>
 <td>https://uxpressia.com/</td>
 </tr>
 <tr>
 <td>Miro</td>
-<td>Lienzo virtual colaborativo para investigaciÃƒÂ³n, brainstorming y organizaciÃƒÂ³n de ideas.</td>
+<td>Lienzo virtual colaborativo para investigación, brainstorming y organización de ideas.</td>
 <td>https://miro.com/</td>
 </tr>
 <tr>
 <td>PlantUML</td>
-<td>Herramienta para crear diagramas UML a partir de texto y documentar estructuras tÃƒÂ©cnicas.</td>
+<td>Herramienta para crear diagramas UML a partir de texto y documentar estructuras técnicas.</td>
 <td>https://plantuml.com/</td>
 </tr>
 </table>
 
+
 #### Software Development
 
-Se refiere al marco de trabajo y a las herramientas empleadas para la creaciÃƒÂ³n del producto digital. Durante AV1, el alcance de implementaciÃƒÂ³n se concentra en la Landing Page de NodeSecure.
+
+Se refiere al marco de trabajo y a las herramientas empleadas para la creación del producto digital. Durante AV1, el alcance de implementación se concentra en la Landing Page de NodeSecure.
+
 
 <table>
 <tr>
 <th>Producto</th>
-<th>DescripciÃƒÂ³n</th>
+<th>Descripción</th>
 <th>Ruta</th>
 </tr>
 <tr>
 <td>GitHub</td>
-<td>Plataforma de alojamiento y colaboraciÃƒÂ³n que permite gestionar el control de versiones y el trabajo en equipo.</td>
+<td>Plataforma de alojamiento y colaboración que permite gestionar el control de versiones y el trabajo en equipo.</td>
 <td>https://github.com</td>
 </tr>
 <tr>
 <td>Visual Studio Code</td>
-<td>Editor de cÃƒÂ³digo fuente ligero y extensible utilizado para el desarrollo de la Landing Page.</td>
+<td>Editor de código fuente ligero y extensible utilizado para el desarrollo de la Landing Page.</td>
 <td>https://code.visualstudio.com/</td>
 </tr>
 <tr>
 <td>HTML5</td>
-<td>Lenguaje de marcado utilizado para estructurar semÃƒÂ¡nticamente el contenido de la Landing Page.</td>
+<td>Lenguaje de marcado utilizado para estructurar semánticamente el contenido de la Landing Page.</td>
 <td>https://developer.mozilla.org/es/docs/Web/HTML</td>
 </tr>
 <tr>
 <td>CSS3</td>
-<td>Lenguaje de estilos utilizado para definir la presentaciÃƒÂ³n visual y la adaptaciÃƒÂ³n responsive.</td>
+<td>Lenguaje de estilos utilizado para definir la presentación visual y la adaptación responsive.</td>
 <td>https://developer.mozilla.org/es/docs/Web/CSS</td>
 </tr>
 <tr>
 <td>JavaScript</td>
-<td>Lenguaje utilizado para la interacciÃƒÂ³n y comportamiento dinÃƒÂ¡mico de la Landing Page.</td>
+<td>Lenguaje utilizado para la interacción y comportamiento dinámico de la Landing Page.</td>
 <td>https://developer.mozilla.org/es/docs/Web/JavaScript</td>
 </tr>
 </table>
 
+
 #### Software Testing
 
-El testing se considera como el proceso de evaluaciÃƒÂ³n del producto para verificar que la Landing Page cumpla los requerimientos definidos y funcione correctamente en los escenarios previstos.
+
+El testing se considera como el proceso de evaluación del producto para verificar que la Landing Page cumpla los requerimientos definidos y funcione correctamente en los escenarios previstos.
+
 
 <table>
 <tr>
 <th>Herramienta</th>
-<th>DescripciÃƒÂ³n</th>
+<th>Descripción</th>
 <th>Ruta</th>
 </tr>
 <tr>
@@ -1365,9 +1379,12 @@ El testing se considera como el proceso de evaluaciÃƒÂ³n del producto para v
 </tr>
 </table>
 
+
 ### 5.1.2. Source Code Management
 
-En esta secciÃƒÂ³n se describe la gestiÃƒÂ³n del cÃƒÂ³digo fuente (SCM, por sus siglas en inglÃƒÂ©s: Source Code Management), la cual permite registrar, organizar y controlar los cambios realizados durante el desarrollo de NodeSecure. GitHub se utiliza como plataforma central para la administraciÃƒÂ³n de repositorios y colaboraciÃƒÂ³n entre los integrantes.
+
+En esta sección se describe la gestión del código fuente (SCM, por sus siglas en inglés: Source Code Management), la cual permite registrar, organizar y controlar los cambios realizados durante el desarrollo de NodeSecure. GitHub se utiliza como plataforma central para la administración de repositorios y colaboración entre los integrantes.
+
 
 <table>
 <tr>
@@ -1384,14 +1401,17 @@ En esta secciÃƒÂ³n se describe la gestiÃƒÂ³n del cÃƒÂ³digo fuente (S
 </tr>
 </table>
 
+
 #### GitFlow
 
-NodeSecure adopta GitFlow como modelo de trabajo basado en ramas. La rama <code>main</code> contiene las versiones estables del producto; <code>develop</code> funciona como rama de integraciÃƒÂ³n; y las ramas <code>feature/&lt;nombre-de-seccion&gt;</code> se utilizan para desarrollar funcionalidades especÃƒÂ­ficas antes de integrarlas mediante Pull Requests.
+
+NodeSecure adopta GitFlow como modelo de trabajo basado en ramas. La rama <code>main</code> contiene las versiones estables del producto; <code>develop</code> funciona como rama de integración; y las ramas <code>feature/&lt;nombre-de-seccion&gt;</code> se utilizan para desarrollar funcionalidades específicas antes de integrarlas mediante Pull Requests.
+
 
 <table>
 <tr>
 <th>Rama</th>
-<th>PropÃƒÂ³sito</th>
+<th>Propósito</th>
 </tr>
 <tr>
 <td><code>main</code></td>
@@ -1399,17 +1419,20 @@ NodeSecure adopta GitFlow como modelo de trabajo basado en ramas. La rama <code>
 </tr>
 <tr>
 <td><code>develop</code></td>
-<td>Integra las funcionalidades desarrolladas antes de una liberaciÃƒÂ³n.</td>
+<td>Integra las funcionalidades desarrolladas antes de una liberación.</td>
 </tr>
 <tr>
 <td><code>feature/&lt;nombre-de-seccion&gt;</code></td>
-<td>Permite desarrollar una funcionalidad o secciÃƒÂ³n de manera aislada y luego integrarla a <code>develop</code>.</td>
+<td>Permite desarrollar una funcionalidad o sección de manera aislada y luego integrarla a <code>develop</code>.</td>
 </tr>
 </table>
 
+
 #### Conventional Commits
 
-Los mensajes de commit se estructuran mediante Conventional Commits para mantener un historial claro y facilitar la identificaciÃƒÂ³n del tipo de cambio realizado.
+
+Los mensajes de commit se estructuran mediante Conventional Commits para mantener un historial claro y facilitar la identificación del tipo de cambio realizado.
+
 
 <table>
 <tr>
@@ -1418,35 +1441,37 @@ Los mensajes de commit se estructuran mediante Conventional Commits para mantene
 </tr>
 <tr>
 <td><code>feat</code></td>
-<td>IncorporaciÃƒÂ³n de nuevas funcionalidades.</td>
+<td>Incorporación de nuevas funcionalidades.</td>
 </tr>
 <tr>
 <td><code>fix</code></td>
-<td>CorrecciÃƒÂ³n de errores.</td>
+<td>Corrección de errores.</td>
 </tr>
 <tr>
 <td><code>docs</code></td>
-<td>Modificaciones de documentaciÃƒÂ³n.</td>
+<td>Modificaciones de documentación.</td>
 </tr>
 <tr>
 <td><code>style</code></td>
-<td>Cambios de formato o estilo sin impacto en la lÃƒÂ³gica.</td>
+<td>Cambios de formato o estilo sin impacto en la lógica.</td>
 </tr>
 <tr>
 <td><code>refactor</code></td>
-<td>Mejoras internas del cÃƒÂ³digo sin aÃƒÂ±adir funcionalidades.</td>
+<td>Mejoras internas del código sin añadir funcionalidades.</td>
 </tr>
 <tr>
 <td><code>test</code></td>
-<td>CreaciÃƒÂ³n o modificaciÃƒÂ³n de pruebas.</td>
+<td>Creación o modificación de pruebas.</td>
 </tr>
 <tr>
 <td><code>chore</code></td>
-<td>ConfiguraciÃƒÂ³n o mantenimiento.</td>
+<td>Configuración o mantenimiento.</td>
 </tr>
 </table>
 
+
 **Ejemplos adaptados al proyecto NodeSecure:**
+
 
 text
 feat(landing): add hero section
@@ -1454,17 +1479,20 @@ feat(pricing): add NodeSecure subscription plans
 style(responsive): improve mobile layout
 docs(chapter-05): update sprint 1 evidence
 
+
 ### 5.1.3. Source Code Style Guide & Conventions
-Para garantizar coherencia, legibilidad y mantenibilidad en la Landing Page de NodeSecure, el equipo adopta convenciones de estilo para HTML, CSS y JavaScript. Los identificadores y comentarios del cÃƒÂ³digo se mantienen consistentes dentro del repositorio.
+Para garantizar coherencia, legibilidad y mantenibilidad en la Landing Page de NodeSecure, el equipo adopta convenciones de estilo para HTML, CSS y JavaScript. Los identificadores y comentarios del código se mantienen consistentes dentro del repositorio.
+
 
 #### HTML & CSS
-- Uso de minÃƒÂºsculas para nombres de elementos y atributos HTML.
+- Uso de minúsculas para nombres de elementos y atributos HTML.
 - Uso de comillas dobles para los atributos.
-- IndentaciÃƒÂ³n consistente de 2 espacios.
+- Indentación consistente de 2 espacios.
 - Clases CSS con nomenclatura kebab-case, por ejemplo `pricing-card` o `hero-section`.
 - Evitar estilos inline y centralizar los estilos en archivos CSS.
-- Incluir el atributo `alt` en las imÃƒÂ¡genes para favorecer la accesibilidad.
+- Incluir el atributo `alt` en las imágenes para favorecer la accesibilidad.
 - Aplicar media queries para adaptar la interfaz a desktop, tablet y mobile.
+
 
 #### JavaScript
 - Uso de `const` para variables que no se reasignan y `let` cuando el valor puede cambiar.
@@ -1474,22 +1502,29 @@ Para garantizar coherencia, legibilidad y mantenibilidad en la Landing Page de N
 - Mantener funciones y eventos con responsabilidades claras.
 - Usar punto y coma de manera consistente.
 
+
 #### Gherkin (Acceptance Criteria)
-- Uso de Given, When, Then y And en inglÃƒÂ©s.
-- Una sola acciÃƒÂ³n principal por paso When.
+- Uso de Given, When, Then y And en inglés.
+- Una sola acción principal por paso When.
 - Escenarios con nombres descriptivos del comportamiento esperado.
 - Uso de tablas Gherkin cuando sea necesario representar datos de ejemplo.
 
+
 #### Conventional Commits
-Todos los mensajes de commit del proyecto deben seguir la especificaciÃƒÂ³n de Conventional Commits.
+Todos los mensajes de commit del proyecto deben seguir la especificación de Conventional Commits.
+
 
 ### 5.1.4. Software Deployment Configuration
 
-Para AV1, el componente que debe estar implementado y desplegado es la primera versiÃƒÂ³n de la Landing Page de NodeSecure. El repositorio utilizado para este componente es NodeSecure-Landing-Page y el despliegue se realiza mediante GitHub Pages, siempre que esta configuraciÃƒÂ³n corresponda al despliegue real del equipo.
 
-#### CreaciÃƒÂ³n de la Landing Page
+Para AV1, el componente que debe estar implementado y desplegado es la primera versión de la Landing Page de NodeSecure. El repositorio utilizado para este componente es NodeSecure-Landing-Page y el despliegue se realiza mediante GitHub Pages, siempre que esta configuración corresponda al despliegue real del equipo.
 
-Se crea un repositorio desde la organizaciÃƒÂ³n SecureZoneTeam.
+
+#### Creación de la Landing Page
+
+
+Se crea un repositorio desde la organización SecureZoneTeam.
+
 
 <div align="center">
   <img src="images/cap 5/1.png" alt="repositorio">
@@ -1498,19 +1533,23 @@ Se crea un repositorio desde la organizaciÃƒÂ³n SecureZoneTeam.
 
 Agregamos a los miembros del equipo.
 
+
 Habilitamos GitHub Pages en la rama <code>main</code> y la ruta <code>/(root)</code>.
 
-#### ConfiguraciÃƒÂ³n de despliegue
+
+#### Configuración de despliegue
+
 
 Para la entrega, NodeSecure cuenta con una Landing Page desplegada mediante GitHub Pages.
+
 
 <table>
 <tr>
 <th>Componente</th>
 <th>Repositorio</th>
-<th>TecnologÃƒÂ­a</th>
+<th>Tecnología</th>
 <th>Entorno de despliegue</th>
-<th>URL pÃƒÂºblica</th>
+<th>URL pública</th>
 </tr>
 <tr>
 <td>Landing Page</td>
@@ -1521,22 +1560,29 @@ Para la entrega, NodeSecure cuenta con una Landing Page desplegada mediante GitH
 </tr>
 </table>
 
+
 ## 5.2. Landing Page, Services & Applications Implementation
 
-Esta secciÃƒÂ³n registra y explica el proceso de implementaciÃƒÂ³n, pruebas y despliegue de los productos digitales de NodeSecure organizados por Sprint. Para AV1 se documenta el Sprint 1, cuyo objetivo es entregar la primera versiÃƒÂ³n funcional de la Landing Page. La Landing Page constituye el primer punto de contacto del producto con los segmentos objetivo: dueÃƒÂ±os y administradores de PYMES, asÃƒÂ­ como responsables de seguridad y operaciones.
+
+Esta sección registra y explica el proceso de implementación, pruebas y despliegue de los productos digitales de NodeSecure organizados por Sprint. Para AV1 se documenta el Sprint 1, cuyo objetivo es entregar la primera versión funcional de la Landing Page. La Landing Page constituye el primer punto de contacto del producto con los segmentos objetivo: dueños y administradores de PYMES, así como responsables de seguridad y operaciones.
+
 
 ### 5.2.1. Sprint 1
 
+
 ### 5.2.1.1. Sprint Planning 1
 
-En esta secciÃƒÂ³n se documenta el Sprint Planning Meeting correspondiente al **Sprint 1**, donde el equipo de NodeSecure estableciÃƒÂ³ el objetivo del sprint, definiÃƒÂ³ el alcance de trabajo y distribuyÃƒÂ³ las tareas necesarias para desarrollar la primera versiÃƒÂ³n funcional de la Landing Page.
+
+En esta sección se documenta el Sprint Planning Meeting correspondiente al **Sprint 1**, donde el equipo de NodeSecure estableció el objetivo del sprint, definió el alcance de trabajo y distribuyó las tareas necesarias para desarrollar la primera versión funcional de la Landing Page.
+
 
 ### Sprint Planning
+
 
 <table>
 <tr>
 <th>Campo</th>
-<th>InformaciÃƒÂ³n</th>
+<th>Información</th>
 </tr>
 <tr>
 <td>Sprint #</td>
@@ -1544,7 +1590,7 @@ En esta secciÃƒÂ³n se documenta el Sprint Planning Meeting correspondiente a
 </tr>
 <tr>
 <td>Sprint Planning Background</td>
-<td>Primera versiÃƒÂ³n funcional de la Landing Page de NodeSecure</td>
+<td>Primera versión funcional de la Landing Page de NodeSecure</td>
 </tr>
 <tr>
 <td>Date</td>
@@ -1560,15 +1606,19 @@ En esta secciÃƒÂ³n se documenta el Sprint Planning Meeting correspondiente a
 </tr>
 <tr>
 <td>Prepared By</td>
-<td>Fernando SebastiÃƒÂ¡n PÃƒÂ©rez</td>
+<td>Fernando Sebastián Pérez</td>
 </tr>
 </table>
 
+
 ### Sprint Goal & User Stories
 
-El objetivo del Sprint 1 fue implementar y desplegar la primera versiÃƒÂ³n funcional de la Landing Page de NodeSecure, permitiendo comunicar de manera clara la propuesta de valor del producto.
 
-La Landing Page contempla la presentaciÃƒÂ³n de las principales caracterÃƒÂ­sticas de NodeSecure, sus planes, testimonios, informaciÃƒÂ³n del equipo, contenido audiovisual y medios de contacto.
+El objetivo del Sprint 1 fue implementar y desplegar la primera versión funcional de la Landing Page de NodeSecure, permitiendo comunicar de manera clara la propuesta de valor del producto.
+
+
+La Landing Page contempla la presentación de las principales características de NodeSecure, sus planes, testimonios, información del equipo, contenido audiovisual y medios de contacto.
+
 
 <table>
 <tr>
@@ -1577,7 +1627,7 @@ La Landing Page contempla la presentaciÃƒÂ³n de las principales caracterÃƒ
 </tr>
 <tr>
 <td>Sprint 1 Goal</td>
-<td>Implementar y desplegar la primera versiÃƒÂ³n funcional de la Landing Page de NodeSecure.</td>
+<td>Implementar y desplegar la primera versión funcional de la Landing Page de NodeSecure.</td>
 </tr>
 <tr>
 <td>Sprint 1 Velocity</td>
@@ -1589,9 +1639,12 @@ La Landing Page contempla la presentaciÃƒÂ³n de las principales caracterÃƒ
 </tr>
 </table>
 
+
 ### 5.2.1.2. Aspect Leaders and Collaborators
 
-Para el Sprint 1 se establecieron los responsables y colaboradores para los diferentes aspectos relacionados con la implementaciÃƒÂ³n de la Landing Page de NodeSecure. Esta distribuciÃƒÂ³n permitiÃƒÂ³ organizar las responsabilidades del equipo y coordinar el desarrollo de las diferentes secciones y actividades del sprint.
+
+Para el Sprint 1 se establecieron los responsables y colaboradores para los diferentes aspectos relacionados con la implementación de la Landing Page de NodeSecure. Esta distribución permitió organizar las responsabilidades del equipo y coordinar el desarrollo de las diferentes secciones y actividades del sprint.
+
 
 <table>
 <tr>
@@ -1604,7 +1657,7 @@ Para el Sprint 1 se establecieron los responsables y colaboradores para los dife
 <th>Deployment & QA</th>
 </tr>
 <tr>
-<td>Fernando SebastiÃƒÂ¡n PÃƒÂ©rez Bellido</td>
+<td>Fernando Sebastián Pérez Bellido</td>
 <td>Fern.bellido22</td>
 <td>L</td>
 <td>L</td>
@@ -1631,7 +1684,7 @@ Para el Sprint 1 se establecieron los responsables y colaboradores para los dife
 <td>C</td>
 </tr>
 <tr>
-<td>Ravello CÃƒÂ¡rdenas, Luciana Angielina</td>
+<td>Ravello Cárdenas, Luciana Angielina</td>
 <td>Lucyrcar-ID</td>
 <td>C</td>
 <td>C</td>
@@ -1641,24 +1694,33 @@ Para el Sprint 1 se establecieron los responsables y colaboradores para los dife
 </tr>
 </table>
 
+
 Leyenda:
+
 
 - L = Aspect Leader.
 - C = Collaborator.
 
+
 ### 5.2.1.3. Sprint Backlog 1
 
-El objetivo principal del Sprint 1 es implementar y desplegar la primera versiÃƒÂ³n funcional de la Landing Page de NodeSecure. Para alcanzar este objetivo, las User Stories seleccionadas fueron descompuestas en Engineering Tasks relacionadas con la estructura, diseÃƒÂ±o, contenido, responsividad y despliegue de la Landing Page.
+
+El objetivo principal del Sprint 1 es implementar y desplegar la primera versión funcional de la Landing Page de NodeSecure. Para alcanzar este objetivo, las User Stories seleccionadas fueron descompuestas en Engineering Tasks relacionadas con la estructura, diseño, contenido, responsividad y despliegue de la Landing Page.
+
 
 ### Sprint Backlog
 
-A continuaciÃƒÂ³n, se presenta el Sprint Backlog correspondiente al Sprint 1, incluyendo las User Stories seleccionadas, las tareas derivadas de cada una, su descripciÃƒÂ³n, estimaciÃƒÂ³n, responsable y estado de ejecuciÃƒÂ³n.
+
+A continuación, se presenta el Sprint Backlog correspondiente al Sprint 1, incluyendo las User Stories seleccionadas, las tareas derivadas de cada una, su descripción, estimación, responsable y estado de ejecución.
+
 
 > **Evidencia del Board:**  
 > [INSERTAR CAPTURA DEL BOARD DEL SPRINT 1]
 
-> **URL pÃƒÂºblico del Board:**  
+
+> **URL público del Board:**  
 > [INSERTAR URL DEL BOARD DEL SPRINT 1]
+
 
 <table>
 <tr>
@@ -1673,77 +1735,84 @@ A continuaciÃƒÂ³n, se presenta el Sprint Backlog correspondiente al Sprint 1
 <th>Status</th>
 </tr>
 
+
 <tr>
 <td>Sprint 1</td>
 <td>US21</td>
 <td>Visualizar landing page</td>
 <td>T01</td>
 <td>Estructura HTML y entorno de desarrollo</td>
-<td>Configurar el repositorio, definir la estructura semÃƒÂ¡ntica de HTML5 e implementar las variables globales CSS.</td>
+<td>Configurar el repositorio, definir la estructura semántica de HTML5 e implementar las variables globales CSS.</td>
 <td>4</td>
 <td>Anahua Ancachi, Liz Maribel</td>
 <td>[ESTADO REAL]</td>
 </tr>
+
 
 <tr>
 <td>Sprint 1</td>
 <td>US21</td>
 <td>Visualizar landing page</td>
 <td>T02</td>
-<td>ImplementaciÃƒÂ³n del Hero Section y Navbar</td>
-<td>Codificar la barra de navegaciÃƒÂ³n responsiva y estructurar el Hero con la propuesta de valor de NodeSecure.</td>
+<td>Implementación del Hero Section y Navbar</td>
+<td>Codificar la barra de navegación responsiva y estructurar el Hero con la propuesta de valor de NodeSecure.</td>
 <td>4</td>
 <td>Anahua Ancachi, Liz Maribel</td>
 <td>[ESTADO REAL]</td>
 </tr>
+
 
 <tr>
 <td>Sprint 1</td>
 <td>US21</td>
 <td>Visualizar landing page</td>
 <td>T03</td>
-<td>Desarrollo tÃƒÂ©cnico de la secciÃƒÂ³n Features</td>
-<td>Maquetar el sistema de grid con CSS Grid/Flexbox para presentar las caracterÃƒÂ­sticas principales de NodeSecure.</td>
+<td>Desarrollo técnico de la sección Features</td>
+<td>Maquetar el sistema de grid con CSS Grid/Flexbox para presentar las características principales de NodeSecure.</td>
 <td>4</td>
-<td>Fernando SebastiÃƒÂ¡n PÃƒÂ©rez Bellido</td>
+<td>Fernando Sebastián Pérez Bellido</td>
 <td>[ESTADO REAL]</td>
 </tr>
+
 
 <tr>
 <td>Sprint 1</td>
 <td>US23</td>
-<td>Visualizar informaciÃƒÂ³n del equipo</td>
+<td>Visualizar información del equipo</td>
 <td>T04</td>
-<td>MaquetaciÃƒÂ³n del mÃƒÂ³dulo About y Team</td>
-<td>Desarrollar las tarjetas visuales del equipo y asegurar su adaptaciÃƒÂ³n a vistas mÃƒÂ³viles.</td>
+<td>Maquetación del módulo About y Team</td>
+<td>Desarrollar las tarjetas visuales del equipo y asegurar su adaptación a vistas móviles.</td>
 <td>4</td>
-<td>Fernando SebastiÃƒÂ¡n PÃƒÂ©rez Bellido</td>
+<td>Fernando Sebastián Pérez Bellido</td>
 <td>[ESTADO REAL]</td>
 </tr>
+
 
 <tr>
 <td>Sprint 1</td>
 <td>US58</td>
 <td>Ver planes y precios desde landing page</td>
 <td>T05</td>
-<td>ImplementaciÃƒÂ³n de Pricing Cards</td>
-<td>Construir las tarjetas comparativas de los planes definidos para NodeSecure con sus beneficios y llamados a la acciÃƒÂ³n.</td>
+<td>Implementación de Pricing Cards</td>
+<td>Construir las tarjetas comparativas de los planes definidos para NodeSecure con sus beneficios y llamados a la acción.</td>
 <td>4</td>
-<td>Fernando SebastiÃƒÂ¡n PÃƒÂ©rez Bellido</td>
+<td>Fernando Sebastián Pérez Bellido</td>
 <td>[ESTADO REAL]</td>
 </tr>
+
 
 <tr>
 <td>Sprint 1</td>
 <td>US57</td>
 <td>Visualizar testimonios de la comunidad</td>
 <td>T06</td>
-<td>ConstrucciÃƒÂ³n del grid de Testimonials</td>
-<td>Implementar la secciÃƒÂ³n de testimonios con una cuadrÃƒÂ­cula adaptable, avatares y jerarquÃƒÂ­a tipogrÃƒÂ¡fica.</td>
+<td>Construcción del grid de Testimonials</td>
+<td>Implementar la sección de testimonios con una cuadrícula adaptable, avatares y jerarquía tipográfica.</td>
 <td>4</td>
-<td>Fernando SebastiÃƒÂ¡n PÃƒÂ©rez Bellido</td>
+<td>Fernando Sebastián Pérez Bellido</td>
 <td>[ESTADO REAL]</td>
 </tr>
+
 
 <tr>
 <td>Sprint 1</td>
@@ -1751,62 +1820,72 @@ A continuaciÃƒÂ³n, se presenta el Sprint Backlog correspondiente al Sprint 1
 <td>Contactar desde la landing page</td>
 <td>T07</td>
 <td>Desarrollo de Contacto y Footer</td>
-<td>Implementar la secciÃƒÂ³n de contacto y el footer corporativo con enlaces y canales de comunicaciÃƒÂ³n.</td>
+<td>Implementar la sección de contacto y el footer corporativo con enlaces y canales de comunicación.</td>
 <td>4</td>
 <td>Sandoval Aiquipa, Kelber Yamir</td>
 <td>[ESTADO REAL]</td>
 </tr>
+
 
 <tr>
 <td>Sprint 1</td>
 <td>US22</td>
 <td>Visualizar video del producto</td>
 <td>T08</td>
-<td>IntegraciÃƒÂ³n de Video y Media</td>
-<td>Integrar el video About-the-Product y optimizar la carga de los recursos estÃƒÂ¡ticos.</td>
+<td>Integración de Video y Media</td>
+<td>Integrar el video About-the-Product y optimizar la carga de los recursos estáticos.</td>
 <td>4</td>
 <td>Sandoval Aiquipa, Kelber Yamir</td>
 <td>[ESTADO REAL]</td>
 </tr>
+
 
 <tr>
 <td>Sprint 1</td>
 <td>US21</td>
 <td>Visualizar landing page</td>
 <td>T09</td>
-<td>RefactorizaciÃƒÂ³n de Media Queries</td>
+<td>Refactorización de Media Queries</td>
 <td>Realizar pruebas cross-browser y aplicar media queries (CSS) en toda la Landing Page para garantizar la vista mobile.</td>
 <td>5</td>
-<td>Ravello CÃƒÂ¡rdenas, Luciana Angielina</td>
+<td>Ravello Cárdenas, Luciana Angielina</td>
 <td>[ESTADO REAL]</td>
 </tr>
+
 
 <tr>
 <td>Sprint 1</td>
 <td>US21</td>
 <td>Visualizar landing page</td>
 <td>T10</td>
-<td>ConfiguraciÃƒÂ³n de CI/CD en GitHub Pages</td>
-<td>Configurar las acciones de despliegue, habilitar GitHub Pages sobre la rama main y validar rutas en producciÃƒÂ³n.</td>
+<td>Configuración de CI/CD en GitHub Pages</td>
+<td>Configurar las acciones de despliegue, habilitar GitHub Pages sobre la rama main y validar rutas en producción.</td>
 <td>5</td>
-<td>Ravello CÃƒÂ¡rdenas, Luciana Angielina</td>
+<td>Ravello Cárdenas, Luciana Angielina</td>
 <td>[ESTADO REAL]</td>
 </tr>
 
+
 </table>
+
 
 Leyenda del estado:
 
+
 - To-do: tarea pendiente de iniciar.
 - In-Process: tarea actualmente en desarrollo.
-- To-Review: tarea terminada pendiente de revisiÃƒÂ³n.
+- To-Review: tarea terminada pendiente de revisión.
 - Done: tarea completada y validada.
+
 
 ### 5.2.1.4. Development Evidence for Sprint Review
 
-Durante el Sprint 1, el equipo trabajÃƒÂ³ colaborativamente en el repositorio **NodeSecure-Landing-Page**, aplicando GitFlow y utilizando la convenciÃƒÂ³n de Conventional Commits para registrar los cambios realizados durante la implementaciÃƒÂ³n de la Landing Page.
 
-Los commits presentados a continuaciÃƒÂ³n corresponden a los cambios relacionados con la construcciÃƒÂ³n, modificaciÃƒÂ³n, correcciÃƒÂ³n y configuraciÃƒÂ³n de la Landing Page durante el Sprint 1. La informaciÃƒÂ³n se presenta a partir del historial real de commits del repositorio.
+Durante el Sprint 1, el equipo trabajó colaborativamente en el repositorio **NodeSecure-Landing-Page**, aplicando GitFlow y utilizando la convención de Conventional Commits para registrar los cambios realizados durante la implementación de la Landing Page.
+
+
+Los commits presentados a continuación corresponden a los cambios relacionados con la construcción, modificación, corrección y configuración de la Landing Page durante el Sprint 1. La información se presenta a partir del historial real de commits del repositorio.
+
 
 <table>
 <tr>
@@ -1818,295 +1897,362 @@ Los commits presentados a continuaciÃƒÂ³n corresponden a los cambios relacio
 <th>Committed On (Date)</th>
 </tr>
 
+
 <tr>
 <td>NodeSecure-Landing-Page</td>
 <td>main</td>
 <td>752da92</td>
-<td>fix: se arreglÃƒÂ³ caracteristicas de planes</td>
-<td>Ã¢â‚¬â€</td>
+<td>fix: se arregló caracteristicas de planes</td>
+<td>—</td>
 <td>2026-09-11</td>
 </tr>
+
 
 <tr>
 <td>NodeSecure-Landing-Page</td>
 <td>main</td>
 <td>571582a</td>
 <td>Delete CNAME</td>
-<td>Ã¢â‚¬â€</td>
+<td>—</td>
 <td>2026-09-11</td>
 </tr>
+
 
 <tr>
 <td>NodeSecure-Landing-Page</td>
 <td>main</td>
 <td>7bff9d3</td>
 <td>Create CNAME</td>
-<td>Ã¢â‚¬â€</td>
+<td>—</td>
 <td>2026-09-11</td>
 </tr>
+
 
 <tr>
 <td>NodeSecure-Landing-Page</td>
 <td>develop</td>
 <td>2a5c484</td>
 <td>feat: perfiles de los creadores</td>
-<td>Ã¢â‚¬â€</td>
+<td>—</td>
 <td>2026-09-11</td>
 </tr>
+
 
 <tr>
 <td>NodeSecure-Landing-Page</td>
 <td>develop</td>
 <td>4fef969</td>
-<td>fix: se arreglo tamaÃƒÂ±o para profiles photos</td>
-<td>Ã¢â‚¬â€</td>
+<td>fix: se arreglo tamaño para profiles photos</td>
+<td>—</td>
 <td>2026-09-11</td>
 </tr>
+
 
 <tr>
 <td>NodeSecure-Landing-Page</td>
 <td>develop</td>
 <td>9971778</td>
 <td>fix: adjust testimonial images</td>
-<td>Ã¢â‚¬â€</td>
+<td>—</td>
 <td>2026-09-11</td>
 </tr>
+
 
 <tr>
 <td>NodeSecure-Landing-Page</td>
 <td>develop</td>
 <td>ebeef36</td>
 <td>feat: implementacion de la seccion footer</td>
-<td>Ã¢â‚¬â€</td>
+<td>—</td>
 <td>2026-09-11</td>
 </tr>
+
 
 <tr>
 <td>NodeSecure-Landing-Page</td>
 <td>develop</td>
 <td>201a1af</td>
 <td>fear: implementacion de la seccion de contacto</td>
-<td>Ã¢â‚¬â€</td>
+<td>—</td>
 <td>2026-09-11</td>
 </tr>
+
 
 <tr>
 <td>NodeSecure-Landing-Page</td>
 <td>develop</td>
 <td>7b671bd</td>
 <td>feat: implementacion de testimonios</td>
-<td>Ã¢â‚¬â€</td>
+<td>—</td>
 <td>2026-09-11</td>
 </tr>
+
 
 <tr>
 <td>NodeSecure-Landing-Page</td>
 <td>develop</td>
 <td>4fb63cf</td>
 <td>feat: implementacion de la seccion del team</td>
-<td>Ã¢â‚¬â€</td>
+<td>—</td>
 <td>2026-09-11</td>
 </tr>
+
 
 <tr>
 <td>NodeSecure-Landing-Page</td>
 <td>develop</td>
 <td>2df77df</td>
 <td>On feature/landingpage-pricing: cambios team</td>
-<td>Ã¢â‚¬â€</td>
+<td>—</td>
 <td>2026-09-11</td>
 </tr>
+
 
 <tr>
 <td>NodeSecure-Landing-Page</td>
 <td>develop</td>
 <td>902683c</td>
-<td>index on feature/landingpage-pricing: 6233530 fix: se arreglÃƒÂ³ estilos</td>
-<td>Ã¢â‚¬â€</td>
+<td>index on feature/landingpage-pricing: 6233530 fix: se arregló estilos</td>
+<td>—</td>
 <td>2026-09-11</td>
 </tr>
+
 
 <tr>
 <td>NodeSecure-Landing-Page</td>
 <td>develop</td>
 <td>6233530</td>
-<td>fix: se arreglÃƒÂ³ estilos</td>
-<td>Ã¢â‚¬â€</td>
+<td>fix: se arregló estilos</td>
+<td>—</td>
 <td>2026-09-11</td>
 </tr>
+
 
 <tr>
 <td>NodeSecure-Landing-Page</td>
 <td>develop</td>
 <td>5955457</td>
 <td>Revert "Feature/landingpage pricing"</td>
-<td>Ã¢â‚¬â€</td>
+<td>—</td>
 <td>2026-09-10</td>
 </tr>
+
 
 <tr>
 <td>NodeSecure-Landing-Page</td>
 <td>develop</td>
 <td>14e59c9</td>
 <td>feat: implementacion de los planes en la landing page</td>
-<td>Ã¢â‚¬â€</td>
+<td>—</td>
 <td>2026-09-10</td>
 </tr>
+
 
 <tr>
 <td>NodeSecure-Landing-Page</td>
 <td>develop</td>
 <td>d9c9916</td>
 <td>feat: implementacion de la seccion de informacion en la landing page</td>
-<td>Ã¢â‚¬â€</td>
+<td>—</td>
 <td>2026-09-10</td>
 </tr>
+
 
 <tr>
 <td>NodeSecure-Landing-Page</td>
 <td>develop</td>
 <td>9eddac7</td>
 <td>feat: implement landing page header and hero</td>
-<td>Ã¢â‚¬â€</td>
+<td>—</td>
 <td>2026-09-10</td>
 </tr>
+
 
 <tr>
 <td>NodeSecure-Landing-Page</td>
 <td>develop</td>
 <td>44a571f</td>
 <td>feat: creacion inicial de la estructura de la landing page</td>
-<td>Ã¢â‚¬â€</td>
+<td>—</td>
 <td>2026-09-10</td>
 </tr>
+
 
 <tr>
 <td>NodeSecure-Landing-Page</td>
 <td>develop</td>
 <td>602656d</td>
 <td>--INSERT-- ASDcrear</td>
-<td>Ã¢â‚¬â€</td>
+<td>—</td>
 <td>2026-09-09</td>
 </tr>
+
 
 <tr>
 <td>NodeSecure-Landing-Page</td>
 <td>develop</td>
 <td>46cb562</td>
-<td>chore: inicializaciÃƒÂ³n de la landing pae</td>
-<td>Ã¢â‚¬â€</td>
+<td>chore: inicialización de la landing pae</td>
+<td>—</td>
 <td>2026-09-09</td>
 </tr>
 
+
 </table>
+
 
 ### Repository
 
+
 - NodeSecure-Landing-Page: https://github.com/SecureZoneTeam/NodeSecure-Landing-Page
+
 
 ### 5.2.1.5. Execution Evidence for Sprint Review
 
-Al concluir el Sprint 1, el equipo logrÃƒÂ³ implementar y desplegar la primera versiÃƒÂ³n funcional de la Landing Page de **NodeSecure**. La pÃƒÂ¡gina presenta la propuesta de valor del producto y las principales secciones definidas en el Sprint Backlog, incluyendo Hero, Navbar, caracterÃƒÂ­sticas de la soluciÃƒÂ³n, About, Team, Pricing, Testimonials, Contact y Footer.
 
-A continuaciÃƒÂ³n, se presentan las evidencias de ejecuciÃƒÂ³n de las principales funcionalidades y secciones implementadas durante el Sprint 1.
+Al concluir el Sprint 1, el equipo logró implementar y desplegar la primera versión funcional de la Landing Page de **NodeSecure**. La página presenta la propuesta de valor del producto y las principales secciones definidas en el Sprint Backlog, incluyendo Hero, Navbar, características de la solución, About, Team, Pricing, Testimonials, Contact y Footer.
+
+
+A continuación, se presentan las evidencias de ejecución de las principales funcionalidades y secciones implementadas durante el Sprint 1.
+
 
 #### Hero & Navbar
 
-La siguiente evidencia muestra la secciÃƒÂ³n inicial de la Landing Page, donde se presenta la propuesta de valor de NodeSecure junto con la barra de navegaciÃƒÂ³n.
+
+La siguiente evidencia muestra la sección inicial de la Landing Page, donde se presenta la propuesta de valor de NodeSecure junto con la barra de navegación.
+
 
 <div align="center">
   <img src="images/cap 5/1.png" alt="repositorio">
 </div>
 
+
 Figura 1. Hero y Navbar de la Landing Page de NodeSecure.
+
 
 #### Features & Solution
 
-La siguiente evidencia muestra la secciÃƒÂ³n de caracterÃƒÂ­sticas y soluciÃƒÂ³n, donde se presentan las principales funcionalidades y beneficios de NodeSecure.
+
+La siguiente evidencia muestra la sección de características y solución, donde se presentan las principales funcionalidades y beneficios de NodeSecure.
+
 
 <div align="center">
   <img src="images/cap 5/2.png" alt="repositorio">
 </div>
 
-Figura 2. SecciÃƒÂ³n de caracterÃƒÂ­sticas de NodeSecure.
+
+Figura 2. Sección de características de NodeSecure.
+
 
 #### About
 
-La siguiente evidencia muestra la secciÃƒÂ³n About, donde se presenta informaciÃƒÂ³n relacionada con NodeSecure y su propuesta de soluciÃƒÂ³n.
+
+La siguiente evidencia muestra la sección About, donde se presenta información relacionada con NodeSecure y su propuesta de solución.
+
 
 <div align="center">
   <img src="images/cap 5/2.png" alt="repositorio">
 </div>
 
-Figura 3. SecciÃƒÂ³n About de NodeSecure.
+
+Figura 3. Sección About de NodeSecure.
+
 
 #### Pricing
 
-La siguiente evidencia muestra la secciÃƒÂ³n de planes y precios disponibles para la soluciÃƒÂ³n NodeSecure.
+
+La siguiente evidencia muestra la sección de planes y precios disponibles para la solución NodeSecure.
+
 
 <div align="center">
   <img src="images/cap 5/4.png" alt="repositorio">
 </div>
 
-Figura 4. SecciÃƒÂ³n de planes y precios de NodeSecure.
+
+Figura 4. Sección de planes y precios de NodeSecure.
+
 
 #### Testimonials
 
-La siguiente evidencia muestra la secciÃƒÂ³n de testimonios incorporada en la Landing Page.
+
+La siguiente evidencia muestra la sección de testimonios incorporada en la Landing Page.
+
 
 <div align="center">
   <img src="images/cap 5/5.png" alt="repositorio">
 </div>
 
-Figura 5. SecciÃƒÂ³n de testimonios de NodeSecure.
+
+Figura 5. Sección de testimonios de NodeSecure.
+
 
 #### Team
 
-La siguiente evidencia muestra la secciÃƒÂ³n correspondiente al equipo responsable del desarrollo de NodeSecure.
+
+La siguiente evidencia muestra la sección correspondiente al equipo responsable del desarrollo de NodeSecure.
+
 
 <div align="center">
   <img src="images/cap 5/3.png" alt="repositorio">
 </div>
 
-Figura 6. SecciÃƒÂ³n Team de NodeSecure.
+
+Figura 6. Sección Team de NodeSecure.
+
 
 #### Contact
 
-La siguiente evidencia muestra la secciÃƒÂ³n de contacto, mediante la cual los visitantes pueden encontrar los canales disponibles para comunicarse con el equipo.
+
+La siguiente evidencia muestra la sección de contacto, mediante la cual los visitantes pueden encontrar los canales disponibles para comunicarse con el equipo.
+
 
 <div align="center">
   <img src="images/cap 5/6.png" alt="repositorio">
 </div>
 
-Figura 7. SecciÃƒÂ³n de contacto de NodeSecure.
+
+Figura 7. Sección de contacto de NodeSecure.
+
 
 #### Footer
 
+
 La siguiente evidencia muestra el Footer de la Landing Page, incluyendo los elementos y enlaces correspondientes.
+
 
 <div align="center">
   <img src="images/cap 5/6.png" alt="repositorio">
 </div>
 
+
 Figura 8. Footer de la Landing Page de NodeSecure.
+
 
 #### Responsive Design
 
-La siguiente evidencia demuestra el comportamiento responsive de la Landing Page en dispositivos con diferentes tamaÃƒÂ±os de pantalla.
+
+La siguiente evidencia demuestra el comportamiento responsive de la Landing Page en dispositivos con diferentes tamaños de pantalla.
+
 
 <div align="center">
   <img src="images/cap 5/7.png" alt="repositorio">
 </div>
 
+
 ### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
-Durante el Sprint 1, el alcance de implementaciÃƒÂ³n se concentrÃƒÂ³ en el desarrollo y despliegue de la primera versiÃƒÂ³n funcional de la **Landing Page de NodeSecure**.
 
-En este Sprint no se implementaron servicios REST asociados al backend del sistema, por lo que no se cuenta con endpoints desarrollados que requieran documentaciÃƒÂ³n mediante Swagger/OpenAPI.
+Durante el Sprint 1, el alcance de implementación se concentró en el desarrollo y despliegue de la primera versión funcional de la **Landing Page de NodeSecure**.
 
-La documentaciÃƒÂ³n de servicios REST serÃƒÂ¡ incorporada en los siguientes Sprints, cuando se implementen los componentes correspondientes del backend de NodeSecure.
+
+En este Sprint no se implementaron servicios REST asociados al backend del sistema, por lo que no se cuenta con endpoints desarrollados que requieran documentación mediante Swagger/OpenAPI.
+
+
+La documentación de servicios REST será incorporada en los siguientes Sprints, cuando se implementen los componentes correspondientes del backend de NodeSecure.
+
 
 ### Services Documentation
+
 
 <table>
 <tr>
@@ -2136,18 +2282,23 @@ La documentaciÃƒÂ³n de servicios REST serÃƒÂ¡ incorporada en los siguien
 </tr>
 </table>
 
+
 ### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
-Durante el Sprint 1 se realizÃƒÂ³ el despliegue de la primera versiÃƒÂ³n funcional de la **Landing Page de NodeSecure** mediante **GitHub Pages**.
 
-El despliegue permite acceder pÃƒÂºblicamente a la Landing Page desde un navegador web, utilizando la versiÃƒÂ³n estable disponible en la rama `main` del repositorio correspondiente.
+Durante el Sprint 1 se realizó el despliegue de la primera versión funcional de la **Landing Page de NodeSecure** mediante **GitHub Pages**.
+
+
+El despliegue permite acceder públicamente a la Landing Page desde un navegador web, utilizando la versión estable disponible en la rama `main` del repositorio correspondiente.
+
 
 ### Deployment Configuration
+
 
 <table>
 <tr>
 <th>Elemento</th>
-<th>ConfiguraciÃƒÂ³n</th>
+<th>Configuración</th>
 </tr>
 <tr>
 <td>Software Product</td>
@@ -2171,44 +2322,62 @@ El despliegue permite acceder pÃƒÂºblicamente a la Landing Page desde un nav
 </tr>
 </table>
 
+
 ### Deployment Evidence
 
-La siguiente evidencia muestra la configuraciÃƒÂ³n del despliegue de la Landing Page mediante GitHub Pages.
+
+La siguiente evidencia muestra la configuración del despliegue de la Landing Page mediante GitHub Pages.
+
 
 <div align="center">
   <img src="images/cap 5/9.png" alt="repositorio">
 </div>
 
-Figura 10. ConfiguraciÃƒÂ³n del despliegue de NodeSecure Landing Page mediante GitHub Pages.
 
-La siguiente evidencia muestra la Landing Page de NodeSecure disponible desde su URL pÃƒÂºblica despuÃƒÂ©s del despliegue.
+Figura 10. Configuración del despliegue de NodeSecure Landing Page mediante GitHub Pages.
+
+
+La siguiente evidencia muestra la Landing Page de NodeSecure disponible desde su URL pública después del despliegue.
+
 
 <div align="center">
   <img src="images/cap 5/8.png" alt="repositorio">
 </div>
 
-Figura 11. Landing Page de NodeSecure desplegada y accesible pÃƒÂºblicamente.
+
+Figura 11. Landing Page de NodeSecure desplegada y accesible públicamente.
+
 
 ### Public Access
 
-La versiÃƒÂ³n desplegada de la Landing Page puede ser consultada mediante el siguiente enlace:
+
+La versión desplegada de la Landing Page puede ser consultada mediante el siguiente enlace:
+
 
 NodeSecure Landing Page:  
 https://securezoneteam.github.io/NodeSecure-Landing-Page/
 
-El despliegue permite validar que la primera versiÃƒÂ³n funcional desarrollada durante el Sprint 1 se encuentra disponible para consulta desde un navegador web.
+
+El despliegue permite validar que la primera versión funcional desarrollada durante el Sprint 1 se encuentra disponible para consulta desde un navegador web.
+
 
 ### 5.2.1.8. Team Collaboration Insights during Sprint
 
-Durante el Sprint 1, el equipo de NodeSecure trabajÃƒÂ³ de manera colaborativa para desarrollar la primera versiÃƒÂ³n funcional de la Landing Page. La organizaciÃƒÂ³n del trabajo se realizÃƒÂ³ mediante la distribuciÃƒÂ³n de responsabilidades entre los integrantes y el uso de GitHub como plataforma para gestionar el cÃƒÂ³digo fuente y coordinar la integraciÃƒÂ³n de los cambios.
 
-El desarrollo de la Landing Page se realizÃƒÂ³ de manera incremental, asignando diferentes responsabilidades relacionadas con las principales secciones del producto, como Hero & Navbar, Features & About, Pricing & Testimonials, Team & Contact y Deployment & QA.
+Durante el Sprint 1, el equipo de NodeSecure trabajó de manera colaborativa para desarrollar la primera versión funcional de la Landing Page. La organización del trabajo se realizó mediante la distribución de responsabilidades entre los integrantes y el uso de GitHub como plataforma para gestionar el código fuente y coordinar la integración de los cambios.
 
-Asimismo, el equipo utilizÃƒÂ³ ramas de trabajo para desarrollar funcionalidades especÃƒÂ­ficas y posteriormente integrar los cambios en las ramas correspondientes. Esta dinÃƒÂ¡mica permitiÃƒÂ³ mantener una separaciÃƒÂ³n entre las funcionalidades durante su desarrollo y facilitar su posterior integraciÃƒÂ³n.
 
-Durante el Sprint tambiÃƒÂ©n se utilizaron mensajes de commit para registrar los cambios realizados en el repositorio. Los commits permitieron mantener la trazabilidad de las funcionalidades implementadas y de las correcciones realizadas durante el desarrollo de la Landing Page.
+El desarrollo de la Landing Page se realizó de manera incremental, asignando diferentes responsabilidades relacionadas con las principales secciones del producto, como Hero & Navbar, Features & About, Pricing & Testimonials, Team & Contact y Deployment & QA.
+
+
+Asimismo, el equipo utilizó ramas de trabajo para desarrollar funcionalidades específicas y posteriormente integrar los cambios en las ramas correspondientes. Esta dinámica permitió mantener una separación entre las funcionalidades durante su desarrollo y facilitar su posterior integración.
+
+
+Durante el Sprint también se utilizaron mensajes de commit para registrar los cambios realizados en el repositorio. Los commits permitieron mantener la trazabilidad de las funcionalidades implementadas y de las correcciones realizadas durante el desarrollo de la Landing Page.
+
 
 ### Collaboration Practices
+
 
 <table>
 <tr>
@@ -2221,11 +2390,11 @@ Durante el Sprint tambiÃƒÂ©n se utilizaron mensajes de commit para registrar
 </tr>
 <tr>
 <td>Version Control</td>
-<td>Se utilizÃƒÂ³ Git y GitHub para gestionar las diferentes versiones del cÃƒÂ³digo fuente.</td>
+<td>Se utilizó Git y GitHub para gestionar las diferentes versiones del código fuente.</td>
 </tr>
 <tr>
 <td>Branching</td>
-<td>Se utilizaron ramas para desarrollar funcionalidades especÃƒÂ­ficas antes de integrarlas al flujo principal del proyecto.</td>
+<td>Se utilizaron ramas para desarrollar funcionalidades específicas antes de integrarlas al flujo principal del proyecto.</td>
 </tr>
 <tr>
 <td>Commits</td>
@@ -2237,7 +2406,11 @@ Durante el Sprint tambiÃƒÂ©n se utilizaron mensajes de commit para registrar
 </tr>
 <tr>
 <td>Deployment</td>
-<td>El equipo coordinÃƒÂ³ la configuraciÃƒÂ³n y validaciÃƒÂ³n del despliegue de la Landing Page mediante GitHub Pages.</td>
+<td>El equipo coordinó la configuración y validación del despliegue de la Landing Page mediante GitHub Pages.</td>
 </tr>
 </table>
+
+
+
+
 
