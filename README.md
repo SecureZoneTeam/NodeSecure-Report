@@ -99,85 +99,84 @@ Iván Robles Fernandez<br><br>
 <br><br><br><br>
 
 # Contenido
-**Capítulo I: Introducción**<br>
-&nbsp;&nbsp;&nbsp;&nbsp;*1.1. Startup Profile*<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.1.1. Descripción de la Startup<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.1.2. Perfiles de integrantes del equipo<br>
-&nbsp;&nbsp;&nbsp;&nbsp;*1.2. Solution Profile*<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.2.1 Antecedentes y problemática<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.2.2 Lean UX Process.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.2.2.1. Lean UX Problem Statements.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.2.2.2. Lean UX Assumptions.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.2.2.3. Lean UX Hypothesis Statements.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.2.2.4. Lean UX Canvas.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;1.3. Segmentos objetivo.<br><br>
-**Capítulo II: Requirements Elicitation & Analysis**<br>
-&nbsp;&nbsp;&nbsp;&nbsp;2.1. Competidores.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.1.1. Análisis competitivo.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.1.2. Estrategias y tácticas frente a competidores.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;2.2. Entrevistas.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2.1. Diseño de entrevistas.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2.2. Registro de entrevistas.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2.3. Análisis de entrevistas.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;2.3. Needfinding.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.3.1. User Personas.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.3.2. User Task Matrix.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.3.3. User Journey Mapping.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.3.4. Empathy Mapping.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;2.4. Big Picture Event Storming.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;2.5. Ubiquitous Language.<br><br>
-**Capítulo III: Requirements Specification**<br>
-&nbsp;&nbsp;&nbsp;&nbsp;3.1. User Stories.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;3.2. Impact Mapping.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;3.3. Product Backlog.<br><br>
-**Capítulo IV: Product Design**<br>
-&nbsp;&nbsp;&nbsp;&nbsp;4.1. Style Guidelines.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.1. General Style Guidelines.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.2. Web Style Guidelines.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;4.2. Information Architecture.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2.1. Organization Systems.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2.2. Labeling Systems.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2.3. SEO Tags and Meta Tags<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2.4. Searching Systems.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2.5. Navigation Systems.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;4.3. Landing Page UI Design.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.3.1. Landing Page Wireframe.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.3.2. Landing Page Mock-up.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;4.4. Web Applications UX/UI Design.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.4.1. Web Applications Wireframes.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.4.2. Web Applications Wireflow Diagrams.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.4.2. Web Applications Mock-ups.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.4.3. Web Applications User Flow Diagrams.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;4.5. Web Applications Prototyping.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;4.6. Domain-Driven Software Architecture.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.6.1. Design-Level Event Storming.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.6.2. Software Architecture Context Diagram.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.6.3. Software Architecture Container Diagrams.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.6.4. Software Architecture Components Diagrams.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;4.7. Software Object-Oriented Design.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.7.1. Class Diagrams.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;4.8. Database Design.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.8.1. Database Diagrams.<br><br>
-**Capítulo V: Product Implementation, Validation & Deployment**<br>
-&nbsp;&nbsp;&nbsp;&nbsp;5.1. Software Configuration Management.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.1.1. Software Development Environment Configuration.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.1.2. Source Code Management.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.1.3. Source Code Style Guide & Conventions.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.1.4. Software Deployment Configuration.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;5.2. Landing Page, Services & Applications Implementation.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1. Sprint 1<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.1. Sprint Planning 1.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.2. Aspect Leaders and Collaborators.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.3. Sprint Backlog 1.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.4. Development Evidence for Sprint Review.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.5. Execution Evidence for Sprint Review.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.6. Services Documentation Evidence for Sprint Review.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.7. Software Deployment Evidence for Sprint Review.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.8. Team Collaboration Insights during Sprint.<br>
-
-Conclusiones<br>
-Bibliografía<br>
-Anexos<br><br><br>
+[**Capítulo I: Introducción**](#capítulo-i-introducción)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;*[1.1. Startup Profile](#11-startup-profile)*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.1.2. Perfiles de integrantes del equipo](#112-integrantes-del-equipo)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;*[1.2. Solution Profile](#12-solution-profile)*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.2.2 Lean UX Process](#122-lean-ux-process)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statement)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statement)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[1.3. Segmentos objetivo](#13-segmentos-objetivo)<br><br>
+[**Capítulo II: Requirements Elicitation & Analysis**](#capítulo-ii-requirements-elicitation--analysis)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[2.1. Competidores](#21-competidores)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.1.1. Análisis competitivo](#211-análisis-competitivo)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[2.2. Entrevistas](#221-diseño-de-entrevistas)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.2.2. Registro de entrevistas](#segmento-01-dueños-y-administradores-de-almacén)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[2.3. Needfinding](#23-needfinding)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.3.1. User Personas](#231-user-personas)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.3.2. User Task Matrix](#232-user-task-matrix)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.3.3. User Journey Mapping](#233-user-journey-mapping)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.3.4. Empathy Mapping](#234-empathy-mapping)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[2.4. Big Picture Event Storming](#24-big-picture-event-storming)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[2.5. Ubiquitous Language](#25-ubiquitous-language)<br><br>
+[**Capítulo III: Requirements Specification**](#capítulo-iii-requirements-specification)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[3.1. User Stories](#31-user-stories)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[3.2. Impact Mapping](#32-impact-mapping)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[3.3. Product Backlog](#33-product-backlog)<br><br>
+[**Capítulo IV: Product Design**](#capítulo-iv-product-design)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[4.1. Style Guidelines](#41-style-guidelines)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.1.1. General Style Guidelines](#411-general-style-guidelines)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.1.2. Web Style Guidelines](#412-web-style-guidelines)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[4.2. Information Architecture](#42-information-architecture)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.2.1. Organization Systems](#421-organization-systems)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.2.2. Labeling Systems](#422-labeling-systems)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.2.4. Searching Systems](#424-searching-systems)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.2.5. Navigation Systems](#425-navigation-systems)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[4.3. Landing Page UI Design](#43-landing-page-ui-design)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[4.5. Web Applications Prototyping](#45-web-applications-prototyping)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.6.1. Design-Level Event Storming](#461-design-level-event-storming)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-diagram)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.6.3. Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[4.7. Software Object-Oriented Design](#47-software-object-oriented-design)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.7.1. Class Diagrams](#471-class-diagrams)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[4.8. Database Design](#48-database-design)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.8.1. Database Diagrams](#481-database-diagrams)<br><br>
+[**Capítulo V: Product Implementation, Validation & Deployment**](#5-product-implementation-validation--deployment)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[5.1. Software Configuration Management](#51-software-configuration-management)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.1.2. Source Code Management](#512-source-code-management)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.2.1. Sprint 1](#521-sprint-1)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)<br><br>
+[Conclusiones](#conclusiones)<br>
+[Bibliografía](#bibliografía)<br>
+[Anexos](#anexos)<br><br><br>
 
 
 # Student Outcome
@@ -198,7 +197,7 @@ En esta sección se detalla la contribución de cada integrante del equipo para 
     <td valign="top">
       <b>AV1</b><br><br>
       <b>Anahua Ancachi, Liz Maribel:</b> Condujo y moderó oralmente las entrevistas semiestructuradas con los usuarios del segmento operativo (Segmento 2), transmitiendo las preguntas de manera clara y adaptando el lenguaje técnico a situaciones cotidianas de almacén. Asimismo, expuso y sustentó en las reuniones de equipo los hallazgos del Needfinding y los perfiles de User Personas desarrollados para el Capítulo II.<br><br>
-      <b>Sandoval Aiquipa, Kelber Yamir:</b><br><br>
+      <b>Sandoval Aiquipa, Kelber Yamir:</b> Expuso de manera fluida y persuasiva la lógica de interacción y los diseños de UX/UI durante las sesiones de revisión. Justificó las decisiones de diseño (uso de Dark Mode, diagramas de flujos y mockups) ante el equipo y en el video de exposición, empleando un tono adecuado y profesional para alinear la visión técnica con los objetivos del negocio.<br><br>
       <b>Pérez Bellido, Fernando Sebastián:</b><br><br>
       <b>Ravello Cárdenas, Luciana Angielina:</b> Sustentó verbalmente las bases del modelo de negocio, segmentos objetivo e hipótesis del Lean UX para el Capítulo I. Realizó aportes en un lenguaje claro y fácil de entender durante las reuniones de coordinación. También contribuyó con las entrevistas, expresándose de manera clara.
     </td>
@@ -226,7 +225,7 @@ En esta sección se detalla la contribución de cada integrante del equipo para 
     <td valign="top">
       <b>AV1</b><br><br>
       <b>Anahua Ancachi, Liz Maribel:</b> Redactó las secciones principales del Capítulo II (Requirements Elicitation & Analysis), documentando el análisis competitivo, el diseño y registro de entrevistas, y el análisis de variables. Estructuró por escrito el Needfinding (necesidades identificadas), los artefactos UX (User Personas, User Task Matrix, User Journey Mapping y Empathy Mapping) de forma clara, técnica y profesional para la evaluación del informe.<br><br>
-      <b>Sandoval Aiquipa, Kelber Yamir:</b><br><br>
+      <b>Sandoval Aiquipa, Kelber Yamir:</b> Redactó exhaustivamente la sección de Product Design (Capítulo 4.4), documentando los User Flows, Wireflows y Mockups. Empleó un enfoque de redacción técnica orientada al dominio de negocio (Domain-Driven Design), utilizando términos logísticos y operativos precisos para describir correctamente la funcionalidad de cada interfaz.<br><br>
       <b>Pérez Bellido, Fernando Sebastián:</b><br><br>
       <b>Ravello Cárdenas, Luciana Angielina:</b> Redactó las secciones principales del Capítulo I (Startup Profile, proceso Lean UX y Segmentos Objetivo). Utilizó un lenguaje escrito adecuado y estructurado para documentar la información, asegurando su comprensión tanto para la evaluación académica como para un público logístico-comercial.
     </td>
@@ -729,15 +728,15 @@ Cuando ocurre un descuadre de stock, ¿qué tan fácil o difícil es identificar
 <table>
   <tr>
     <td width="20%"><strong>Entrevistador</strong></td>
-    <td>[Nombre del Entrevistador]</td>
+    <td>Sandoval Aiquipa, Kelber Yamir</td>
   </tr>
   <tr>
     <td><strong>Entrevistado</strong></td>
-    <td>Francisco Robles Mendoza</td>
+    <td>Jose Miguel</td>
   </tr>
   <tr>
     <td><strong>Edad</strong></td>
-    <td>38 años</td>
+    <td>28 años</td>
   </tr>
   <tr>
     <td><strong>Distrito</strong></td>
@@ -754,6 +753,39 @@ Cuando ocurre un descuadre de stock, ¿qué tan fácil o difícil es identificar
   <tr>
     <td><strong>Resumen</strong></td>
     <td>Administra un almacén de suministros eléctricos. Menciona que las mermas no explicadas al mes representan una pérdida de hasta el 8% al trimestre. Registra inventarios en Excel e inspeccionan con cámaras analógicas fijas. Expresa que revisar horas de video para hallar un faltante es ineficiente. Considera de enorme utilidad recibir alertas en el celular ante eventos anómalos y contar con la fecha y hora (<em>timestamp</em>) exacta para auditar las grabaciones directamente.</td>
+  </tr>
+</table>
+
+<br>
+
+<table>
+  <tr>
+    <td width="20%"><strong>Entrevistador</strong></td>
+    <td>Sandoval Aiquipa, Kelber Yamir</td>
+  </tr>
+  <tr>
+    <td><strong>Entrevistado</strong></td>
+    <td>Diego Campoblanco</td>
+  </tr>
+  <tr>
+    <td><strong>Edad</strong></td>
+    <td>25 años</td>
+  </tr>
+  <tr>
+    <td><strong>Distrito</strong></td>
+    <td>San Juan de Miraflores, Lima</td>
+  </tr>
+  <tr>
+    <td><strong>Evidencia</strong></td>
+    <td><a href="https://canva.link/9w4klnpwqeadxqt" target="_blank">Ver Evidencia</a></td>
+  </tr>
+  <tr>
+    <td><strong>Inicio</strong></td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td><strong>Resumen</strong></td>
+    <td>Dueña de una distribuidora de abarrotes al por mayor. Presenta problemas con el "robo hormiga" y desbalances de productos no anotados a tiempo. Actualmente utiliza un cuaderno físico y control visual. Destaca que recibir alertas remotas en el celular le daría un control absoluto para supervisar su negocio a distancia y cruzar la hora de apertura de puertas con las ventas realizadas.</td>
   </tr>
 </table>
 
@@ -2685,7 +2717,7 @@ Durante el Sprint también se utilizaron mensajes de commit para registrar los c
 <tr>
 <td>Branching</td>
 <td>Se utilizaron ramas para desarrollar funcionalidades específicas antes de integrarlas al flujo principal del proyecto.</td>
-</tr>
+</tr> 
 <tr>
 <td>Commits</td>
 <td>Se registraron los cambios mediante commits para mantener la trazabilidad del desarrollo.</td>
@@ -2700,7 +2732,14 @@ Durante el Sprint también se utilizaron mensajes de commit para registrar los c
 </tr>
 </table>
 
+# Conclusiones
 
+Al finalizar este primer avance (AV1) y el primer Sprint del proyecto SafeZone, el equipo ha llegado a las siguientes conclusiones fundamentales:
+    
+1. **Validación de la Problemática Logística:** A través de la investigación de mercado y el análisis de competidores, se ha confirmado que la "merma desconocida" y el "robo hormiga" representan puntos de dolor críticos y costosos para el sector comercial en el Perú. La dependencia de sistemas pasivos (como la revisión manual de CCTV) genera un desgaste operativo severo, lo que valida la necesidad de una solución como NodeSecure, capaz de integrar evidencia física IoT (sensores) con el registro digital de inventario en tiempo real.
 
+2. **Efectividad del Enfoque Lean UX:** La aplicación del proceso Lean UX y el desarrollo de entrevistas (Needfinding) han sido determinantes para definir los segmentos objetivo. Al empatizar tanto con los dueños de PYMES (enfoque gerencial) como con los operarios de almacén (enfoque de campo), se logró estructurar un Product Backlog alineado a necesidades reales. Se determinó que el personal operativo requiere rapidez extrema en el registro (menos de 30 segundos), mientras que la gerencia exige auditoría basada en marcas de tiempo (*timestamps*) inalterables.
 
+3. **Arquitectura de Información y Diseño B2B:** El diseño de la experiencia de usuario (UX) y la interfaz (UI) para la plataforma web y móvil ha demostrado que la adopción de un modelo B2B en "Dark Mode" no responde únicamente a una tendencia estética, sino a una necesidad operativa. Este esquema reduce la fatiga visual en entornos de monitoreo prolongado, mientras que el diseño responsivo basado en *bottom-sheets* y la estricta jerarquía de información previenen errores humanos al realizar tareas críticas, como la asignación de permisos y el control de discrepancias.
 
+4. **Éxito del Despliegue Inicial (Sprint 1):** La adopción de GitFlow, el uso de Conventional Commits y las prácticas de configuración y despliegue continuo (CI/CD) han permitido al equipo trabajar de forma organizada y paralela. El resultado de este esfuerzo técnico se materializa en el despliegue exitoso de la Landing Page de NodeSecure en GitHub Pages, logrando comunicar eficientemente nuestra propuesta de valor al mercado y sentando una base tecnológica sólida para los próximos Sprints de desarrollo de la plataforma core.
