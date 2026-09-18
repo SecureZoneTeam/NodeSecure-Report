@@ -1556,6 +1556,44 @@ El flujo incluye validaciones preventivas: si intenta apagar todas las alertas o
 
 ![User Flow - User Goal 7](images/ug7-userflow.png)
 
+## 4.6. Domain-Driven Software Architecture
+
+En esta sección se presenta la arquitectura de software de **NextPath** desde el enfoque de Domain-Driven Design (DDD), mostrando la organización del sistema, sus principales dominios, componentes y las relaciones entre los diferentes elementos que participan en la solución.
+
+### 4.6.1. Software Architecture Context Diagram
+
+El Software Architecture Context Diagram presenta una visión general del sistema NextPath y su interacción con los principales actores y sistemas externos. El diagrama permite identificar a los usuarios que utilizan la plataforma y los servicios externos con los que el sistema se comunica, como el servicio de pagos, el servicio de correo electrónico y la API de inteligencia artificial.
+
+
+<div align="center">
+  <img src="images/context.png.png" alt="repositorio">
+</div>
+
+
+### 4.6.3. Software Architecture Container Diagrams
+
+Los Software Architecture Container Diagrams muestran la estructura interna de la plataforma NextPath a nivel de contenedores. Se representan la aplicación web, el API Gateway y los diferentes servicios que conforman la solución, además de las bases de datos y los sistemas externos con los que interactúan.
+
+Los contenedores se organizan de acuerdo con las principales capacidades funcionales de la plataforma, incluyendo autenticación, evaluaciones, planificación de carrera, facturación, comunidad, servicios de asesoría y Analytics & AI.
+
+
+<div align="center">
+  <img src="images/container.png.png" alt="repositorio">
+</div>
+
+### 4.6.4. Software Architecture Components Diagrams
+
+Los Software Architecture Components Diagrams presentan con mayor nivel de detalle la estructura interna de los principales servicios de NextPath. Cada diagrama descompone un contenedor en sus componentes principales y muestra las relaciones existentes entre ellos, así como las interacciones con bases de datos y sistemas externos.
+
+Se detallan los componentes correspondientes a los diferentes servicios de la plataforma, permitiendo identificar las responsabilidades específicas dentro de cada contenedor y comprender cómo se procesan las funcionalidades del sistema.
+
+
+<div align="center">
+  <img src="images/AUTH.png.png" alt="repositorio">
+</div>
+
+
+
 # 5. Product Implementation, Validation & Deployment
 
 
