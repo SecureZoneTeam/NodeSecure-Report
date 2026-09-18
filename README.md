@@ -1350,6 +1350,68 @@ Este flujo ilustra la gestión de preferencias y seguridad de la cuenta del usua
 **Diagrama Visual (Wireflow):**
 ![Visual Wireflow - User Goal 7](images/ug7-wireflow-visual.png)
 
+### 4.4.3. Web Applications Mock-ups
+
+**Desktop**
+
+Los mockups de la versión de escritorio presentan un sistema de diseño moderno y coherente, con una paleta de colores oscuros que ayuda a reducir la fatiga visual durante largos periodos de monitoreo. La arquitectura de información se organiza a través de una barra lateral persistente que facilita la navegación entre módulos clave como el panel de almacenes, el historial de eventos y la configuración. Además, el uso consistente de tipografías legibles y componentes estandarizados, como tarjetas y botones en tonos azules, permite mantener una jerarquía visual clara y fácil de seguir.
+
+Con respecto a usabilidad e inclusión, la interfaz prioriza la prevención de errores y la retroalimentación constante. Las acciones críticas están protegidas mediante ventanas emergentes con alertas de alto contraste que advierten sobre sus consecuencias, mientras que los estados del sistema combinan iconos y texto para asegurar una comprensión clara. Esto permite que la información sea accesible para distintos tipos de usuarios y garantiza que tanto los flujos principales como los de error sean intuitivos.
+
+#### Módulo de Autenticación y Acceso
+![Login y Recuperación](images/desktop-mockup-01.png)
+
+#### Módulo de Suscripción (Onboarding)
+![Selección de Plan y Pago](images/desktop-mockup-02.png)
+
+#### Módulo de Monitoreo y Auditoría en Tiempo Real
+![Dashboard y Monitoreo](images/desktop-mockup-03.png)
+![Filtros de Trazabilidad](images/desktop-mockup-04.png)
+![Detalle de Merma](images/desktop-mockup-05.png)
+
+#### Módulo de Gestión de Dispositivos IoT
+![Nodos y Sensores](images/desktop-mockup-06.png)
+![Vinculación de Dispositivos](images/desktop-mockup-07.png)
+
+#### Módulo de Equipo y Accesos Logísticos
+![Lista de Personal](images/desktop-mockup-08.png)
+![Gestión de Permisos](images/desktop-mockup-09.png)
+
+#### Escalabilidad Enterprise y Configuración
+![Cotizador Enterprise](images/desktop-mockup-10.png)
+![Preferencias y Cierre de Sesión](images/desktop-mockup-11.png)
+![Salida Segura](images/desktop-mockup-12.png)
+
+---
+
+**Mobile**
+
+La versión móvil mantiene coherencia con el diseño de escritorio, conservando el modo oscuro para asegurar comodidad visual y una experiencia profesional en cualquier contexto. La arquitectura de información se adapta a pantallas pequeñas mediante una barra de navegación inferior persistente, facilitando el acceso con el pulgar a módulos clave como Almacenes, Dispositivos IoT e Historial. Además, los tamaños de texto, tarjetas y áreas táctiles han sido optimizados para cumplir con estándares de accesibilidad, permitiendo una interacción fluida incluso en movimiento o con una sola mano.
+
+A nivel interactivo, se priorizan patrones propios del entorno móvil, como el uso de bottom sheets para opciones secundarias y modales para confirmaciones críticas, evitando menús complejos. También, se incorporan indicadores visuales claros para estados del sistema, lo que permite identificar alertas de forma inmediata. Este enfoque no solo responde a las limitaciones del dispositivo, sino que mejora la experiencia general al ofrecer navegación intuitiva, retroalimentación constante y un diseño accesible para distintos tipos de usuarios.
+
+#### Módulo de Autenticación y Onboarding (Mobile)
+![Login y Suscripción Inicial](images/mobile-mockup-01.png)
+
+#### Módulo de Monitoreo de Almacenes (Mobile)
+![Gestión de Sucursales](images/mobile-mockup-02.png)
+
+#### Módulo de Dispositivos IoT (Mobile)
+![Hardware y Conectividad](images/mobile-mockup-03.png)
+
+#### Módulo de Auditoría y Trazabilidad (Mobile)
+![Historial y Mermas](images/mobile-mockup-04.png)
+
+#### Módulo de Equipo y Accesos Logísticos (Mobile)
+![Gestión de Personal](images/mobile-mockup-05.png)
+
+#### Escalabilidad Enterprise y Facturación (Mobile)
+![Renovación y Pagos](images/mobile-mockup-06.png)
+
+#### Configuración, Alertas y Salida (Mobile)
+![Preferencias de Cuenta](images/mobile-mockup-07.png)
+![Cierre de Sesión Seguro](images/mobile-mockup-08.png)
+
 # 5. Product Implementation, Validation & Deployment
 
 
