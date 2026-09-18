@@ -134,6 +134,76 @@ Bibliografía<br>
 Anexos<br><br><br>
 
 
+# Student Outcome
+En esta sección se detalla la contribución de cada integrante del equipo para explicar cómo las actividades y entregables del trabajo final han ayudado a desarrollar las dimensiones del Student Outcome correspondiente a la competencia de Comunicación. En esta sección se describe la relación entre el outcome, sus criterios y el trabajo colaborativo e individual realizado a lo largo del proyecto. Esto se complementa con lo reflejado en los testimonios expuestos que forman parte del video acerca del equipo.
+
+<table>
+<thead>
+  <tr>
+    <th width="30%">Criterio específico</th>
+    <th width="40%">Acciones realizadas</th>
+    <th width="30%">Conclusiones</th>
+  </tr>
+</thead>
+<tbody>
+  <!-- Criterio 3.c1 -->
+  <tr>
+    <td rowspan="4" valign="top"><b>3.c1. Comunica oralmente con efectividad a diferentes rangos de audiencia</b></td>
+    <td valign="top">
+      <b>AV1</b><br><br>
+      <b>Anahua Ancachi, Liz Maribel:</b> Condujo y moderó oralmente las entrevistas semiestructuradas con los usuarios del segmento operativo (Segmento 2), transmitiendo las preguntas de manera clara y adaptando el lenguaje técnico a situaciones cotidianas de almacén. Asimismo, expuso y sustentó en las reuniones de equipo los hallazgos del Needfinding y los perfiles de User Personas desarrollados para el Capítulo II.<br><br>
+      <b>Sandoval Aiquipa, Kelber Yamir:</b><br><br>
+      <b>Pérez Bellido, Fernando Sebastián:</b><br><br>
+      <b>Ravello Cárdenas, Luciana Angielina:</b> Sustentó verbalmente las bases del modelo de negocio, segmentos objetivo e hipótesis del Lean UX para el Capítulo I. Realizó aportes en un lenguaje claro y fácil de entender durante las reuniones de coordinación. También contribuyó con las entrevistas, expresándose de manera clara.
+    </td>
+    <td valign="top">
+      <b>AV1</b><br><br>
+      En esta primera entrega, como equipo concluimos que ha sido muy importante mantener una comunicación oral activa mediante debates y reuniones de coordinación para alinear la visión del proyecto. Hemos podido compartir nuestras ideas individuales de forma efectiva para definir la problemática y la solución adaptándonos para asegurarnos de que todos estemos en sintonía respecto a los objetivos del producto.
+    </td>
+  </tr>
+  <tr>
+    <td><b>TB1</b></td>
+    <td><b>TB1</b></td>
+  </tr>
+  <tr>
+    <td><b>AV2</b></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><b>VF1</b></td>
+    <td><b>VF1</b></td>
+  </tr>
+
+  <!-- Criterio 3.c2 -->
+  <tr>
+    <td rowspan="4" valign="top"><b>3.c2. Comunica por escrito con efectividad a diferentes rangos de audiencia</b></td>
+    <td valign="top">
+      <b>AV1</b><br><br>
+      <b>Anahua Ancachi, Liz Maribel:</b> Redactó las secciones principales del Capítulo II (Requirements Elicitation & Analysis), documentando el análisis competitivo, el diseño y registro de entrevistas, y el análisis de variables. Estructuró por escrito el Needfinding (necesidades identificadas), los artefactos UX (User Personas, User Task Matrix, User Journey Mapping y Empathy Mapping) de forma clara, técnica y profesional para la evaluación del informe.<br><br>
+      <b>Sandoval Aiquipa, Kelber Yamir:</b><br><br>
+      <b>Pérez Bellido, Fernando Sebastián:</b><br><br>
+      <b>Ravello Cárdenas, Luciana Angielina:</b> Redactó las secciones principales del Capítulo I (Startup Profile, proceso Lean UX y Segmentos Objetivo). Utilizó un lenguaje escrito adecuado y estructurado para documentar la información, asegurando su comprensión tanto para la evaluación académica como para un público logístico-comercial.
+    </td>
+    <td valign="top">
+      <b>AV1</b><br><br>
+      Llegamos a la conclusión de que la colaboración en esta etapa nos permitió determinar un estándar de redacción sólido y profesional para el informe. Se consiguió levantar el contexto del sistema IoT de manera estructurada y presentar el valor de nuestra propuesta tecnológica de forma clara y entendible.
+    </td>
+  </tr>
+  <tr>
+    <td><b>TB1</b></td>
+    <td><b>TB1</b></td>
+  </tr>
+  <tr>
+    <td><b>AV2</b></td>
+    <td><b>AV2</b></td>
+  </tr>
+  <tr>
+    <td><b>VF1</b></td>
+    <td><b>VF1</b></td>
+  </tr>
+</tbody>
+</table>
+
 # Capítulo I: Introducción
 
 ## 1.1. Startup Profile
