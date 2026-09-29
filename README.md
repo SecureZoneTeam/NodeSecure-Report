@@ -392,7 +392,7 @@
   #### 1.2.2.3. Lean UX Hypothesis Statement
 
   **Hypothesis Statement 1:**<br>
-  Creemos que lograremos incrementar la cantidad de empresas suscritas y mejorar la retención de nuestros clientes
+  Creemos que lograremos incrementar las suscripciones en un 20% y mantener una retención mensual del 90% en nuestros clientes
 
   Si los dueños de PYMES y jefes de seguridad
 
@@ -402,7 +402,7 @@
 
 
   **Hypothesis Statement 2:**<br>
-  Creemos que lograremos reducir drásticamente las pérdidas económicas causadas por robos internos y accesos no autorizados en los almacenes
+  Creemos que lograremos reducir las pérdidas económicas causadas por robos internos en un 25% respecto al trimestre anterior (baseline).
 
   Si los jefes de operaciones y dueños de negocios
 
@@ -412,7 +412,7 @@
 
 
   **Hypothesis Statement 3:**<br>
-  Creemos que lograremos brindar un servicio estable y confiable que asegure la retención de clientes del sector corporativo
+  Creemos que lograremos brindar un servicio que asegure una tasa de retención mensual del 95% en clientes del sector corporativo
 
   Si los administradores, almaceneros y auditores
 
@@ -422,7 +422,7 @@
 
 
   **Hypothesis Statement 4:**<br>
-  Creemos que lograremos que las empresas modernicen su seguridad y pasen de un enfoque reactivo a uno puramente preventivo
+  Creemos que lograremos que el 70% de los clientes en frase de prueba accedan a modernizar su seguridad definitavemente y pasen de un enfoque reactivo a uno puramente preventivo
 
   Si el personal de seguridad y auditoría
   Obtiene notificaciones críticas exactas y una marca de tiempo confiable para buscar evidencias precisas en sus cámaras CCTV
@@ -445,7 +445,7 @@
         <td valign="top">
           <b>5. Solutions</b><br>
           <ul>
-            <li>Plataforma Web SPA (Vue.js + ASP.NET Core) para gestión de inventario, movimientos y stock.</li>
+            <li>Plataforma Web SPA (Angular + Spring Boot) para gestión de inventario, movimientos y stock.</li>
             <li>Integración IoT pasiva (ESP32 con sensores magnéticos en puertas) para registrar aperturas físicas.</li>
             <li>Motor de detección automática de discrepancias entre aperturas físicas y registros.</li>
             <li>Registro histórico con timestamps para servir de índice en auditorías con CCTV.</li>
@@ -489,7 +489,7 @@
         </td>
         <td valign="top">
           <b>8. What’s the least amount of work we need to do to learn the next most important thing?</b><br><br>
-          Desarrollar un MVP funcional compuesto por un backend en ASP.NET Core, una SPA en Vue.js y un dispositivo ESP32 con sensor magnético de puerta para simular el flujo completo de detección de discrepancias.
+          Desarrollar un prototipo interactivo de alta fidelidad (Fake Door / Mockup) de la plataforma web que simule la recepción de alertas y timestamps exactos. Presentaremos este prototipo a 5 dueños de almacenes en sesiones de entrevista para medir si la funcionalidad del 'timestamp' es suficiente para que expresen intención de compra, sin necesidad de programar el backend ni el hardware aún.
         </td>
       </tr>
     </tbody>
