@@ -2227,12 +2227,16 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
   A continuación, se presenta el Sprint Backlog correspondiente al Sprint 1, incluyendo las User Stories seleccionadas, las tareas derivadas de cada una, su descripción, estimación, responsable y estado de ejecución.
 
 
-  > **Evidencia del Board:**  
-  > [INSERTAR CAPTURA DEL BOARD DEL SPRINT 1]
+  > **Evidencia del Board:** 
+  <td align="center">
+        <img src="images/sprint-foto.png" width="600" alt="Foto de Fernando">
+      </td> 
+  > 
 
 
   > **URL público del Board:**  
-  > [INSERTAR URL DEL BOARD DEL SPRINT 1]
+  > https://trello.com/invite/b/6abd94bbe1e1eec939dcade9/ATTI12f3a79b4ca902bd0acb9f10e00d442f36C802DA/nodesecure
+  
 
 
   <table>
