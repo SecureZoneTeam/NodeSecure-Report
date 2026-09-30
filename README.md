@@ -2143,12 +2143,12 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
   <td>Implementar y desplegar la primera versión funcional de la Landing Page de NodeSecure.</td>
   </tr>
   <tr>
-  <td>Sprint 1 Velocity</td>
-  <td>4 horas</td>
+  <td>Esfuerzo / Capacidad del equipo</td>
+  <td>42 horas</td>
   </tr>
   <tr>
   <td>Sum of Estimation (Hours)</td>
-  <td>4 horas</td>
+  <td>42 horas</td>
   </tr>
   </table>
 
@@ -2258,7 +2258,7 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
   <td>Configurar el repositorio, definir la estructura semántica de HTML5 e implementar las variables globales CSS.</td>
   <td>4</td>
   <td>Anahua Ancachi, Liz Maribel</td>
-  <td>[ESTADO REAL]</td>
+  <td>Done</td>
   </tr>
 
 
@@ -2271,7 +2271,7 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
   <td>Codificar la barra de navegación responsiva y estructurar el Hero con la propuesta de valor de NodeSecure.</td>
   <td>4</td>
   <td>Anahua Ancachi, Liz Maribel</td>
-  <td>[ESTADO REAL]</td>
+  <td>Done</td>
   </tr>
 
 
@@ -2284,7 +2284,7 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
   <td>Maquetar el sistema de grid con CSS Grid/Flexbox para presentar las características principales de NodeSecure.</td>
   <td>4</td>
   <td>Fernando Sebastián Pérez Bellido</td>
-  <td>[ESTADO REAL]</td>
+  <td>Done</td>
   </tr>
 
 
@@ -2297,7 +2297,7 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
   <td>Desarrollar las tarjetas visuales del equipo y asegurar su adaptación a vistas móviles.</td>
   <td>4</td>
   <td>Fernando Sebastián Pérez Bellido</td>
-  <td>[ESTADO REAL]</td>
+  <td>Done</td>
   </tr>
 
 
@@ -2310,7 +2310,7 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
   <td>Construir las tarjetas comparativas de los planes definidos para NodeSecure con sus beneficios y llamados a la acción.</td>
   <td>4</td>
   <td>Fernando Sebastián Pérez Bellido</td>
-  <td>[ESTADO REAL]</td>
+  <td>Done</td>
   </tr>
 
 
@@ -2323,7 +2323,7 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
   <td>Implementar la sección de testimonios con una cuadrícula adaptable, avatares y jerarquía tipográfica.</td>
   <td>4</td>
   <td>Fernando Sebastián Pérez Bellido</td>
-  <td>[ESTADO REAL]</td>
+  <td>Done</td>
   </tr>
 
 
@@ -2336,7 +2336,7 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
   <td>Implementar la sección de contacto y el footer corporativo con enlaces y canales de comunicación.</td>
   <td>4</td>
   <td>Sandoval Aiquipa, Kelber Yamir</td>
-  <td>[ESTADO REAL]</td>
+  <td>Done</td>
   </tr>
 
 
@@ -2349,7 +2349,7 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
   <td>Integrar el video About-the-Product y optimizar la carga de los recursos estáticos.</td>
   <td>4</td>
   <td>Sandoval Aiquipa, Kelber Yamir</td>
-  <td>[ESTADO REAL]</td>
+  <td>Done</td>
   </tr>
 
 
@@ -2362,7 +2362,7 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
   <td>Realizar pruebas cross-browser y aplicar media queries (CSS) en toda la Landing Page para garantizar la vista mobile.</td>
   <td>5</td>
   <td>Ravello Cárdenas, Luciana Angielina</td>
-  <td>[ESTADO REAL]</td>
+  <td>Done</td>
   </tr>
 
 
@@ -2375,7 +2375,7 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
   <td>Configurar las acciones de despliegue, habilitar GitHub Pages sobre la rama main y validar rutas en producción.</td>
   <td>5</td>
   <td>Ravello Cárdenas, Luciana Angielina</td>
-  <td>[ESTADO REAL]</td>
+  <td>Done</td>
   </tr>
 
 
