@@ -218,8 +218,6 @@
       <td><b>VF1</b></td>
       <td><b>VF1</b></td>
     </tr>
-
-    <!-- Criterio 3.c2 -->
     <tr>
       <td rowspan="4" valign="top"><b>3.c2. Comunica por escrito con efectividad a diferentes rangos de audiencia</b></td>
       <td valign="top">
