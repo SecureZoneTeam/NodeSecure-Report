@@ -342,7 +342,7 @@
 
   **Lo que los productos y servicios existentes no logran abordar es** la profunda desconexión entre los movimientos teóricos del sistema y los eventos físicos que realmente ocurren, sumado a la fuerte barrera económica que hace que las empresas rechacen tecnologías avanzadas al percibirlas como excesivamente costosas y complejas de implementar.
 
-  **Nuestro producto** (NodeSecure) **abordará esta brecha mediante** una plataforma web centralizada de control de inventario inteligente que permite monitorear los espacios, controlar accesos y gestionar la información en tiempo real, ya que utiliza tecnología IoT como fuente de evidencia física. El sistema valida y contrasta de forma automática las actividades registradas con cada apertura física realizada, identificando inconsistencias inmediatamente, optimizando la trazabilidad del inventario y enviando alertas en tiempo real.
+  **Nuestro producto** (NodeSecure) **abordará esta brecha mediante** una plataforma web centralizada de control de inventario inteligente que permite monitorear los espacios, controlar accesos y gestionar la información en tiempo real, ya que utiliza tecnología IoT como fuente de evidencia física. El sistema contrastará de forma automática las actividades registradas con cada apertura física realizada, identificando inconsistencias inmediatamente, para ayudar a optimizar a la trazabilidad del inventario.
 
   **Nuestro enfoque inicial será** los dueños y administradores de PYMES, así como también los jefes de seguridad y operaciones del sector logístico.
 
@@ -360,7 +360,7 @@
 
   **Business Outcome Assumptions (Supuestos de Resultados de Negocio)**
   - Creemos que el éxito de SafeZone se reflejará en un incremento sostenido de empresas suscritas a la plataforma NodeSecure a través de sus distintos planes.
-  - Asumimos que garantizaremos una alta tasa de retención, particularmente de clientes corporativos, siempre que la plataforma web sea estable, confiable y precisa en la emisión de notificaciones en tiempo real.
+  - Asumimos que garantizaremos una alta tasa de retención, particularmente de clientes corporativos, siempre que la plataforma web mantenga una alta disponibilidad y precisión en la emisión de notificaciones en tiempo real.
   - Creemos que las empresas que implementen nuestro producto lograrán reducir de forma significativa sus mermas económicas y pérdidas provocadas por el "robo hormiga" y los accesos no autorizados.
   - Asumimos que el uso de nuestro sistema impulsará un cambio en la forma en que las empresas y comercios gestionan su seguridad, logrando que las empresas migren de un modelo de vigilancia reactiva a una gestión de seguridad preventiva.
 
@@ -444,7 +444,7 @@
           <b>5. Solutions</b><br>
           <ul>
             <li>Plataforma Web SPA (Angular + Spring Boot) para gestión de inventario, movimientos y stock.</li>
-            <li>Integración IoT pasiva (ESP32 con sensores magnéticos en puertas) para registrar aperturas físicas.</li>
+            <li>Integración IoT inicial (Uso de un microcontrolador ESP32 con sensores magnéticos en puertas) para registrar aperturas físicas en un entorno controlado. </li>
             <li>Motor de detección automática de discrepancias entre aperturas físicas y registros.</li>
             <li>Registro histórico con timestamps para servir de índice en auditorías con CCTV.</li>
           </ul>
@@ -487,7 +487,7 @@
         </td>
         <td valign="top">
           <b>8. What’s the least amount of work we need to do to learn the next most important thing?</b><br><br>
-          Desarrollar un prototipo interactivo de alta fidelidad (Fake Door / Mockup) de la plataforma web que simule la recepción de alertas y timestamps exactos. Presentaremos este prototipo a 5 dueños de almacenes en sesiones de entrevista para medir si la funcionalidad del 'timestamp' es suficiente para que expresen intención de compra, sin necesidad de programar el backend ni el hardware aún.
+          Desarrollar únicamente un prototipo interactivo de alta fidelidad en Figma (Fake Door) que simule la recepción de alertas de hardware y el historial de timestamps. Lo presentaremos a 5 dueños de almacenes para medir si esta funcionalidad basta para generar intención de compra, sin necesidad de programar toda la arquitectura web ni ensamblar los microcontroladores (ESP32) en esta fase de validación.
         </td>
       </tr>
     </tbody>
