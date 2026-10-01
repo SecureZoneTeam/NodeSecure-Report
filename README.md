@@ -218,8 +218,6 @@
       <td><b>VF1</b></td>
       <td><b>VF1</b></td>
     </tr>
-
-    <!-- Criterio 3.c2 -->
     <tr>
       <td rowspan="4" valign="top"><b>3.c2. Comunica por escrito con efectividad a diferentes rangos de audiencia</b></td>
       <td valign="top">
@@ -344,7 +342,7 @@
 
   **Lo que los productos y servicios existentes no logran abordar es** la profunda desconexión entre los movimientos teóricos del sistema y los eventos físicos que realmente ocurren, sumado a la fuerte barrera económica que hace que las empresas rechacen tecnologías avanzadas al percibirlas como excesivamente costosas y complejas de implementar.
 
-  **Nuestro producto** (NodeSecure) **abordará esta brecha mediante** una plataforma web centralizada de control de inventario inteligente que permite monitorear los espacios, controlar accesos y gestionar la información en tiempo real, ya que utiliza tecnología IoT como fuente de evidencia física. El sistema valida y contrasta de forma automática las actividades registradas con cada apertura física realizada, identificando inconsistencias inmediatamente, optimizando la trazabilidad del inventario y enviando alertas en tiempo real.
+  **Nuestro producto** (NodeSecure) **abordará esta brecha mediante** una plataforma web centralizada de control de inventario inteligente que permite monitorear los espacios, controlar accesos y gestionar la información en tiempo real, ya que utiliza tecnología IoT como fuente de evidencia física. El sistema contrastará de forma automática las actividades registradas con cada apertura física realizada, identificando inconsistencias inmediatamente, para ayudar a optimizar a la trazabilidad del inventario.
 
   **Nuestro enfoque inicial será** los dueños y administradores de PYMES, así como también los jefes de seguridad y operaciones del sector logístico.
 
@@ -362,7 +360,7 @@
 
   **Business Outcome Assumptions (Supuestos de Resultados de Negocio)**
   - Creemos que el éxito de SafeZone se reflejará en un incremento sostenido de empresas suscritas a la plataforma NodeSecure a través de sus distintos planes.
-  - Asumimos que garantizaremos una alta tasa de retención, particularmente de clientes corporativos, siempre que la plataforma web sea estable, confiable y precisa en la emisión de notificaciones en tiempo real.
+  - Asumimos que garantizaremos una alta tasa de retención, particularmente de clientes corporativos, siempre que la plataforma web mantenga una alta disponibilidad y precisión en la emisión de notificaciones en tiempo real.
   - Creemos que las empresas que implementen nuestro producto lograrán reducir de forma significativa sus mermas económicas y pérdidas provocadas por el "robo hormiga" y los accesos no autorizados.
   - Asumimos que el uso de nuestro sistema impulsará un cambio en la forma en que las empresas y comercios gestionan su seguridad, logrando que las empresas migren de un modelo de vigilancia reactiva a una gestión de seguridad preventiva.
 
@@ -392,7 +390,7 @@
   #### 1.2.2.3. Lean UX Hypothesis Statement
 
   **Hypothesis Statement 1:**<br>
-  Creemos que lograremos incrementar la cantidad de empresas suscritas y mejorar la retención de nuestros clientes
+  Creemos que lograremos incrementar las suscripciones en un 20% y mantener una retención mensual del 90% en nuestros clientes
 
   Si los dueños de PYMES y jefes de seguridad
 
@@ -402,7 +400,7 @@
 
 
   **Hypothesis Statement 2:**<br>
-  Creemos que lograremos reducir drásticamente las pérdidas económicas causadas por robos internos y accesos no autorizados en los almacenes
+  Creemos que lograremos reducir las pérdidas económicas causadas por robos internos en un 25% respecto al trimestre anterior (baseline).
 
   Si los jefes de operaciones y dueños de negocios
 
@@ -412,7 +410,7 @@
 
 
   **Hypothesis Statement 3:**<br>
-  Creemos que lograremos brindar un servicio estable y confiable que asegure la retención de clientes del sector corporativo
+  Creemos que lograremos brindar un servicio que asegure una tasa de retención mensual del 95% en clientes del sector corporativo
 
   Si los administradores, almaceneros y auditores
 
@@ -422,7 +420,7 @@
 
 
   **Hypothesis Statement 4:**<br>
-  Creemos que lograremos que las empresas modernicen su seguridad y pasen de un enfoque reactivo a uno puramente preventivo
+  Creemos que lograremos que el 70% de los clientes en frase de prueba accedan a modernizar su seguridad definitavemente y pasen de un enfoque reactivo a uno puramente preventivo
 
   Si el personal de seguridad y auditoría
   Obtiene notificaciones críticas exactas y una marca de tiempo confiable para buscar evidencias precisas en sus cámaras CCTV
@@ -445,8 +443,8 @@
         <td valign="top">
           <b>5. Solutions</b><br>
           <ul>
-            <li>Plataforma Web SPA (Vue.js + ASP.NET Core) para gestión de inventario, movimientos y stock.</li>
-            <li>Integración IoT pasiva (ESP32 con sensores magnéticos en puertas) para registrar aperturas físicas.</li>
+            <li>Plataforma Web SPA (Angular + Spring Boot) para gestión de inventario, movimientos y stock.</li>
+            <li>Integración IoT inicial (Uso de un microcontrolador ESP32 con sensores magnéticos en puertas) para registrar aperturas físicas en un entorno controlado. </li>
             <li>Motor de detección automática de discrepancias entre aperturas físicas y registros.</li>
             <li>Registro histórico con timestamps para servir de índice en auditorías con CCTV.</li>
           </ul>
@@ -489,7 +487,7 @@
         </td>
         <td valign="top">
           <b>8. What’s the least amount of work we need to do to learn the next most important thing?</b><br><br>
-          Desarrollar un MVP funcional compuesto por un backend en ASP.NET Core, una SPA en Vue.js y un dispositivo ESP32 con sensor magnético de puerta para simular el flujo completo de detección de discrepancias.
+          Desarrollar únicamente un prototipo interactivo de alta fidelidad en Figma (Fake Door) que simule la recepción de alertas de hardware y el historial de timestamps. Lo presentaremos a 5 dueños de almacenes para medir si esta funcionalidad basta para generar intención de compra, sin necesidad de programar toda la arquitectura web ni ensamblar los microcontroladores (ESP32) en esta fase de validación.
         </td>
       </tr>
     </tbody>
@@ -2145,12 +2143,12 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
   <td>Implementar y desplegar la primera versión funcional de la Landing Page de NodeSecure.</td>
   </tr>
   <tr>
-  <td>Sprint 1 Velocity</td>
-  <td>4 horas</td>
+  <td>Esfuerzo / Capacidad del equipo</td>
+  <td>42 horas</td>
   </tr>
   <tr>
   <td>Sum of Estimation (Hours)</td>
-  <td>4 horas</td>
+  <td>42 horas</td>
   </tr>
   </table>
 
@@ -2229,12 +2227,16 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
   A continuación, se presenta el Sprint Backlog correspondiente al Sprint 1, incluyendo las User Stories seleccionadas, las tareas derivadas de cada una, su descripción, estimación, responsable y estado de ejecución.
 
 
-  > **Evidencia del Board:**  
-  > [INSERTAR CAPTURA DEL BOARD DEL SPRINT 1]
+  > **Evidencia del Board:** 
+  <td align="center">
+        <img src="images/sprint-foto.png" width="600" alt="Foto de Fernando">
+      </td> 
+  > 
 
 
   > **URL público del Board:**  
-  > [INSERTAR URL DEL BOARD DEL SPRINT 1]
+  > https://trello.com/invite/b/6abd94bbe1e1eec939dcade9/ATTI12f3a79b4ca902bd0acb9f10e00d442f36C802DA/nodesecure
+  
 
 
   <table>
@@ -2260,7 +2262,7 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
   <td>Configurar el repositorio, definir la estructura semántica de HTML5 e implementar las variables globales CSS.</td>
   <td>4</td>
   <td>Anahua Ancachi, Liz Maribel</td>
-  <td>[ESTADO REAL]</td>
+  <td>Done</td>
   </tr>
 
 
@@ -2273,7 +2275,7 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
   <td>Codificar la barra de navegación responsiva y estructurar el Hero con la propuesta de valor de NodeSecure.</td>
   <td>4</td>
   <td>Anahua Ancachi, Liz Maribel</td>
-  <td>[ESTADO REAL]</td>
+  <td>Done</td>
   </tr>
 
 
@@ -2286,7 +2288,7 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
   <td>Maquetar el sistema de grid con CSS Grid/Flexbox para presentar las características principales de NodeSecure.</td>
   <td>4</td>
   <td>Fernando Sebastián Pérez Bellido</td>
-  <td>[ESTADO REAL]</td>
+  <td>Done</td>
   </tr>
 
 
@@ -2299,7 +2301,7 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
   <td>Desarrollar las tarjetas visuales del equipo y asegurar su adaptación a vistas móviles.</td>
   <td>4</td>
   <td>Fernando Sebastián Pérez Bellido</td>
-  <td>[ESTADO REAL]</td>
+  <td>Done</td>
   </tr>
 
 
@@ -2312,7 +2314,7 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
   <td>Construir las tarjetas comparativas de los planes definidos para NodeSecure con sus beneficios y llamados a la acción.</td>
   <td>4</td>
   <td>Fernando Sebastián Pérez Bellido</td>
-  <td>[ESTADO REAL]</td>
+  <td>Done</td>
   </tr>
 
 
@@ -2325,7 +2327,7 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
   <td>Implementar la sección de testimonios con una cuadrícula adaptable, avatares y jerarquía tipográfica.</td>
   <td>4</td>
   <td>Fernando Sebastián Pérez Bellido</td>
-  <td>[ESTADO REAL]</td>
+  <td>Done</td>
   </tr>
 
 
@@ -2338,7 +2340,7 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
   <td>Implementar la sección de contacto y el footer corporativo con enlaces y canales de comunicación.</td>
   <td>4</td>
   <td>Sandoval Aiquipa, Kelber Yamir</td>
-  <td>[ESTADO REAL]</td>
+  <td>Done</td>
   </tr>
 
 
@@ -2351,7 +2353,7 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
   <td>Integrar el video About-the-Product y optimizar la carga de los recursos estáticos.</td>
   <td>4</td>
   <td>Sandoval Aiquipa, Kelber Yamir</td>
-  <td>[ESTADO REAL]</td>
+  <td>Done</td>
   </tr>
 
 
@@ -2364,7 +2366,7 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
   <td>Realizar pruebas cross-browser y aplicar media queries (CSS) en toda la Landing Page para garantizar la vista mobile.</td>
   <td>5</td>
   <td>Ravello Cárdenas, Luciana Angielina</td>
-  <td>[ESTADO REAL]</td>
+  <td>Done</td>
   </tr>
 
 
@@ -2377,7 +2379,7 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
   <td>Configurar las acciones de despliegue, habilitar GitHub Pages sobre la rama main y validar rutas en producción.</td>
   <td>5</td>
   <td>Ravello Cárdenas, Luciana Angielina</td>
-  <td>[ESTADO REAL]</td>
+  <td>Done</td>
   </tr>
 
 
