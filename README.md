@@ -2228,10 +2228,14 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
 
 
   > **Evidencia del Board:** 
+
   <td align="center">
         <img src="images/sprint-foto.png" width="600" alt="Foto de Fernando">
-      </td> 
-  > 
+  </td>
+  
+  <br>
+
+
 
 
   > **URL público del Board:**  
