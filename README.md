@@ -1719,7 +1719,7 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
 
 
   <div align="center">
-    <img src="images/context.png" alt="repositorio">
+    <img src="images/c4/context.png" alt="repositorio">
   </div>
 
 
@@ -1731,21 +1731,58 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
 
 
   <div align="center">
-    <img src="images/container.png" alt="repositorio">
+    <img src="images/c4/container (1).png" alt="repositorio">
   </div>
 
   ### 4.6.4. Software Architecture Components Diagrams
 
-  Los Software Architecture Components Diagrams presentan con mayor nivel de detalle la estructura interna de los principales servicios de NextPath. Cada diagrama descompone un contenedor en sus componentes principales y muestra las relaciones existentes entre ellos, así como las interacciones con bases de datos y sistemas externos.
+  IAM SERVICE
 
-  Se detallan los componentes correspondientes a los diferentes servicios de la plataforma, permitiendo identificar las responsabilidades específicas dentro de cada contenedor y comprender cómo se procesan las funcionalidades del sistema.
-
+  El diagrama de componentes del IAM Service muestra la estructura interna encargada de la autenticación y autorización de los usuarios. El servicio se divide en componentes para la gestión de usuarios, autenticación y sesiones, roles y permisos, y generación y validación de tokens JWT. Estos componentes interactúan con la base de datos para almacenar la información relacionada con usuarios, roles y permisos, y con el servicio de notificaciones para el envío de comunicaciones.
 
   <div align="center">
-    <img src="images/AUTH.png" alt="repositorio">
+    <img src="images/c4/01_component_iam_service.png" alt="repositorio">
   </div>
 
+  Inventory Service
 
+  El diagrama de componentes del Inventory Service representa la estructura interna encargada de gestionar los recursos principales del inventario. Sus componentes permiten administrar productos y categorías, controlar el stock y los movimientos de entrada y salida, y gestionar los almacenes y zonas. Los componentes acceden al repositorio de inventario para almacenar y consultar la información correspondiente en la base de datos.
+
+  <div align="center">
+    <img src="images/c4/02_component_inventory_service.png" alt="repositorio">
+  </div>
+
+  IoT Integration Service
+
+  El diagrama de componentes del IoT Integration Service muestra los componentes responsables de recibir y procesar los eventos provenientes de los dispositivos IoT. El servicio permite gestionar los dispositivos, recibir eventos físicos provenientes de sensores, ESP32 y RFID, procesar y normalizar dichos eventos y mantener el estado de los dispositivos. La información procesada se almacena para posteriormente ser utilizada por los servicios de detección de discrepancias y trazabilidad.
+
+  <div align="center">
+    <img src="images/c4/03_component_iot_integration_service.png" alt="repositorio">
+  </div>
+
+  Alert & Discrepancy Service
+
+  El diagrama de componentes del Alert & Discrepancy Service representa la estructura encargada de analizar y correlacionar los eventos físicos registrados por los dispositivos IoT con las operaciones digitales del inventario. Sus componentes permiten aplicar reglas de negocio, identificar posibles discrepancias y gestionar las alertas generadas. La información resultante se almacena para mantener un registro de las discrepancias y alertas detectadas.
+
+  <div align="center">
+    <img src="images/c4/04_component_alert_discrepancy_service.png" alt="repositorio">
+  </div>
+
+  Audit & Traceability Service
+
+  El diagrama de componentes del Audit & Traceability Service muestra los componentes encargados de mantener el historial y la trazabilidad de las operaciones realizadas en la plataforma. Permite registrar y consultar movimientos de inventario, eventos, alertas y demás información relevante para las auditorías. Los registros generados son almacenados en la base de datos de auditoría y trazabilidad para facilitar su consulta y seguimiento.
+
+  <div align="center">
+    <img src="images/c4/05_component_audit_traceability_service.png" alt="repositorio">
+  </div>
+  
+  Subscription & Billing Service
+
+  El diagrama de componentes del Subscription & Billing Service representa la estructura encargada de gestionar los planes y suscripciones de NodeSecure. Sus componentes permiten administrar los planes disponibles, las suscripciones de los clientes, los pagos y la facturación, además de controlar los límites asociados a cada plan. El servicio mantiene esta información en su base de datos y se comunica con el Payment Gateway para procesar los pagos correspondientes.
+
+  <div align="center">
+    <img src="images/c4/06_component_subscription_billing_service.png" alt="repositorio">
+  </div>
 
   # 5. Product Implementation, Validation & Deployment
 
