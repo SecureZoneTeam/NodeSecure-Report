@@ -127,7 +127,7 @@
   &nbsp;&nbsp;&nbsp;&nbsp;[2.4. Big Picture Event Storming](#24-big-picture-event-storming)<br>
   &nbsp;&nbsp;&nbsp;&nbsp;[2.5. Ubiquitous Language](#25-ubiquitous-language)<br><br>
   [**Capítulo III: Requirements Specification**](#capítulo-iii-requirements-specification)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;[3.1. User Stories](#31-user-stories)<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;[3.1. User Stories](#31-user-stories)<br>s
   &nbsp;&nbsp;&nbsp;&nbsp;[3.2. Impact Mapping](#32-impact-mapping)<br>
   &nbsp;&nbsp;&nbsp;&nbsp;[3.3. Product Backlog](#33-product-backlog)<br><br>
   [**Capítulo IV: Product Design**](#capítulo-iv-product-design)<br>
@@ -1711,11 +1711,11 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
 
   ## 4.6. Domain-Driven Software Architecture
 
-  En esta sección se presenta la arquitectura de software de **NextPath** desde el enfoque de Domain-Driven Design (DDD), mostrando la organización del sistema, sus principales dominios, componentes y las relaciones entre los diferentes elementos que participan en la solución.
+  En esta sección se presenta la arquitectura de software de NodeSecure desde el enfoque de Domain-Driven Design (DDD), mostrando la organización del sistema, sus principales dominios, componentes y las relaciones entre los diferentes elementos que participan en la solución.
 
   ### 4.6.1. Software Architecture Context Diagram
 
-  El Software Architecture Context Diagram presenta una visión general del sistema NextPath y su interacción con los principales actores y sistemas externos. El diagrama permite identificar a los usuarios que utilizan la plataforma y los servicios externos con los que el sistema se comunica, como el servicio de pagos, el servicio de correo electrónico y la API de inteligencia artificial.
+  El Software Architecture Context Diagram presenta una visión general del sistema NodeSecure y su interacción con los principales actores y sistemas externos. El diagrama permite identificar a los usuarios que utilizan la plataforma y los servicios externos con los que el sistema se comunica, como el servicio de pagos, el servicio de correo electrónico y la API de inteligencia artificial.
 
 
   <div align="center">
@@ -1725,7 +1725,7 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
 
   ### 4.6.3. Software Architecture Container Diagrams
 
-  Los Software Architecture Container Diagrams muestran la estructura interna de la plataforma NextPath a nivel de contenedores. Se representan la aplicación web, el API Gateway y los diferentes servicios que conforman la solución, además de las bases de datos y los sistemas externos con los que interactúan.
+  Los Software Architecture Container Diagrams muestran la estructura interna de la plataforma NodeSecure a nivel de contenedores. Se representan la aplicación web, el API Gateway y los diferentes servicios que conforman la solución, además de las bases de datos y los sistemas externos con los que interactúan.
 
   Los contenedores se organizan de acuerdo con las principales capacidades funcionales de la plataforma, incluyendo autenticación, evaluaciones, planificación de carrera, facturación, comunidad, servicios de asesoría y Analytics & AI.
 
@@ -2265,10 +2265,14 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
 
 
   > **Evidencia del Board:** 
+
   <td align="center">
         <img src="images/sprint-foto.png" width="600" alt="Foto de Fernando">
-      </td> 
-  > 
+  </td>
+  
+  <br>
+
+
 
 
   > **URL público del Board:**  
