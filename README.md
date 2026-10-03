@@ -2283,7 +2283,7 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
   ### 5.2.1.3. Sprint Backlog 1
 
 
-  El objetivo principal del Sprint 1 es implementar y desplegar la primera versión funcional de la Landing Page de NodeSecure. Para alcanzar este objetivo, las User Stories seleccionadas fueron descompuestas en Engineering Tasks relacionadas con la estructura, diseño, contenido, responsividad y despliegue de la Landing Page.
+El objetivo principal del Sprint 1 es implementar y desplegar la primera versión funcional de la Landing Page de NodeSecure. Las User Stories se descomponen en Engineering Tasks con estimaciones entre 4 y 8 horas, manteniendo la trazabilidad con los identificadores y títulos definidos en el Product Backlog.
 
 
   ### Sprint Backlog
@@ -2295,7 +2295,7 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
   > **Evidencia del Board:** 
 
   <td align="center">
-        <img src="images/sprint-foto.png" width="600" alt="Foto de Fernando">
+        <img src="images/sprint.png" width="600" alt="Foto de Fernando">
   </td>
   
   <br>
@@ -2324,7 +2324,7 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
 
   <tr>
   <td>Sprint 1</td>
-  <td>US21</td>
+  <td>US14</td>
   <td>Visualizar landing page</td>
   <td>T01</td>
   <td>Estructura HTML y entorno de desarrollo</td>
@@ -2337,7 +2337,7 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
 
   <tr>
   <td>Sprint 1</td>
-  <td>US21</td>
+  <td>US14</td>
   <td>Visualizar landing page</td>
   <td>T02</td>
   <td>Implementación del Hero Section y Navbar</td>
@@ -2350,7 +2350,7 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
 
   <tr>
   <td>Sprint 1</td>
-  <td>US21</td>
+  <td>US14</td>
   <td>Visualizar landing page</td>
   <td>T03</td>
   <td>Desarrollo técnico de la sección Features</td>
@@ -2363,7 +2363,7 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
 
   <tr>
   <td>Sprint 1</td>
-  <td>US23</td>
+  <td>US14</td>
   <td>Visualizar información del equipo</td>
   <td>T04</td>
   <td>Maquetación del módulo About y Team</td>
@@ -2376,7 +2376,7 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
 
   <tr>
   <td>Sprint 1</td>
-  <td>US58</td>
+  <td>US15</td>
   <td>Ver planes y precios desde landing page</td>
   <td>T05</td>
   <td>Implementación de Pricing Cards</td>
@@ -2389,7 +2389,7 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
 
   <tr>
   <td>Sprint 1</td>
-  <td>US57</td>
+  <td>US14</td>
   <td>Visualizar testimonios de la comunidad</td>
   <td>T06</td>
   <td>Construcción del grid de Testimonials</td>
@@ -2402,7 +2402,7 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
 
   <tr>
   <td>Sprint 1</td>
-  <td>US24</td>
+  <td>US14</td>
   <td>Contactar desde la landing page</td>
   <td>T07</td>
   <td>Desarrollo de Contacto y Footer</td>
@@ -2415,7 +2415,7 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
 
   <tr>
   <td>Sprint 1</td>
-  <td>US22</td>
+  <td>US14</td>
   <td>Visualizar video del producto</td>
   <td>T08</td>
   <td>Integración de Video y Media</td>
@@ -2428,7 +2428,7 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
 
   <tr>
   <td>Sprint 1</td>
-  <td>US21</td>
+  <td>US14</td>
   <td>Visualizar landing page</td>
   <td>T09</td>
   <td>Refactorización de Media Queries</td>
@@ -2441,7 +2441,7 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
 
   <tr>
   <td>Sprint 1</td>
-  <td>US21</td>
+  <td>US14</td>
   <td>Visualizar landing page</td>
   <td>T10</td>
   <td>Configuración de CI/CD en GitHub Pages</td>
