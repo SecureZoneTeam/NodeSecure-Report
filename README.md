@@ -1802,6 +1802,16 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
     <img src="images/class_diagram_nodesecure.png" alt="repositorio">
   </div>
 
+ ## 4.8. DataBase Diagrams
+
+  El diseño de la base de datos proporciona la estructura necesaria para almacenar y gestionar toda lainformación operativa de Locksight de forma segura y eficiente. Se ha modelado un esquema relacional queorganiza las tablas, relaciones y restricciones necesarias para garantizar la integridad de los datos de sensores,historiales de acceso y perfiles de usuario. Un diseño de base de datos sólido permite que el sistema respondacon rapidez ante consultas históricas y guarde cada evento de seguridad con precisión milimétrica.
+
+  ### 4.8.1. Data Base Diagram
+
+  <div align="center">
+    <img src="images/nodesecure_erd.png" alt="repositorio">
+  </div>
+
  # 5. Product Implementation, Validation & Deployment
 
 
