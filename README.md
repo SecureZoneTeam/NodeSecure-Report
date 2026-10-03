@@ -1791,6 +1791,17 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
     <img src="images/c4/06_component_subscription_billing_service.png" alt="repositorio">
   </div>
 
+ ## 4.7. Software Object-Oriented Design
+ El diseño orientado a objetos es fundamental para estructurar NodeSecure de manera modular. A través de este diseño, definimos las clases y métodos que dan vida a las funcionalidades, aprovechando principios de reutilización de código y mantenimiento. Esto nos permite modelar entidades del mundo real (sensores,usuarios, almacenes) dentro del código de forma lógica, facilitando que el sistema crezca y se adapte a nuevasnecesidades de seguridad industrial sin comprometer la estabilidad actual.
+
+ ### 4.7.1. Class Diagram
+
+  El diagrama de clases busca reflejar el enfoque DDD de NodeSecure. Se separan los principales bounded contexts del sistema, como Inventory Management, Warehouse Management, Access & Security, IoT Integration, Subscription & Billing, Audit & Traceability, Alerts & Discrepancies y Landing Page. Asimismo, se evidencian entidades y Value Objects como Address, OperatingShift y Money, utilizados para representar conceptos específicos del dominio y encapsular información relevante de las reglas del negocio.
+
+  <div align="center">
+    <img src="images/class_diagram_nodesecure.png" alt="repositorio">
+  </div>
+
  # 5. Product Implementation, Validation & Deployment
 
 
