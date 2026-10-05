@@ -2957,6 +2957,7 @@ El objetivo principal del Sprint 1 es implementar y desplegar la primera versió
   </table>
 
   <div style="page-break-after: always;"></div>
+
   # Conclusiones
 
   Al finalizar este primer avance (AV1) y el primer Sprint del proyecto SafeZone, el equipo ha llegado a las siguientes conclusiones fundamentales:
@@ -2970,6 +2971,7 @@ El objetivo principal del Sprint 1 es implementar y desplegar la primera versió
   4. **Éxito del Despliegue Inicial (Sprint 1):** La adopción de GitFlow, el uso de Conventional Commits y las prácticas de configuración y despliegue continuo (CI/CD) han permitido al equipo trabajar de forma organizada y sparalela. El resultado de este esfuerzo técnico se materializa en el despliegue exitoso de la Landing Page de NodeSecure en GitHub Pages, logrando comunicar eficientemente nuestra propuesta de valor al mercado y sentando una base tecnológica sólida para los próximos Sprints de desarrollo de la plataforma core.
 
 <div style="page-break-after: always;"></div>
+
   # Bibliografía
 
 Cohn, M. (2004). *User stories applied: For agile software development*. Addison-Wesley Professional.
