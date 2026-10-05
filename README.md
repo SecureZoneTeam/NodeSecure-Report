@@ -694,53 +694,58 @@
   Construir la propuesta de valor alrededor de la generación de evidencia verificable sobre las operaciones realizadas. La plataforma debe permitir identificar quién realizó una operación, qué movimiento efectuó y cuándo ocurrió, complementando esta información con los eventos físicos registrados por los sensores.
   Táctica: utilizar dashboards, alertas, historial de eventos y marcas de tiempo para facilitar la supervisión y las posteriores auditorías. 
 
-  ## 2.2.1. Diseño de entrevistas
+## 2.2.1. Diseño de entrevistas
   Para comprender a fondo los dolores y validar las necesidades de nuestro público y  levantar los requerimientos del sistema SafeZone (NodeSecure), se diseñaron dos guiones de entrevistas semiestructuradas enfocados en nuestros dos segmentos de usuario objetivo.
 
   Entrevista - Segmento 1: Dueños de PYMES y Jefes de Operaciones / Almacén 
 
-  ¿Cuáles son los principales problemas o pérdidas que ha detectado en el control diario de su almacén o negocio?
-  ¿Ha tenido problemas con robos, pérdidas o faltantes de mercadería? ¿Qué suele ocurrir cuando se presenta alguno de estos casos?
-  ¿Cómo realizan actualmente el registro y control de las entradas, salidas y del stock disponible de mercadería?
-  ¿Con qué mecanismos cuentan actualmente para supervisar quién entra o sale de las zonas de almacenamiento?
-  Por ejemplo, cámaras y registros
-  ¿Con qué frecuencia encuentran diferencias entre el stock que tienen registrado y la mercadería que realmente tienen físicamente?
-  Cuando detectan un faltante, ¿qué tan difícil les resulta determinar qué ocurrió y quiénes estuvieron presentes en ese momento?
-  ¿Qué tan útil sería para usted recibir una alerta en su celular cuando ocurra algo fuera de lo normal, como una apertura de puerta fuera de horario o una posible discrepancia de inventario?
-  Si pudiera consultar la fecha y hora exacta en que ocurrió un incidente, ¿consideraría útil esa información para revisar directamente ese momento en sus cámaras o registros? ¿Por qué?
-  Pensando en una herramienta que ayude a controlar el inventario y detectar este tipo de situaciones, ¿qué características considera más importantes para que realmente le resulte útil en su negocio?
-  ¿Estaría dispuesto a utilizar una solución de este tipo en su negocio? ¿Qué factores tendría en cuenta para decidir adoptarla?
+¿Cuáles son los principales problemas o pérdidas que ha detectado en el control diario de su almacén o negocio?
+¿Ha tenido problemas con robos, pérdidas o faltantes de mercadería? ¿Qué suele ocurrir cuando se presenta alguno de estos casos?
+¿Cómo realizan actualmente el registro y control de las entradas, salidas y del stock disponible de mercadería?
+¿Con qué mecanismos cuentan actualmente para supervisar quién entra o sale de las zonas de almacenamiento? (Por ejemplo, cámaras y registros)
+¿Con qué frecuencia encuentran diferencias entre el stock que tienen registrado y la mercadería que realmente tienen físicamente?
+Cuando detectan un faltante, ¿qué tan difícil les resulta determinar qué ocurrió y quiénes estuvieron presentes en ese momento?
+Cuando ocurre una apertura no autorizada o un incidente fuera de horario en su almacén, ¿cómo se entera actualmente y cuánto tiempo pasa hasta que lo descubre?
+¿Qué métodos o pasos sigue hoy en día cuando necesita investigar cuándo ocurrió exactamente una pérdida de mercadería en sus instalaciones?
+Cuando no se encuentra físicamente en el local o almacén, ¿de qué manera vigila o controla que las operaciones y los accesos se realicen de forma correcta?
+¿Qué tan útil sería para usted recibir una alerta en su celular cuando ocurra algo fuera de lo normal, como una apertura de puerta fuera de horario o una posible discrepancia de inventario?
+Si pudiera consultar la fecha y hora exacta en que ocurrió un incidente, ¿consideraría útil esa información para revisar directamente ese momento en sus cámaras o registros? ¿Por qué?
+Pensando en una herramienta que ayude a controlar el inventario y detectar este tipo de situaciones, ¿qué características considera más importantes para que realmente le resulte útil en su negocio?
+¿Estaría dispuesto a utilizar una solución de este tipo en su negocio? ¿Qué factores tendría en cuenta para decidir adoptarla?
 
 
   Entrevista - Segmento 2: Encargados de Logística y Personal Operativo 
 
-  ¿Cómo es normalmente el proceso cuando realizas una entrada o salida de productos en el almacén?
-  ¿Qué herramientas utilizas habitualmente para registrar los movimientos de productos?
-  Por ejemplo: computadora, celular, tablet, Excel u otro sistema.
-  ¿Cuánto tiempo aproximadamente te toma registrar una entrada o salida de productos?
-  ¿Qué dificultades encuentras actualmente al registrar y controlar el inventario?
-  ¿Qué ocurre cuando necesitas registrar una salida rápidamente y el sistema resulta lento o complicado de utilizar?
-  ¿Con qué frecuencia se presentan descuadres entre el stock registrado y la cantidad de productos que realmente tienen?
-  Cuando ocurre un descuadre de stock, ¿qué tan fácil o difícil es identificar quién realizó el movimiento y cuándo ocurrió?
-  ¿Qué características consideras indispensables en una aplicación para registrar los movimientos de productos de forma rápida y sencilla?
-  ¿Qué tan útil sería para ti que la plataforma genere automáticamente un registro de la fecha y hora del evento?
-  ¿Crees que contar con este tipo de registros te ayudaría a identificar mejor qué ocurrió cuando se presenta un descuadre de inventario?
-  ¿Te gustaría controlar toda la información importante de manera remota?
+¿Cómo es normalmente el proceso cuando realizas una entrada o salida de productos en el almacén?
+¿Qué herramientas utilizas habitualmente para registrar los movimientos de productos? (Por ejemplo: computadora, celular, tablet, Excel u otro sistema)
+¿Cuánto tiempo aproximadamente le toma registrar una entrada o salida de productos?
+¿Qué dificultades encuentras actualmente al registrar y controlar el inventario?
+¿Qué ocurre cuando necesitas registrar una salida rápidamente y el sistema resulta lento o complicado de utilizar?
+¿Con qué frecuencia se presentan descuadres entre el stock registrado y la cantidad de productos que realmente tienen?
+Cuando ocurre un descuadre de stock, ¿qué tan fácil o difícil es identificar quién realizó el movimiento y cuándo ocurrió?
+Cuando detecta que la mercadería física no coincide con lo registrado, ¿qué acciones toma de inmediato para identificar en qué momento del turno ocurrió el error o faltante?
+¿De qué manera maneja actualmente la revisión de los momentos exactos en los que se movilizó un producto cuando surge un reclamo o descuadre?
+Cuando se presentan demoras o congestión en el área de despacho o recepción, ¿cómo maneja el registro de los productos para evitar errores en las anotaciones?
+¿Qué características consideras indispensables en una aplicación para registrar los movimientos de productos de forma rápida y sencilla?
+¿Qué tan útil sería para ti que la plataforma genere automáticamente un registro de la fecha y hora del evento?
+¿Crees que contar con este tipo de registros te ayudaría a identificar mejor qué ocurrió cuando se presenta un descuadre de inventario?
+¿Te gustaría controlar toda la información importante de manera remota?
+
 
   <h3>Segmento 01: Dueños y Administradores de Almacén</h3>
 
   <table>
     <tr>
       <td width="20%"><strong>Entrevistador</strong></td>
-      <td>Sandoval Aiquipa, Kelber Yamir</td>
+      <td>Fernando Sebastián Pérez Bellido</td>
     </tr>
     <tr>
       <td><strong>Entrevistado</strong></td>
-      <td>Jose Miguel</td>
+      <td>Francisco Robles Mendoza</td>
     </tr>
     <tr>
       <td><strong>Edad</strong></td>
-      <td>28 años</td>
+      <td>35 años</td>
     </tr>
     <tr>
       <td><strong>Distrito</strong></td>
@@ -752,7 +757,7 @@
     </tr>
       <tr>
       <td><strong>Inicio</strong></td>
-      <td> </td>
+      <td>00:00 </td>
     </tr>
     <tr>
       <td><strong>Resumen</strong></td>
@@ -765,15 +770,15 @@
   <table>
     <tr>
       <td width="20%"><strong>Entrevistador</strong></td>
-      <td>Sandoval Aiquipa, Kelber Yamir</td>
+      <td>Kelber Yamir Sandoval Aiquipa</td>
     </tr>
     <tr>
       <td><strong>Entrevistado</strong></td>
-      <td>Diego Campoblanco</td>
+      <td>Diego Campoblanco Torres</td>
     </tr>
     <tr>
       <td><strong>Edad</strong></td>
-      <td>25 años</td>
+      <td>30 años</td>
     </tr>
     <tr>
       <td><strong>Distrito</strong></td>
@@ -785,11 +790,11 @@
     </tr>
     <tr>
       <td><strong>Inicio</strong></td>
-      <td> </td>
+      <td>00:10</td>
     </tr>
     <tr>
       <td><strong>Resumen</strong></td>
-      <td>Dueña de una distribuidora de abarrotes al por mayor. Presenta problemas con el "robo hormiga" y desbalances de productos no anotados a tiempo. Actualmente utiliza un cuaderno físico y control visual. Destaca que recibir alertas remotas en el celular le daría un control absoluto para supervisar su negocio a distancia y cruzar la hora de apertura de puertas con las ventas realizadas.</td>
+      <td>Dueño de una distribuidora de abarrotes al por mayor. Presenta problemas con el "robo hormiga" y desbalances de productos no anotados a tiempo. Actualmente utiliza un cuaderno físico y control visual. Destaca que recibir alertas remotas en el celular le daría un control absoluto para supervisar su negocio a distancia y cruzar la hora de apertura de puertas con las ventas realizadas.</td>
     </tr>
   </table>
 
@@ -798,15 +803,15 @@
   <table>
     <tr>
       <td width="20%"><strong>Entrevistador</strong></td>
-      <td>[Nombre del Entrevistador]</td>
+      <td>Kelber Yamir Sandoval Aiquipa</td>
     </tr>
     <tr>
       <td><strong>Entrevistado</strong></td>
-      <td>Patricia Sofía Ramos Vílchez</td>
+      <td>Jose Miguel Gutiérrez Farfán</td>
     </tr>
     <tr>
       <td><strong>Edad</strong></td>
-      <td>45 años</td>
+      <td>32 años</td>
     </tr>
     <tr>
       <td><strong>Distrito</strong></td>
@@ -818,40 +823,7 @@
     </tr>
     <tr>
       <td><strong>Inicio</strong></td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td><strong>Resumen</strong></td>
-      <td>Dueña de una distribuidora de abarrotes al por mayor. Presenta problemas con el "robo hormiga" y desbalances de productos no anotados a tiempo. Actualmente utiliza un cuaderno físico y control visual. Destaca que recibir alertas remotas en el celular le daría un control absoluto para supervisar su negocio a distancia y cruzar la hora de apertura de puertas con las ventas realizadas.</td>
-    </tr>
-  </table>
-
-  <br>
-
-  <table>
-    <tr>
-      <td width="20%"><strong>Entrevistador</strong></td>
-      <td>[Nombre del Entrevistador]</td>
-    </tr>
-    <tr>
-      <td><strong>Entrevistado</strong></td>
-      <td>Roberto Alonzo Gutiérrez Farfán</td>
-    </tr>
-    <tr>
-      <td><strong>Edad</strong></td>
-      <td>48 años</td>
-    </tr>
-    <tr>
-      <td><strong>Distrito</strong></td>
-      <td>San Luis, Lima</td>
-    </tr>
-    <tr>
-      <td><strong>Evidencia</strong></td>
-      <td><a href="https://canva.link/9w4klnpwqeadxqt" target="_blank">Ver Evidencia</a></td>
-    </tr>
-      <tr>
-      <td><strong>Inicio</strong></td>
-      <td> </td>
+      <td>02:50</td>
     </tr>
     <tr>
       <td><strong>Resumen</strong></td>
@@ -889,7 +861,7 @@
     </tr>
       <tr>
       <td><strong>Inicio</strong></td>
-      <td> 30 s </td>
+      <td>06:44</td>
     </tr>
     <tr>
       <td><strong>Resumen</strong></td>
@@ -923,7 +895,7 @@
     </tr>
       <tr>
       <td><strong>Inicio</strong></td>
-      <td> 4:30 </td>
+      <td>12:20</td>
     </tr>
     <tr>
       <td><strong>Resumen</strong></td>
@@ -956,7 +928,7 @@
     </tr>
     <tr>
       <td><strong>Inicio</strong></td>
-      <td> 7:40 </td>
+      <td>15:30</td>
     </tr>
     <tr>
       <td><strong>Resumen</strong></td>
@@ -965,7 +937,7 @@
   </table>
 
   <br>
-
+  
   ### 2.2.3. Análisis de entrevistas
   Segmento 01 (Administrativo / Toma de decisiones):
   La principal molestia de la gerencia es la pérdida de tiempo al investigar faltantes. La integración del sensor IoT con la plataforma web soluciona este problema al generar marcas de tiempo (timestamps) exactas que dirigen la revisión del video CCTV al minuto preciso del evento. 
