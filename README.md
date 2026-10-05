@@ -52,7 +52,11 @@
   </div>
   <br><br><br><br><br><br>
 
+  <div style="page-break-after: always;"></div>
+  
   ## Registro de versiones del informe
+  
+  
 
   <table>
     <thead>
@@ -2493,27 +2497,6 @@ El objetivo principal del Sprint 1 es implementar y desplegar la primera versió
   <td>2026-09-11</td>
   </tr>
 
-
-  <tr>
-  <td>NodeSecure-Landing-Page</td>
-  <td>main</td>
-  <td>571582a</td>
-  <td>Delete CNAME</td>
-  <td>—</td>
-  <td>2026-09-11</td>
-  </tr>
-
-
-  <tr>
-  <td>NodeSecure-Landing-Page</td>
-  <td>main</td>
-  <td>7bff9d3</td>
-  <td>Create CNAME</td>
-  <td>—</td>
-  <td>2026-09-11</td>
-  </tr>
-
-
   <tr>
   <td>NodeSecure-Landing-Page</td>
   <td>develop</td>
@@ -2558,7 +2541,7 @@ El objetivo principal del Sprint 1 es implementar y desplegar la primera versió
   <td>NodeSecure-Landing-Page</td>
   <td>develop</td>
   <td>201a1af</td>
-  <td>fear: implementacion de la seccion de contacto</td>
+  <td>feat: implementacion de la seccion de contacto</td>
   <td>—</td>
   <td>2026-09-11</td>
   </tr>
@@ -2661,16 +2644,6 @@ El objetivo principal del Sprint 1 es implementar y desplegar la primera versió
   <td>feat: creacion inicial de la estructura de la landing page</td>
   <td>—</td>
   <td>2026-09-10</td>
-  </tr>
-
-
-  <tr>
-  <td>NodeSecure-Landing-Page</td>
-  <td>develop</td>
-  <td>602656d</td>
-  <td>--INSERT-- ASDcrear</td>
-  <td>—</td>
-  <td>2026-09-09</td>
   </tr>
 
 
