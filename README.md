@@ -99,8 +99,10 @@
       </tr>
     </tbody>
   </table>
+  <br><br>
+  
 
-  <br><br><br><br>
+  <div style="page-break-after: always;"></div>
 
   # Contenido
   [**Capítulo I: Introducción**](#capítulo-i-introducción)<br>
@@ -1139,7 +1141,7 @@ A continuación, se presentan las épicas y User Stories definidos para el desar
 | **US11** | Exportar reporte de incidentes | Como administrador, quiero descargar un reporte PDF/Excel mensual de mermas y alertas para presentarlo a gerencia. | **Given** existen datos en el rango seleccionado, **When** el usuario da clic en "Exportar Reporte", **Then** el sistema descarga el archivo estructurado.<br>**Given** un mes sin incidencias, **When** se exporta, **Then** el documento refleja "Cero Incidentes Registrados". | EP04 |
 | **US12** | Acceso y navegación móvil | Como dueño de PYME, quiero acceder al dashboard de NodeSecure desde mi smartphone para vigilar mi negocio en movimiento. | **Given** el usuario ingresa desde un móvil, **When** carga la interfaz web, **Then** el layout se adapta a componentes táctiles (Bottom Navigation).<br>**Given** la revisión de alertas en móvil, **When** navega, **Then** no hay pérdida de funcionalidad frente a Desktop. | EP10 |
 | **US13** | Autenticación Segura (Login) | Como jefe de operaciones, quiero iniciar sesión de forma segura para proteger la información logística de la empresa. | **Given** el usuario ingresa email y password correctos, **When** hace clic en entrar, **Then** el sistema valida y redirige al dashboard.<br>**Given** credenciales erróneas, **When** intenta ingresar, **Then** se muestra un mensaje de "Credenciales inválidas". | EP09 |
-| **US14** | Visualizar Landing Page | Como visitante (potencial cliente), quiero acceder a la Landing Page para conocer cómo NodeSecure elimina el robo hormiga. | **Given** el usuario entra a la URL raíz, **When** la página carga, **Then** se muestra la propuesta de valor y las llamadas a la acción.<br>**Given** navegación por la página, **When** hace scroll, **Then** descubre las características de la tecnología IoT. | EP06 |
+| **US14** | Visualizar Landing Page | Como visitante (potencial cliente), quiero acceder a la Landing Page para conocer cómo NodeSecure ayuda a prevenir el robo hormiga. | **Given** el usuario entra a la URL raíz, **When** la página carga, **Then** se muestra la propuesta de valor y las llamadas a la acción.<br>**Given** navegación por la página, **When** hace scroll, **Then** descubre las características de la tecnología IoT. | EP06 |
 | **US15** | Comparativa de Planes SaaS | Como dueño de PYME (visitante), quiero ver los precios y límites operativos (sensores/almacenes) para elegir mi suscripción. | **Given** el usuario se encuentra en la Landing Page, **When** navega a la sección de Pricing, **Then** observa los planes Básico, Premium y Corporativo.<br>**Given** clic en "Contratar", **When** interactúa, **Then** es redirigido al flujo de registro de empresa. | EP06, EP07 |
 | **US16** | Suscripción y Facturación | Como dueño de PYME, quiero registrar mi método de pago para activar mi plan y expandir mis límites de sensores IoT. | **Given** el usuario completa sus datos de tarjeta, **When** procesa el pago, **Then** NodeSecure actualiza su plan y libera la cuota de hardware.<br>**Given** fondos insuficientes, **When** procesa, **Then** la pasarela retorna error y el plan no se activa. | EP07 |
 | **US17** | Gestión de Roles (RBAC) | Como dueño de PYME, quiero asignar roles (Administrador, Almacenero, Auditor) para restringir quién puede editar la infraestructura. | **Given** el dueño invita a un empleado, **When** le asigna el rol "Almacenero", **Then** el empleado solo puede visualizar su zona sin editar hardware.<br>**Given** un almacenero intenta borrar un sensor, **When** interactúa, **Then** el sistema deniega el acceso. | EP02, EP09 |
@@ -1177,7 +1179,7 @@ A continuación, se presenta el Product Backlog inicial de NodeSecure, priorizad
 
 | Orden | User Story ID | Título | Descripción | Story Points |
 |:---:|:---|:---|:---|:---:|
-| 1 | US14 | Visualizar Landing Page | Como visitante, quiero acceder a la Landing Page para conocer cómo NodeSecure elimina el robo hormiga. | 3 |
+| 1 | US14 | Visualizar Landing Page | Como visitante, quiero acceder a la Landing Page para conocer cómo NodeSecure ayuda a prevenir el robo hormiga. | 3 |
 | 2 | US15 | Comparativa de Planes SaaS | Como dueño de PYME (visitante), quiero ver los precios y límites operativos para elegir mi suscripción. | 2 |
 | 3 | US13 | Autenticación Segura (Login) | Como jefe de operaciones, quiero iniciar sesión de forma segura para proteger la información de la empresa. | 5 |
 | 4 | TS18 | Generación de Tokens JWT | Como developer, quiero implementar JWT en la API para mantener sesiones seguras y escalables. | 5 |
