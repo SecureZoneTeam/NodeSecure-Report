@@ -10,7 +10,7 @@
   **DOCENTE**<br>
   Iván Robles Fernandez<br><br>
 
-  **Informe AV1 Sprint Review**<br><br>
+  **Informe TB1**<br><br>
 
   **Nombre Start up:** SafeZone<br>
   **Nombre Producto:** NodeSecure<br><br>
@@ -82,7 +82,7 @@
       <tr>
         <td><b>TB1</b></td>
         <td>-</td>
-        <td>-</td>
+        <td></td>
         <td>En proceso</td>
       </tr>
       <tr>
@@ -184,7 +184,8 @@
   [Bibliografía](#bibliografía)<br>
   [Anexos](#anexos)<br><br><br>
 
-
+  <div style="page-break-after: always;"></div>
+  
   # Student Outcome
   En esta sección se detalla la contribución de cada integrante del equipo para explicar cómo las actividades y entregables del trabajo final han ayudado a desarrollar las dimensiones del Student Outcome correspondiente a la competencia de Comunicación. En esta sección se describe la relación entre el outcome, sus criterios y el trabajo colaborativo e individual realizado a lo largo del proyecto. Esto se complementa con lo reflejado en los testimonios expuestos que forman parte del video acerca del equipo.
 
@@ -213,7 +214,9 @@
       </td>
     </tr>
     <tr>
-      <td><b>TB1</b></td>
+      <td><b>TB1</b>
+      <p><b>Ravello Cárdenas, Luciana Angielina:</b> Expuso de forma clara en las reuniones de coordinación el progreso visual del frontend y la Landing Page. Explicó a sus compañeros qué capturas de pantalla y evidencias debían priorizarse para el informe, adaptando su lenguaje para asegurar que todo el equipo comprendiera el avance del desarrollo y los objetivos logrados en este Sprint.</p>
+      </td>
       <td><b>TB1</b></td>
     </tr>
     <tr>
@@ -239,7 +242,9 @@
       </td>
     </tr>
     <tr>
-      <td><b>TB1</b></td>
+      <td><b>TB1</b>
+      <p><b>Ravello Cárdenas, Luciana Angielina:</b> Redactó las secciones de evidencias de desarrollo y ejecución (5.2.2.4 y 5.2.2.5). Se encargó de elaborar explicaciones detalladas y fáciles de entender para cada captura de pantalla del frontend, logrando que el lector comprenda la interacción del usuario. Además, documentó de forma clara y organizada la tabla de commits de GitHub, asegurando un registro profesional del esfuerzo del equipo.</p>
+      </td>
       <td><b>TB1</b></td>
     </tr>
     <tr>
@@ -252,6 +257,8 @@
     </tr>
   </tbody>
   </table>
+
+  <div style="page-break-after: always;"></div>
 
   # Capítulo I: Introducción
 
@@ -541,7 +548,7 @@
 
   **Dato estadístico:** La modernización logística es clave para la rentabilidad corporativa. Mientras un 30% de empresas aún opera con procesos convencionales y riesgos elevados (Aguilar y Chingay, 2025), la automatización mediante sensores IoT ha demostrado elevar la exactitud del inventario del 33% al 94% y la eficiencia operativa hasta en un 90% (Cespedes y Ponce, 2025). Esta integración minimiza pérdidas y optimiza la seguridad, reduciendo drásticamente los errores de supervisión.<br><br><br><br>
 
-
+  <div style="page-break-after: always;"></div>
 
   # Capítulo II: Requirements Elicitation & Analysis 
   ## 2.1. Competidores
@@ -1090,6 +1097,9 @@ Cuando se presentan demoras o congestión en el área de despacho o recepción, 
   ## 2.5. Ubiquitous Language
 
   ![Ubiquitous Language](./images/2.5.png)
+
+<div style="page-break-after: always;"></div>
+
 # Capítulo III: Requirements Specification
 
 En esta sección, el equipo define los requisitos funcionales y técnicos de la plataforma NodeSecure a partir del análisis de las entrevistas y el modelo de negocio. Se inicia con la especificación de User Stories y sus Criterios de Aceptación, se continúa con el Impact Mapping para alinear los objetivos de negocio con el desarrollo, y se finaliza con el Product Backlog estimado y priorizado para los primeros Sprints.
@@ -1170,6 +1180,7 @@ A continuación, se presenta el Product Backlog inicial de NodeSecure, priorizad
 | 17 | US12 | Acceso y navegación móvil | Como dueño de PYME, quiero acceder al dashboard desde mi smartphone (Bottom Navigation). | 3 |
 
 ---
+<div style="page-break-after: always;"></div>
 
 # Capítulo IV: Product Design
 
@@ -1790,7 +1801,9 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
     <img src="images/nodesecure_erd.png" alt="repositorio">
   </div>
 
- # 5. Product Implementation, Validation & Deployment
+<div style="page-break-after: always;"></div>
+
+ # Capítulo V: Product Implementation, Validation & Deployment
 
 
   ## 5.1. Software Configuration Management
@@ -2943,6 +2956,7 @@ El objetivo principal del Sprint 1 es implementar y desplegar la primera versió
   </tr>
   </table>
 
+  <div style="page-break-after: always;"></div>
   # Conclusiones
 
   Al finalizar este primer avance (AV1) y el primer Sprint del proyecto SafeZone, el equipo ha llegado a las siguientes conclusiones fundamentales:
@@ -2953,9 +2967,10 @@ El objetivo principal del Sprint 1 es implementar y desplegar la primera versió
 
   3. **Arquitectura de Información y Diseño B2B:** El diseño de la experiencia de usuario (UX) y la interfaz (UI) para la plataforma web y móvil ha demostrado que la adopción de un modelo B2B en "Dark Mode" no responde únicamente a una tendencia estética, sino a una necesidad operativa. Este esquema reduce la fatiga visual en entornos de monitoreo prolongado, mientras que el diseño responsivo basado en *bottom-sheets* y la estricta jerarquía de información previenen errores humanos al realizar tareas críticas, como la asignación de permisos y el control de discrepancias.
 
-  4. **Éxito del Despliegue Inicial (Sprint 1):** La adopción de GitFlow, el uso de Conventional Commits y las prácticas de configuración y despliegue continuo (CI/CD) han permitido al equipo trabajar de forma organizada y paralela. El resultado de este esfuerzo técnico se materializa en el despliegue exitoso de la Landing Page de NodeSecure en GitHub Pages, logrando comunicar eficientemente nuestra propuesta de valor al mercado y sentando una base tecnológica sólida para los próximos Sprints de desarrollo de la plataforma core.
+  4. **Éxito del Despliegue Inicial (Sprint 1):** La adopción de GitFlow, el uso de Conventional Commits y las prácticas de configuración y despliegue continuo (CI/CD) han permitido al equipo trabajar de forma organizada y sparalela. El resultado de este esfuerzo técnico se materializa en el despliegue exitoso de la Landing Page de NodeSecure en GitHub Pages, logrando comunicar eficientemente nuestra propuesta de valor al mercado y sentando una base tecnológica sólida para los próximos Sprints de desarrollo de la plataforma core.
 
-  ## Bibliografía
+<div style="page-break-after: always;"></div>
+  # Bibliografía
 
 Cohn, M. (2004). *User stories applied: For agile software development*. Addison-Wesley Professional.
 
