@@ -215,6 +215,7 @@
     </tr>
     <tr>
       <td><b>TB1</b>
+      <p><b>Anahua Ancachi, Liz Maribel:</b> Durante las sesiones de planificación y revisión del Sprint, explicó al equipo de manera sencilla cómo se estructurarían los datos simulados (mocks) como paso previo a la integración del backend real. También lideró los debates sobre el rendimiento grupal, compartiendo verbalmente los análisis de colaboración para identificar áreas de mejora..</p>
       <p><b>Ravello Cárdenas, Luciana Angielina:</b> Expuso de forma clara en las reuniones de coordinación el progreso visual del frontend y la Landing Page. Explicó a sus compañeros qué capturas de pantalla y evidencias debían priorizarse para el informe, adaptando su lenguaje para asegurar que todo el equipo comprendiera el avance del desarrollo y los objetivos logrados en este Sprint.</p>
       </td>
       <td><b>TB1</b></td>
@@ -243,6 +244,7 @@
     </tr>
     <tr>
       <td><b>TB1</b>
+      <p><b>Anahua Ancachi, Liz Maribel:</b> Documentó por escrito la estrategia de servicios del sistema (5.2.2.6), redactando de forma clara y estructurada cómo se están simulando los endpoints iniciales del proyecto. Además, elaboró el reporte escrito de colaboración del equipo (5.2.2.8), resumiendo las métricas y la dinámica de trabajo con un lenguaje profesional y analítico adecuado para la evaluación académica.</p>
       <p><b>Ravello Cárdenas, Luciana Angielina:</b> Redactó las secciones de evidencias de desarrollo y ejecución (5.2.2.4 y 5.2.2.5). Se encargó de elaborar explicaciones detalladas y fáciles de entender para cada captura de pantalla del frontend, logrando que el lector comprenda la interacción del usuario. Además, documentó de forma clara y organizada la tabla de commits de GitHub, asegurando un registro profesional del esfuerzo del equipo.</p>
       </td>
       <td><b>TB1</b></td>
