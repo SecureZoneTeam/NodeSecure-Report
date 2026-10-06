@@ -726,6 +726,38 @@
   <table>
     <tr>
       <td width="20%"><strong>Entrevistador</strong></td>
+      <td>Pérez Bellido, Fernando Sebastián</td>
+    </tr>
+    <tr>
+      <td><strong>Entrevistado</strong></td>
+      <td>Diego Sanchez</td>
+    </tr>
+    <tr>
+      <td><strong>Edad</strong></td>
+      <td>26 años</td>
+    </tr>
+    <tr>
+      <td><strong>Distrito</strong></td>
+      <td>Chorrillos, Lima</td>
+    </tr>
+    <tr>
+      <td><strong>Evidencia</strong></td>
+      <td><a href="https://canva.link/9w4klnpwqeadxqt" target="_blank">Ver Evidencia</a></td>
+    </tr>
+      <tr>
+      <td><strong>Inicio</strong></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><strong>Resumen</strong></td>
+      <td>El negocio sufre constantes descuadres de inventario y pérdidas por robos debido a un registro manual atrasado y una supervisión básica, lo que paraliza la operación y dificulta identificar a los responsables. Para solucionarlo, están muy dispuestos a adoptar una herramienta en la nube, asequible y de fácil implementación, que actualice el stock en tiempo real y envíe alertas móviles con la hora exacta de cualquier anomalía. Esto les permitiría reaccionar de inmediato, agilizar enormemente la revisión de las cámaras de seguridad y evitar mayores pérdidas económicas sin interrumpir el trabajo diario.</td>
+    </tr>
+  </table>
+
+
+  <table>
+    <tr>
+      <td width="20%"><strong>Entrevistador</strong></td>
       <td>Sandoval Aiquipa, Kelber Yamir</td>
     </tr>
     <tr>
