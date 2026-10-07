@@ -2995,6 +2995,91 @@ El objetivo principal del Sprint 1 es implementar y desplegar la primera versió
 
   <div style="page-break-after: always;"></div>
 
+  ### 5.2.2.1. Sprint Planning 2
+
+En esta sección se documenta el Sprint Planning Meeting correspondiente al Sprint 2, donde el equipo de NodeSecure estableció el objetivo del sprint, definió el alcance de trabajo y distribuyó las tareas necesarias para desarrollar la primera versión funcional de la Web Application.
+
+## Sprint Planning
+
+| Campo | Información |
+|---|---|
+| Sprint # | Sprint 2 |
+| Sprint Planning Background | Primera versión funcional de la Web Application de NodeSecure - FrontEnd|
+| Date | 2026-10-03 |
+| Time | 16:00 PM |
+| Location | Meet |
+| Prepared By | Fernando Sebastián Pérez |
+
+## Sprint Goal & User Stories
+
+El objetivo del Sprint 2 fue desarrollar la primera versión funcional de la Web Application de NodeSecure, permitiendo a los usuarios interactuar con las principales funcionalidades de la plataforma.
+
+La Web Application contempla las interfaces de autenticación, gestión de usuarios y permisos, administración de almacenes, dispositivos IoT, auditoría y trazabilidad, así como suscripción y facturación.
+
+| Campo | Valor |
+|---|---|
+| Sprint 2 Goal | Implementar la primera versión funcional de la Web Application de NodeSecure (FrontEnd). |
+| Esfuerzo / Capacidad del equipo | 72 horas |
+| Sum of Estimation (Hours) | 72 horas |
+
+
+
+### 5.2.2.2. Aspect Leaders and Collaborators
+
+Para el Sprint 2 se establecieron los responsables y colaboradores para los diferentes aspectos relacionados con la implementación de la Web Application de NodeSecure. La distribución considera las principales funcionalidades desarrolladas durante el sprint, incluyendo autenticación, gestión de almacenes, dispositivos IoT, equipo y permisos, auditoría y trazabilidad, suscripción y facturación, así como las actividades de integración, pruebas y calidad del Frontend.
+
+| Team Member | GitHub Username | Authentication & Account | Warehouses & IoT | Team & Access | Audit & Traceability | Subscription & Billing | Integration & QA |
+|---|---|---|---|---|---|---|---|
+| Fernando Sebastián Pérez Bellido | Fern.bellido22 | L | L | C | L | C | L |
+| Anahua Ancachi, Liz Maribel | lizzanahua-rgb | C | C | L | C | L | C |
+| Sandoval Aiquipa, Kelber Yamir | Kyesei | C | L | C | C | C | L |
+| Ravello Cárdenas, Luciana Angielina | Lucyrcar-ID | C | C | L | L | C | C |
+
+Leyenda:
+
+- L = Aspect Leader.
+- C = Collaborator.
+
+### 5.2.2.3. Sprint Backlog 2
+
+El objetivo principal del Sprint 2 es desarrollar la primera versión funcional del Frontend de la Web Application de NodeSecure. Para alcanzar este objetivo, las User Stories seleccionadas fueron descompuestas en Engineering Tasks relacionadas con la implementación de las interfaces y flujos de interacción de autenticación, gestión de usuarios y permisos, almacenes, dispositivos IoT, auditoría y trazabilidad, suscripción y facturación y configuración de notificaciones.
+
+#### Sprint Backlog
+
+A continuación, se presenta el Sprint Backlog correspondiente al Sprint 2, incluyendo las User Stories seleccionadas, las tareas derivadas de cada una, su descripción, estimación, responsable y estado de ejecución.
+
+**Evidencia del Board:**
+
+<div align="center">
+    <img src="images/sprint 2.png" alt="repositorio">
+</div>
+
+**URL público del Board:**
+
+https://trello.com/b/kkcLSErp/nodesecure
+
+| Sprint # | User Story ID | User Story Title | Task ID | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
+|---|---|---|---|---|---|---:|---|---|
+| Sprint 2 | US13 | Autenticación Segura (Login) | T01 | Implementación de Login | Desarrollar la interfaz de acceso al sistema con correo electrónico y contraseña. | 4 | Fernando Sebastián Pérez Bellido | Done |
+| Sprint 2 | US13 | Autenticación Segura (Login) | T02 | Implementación de Crear Cuenta | Desarrollar la interfaz de registro de nuevos usuarios. | 4 | Fernando Sebastián Pérez Bellido | Done |
+| Sprint 2 | US13 | Autenticación Segura (Login) | T03 | Implementación de Recuperar Contraseña | Desarrollar la interfaz para solicitar la recuperación de contraseña. | 4 | Fernando Sebastián Pérez Bellido | Done |
+| Sprint 2 | US01 | Visualizar red de almacenes | T04 | Implementación de vista de almacenes | Desarrollar la interfaz para visualizar la información principal del almacén. | 4 | Sandoval Aiquipa, Kelber Yamir | Done |
+| Sprint 2 | US19 | Vincular Sensor IoT a Zona | T05 | Implementación de dispositivos IoT | Desarrollar la interfaz para visualizar los dispositivos IoT y su estado. | 4 | Sandoval Aiquipa, Kelber Yamir | Done |
+| Sprint 2 | US19 | Vincular Sensor IoT a Zona | T06 | Vinculación de dispositivo IoT | Implementar el formulario para vincular un dispositivo IoT con una zona. | 4 | Sandoval Aiquipa, Kelber Yamir | Done |
+| Sprint 2 | US17 | Gestión de Roles (RBAC) | T07 | Implementación de gestión de usuarios | Desarrollar la interfaz para visualizar, invitar y administrar usuarios. | 4 | Anahua Ancachi, Liz Maribel | Done |
+| Sprint 2 | US17 | Gestión de Roles (RBAC) | T08 | Implementación de gestión de permisos | Desarrollar la interfaz para editar permisos y asignar zonas de acceso. | 4 | Anahua Ancachi, Liz Maribel | Done |
+| Sprint 2 | US03 | Auditoría de discrepancias (R-T) | T09 | Implementación de auditoría en tiempo real | Desarrollar la interfaz para visualizar eventos y actividad del almacén. | 4 | Ravello Cárdenas, Luciana Angielina | Done |
+| Sprint 2 | US03 | Auditoría de discrepancias (R-T) | T10 | Implementación de detalle de discrepancias | Desarrollar la vista de detalle de eventos y acciones sobre discrepancias. | 4 | Ravello Cárdenas, Luciana Angielina | Done |
+| Sprint 2 | US08 | Bitácora de trazabilidad | T11 | Implementación de historial de eventos | Desarrollar la interfaz para consultar el historial de eventos registrados. | 4 | Ravello Cárdenas, Luciana Angielina | Done |
+| Sprint 2 | US10 | Filtros avanzados de auditoría | T12 | Implementación de filtros de eventos | Implementar filtros por tipo de evento y rango de fechas. | 4 | Ravello Cárdenas, Luciana Angielina | Done |
+| Sprint 2 | US16 | Suscripción y Facturación | T13 | Implementación de vista de suscripción | Desarrollar la interfaz para visualizar el plan, límites y estado de la suscripción. | 4 | Anahua Ancachi, Liz Maribel | Done |
+| Sprint 2 | US16 | Suscripción y Facturación | T14 | Implementación de selección de planes | Desarrollar la interfaz para visualizar y seleccionar los planes disponibles. | 4 | Anahua Ancachi, Liz Maribel | Done |
+| Sprint 2 | US16 | Suscripción y Facturación | T15 | Implementación del flujo de pago | Desarrollar las interfaces de resumen, personalización y confirmación de pago. | 4 | Anahua Ancachi, Liz Maribel | Done |
+| Sprint 2 | US06 | Notificaciones Push de seguridad | T16 | Implementación de configuración de notificaciones | Desarrollar la interfaz para configurar las preferencias de notificaciones. | 4 | Anahua Ancachi, Liz Maribel | Done |
+| Sprint 2 | TS18 | Generación de Tokens JWT | T17 | Preparación del flujo de autenticación | Preparar el Frontend para su futura integración con autenticación mediante JWT. | 4 | Fernando Sebastián Pérez Bellido | Done |
+| Sprint 2 | TS09 | Recepción de payloads IoT (API) | T18 | Preparación de integración IoT | Preparar el Frontend para su futura integración con eventos IoT mediante API REST. | 4 | Sandoval Aiquipa, Kelber Yamir | Done |
+
+
   # Conclusiones
 
   Al finalizar este primer avance (AV1) y el primer Sprint del proyecto SafeZone, el equipo ha llegado a las siguientes conclusiones fundamentales:
