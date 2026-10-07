@@ -1295,8 +1295,8 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
 
   ## 4.4. Web Applications UX/UI Design.
 
-  El diseño de la experiencia de usuario (UX) y de la interfaz (UI) de la plataforma NodeSecure se ha centrado en la operatividad bajo presión. Entendemos que un jefe de seguridad o un dueño de negocio entra a la aplicación web buscando respuestas rápidas: "¿Coincide mi inventario digital con la mercadería física?", "¿Hubo alguna salida de stock no registrada?". Por ello, la UX prioriza la conciliación del inventario en tiempo real, la gestión de entradas/salidas y la visualización de discrepancias detectadas por los sensores IoT. La UI, basada en Material Design, utiliza una estética limpia y profesional que reduce la carga cognitiva, permitiendo que el usuario identifique anomalías de stock o accesos mediante el uso estratégico de colores semánticos (rojo para discrepancias, verde para stock conciliado).
-
+  El diseño de la experiencia de usuario (UX) y de la interfaz (UI) de la plataforma NodeSecure se orienta a la operatividad en escenarios de supervisión logística. La propuesta busca responder con rapidez a consultas operativas clave: "¿Existe correspondencia entre el inventario digital y las aperturas físicas?", "¿Se produjo alguna salida de stock sin movimiento asociado?". Por ello, la UX prioriza la visualización de discrepancias detectadas mediante sensores IoT y el acceso ágil a las marcas de tiempo (timestamps). La UI, basada en Material Design, emplea una estética limpia y colores semánticos (rojo para discrepancias críticas, amarillo para advertencias operativas y verde para estados conciliados) con el objetivo de facilitar la identificación visual de anomalías.
+  
   ### 4.4.1. Web Applications Wireframes.
 
   En esta sección se presentan los wireframes diseñados para las versiones desktop y mobile de la plataforma. Estos modelos estructurales establecen la arquitectura de la información, la jerarquía visual y los flujos de interacción principales sin la distracción de elementos gráficos complejos. Los wireframes detallan la experiencia del usuario administrador a través de los módulos críticos del sistema, como lo es el dashboard de discrepancias, la gestión de inventario (entradas y salidas), el historial de trazabilidad y el ecosistema de facturación. El objetivo de esta etapa es validar la usabilidad y la eficiencia de las tareas operativas antes de transicionar al diseño de alta fidelidad.
@@ -1504,7 +1504,7 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
   ![Logical Flow - User Goal 4](images/ug4-wireflow-logical.png)
 
   **Diagrama Visual (Wireflow):**
-  ![Visual Wireflow - User Goal 4](images/ug4-wireflow-visual.png)git checkout -b feature/ux-wireflow-ug5-update
+  ![Visual Wireflow - User Goal 4](images/ug4-wireflow-visual.png)
 
   #### 5. User Goal: Gestión de personal y accesos
 
@@ -1563,9 +1563,19 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
 
   **Desktop**
 
-  Los mockups de la versión de escritorio presentan un sistema de diseño moderno y coherente, con una paleta de colores oscuros que ayuda a reducir la fatiga visual durante largos periodos de monitoreo. La arquitectura de información se organiza a través de una barra lateral persistente que facilita la navegación entre módulos clave como el panel de almacenes, el historial de eventos y la configuración. Además, el uso consistente de tipografías legibles y componentes estandarizados, como tarjetas y botones en tonos azules, permite mantener una jerarquía visual clara y fácil de seguir.
+  Los mockups de la versión de escritorio aplican un sistema de diseño coherente basado en una paleta de tonos oscuros (Dark Mode), seleccionado como principio de diseño ergonómico para entornos de monitoreo continuo en almacenes, buscando disminuir el deslumbramiento en pantallas operativas. La arquitectura de información se organiza mediante una barra lateral persistente que conecta el panel de almacenes, la gestión de dispositivos IoT, la bitácora de trazabilidad y la configuración de accesos.
 
-  Con respecto a usabilidad e inclusión, la interfaz prioriza la prevención de errores y la retroalimentación constante. Las acciones críticas están protegidas mediante ventanas emergentes con alertas de alto contraste que advierten sobre sus consecuencias, mientras que los estados del sistema combinan iconos y texto para asegurar una comprensión clara. Esto permite que la información sea accesible para distintos tipos de usuarios y garantiza que tanto los flujos principales como los de error sean intuitivos.
+  Para cubrir las condiciones reales de operación logística e integración con hardware, las interfaces y flujos contemplan los siguientes **estados críticos del dominio**:
+
+  | Estado Crítico del Dominio | Representación en UI / Comportamiento del Sistema | User Goal / Vista Asociada |
+  |---|---|---|
+  | **Sensor Offline** | Badge semántico en rojo (`Offline`), borde de alerta en la tarjeta del dispositivo y bloqueo de lectura en vivo hasta reconexión. | UG3: Dispositivos IoT (`mobile-mockup-03.png` / `desktop-mockup-06.png`) |
+  | **Discrepancia sin movimiento asociado** | Tarjeta de alerta crítica resaltada en rojo ("Salida física sin registro") indicando el sensor activado y el timestamp exacto sin guía de salida vinculada. | UG4: Auditoría y Trazabilidad (`mobile-mockup-04.png` / `desktop-mockup-05.png`) |
+  | **Alerta ya atendida (Archivada)** | Cambio de estado del evento a "Evento Archivado / Falsa Alarma" con confirmación visual en verde, retirándolo de la bandeja de incidentes pendientes. | UG4: Detalle del Evento (`mobile-mockup-04.png` / `desktop-mockup-05.png`) |
+  | **Usuario sin permiso (RBAC)** | Restricción de vistas de configuración y segmentación por zonas asignadas (ej. rol Almacenero limitado a Zona A y C, sin acceso a facturación ni borrado de nodos). | UG5: Equipo y Accesos (`mobile-mockup-05.png`, `mobile-mockup-06.png`) |
+  | **Pérdida de conectividad** | Indicador de estado de red en el panel del almacén y modal de espera (`Activando Dispositivo...`) con opción de cancelación ante timeout de conexión. | UG2 y UG3 (`mobile-mockup-03.png` / ` mobile-mockup-04.png`) |
+  | **Retraso de telemetría (Latencia)** | Indicador temporal del último evento reportado (`Hace 5 min - Lectura estable`) en la tarjeta de cada sucursal para advertir desfases de sincronización. | UG2: Mis Almacenes (`mobile-mockup-02.png`) |
+  | **Evento duplicado (Debounce)** | Agrupación lógica en el Console Log por ventana de tiempo e identificador de sensor para evitar múltiples alertas por una misma apertura física continua. | UG4: Auditoría en Tiempo Real (`mobile-mockup-04.png` / `desktop-mockup-03.png`) |
 
   #### Módulo de Autenticación y Acceso
   ![Login y Recuperación](images/desktop-mockup-01.png)
