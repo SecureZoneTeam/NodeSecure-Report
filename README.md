@@ -186,10 +186,10 @@
 
   <div style="page-break-after: always;"></div>
   
-  # Student Outcome
-  En esta sección se detalla la contribución de cada integrante del equipo para explicar cómo las actividades y entregables del trabajo final han ayudado a desarrollar las dimensiones del Student Outcome correspondiente a la competencia de Comunicación. En esta sección se describe la relación entre el outcome, sus criterios y el trabajo colaborativo e individual realizado a lo largo del proyecto. Esto se complementa con lo reflejado en los testimonios expuestos que forman parte del video acerca del equipo.
+# Student Outcome
+En esta sección se detalla la contribución de cada integrante del equipo para explicar cómo las actividades y entregables del trabajo final han ayudado a desarrollar las dimensiones del Student Outcome correspondiente a la competencia de Comunicación. En esta sección se describe la relación entre el outcome, sus criterios y el trabajo colaborativo e individual realizado a lo largo del proyecto. Esto se complementa con lo reflejado en los testimonios expuestos que forman parte del video acerca del equipo.
 
-  <table>
+<table>
   <thead>
     <tr>
       <th width="30%">Criterio específico</th>
@@ -205,7 +205,7 @@
         <b>AV1</b><br><br>
         <b>Anahua Ancachi, Liz Maribel:</b> Condujo y moderó oralmente las entrevistas semiestructuradas con los usuarios del segmento operativo (Segmento 2), transmitiendo las preguntas de manera clara y adaptando el lenguaje técnico a situaciones cotidianas de almacén. Asimismo, expuso y sustentó en las reuniones de equipo los hallazgos del Needfinding y los perfiles de User Personas desarrollados para el Capítulo II.<br><br>
         <b>Sandoval Aiquipa, Kelber Yamir:</b> Expuso de manera fluida y persuasiva la lógica de interacción y los diseños de UX/UI durante las sesiones de revisión. Justificó las decisiones de diseño (uso de Dark Mode, diagramas de flujos y mockups) ante el equipo y en el video de exposición, empleando un tono adecuado y profesional para alinear la visión técnica con los objetivos del negocio.<br><br>
-        <b>Pérez Bellido, Fernando Sebastián:</b><br><br>
+        <b>Pérez Bellido, Fernando Sebastián:</b> Comunicó de forma clara y técnica las decisiones de arquitectura de software y diseño de base de datos durante las reuniones del equipo. En la grabación del video de exposición (About the Product), explicó de manera didáctica cómo los sensores IoT se comunican con nuestra plataforma web, adaptando términos de ingeniería para que sean comprensibles por un público de negocios.<br><br>
         <b>Ravello Cárdenas, Luciana Angielina:</b> Sustentó verbalmente las bases del modelo de negocio, segmentos objetivo e hipótesis del Lean UX para el Capítulo I. Realizó aportes en un lenguaje claro y fácil de entender durante las reuniones de coordinación. También contribuyó con las entrevistas, expresándose de manera clara.
       </td>
       <td valign="top">
@@ -214,11 +214,14 @@
       </td>
     </tr>
     <tr>
-      <td><b>TB1</b>
-      <p><b>Anahua Ancachi, Liz Maribel:</b> Durante las sesiones de planificación y revisión del Sprint, explicó al equipo de manera sencilla cómo se estructurarían los datos simulados (mocks) como paso previo a la integración del backend real. También lideró los debates sobre el rendimiento grupal, compartiendo verbalmente los análisis de colaboración para identificar áreas de mejora..</p>
-      <p><b>Ravello Cárdenas, Luciana Angielina:</b> Expuso de forma clara en las reuniones de coordinación el progreso visual del frontend y la Landing Page. Explicó a sus compañeros qué capturas de pantalla y evidencias debían priorizarse para el informe, adaptando su lenguaje para asegurar que todo el equipo comprendiera el avance del desarrollo y los objetivos logrados en este Sprint.</p>
+      <td valign="top"><b>TB1</b><br><br>
+      <b>Anahua Ancachi, Liz Maribel:</b> Durante las sesiones de planificación y revisión del Sprint, explicó al equipo de manera sencilla cómo se estructurarían los datos simulados (mocks) como paso previo a la integración del backend real. También lideró los debates sobre el rendimiento grupal, compartiendo verbalmente los análisis de colaboración para identificar áreas de mejora.<br><br>
+      <b>Sandoval Aiquipa, Kelber Yamir:</b> Sustenté las correcciones aplicadas al diseño UX/UI de NodeSecure y expliqué el flujo de despliegue del Frontend Web App durante las reuniones de validación del Sprint 2. Utilicé un lenguaje técnico claro para asegurar que el equipo comprendiera la configuración de enrutamiento necesaria para pasar a producción sin errores.<br><br>
+      <b>Ravello Cárdenas, Luciana Angielina:</b> Expuso de forma clara en las reuniones de coordinación el progreso visual del frontend y la Landing Page. Explicó a sus compañeros qué capturas de pantalla y evidencias debían priorizarse para el informe, adaptando su lenguaje para asegurar que todo el equipo comprendiera el avance del desarrollo y los objetivos logrados en este Sprint.
       </td>
-      <td><b>TB1</b></td>
+      <td valign="top"><b>TB1</b><br><br>
+      Durante el Sprint 2, concluimos que la comunicación oral enfocada en la resolución de problemas técnicos fue clave. Adaptar nuestro lenguaje al coordinar las integraciones y explicar configuraciones de despliegue nos permitió evitar bloqueos y lograr publicar la Web Application a tiempo.
+      </td>
     </tr>
     <tr>
       <td><b>AV2</b></td>
@@ -228,13 +231,14 @@
       <td><b>VF1</b></td>
       <td><b>VF1</b></td>
     </tr>
+    <!-- Criterio 3.c2 -->
     <tr>
       <td rowspan="4" valign="top"><b>3.c2. Comunica por escrito con efectividad a diferentes rangos de audiencia</b></td>
       <td valign="top">
         <b>AV1</b><br><br>
         <b>Anahua Ancachi, Liz Maribel:</b> Redactó las secciones principales del Capítulo II (Requirements Elicitation & Analysis), documentando el análisis competitivo, el diseño y registro de entrevistas, y el análisis de variables. Estructuró por escrito el Needfinding (necesidades identificadas), los artefactos UX (User Personas, User Task Matrix, User Journey Mapping y Empathy Mapping) de forma clara, técnica y profesional para la evaluación del informe.<br><br>
         <b>Sandoval Aiquipa, Kelber Yamir:</b> Redactó exhaustivamente la sección de Product Design (Capítulo 4.4), documentando los User Flows, Wireflows y Mockups. Empleó un enfoque de redacción técnica orientada al dominio de negocio (Domain-Driven Design), utilizando términos logísticos y operativos precisos para describir correctamente la funcionalidad de cada interfaz.<br><br>
-        <b>Pérez Bellido, Fernando Sebastián:</b><br><br>
+        <b>Pérez Bellido, Fernando Sebastián:</b> Estructuró y redactó las secciones correspondientes a la Especificación de Requisitos (Capítulo III) y Arquitectura de Software (Capítulo IV). Utilizó formatos estándar de la industria (Gherkin para User Stories) y documentó los diagramas C4 y de base de datos con un lenguaje formal y riguroso.<br><br>
         <b>Ravello Cárdenas, Luciana Angielina:</b> Redactó las secciones principales del Capítulo I (Startup Profile, proceso Lean UX y Segmentos Objetivo). Utilizó un lenguaje escrito adecuado y estructurado para documentar la información, asegurando su comprensión tanto para la evaluación académica como para un público logístico-comercial.
       </td>
       <td valign="top">
@@ -243,11 +247,14 @@
       </td>
     </tr>
     <tr>
-      <td><b>TB1</b>
-      <p><b>Anahua Ancachi, Liz Maribel:</b> Documentó por escrito la estrategia de servicios del sistema (5.2.2.6), redactando de forma clara y estructurada cómo se están simulando los endpoints iniciales del proyecto. Además, elaboró el reporte escrito de colaboración del equipo (5.2.2.8), resumiendo las métricas y la dinámica de trabajo con un lenguaje profesional y analítico adecuado para la evaluación académica.</p>
-      <p><b>Ravello Cárdenas, Luciana Angielina:</b> Redactó las secciones de evidencias de desarrollo y ejecución (5.2.2.4 y 5.2.2.5). Se encargó de elaborar explicaciones detalladas y fáciles de entender para cada captura de pantalla del frontend, logrando que el lector comprenda la interacción del usuario. Además, documentó de forma clara y organizada la tabla de commits de GitHub, asegurando un registro profesional del esfuerzo del equipo.</p>
+      <td valign="top"><b>TB1</b><br><br>
+      <b>Anahua Ancachi, Liz Maribel:</b> Documentó por escrito la estrategia de servicios del sistema (5.2.2.6), redactando de forma clara y estructurada cómo se están simulando los endpoints iniciales del proyecto. Además, elaboró el reporte escrito de colaboración del equipo (5.2.2.8), resumiendo las métricas y la dinámica de trabajo con un lenguaje profesional y analítico adecuado para la evaluación académica.<br><br>
+      <b>Sandoval Aiquipa, Kelber Yamir:</b> Redacté y estructuré la sección 5.2.2.7 (Software Deployment Evidence), documentando la configuración, los entornos de alojamiento y las URLs públicas de la Web Application y la Landing Page. Empleé un formato tabular ordenado y descripciones técnicas precisas para evidenciar el éxito del pase a producción.<br><br>
+      <b>Ravello Cárdenas, Luciana Angielina:</b> Redactó las secciones de evidencias de desarrollo y ejecución (5.2.2.4 y 5.2.2.5). Se encargó de elaborar explicaciones detalladas y fáciles de entender para cada captura de pantalla del frontend, logrando que el lector comprenda la interacción del usuario. Además, documentó de forma clara y organizada la tabla de commits de GitHub, asegurando un registro profesional del esfuerzo del equipo.
       </td>
-      <td><b>TB1</b></td>
+      <td valign="top"><b>TB1</b><br><br>
+      Concluimos que la documentación técnica escrita en esta etapa exigió un alto nivel de detalle y precisión. Al documentar el desarrollo y despliegue del frontend, logramos que la evolución del proyecto sea transparente y auditable tanto para el equipo interno como para la evaluación docente.
+      </td>
     </tr>
     <tr>
       <td><b>AV2</b></td>
@@ -258,7 +265,7 @@
       <td><b>VF1</b></td>
     </tr>
   </tbody>
-  </table>
+</table>
 
   <div style="page-break-after: always;"></div>
 
