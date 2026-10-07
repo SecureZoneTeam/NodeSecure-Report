@@ -1667,11 +1667,11 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
   * **Confirmación** ➔ Hace clic en "Guardar Almacén".
   * **Fin del flujo** ➔ El sistema valida la información, muestra la ventana de "Registro Exitoso" y Roberto vuelve al dashboard donde la nueva sucursal ya figura en estado "Auditando".
 
-  **El unhappy path: Límite de Plan Alcanzado**
-  * **Inicio** ➔ Roberto presiona "+ Registrar nuevo almacén".
-  * **Intercepción** ➔ El sistema verifica la suscripción y detecta que la empresa ya alcanzó el límite máximo de almacenes.
-  * **Notificación** ➔ En lugar de abrir el formulario, se despliega la ventana "Límite de Almacenes", bloqueando el registro.
-  * **Fin del flujo** ➔ Roberto debe decidir: presionar "Mejorar a Plan Premium" para escalar la cuenta, o "Quizás más tarde" para regresar al dashboard sin cambios.
+  **El unhappy path (Estado crítico): Retraso de telemetría en sucursal**
+  * **Inicio** ➔ Roberto ingresa a la vista principal de "Mis Almacenes" para supervisar sus sedes.
+  * **Detección** ➔ El sistema identifica que el gateway de "Almacén Sur" supera el umbral de tiempo esperado sin emitir paquetes de actualización.
+  * **Notificación visual** ➔ La tarjeta de la sucursal cambia su indicador semántico a ámbar con el estado "Retraso de telemetría", mostrando la marca del último reporte recibido.
+  * **Fin del flujo** ➔ Roberto ingresa al detalle del almacén advirtiendo que las lecturas presentan latencia antes de ejecutar una conciliación manual.
 
   ![User Flow - User Goal 2](images/ug2-userflow.png)
 
@@ -1687,6 +1687,12 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
   * **Procesamiento** ➔ Presiona "Vincular Dispositivo". Se muestra un modal de espera "Activando Dispositivo...".
   * **Fin del flujo** ➔ Se confirma con "Dispositivo en línea" y Roberto regresa al panel donde el nuevo sensor aparece "Online".
 
+  **El unhappy path (Estado crítico): Sensor Offline y Pérdida de Conectividad**
+  * **Inicio** ➔ Roberto revisa la lista de "Dispositivos IoT" y el estado de red del "Almacén Central".
+  * **Intercepción** ➔ El sistema detecta que el nodo "M1-Pasillo Central" dejó de responder al health-check y se registra una caída en la conexión de red local.
+  * **Alerta de estado** ➔ La tarjeta del nodo se resalta con borde rojo bajo la etiqueta "Offline", mientras el panel del almacén advierte "Pérdida de conectividad (Cola local)".
+  * **Fin del flujo** ➔ Roberto selecciona el dispositivo desconectado para reintentar la sincronización ("Activando Dispositivo...") hasta restablecer su estado a "Online".
+
   ![User Flow - User Goal 3](images/ug3-userflow.png)
 
   #### User Goal 4: Auditoría de Eventos y Discrepancias
@@ -1701,6 +1707,11 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
   * **Decisión** ➔ Al confirmar la merma, presiona el botón "Reportar Merma".
   * **Fin del flujo** ➔ El sistema muestra el modal "Contactar a Supervisor". Roberto presiona "Sí, Llamar" para escalar el incidente de inventario.
 
+  **Comportamiento ante estados críticos: Discrepancia sin movimiento, Evento duplicado y Alerta atendida**
+  * **Discrepancia sin movimiento asociado** ➔ Cuando el sensor magnético reporta una apertura física y el backend no halla una orden de salida digital en la ventana de tiempo, se genera la tarjeta roja "Salida física sin registro".
+  * **Filtrado de evento duplicado** ➔ Durante el monitoreo en vivo ("Auditoría en Tiempo Real"), si el sensor emite señales repetidas por rebote físico de la puerta, el Console Log agrupa la señal y registra "Evento duplicado omitido" para no saturar la bandeja de alertas.
+  * **Alerta ya atendida** ➔ Tras auditar el "Detalle del Evento", si Roberto presiona "Marcar como Falsa Alarma", el sistema despliega el modal de confirmación "Evento Archivado", cambiando su estado en la bitácora para evitar doble gestión del incidente.
+
   ![User Flow - User Goal 4](images/ug4-userflow.png)
 
   #### User Goal 5: Gestión de Equipo y Accesos
@@ -1713,6 +1724,12 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
   * **Ingreso de datos** ➔ Escribe el correo del empleado, selecciona el rol (Almacenero) y las zonas asignadas.
   * **Confirmación** ➔ Presiona "Enviar Invitación".
   * **Fin del flujo** ➔ El sistema despliega "Invitación Enviada" y Francisco regresa a la lista donde el correo figura como "Pendiente".
+
+  **El unhappy path (Estado crítico): Usuario sin permiso**
+  * **Inicio** ➔ Un operador con rol de "Almacenero" ingresa al módulo de "Equipo y Accesos" e intenta modificar la configuración de zonas o invitar personal.
+  * **Intercepción RBAC** ➔ El sistema valida los permisos del token JWT y verifica que el rol carece de privilegios administrativos.
+  * **Bloqueo** ➔ Se despliega el modal "Usuario sin permiso", informando que su cuenta está limitada a la auditoría de sus zonas asignadas.
+  * **Fin del flujo** ➔ El usuario presiona "Entendido" y retorna a la vista sin alterar la configuración de seguridad.
 
   ![User Flow - User Goal 5](images/ug5-userflow.png)
 
@@ -1742,6 +1759,20 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
   * **Fin del flujo** ➔ La plataforma finaliza la sesión y lo redirige a la pantalla inicial de acceso.
 
   ![User Flow - User Goal 7](images/ug7-userflow.png)
+
+  #### Matriz de Trazabilidad de Diseño UX/UI (User Goals vs. User Stories)
+
+  Para garantizar la consistencia entre la especificación de requisitos y el diseño de interacción, la siguiente tabla vincula cada flujo de usuario con las Epics y User Stories del Product Backlog:
+
+  | User Goal (UX/UI) | Epic Asociada | User Stories Cubiertas | Artefactos de Evidencia (Wireframe / Wireflow / Mockup) |
+  |---|---|---|---|
+  | **UG1: Acceso e Inicio en el Sistema** | EP02, EP09 | US19, US25, TS27 | `ug1-wireframe-*`, `ug1-wireflow-*`, `desktop-mockup-01`, `mobile-mockup-01`, `ug1-userflow` |
+  | **UG2: Registro y Monitoreo de Almacenes** | EP01, EP02 | US01, US02, US04, US05, US13, US28 | `ug2-wireframe-*`, `ug2-wireflow-*`, `desktop-mockup-03`, `mobile-mockup-02`, `ug2-userflow` |
+  | **UG3: Gestión de Dispositivos IoT** | EP03, EP08 | US39, US40, US41, US50, US60 | `ug3-wireframe-*`, `ug3-wireflow-*`, `desktop-mockup-06`, `desktop-mockup-07`, `mobile-mockup-03`, `ug3-userflow` |
+  | **UG4: Auditoría de Eventos y Discrepancias** | EP01, EP03, EP04 | US03, US06, US07, US08, US10, US11, US12, US15, US29, US30 | `ug4-wireframe-*`, `ug4-wireflow-*`, `desktop-mockup-04`, `desktop-mockup-05`, `mobile-mockup-04`, `ug4-userflow` |
+  | **UG5: Gestión de Equipo y Accesos** | EP02, EP09 | US26, US33, US43 | `ug5-wireframe-*`, `ug5-wireflow-*`, `desktop-mockup-08`, `desktop-mockup-09`, `mobile-mockup-05`, `ug5-userflow` |
+  | **UG6: Suscripción y Facturación** | EP06, EP07 | US36, US37, US38, US42, US58, US59 | `ug6-wireframe-*`, `ug6-wireflow-*`, `desktop-mockup-02`, `desktop-mockup-10`, `mobile-mockup-06`, `ug6-userflow` |
+  | **UG7: Configuración y Notificaciones** | EP03, EP09 | US16, US20, US53 | `ug7-wireframe-*`, `ug7-wireflow-*`, `desktop-mockup-11`, `desktop-mockup-12`, `mobile-mockup-07`, `mobile-mockup-08`, `ug7-userflow` |
 
   ## 4.6. Domain-Driven Software Architecture
 
