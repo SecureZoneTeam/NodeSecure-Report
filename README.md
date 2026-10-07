@@ -3083,6 +3083,71 @@ https://trello.com/b/kkcLSErp/nodesecure
 
 ### 5.2.2.4. Development Evidence for Sprint Review.
 
+Durante el Sprint 2, el equipo trabajó colaborativamente en el repositorio **NodeSecure-website**, aplicando GitFlow y utilizando la convención de Conventional Commits para registrar los cambios realizados durante la implementación de la primera versión de la Web Application.
+
+
+
+  <table>
+  <tr>
+  <th>Repository</th>
+  <th>Branch</th>
+  <th>Commit ID</th>
+  <th>Commit Message</th>
+  <th>Commit Message Body</th>
+  <th>Committed On (Date)</th>
+  </tr>
+
+
+  <tr>
+  <td>NodeSecure-website</td>
+  <td>develop</td>
+  <td>02fa57a</td>
+  <td>add new</td>
+  <td>—</td>
+  <td>6-10-2026</td>
+  </tr>
+
+  <tr>
+  <td>NodeSecure-website</td>
+  <td>develop</td>
+  <td>ab66567</td>
+  <td>feat: add version 1.0 WebSite FrontEnd</td>
+  <td>—</td>
+  <td>6-10-2026</td>
+  </tr>
+
+
+  <tr>
+  <td>NodeSecure-website</td>
+  <td>develop</td>
+  <td>100be06</td>
+  <td>fix: add data on db.json</td>
+  <td>—</td>
+  <td>6-10-2026</td>
+  </tr>
+
+
+  <tr>
+  <td>NodeSecure-website</td>
+  <td>develop</td>
+  <td>213b94b</td>
+  <td>fix: styles</td>
+  <td>—</td>
+  <td>6-10-2026</td>
+  </tr>
+
+
+  <tr>
+  <td>NodeSecure-website</td>
+  <td>develop</td>
+  <td>729d693</td>
+  <td>Merge branch 'develop' of https://github.com/SecureZoneTeam/SafeZone-website into develop</td>
+  <td>—</td>
+  <td>6-10-2026</td>
+  </tr>
+
+  </table>
+
 ### 5.2.2.5. Execution Evidence for Sprint Review.
 
 En esta sección se explican y presentan los avances de implementación correspondientes al Sprint 2, cuyo alcance principal fue el desarrollo de la primera versión de la Frontend Web Application. A lo largo de este sprint, el equipo colaboró de forma estructurada para lograr la implementación de distintas pestañas de la aplicación como el dashboard de los almacenes, el historial para la auditoria, entre otros.
