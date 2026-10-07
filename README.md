@@ -10,7 +10,7 @@
   **DOCENTE**<br>
   Iván Robles Fernandez<br><br>
 
-  **Informe AV1 Sprint Review**<br><br>
+  **Informe TB1**<br><br>
 
   **Nombre Start up:** SafeZone<br>
   **Nombre Producto:** NodeSecure<br><br>
@@ -52,7 +52,11 @@
   </div>
   <br><br><br><br><br><br>
 
+  <div style="page-break-after: always;"></div>
+  
   ## Registro de versiones del informe
+  
+  
 
   <table>
     <thead>
@@ -78,7 +82,7 @@
       <tr>
         <td><b>TB1</b></td>
         <td>-</td>
-        <td>-</td>
+        <td></td>
         <td>En proceso</td>
       </tr>
       <tr>
@@ -95,8 +99,10 @@
       </tr>
     </tbody>
   </table>
+  <br><br>
+  
 
-  <br><br><br><br>
+  <div style="page-break-after: always;"></div>
 
   # Contenido
   [**Capítulo I: Introducción**](#capítulo-i-introducción)<br>
@@ -178,11 +184,12 @@
   [Bibliografía](#bibliografía)<br>
   [Anexos](#anexos)<br><br><br>
 
+  <div style="page-break-after: always;"></div>
+  
+# Student Outcome
+En esta sección se detalla la contribución de cada integrante del equipo para explicar cómo las actividades y entregables del trabajo final han ayudado a desarrollar las dimensiones del Student Outcome correspondiente a la competencia de Comunicación. En esta sección se describe la relación entre el outcome, sus criterios y el trabajo colaborativo e individual realizado a lo largo del proyecto. Esto se complementa con lo reflejado en los testimonios expuestos que forman parte del video acerca del equipo.
 
-  # Student Outcome
-  En esta sección se detalla la contribución de cada integrante del equipo para explicar cómo las actividades y entregables del trabajo final han ayudado a desarrollar las dimensiones del Student Outcome correspondiente a la competencia de Comunicación. En esta sección se describe la relación entre el outcome, sus criterios y el trabajo colaborativo e individual realizado a lo largo del proyecto. Esto se complementa con lo reflejado en los testimonios expuestos que forman parte del video acerca del equipo.
-
-  <table>
+<table>
   <thead>
     <tr>
       <th width="30%">Criterio específico</th>
@@ -198,7 +205,7 @@
         <b>AV1</b><br><br>
         <b>Anahua Ancachi, Liz Maribel:</b> Condujo y moderó oralmente las entrevistas semiestructuradas con los usuarios del segmento operativo (Segmento 2), transmitiendo las preguntas de manera clara y adaptando el lenguaje técnico a situaciones cotidianas de almacén. Asimismo, expuso y sustentó en las reuniones de equipo los hallazgos del Needfinding y los perfiles de User Personas desarrollados para el Capítulo II.<br><br>
         <b>Sandoval Aiquipa, Kelber Yamir:</b> Expuso de manera fluida y persuasiva la lógica de interacción y los diseños de UX/UI durante las sesiones de revisión. Justificó las decisiones de diseño (uso de Dark Mode, diagramas de flujos y mockups) ante el equipo y en el video de exposición, empleando un tono adecuado y profesional para alinear la visión técnica con los objetivos del negocio.<br><br>
-        <b>Pérez Bellido, Fernando Sebastián:</b><br><br>
+        <b>Pérez Bellido, Fernando Sebastián:</b> Comunicó de forma clara y técnica las decisiones de arquitectura de software y diseño de base de datos durante las reuniones del equipo. En la grabación del video de exposición (About the Product), explicó de manera didáctica cómo los sensores IoT se comunican con nuestra plataforma web, adaptando términos de ingeniería para que sean comprensibles por un público de negocios.<br><br>
         <b>Ravello Cárdenas, Luciana Angielina:</b> Sustentó verbalmente las bases del modelo de negocio, segmentos objetivo e hipótesis del Lean UX para el Capítulo I. Realizó aportes en un lenguaje claro y fácil de entender durante las reuniones de coordinación. También contribuyó con las entrevistas, expresándose de manera clara.
       </td>
       <td valign="top">
@@ -207,8 +214,14 @@
       </td>
     </tr>
     <tr>
-      <td><b>TB1</b></td>
-      <td><b>TB1</b></td>
+      <td valign="top"><b>TB1</b><br><br>
+      <b>Anahua Ancachi, Liz Maribel:</b> Durante las sesiones de planificación y revisión del Sprint, explicó al equipo de manera sencilla cómo se estructurarían los datos simulados (mocks) como paso previo a la integración del backend real. También lideró los debates sobre el rendimiento grupal, compartiendo verbalmente los análisis de colaboración para identificar áreas de mejora.<br><br>
+      <b>Sandoval Aiquipa, Kelber Yamir:</b> Sustenté las correcciones aplicadas al diseño UX/UI de NodeSecure y expliqué el flujo de despliegue del Frontend Web App durante las reuniones de validación del Sprint 2. Utilicé un lenguaje técnico claro para asegurar que el equipo comprendiera la configuración de enrutamiento necesaria para pasar a producción sin errores.<br><br>
+      <b>Ravello Cárdenas, Luciana Angielina:</b> Expuso de forma clara en las reuniones de coordinación el progreso visual del frontend y la Landing Page. Explicó a sus compañeros qué capturas de pantalla y evidencias debían priorizarse para el informe, adaptando su lenguaje para asegurar que todo el equipo comprendiera el avance del desarrollo y los objetivos logrados en este Sprint.
+      </td>
+      <td valign="top"><b>TB1</b><br><br>
+      Durante el Sprint 2, concluimos que la comunicación oral enfocada en la resolución de problemas técnicos fue clave. Adaptar nuestro lenguaje al coordinar las integraciones y explicar configuraciones de despliegue nos permitió evitar bloqueos y lograr publicar la Web Application a tiempo.
+      </td>
     </tr>
     <tr>
       <td><b>AV2</b></td>
@@ -218,13 +231,14 @@
       <td><b>VF1</b></td>
       <td><b>VF1</b></td>
     </tr>
+    <!-- Criterio 3.c2 -->
     <tr>
       <td rowspan="4" valign="top"><b>3.c2. Comunica por escrito con efectividad a diferentes rangos de audiencia</b></td>
       <td valign="top">
         <b>AV1</b><br><br>
         <b>Anahua Ancachi, Liz Maribel:</b> Redactó las secciones principales del Capítulo II (Requirements Elicitation & Analysis), documentando el análisis competitivo, el diseño y registro de entrevistas, y el análisis de variables. Estructuró por escrito el Needfinding (necesidades identificadas), los artefactos UX (User Personas, User Task Matrix, User Journey Mapping y Empathy Mapping) de forma clara, técnica y profesional para la evaluación del informe.<br><br>
         <b>Sandoval Aiquipa, Kelber Yamir:</b> Redactó exhaustivamente la sección de Product Design (Capítulo 4.4), documentando los User Flows, Wireflows y Mockups. Empleó un enfoque de redacción técnica orientada al dominio de negocio (Domain-Driven Design), utilizando términos logísticos y operativos precisos para describir correctamente la funcionalidad de cada interfaz.<br><br>
-        <b>Pérez Bellido, Fernando Sebastián:</b><br><br>
+        <b>Pérez Bellido, Fernando Sebastián:</b> Estructuró y redactó las secciones correspondientes a la Especificación de Requisitos (Capítulo III) y Arquitectura de Software (Capítulo IV). Utilizó formatos estándar de la industria (Gherkin para User Stories) y documentó los diagramas C4 y de base de datos con un lenguaje formal y riguroso.<br><br>
         <b>Ravello Cárdenas, Luciana Angielina:</b> Redactó las secciones principales del Capítulo I (Startup Profile, proceso Lean UX y Segmentos Objetivo). Utilizó un lenguaje escrito adecuado y estructurado para documentar la información, asegurando su comprensión tanto para la evaluación académica como para un público logístico-comercial.
       </td>
       <td valign="top">
@@ -233,8 +247,14 @@
       </td>
     </tr>
     <tr>
-      <td><b>TB1</b></td>
-      <td><b>TB1</b></td>
+      <td valign="top"><b>TB1</b><br><br>
+      <b>Anahua Ancachi, Liz Maribel:</b> Documentó por escrito la estrategia de servicios del sistema (5.2.2.6), redactando de forma clara y estructurada cómo se están simulando los endpoints iniciales del proyecto. Además, elaboró el reporte escrito de colaboración del equipo (5.2.2.8), resumiendo las métricas y la dinámica de trabajo con un lenguaje profesional y analítico adecuado para la evaluación académica.<br><br>
+      <b>Sandoval Aiquipa, Kelber Yamir:</b> Redacté y estructuré la sección 5.2.2.7 (Software Deployment Evidence), documentando la configuración, los entornos de alojamiento y las URLs públicas de la Web Application y la Landing Page. Empleé un formato tabular ordenado y descripciones técnicas precisas para evidenciar el éxito del pase a producción.<br><br>
+      <b>Ravello Cárdenas, Luciana Angielina:</b> Redactó las secciones de evidencias de desarrollo y ejecución (5.2.2.4 y 5.2.2.5). Se encargó de elaborar explicaciones detalladas y fáciles de entender para cada captura de pantalla del frontend, logrando que el lector comprenda la interacción del usuario. Además, documentó de forma clara y organizada la tabla de commits de GitHub, asegurando un registro profesional del esfuerzo del equipo.
+      </td>
+      <td valign="top"><b>TB1</b><br><br>
+      Concluimos que la documentación técnica escrita en esta etapa exigió un alto nivel de detalle y precisión. Al documentar el desarrollo y despliegue del frontend, logramos que la evolución del proyecto sea transparente y auditable tanto para el equipo interno como para la evaluación docente.
+      </td>
     </tr>
     <tr>
       <td><b>AV2</b></td>
@@ -245,7 +265,9 @@
       <td><b>VF1</b></td>
     </tr>
   </tbody>
-  </table>
+</table>
+
+  <div style="page-break-after: always;"></div>
 
   # Capítulo I: Introducción
 
@@ -535,7 +557,7 @@
 
   **Dato estadístico:** La modernización logística es clave para la rentabilidad corporativa. Mientras un 30% de empresas aún opera con procesos convencionales y riesgos elevados (Aguilar y Chingay, 2025), la automatización mediante sensores IoT ha demostrado elevar la exactitud del inventario del 33% al 94% y la eficiencia operativa hasta en un 90% (Cespedes y Ponce, 2025). Esta integración minimiza pérdidas y optimiza la seguridad, reduciendo drásticamente los errores de supervisión.<br><br><br><br>
 
-
+  <div style="page-break-after: always;"></div>
 
   # Capítulo II: Requirements Elicitation & Analysis 
   ## 2.1. Competidores
@@ -688,53 +710,91 @@
   Construir la propuesta de valor alrededor de la generación de evidencia verificable sobre las operaciones realizadas. La plataforma debe permitir identificar quién realizó una operación, qué movimiento efectuó y cuándo ocurrió, complementando esta información con los eventos físicos registrados por los sensores.
   Táctica: utilizar dashboards, alertas, historial de eventos y marcas de tiempo para facilitar la supervisión y las posteriores auditorías. 
 
-  ## 2.2.1. Diseño de entrevistas
+## 2.2.1. Diseño de entrevistas
   Para comprender a fondo los dolores y validar las necesidades de nuestro público y  levantar los requerimientos del sistema SafeZone (NodeSecure), se diseñaron dos guiones de entrevistas semiestructuradas enfocados en nuestros dos segmentos de usuario objetivo.
 
   Entrevista - Segmento 1: Dueños de PYMES y Jefes de Operaciones / Almacén 
 
-  ¿Cuáles son los principales problemas o pérdidas que ha detectado en el control diario de su almacén o negocio?
-  ¿Ha tenido problemas con robos, pérdidas o faltantes de mercadería? ¿Qué suele ocurrir cuando se presenta alguno de estos casos?
-  ¿Cómo realizan actualmente el registro y control de las entradas, salidas y del stock disponible de mercadería?
-  ¿Con qué mecanismos cuentan actualmente para supervisar quién entra o sale de las zonas de almacenamiento?
-  Por ejemplo, cámaras y registros
-  ¿Con qué frecuencia encuentran diferencias entre el stock que tienen registrado y la mercadería que realmente tienen físicamente?
-  Cuando detectan un faltante, ¿qué tan difícil les resulta determinar qué ocurrió y quiénes estuvieron presentes en ese momento?
-  ¿Qué tan útil sería para usted recibir una alerta en su celular cuando ocurra algo fuera de lo normal, como una apertura de puerta fuera de horario o una posible discrepancia de inventario?
-  Si pudiera consultar la fecha y hora exacta en que ocurrió un incidente, ¿consideraría útil esa información para revisar directamente ese momento en sus cámaras o registros? ¿Por qué?
-  Pensando en una herramienta que ayude a controlar el inventario y detectar este tipo de situaciones, ¿qué características considera más importantes para que realmente le resulte útil en su negocio?
-  ¿Estaría dispuesto a utilizar una solución de este tipo en su negocio? ¿Qué factores tendría en cuenta para decidir adoptarla?
+¿Cuáles son los principales problemas o pérdidas que ha detectado en el control diario de su almacén o negocio?
+¿Ha tenido problemas con robos, pérdidas o faltantes de mercadería? ¿Qué suele ocurrir cuando se presenta alguno de estos casos?
+¿Cómo realizan actualmente el registro y control de las entradas, salidas y del stock disponible de mercadería?
+¿Con qué mecanismos cuentan actualmente para supervisar quién entra o sale de las zonas de almacenamiento? (Por ejemplo, cámaras y registros)
+¿Con qué frecuencia encuentran diferencias entre el stock que tienen registrado y la mercadería que realmente tienen físicamente?
+Cuando detectan un faltante, ¿qué tan difícil les resulta determinar qué ocurrió y quiénes estuvieron presentes en ese momento?
+Cuando ocurre una apertura no autorizada o un incidente fuera de horario en su almacén, ¿cómo se entera actualmente y cuánto tiempo pasa hasta que lo descubre?
+¿Qué métodos o pasos sigue hoy en día cuando necesita investigar cuándo ocurrió exactamente una pérdida de mercadería en sus instalaciones?
+Cuando no se encuentra físicamente en el local o almacén, ¿de qué manera vigila o controla que las operaciones y los accesos se realicen de forma correcta?
+¿Qué tan útil sería para usted recibir una alerta en su celular cuando ocurra algo fuera de lo normal, como una apertura de puerta fuera de horario o una posible discrepancia de inventario?
+Si pudiera consultar la fecha y hora exacta en que ocurrió un incidente, ¿consideraría útil esa información para revisar directamente ese momento en sus cámaras o registros? ¿Por qué?
+Pensando en una herramienta que ayude a controlar el inventario y detectar este tipo de situaciones, ¿qué características considera más importantes para que realmente le resulte útil en su negocio?
+¿Estaría dispuesto a utilizar una solución de este tipo en su negocio? ¿Qué factores tendría en cuenta para decidir adoptarla?
 
 
   Entrevista - Segmento 2: Encargados de Logística y Personal Operativo 
 
-  ¿Cómo es normalmente el proceso cuando realizas una entrada o salida de productos en el almacén?
-  ¿Qué herramientas utilizas habitualmente para registrar los movimientos de productos?
-  Por ejemplo: computadora, celular, tablet, Excel u otro sistema.
-  ¿Cuánto tiempo aproximadamente te toma registrar una entrada o salida de productos?
-  ¿Qué dificultades encuentras actualmente al registrar y controlar el inventario?
-  ¿Qué ocurre cuando necesitas registrar una salida rápidamente y el sistema resulta lento o complicado de utilizar?
-  ¿Con qué frecuencia se presentan descuadres entre el stock registrado y la cantidad de productos que realmente tienen?
-  Cuando ocurre un descuadre de stock, ¿qué tan fácil o difícil es identificar quién realizó el movimiento y cuándo ocurrió?
-  ¿Qué características consideras indispensables en una aplicación para registrar los movimientos de productos de forma rápida y sencilla?
-  ¿Qué tan útil sería para ti que la plataforma genere automáticamente un registro de la fecha y hora del evento?
-  ¿Crees que contar con este tipo de registros te ayudaría a identificar mejor qué ocurrió cuando se presenta un descuadre de inventario?
-  ¿Te gustaría controlar toda la información importante de manera remota?
+¿Cómo es normalmente el proceso cuando realizas una entrada o salida de productos en el almacén?
+¿Qué herramientas utilizas habitualmente para registrar los movimientos de productos? (Por ejemplo: computadora, celular, tablet, Excel u otro sistema)
+¿Cuánto tiempo aproximadamente le toma registrar una entrada o salida de productos?
+¿Qué dificultades encuentras actualmente al registrar y controlar el inventario?
+¿Qué ocurre cuando necesitas registrar una salida rápidamente y el sistema resulta lento o complicado de utilizar?
+¿Con qué frecuencia se presentan descuadres entre el stock registrado y la cantidad de productos que realmente tienen?
+Cuando ocurre un descuadre de stock, ¿qué tan fácil o difícil es identificar quién realizó el movimiento y cuándo ocurrió?
+Cuando detecta que la mercadería física no coincide con lo registrado, ¿qué acciones toma de inmediato para identificar en qué momento del turno ocurrió el error o faltante?
+¿De qué manera maneja actualmente la revisión de los momentos exactos en los que se movilizó un producto cuando surge un reclamo o descuadre?
+Cuando se presentan demoras o congestión en el área de despacho o recepción, ¿cómo maneja el registro de los productos para evitar errores en las anotaciones?
+¿Qué características consideras indispensables en una aplicación para registrar los movimientos de productos de forma rápida y sencilla?
+¿Qué tan útil sería para ti que la plataforma genere automáticamente un registro de la fecha y hora del evento?
+¿Crees que contar con este tipo de registros te ayudaría a identificar mejor qué ocurrió cuando se presenta un descuadre de inventario?
+¿Te gustaría controlar toda la información importante de manera remota?
+
 
   <h3>Segmento 01: Dueños y Administradores de Almacén</h3>
 
   <table>
     <tr>
       <td width="20%"><strong>Entrevistador</strong></td>
-      <td>Sandoval Aiquipa, Kelber Yamir</td>
+      <td>Pérez Bellido, Fernando Sebastián</td>
     </tr>
     <tr>
       <td><strong>Entrevistado</strong></td>
-      <td>Jose Miguel</td>
+      <td>Diego Sanchez</td>
     </tr>
     <tr>
       <td><strong>Edad</strong></td>
-      <td>28 años</td>
+      <td>26 años</td>
+    </tr>
+    <tr>
+      <td><strong>Distrito</strong></td>
+      <td>Chorrillos, Lima</td>
+    </tr>
+    <tr>
+      <td><strong>Evidencia</strong></td>
+      <td><a href="https://canva.link/9w4klnpwqeadxqt" target="_blank">Ver Evidencia</a></td>
+    </tr>
+      <tr>
+      <td><strong>Inicio</strong></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><strong>Resumen</strong></td>
+      <td>El negocio sufre constantes descuadres de inventario y pérdidas por robos debido a un registro manual atrasado y una supervisión básica, lo que paraliza la operación y dificulta identificar a los responsables. Para solucionarlo, están muy dispuestos a adoptar una herramienta en la nube, asequible y de fácil implementación, que actualice el stock en tiempo real y envíe alertas móviles con la hora exacta de cualquier anomalía. Esto les permitiría reaccionar de inmediato, agilizar enormemente la revisión de las cámaras de seguridad y evitar mayores pérdidas económicas sin interrumpir el trabajo diario.</td>
+    </tr>
+  </table>
+
+
+  <table>
+    <tr>
+      <td width="20%"><strong>Entrevistador</strong></td>
+      <td>Sandoval Aiquipa, Kelber Yamir</td>
+      <td>Fernando Sebastián Pérez Bellido</td>
+    </tr>
+    <tr>
+      <td><strong>Entrevistado</strong></td>
+      <td>Francisco Robles Mendoza</td>
+    </tr>
+    <tr>
+      <td><strong>Edad</strong></td>
+      <td>35 años</td>
     </tr>
     <tr>
       <td><strong>Distrito</strong></td>
@@ -746,7 +806,7 @@
     </tr>
       <tr>
       <td><strong>Inicio</strong></td>
-      <td> </td>
+      <td>00:00 </td>
     </tr>
     <tr>
       <td><strong>Resumen</strong></td>
@@ -759,15 +819,15 @@
   <table>
     <tr>
       <td width="20%"><strong>Entrevistador</strong></td>
-      <td>Sandoval Aiquipa, Kelber Yamir</td>
+      <td>Kelber Yamir Sandoval Aiquipa</td>
     </tr>
     <tr>
       <td><strong>Entrevistado</strong></td>
-      <td>Diego Campoblanco</td>
+      <td>Diego Campoblanco Torres</td>
     </tr>
     <tr>
       <td><strong>Edad</strong></td>
-      <td>25 años</td>
+      <td>30 años</td>
     </tr>
     <tr>
       <td><strong>Distrito</strong></td>
@@ -779,11 +839,11 @@
     </tr>
     <tr>
       <td><strong>Inicio</strong></td>
-      <td> </td>
+      <td>00:10</td>
     </tr>
     <tr>
       <td><strong>Resumen</strong></td>
-      <td>Dueña de una distribuidora de abarrotes al por mayor. Presenta problemas con el "robo hormiga" y desbalances de productos no anotados a tiempo. Actualmente utiliza un cuaderno físico y control visual. Destaca que recibir alertas remotas en el celular le daría un control absoluto para supervisar su negocio a distancia y cruzar la hora de apertura de puertas con las ventas realizadas.</td>
+      <td>Dueño de una distribuidora de abarrotes al por mayor. Presenta problemas con el "robo hormiga" y desbalances de productos no anotados a tiempo. Actualmente utiliza un cuaderno físico y control visual. Destaca que recibir alertas remotas en el celular le daría un control absoluto para supervisar su negocio a distancia y cruzar la hora de apertura de puertas con las ventas realizadas.</td>
     </tr>
   </table>
 
@@ -792,15 +852,15 @@
   <table>
     <tr>
       <td width="20%"><strong>Entrevistador</strong></td>
-      <td>[Nombre del Entrevistador]</td>
+      <td>Kelber Yamir Sandoval Aiquipa</td>
     </tr>
     <tr>
       <td><strong>Entrevistado</strong></td>
-      <td>Patricia Sofía Ramos Vílchez</td>
+      <td>Jose Miguel Gutiérrez Farfán</td>
     </tr>
     <tr>
       <td><strong>Edad</strong></td>
-      <td>45 años</td>
+      <td>32 años</td>
     </tr>
     <tr>
       <td><strong>Distrito</strong></td>
@@ -812,40 +872,7 @@
     </tr>
     <tr>
       <td><strong>Inicio</strong></td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td><strong>Resumen</strong></td>
-      <td>Dueña de una distribuidora de abarrotes al por mayor. Presenta problemas con el "robo hormiga" y desbalances de productos no anotados a tiempo. Actualmente utiliza un cuaderno físico y control visual. Destaca que recibir alertas remotas en el celular le daría un control absoluto para supervisar su negocio a distancia y cruzar la hora de apertura de puertas con las ventas realizadas.</td>
-    </tr>
-  </table>
-
-  <br>
-
-  <table>
-    <tr>
-      <td width="20%"><strong>Entrevistador</strong></td>
-      <td>[Nombre del Entrevistador]</td>
-    </tr>
-    <tr>
-      <td><strong>Entrevistado</strong></td>
-      <td>Roberto Alonzo Gutiérrez Farfán</td>
-    </tr>
-    <tr>
-      <td><strong>Edad</strong></td>
-      <td>48 años</td>
-    </tr>
-    <tr>
-      <td><strong>Distrito</strong></td>
-      <td>San Luis, Lima</td>
-    </tr>
-    <tr>
-      <td><strong>Evidencia</strong></td>
-      <td><a href="https://canva.link/9w4klnpwqeadxqt" target="_blank">Ver Evidencia</a></td>
-    </tr>
-      <tr>
-      <td><strong>Inicio</strong></td>
-      <td> </td>
+      <td>02:50</td>
     </tr>
     <tr>
       <td><strong>Resumen</strong></td>
@@ -883,7 +910,7 @@
     </tr>
       <tr>
       <td><strong>Inicio</strong></td>
-      <td> 30 s </td>
+      <td>06:44</td>
     </tr>
     <tr>
       <td><strong>Resumen</strong></td>
@@ -917,7 +944,7 @@
     </tr>
       <tr>
       <td><strong>Inicio</strong></td>
-      <td> 4:30 </td>
+      <td>12:20</td>
     </tr>
     <tr>
       <td><strong>Resumen</strong></td>
@@ -950,7 +977,7 @@
     </tr>
     <tr>
       <td><strong>Inicio</strong></td>
-      <td> 7:40 </td>
+      <td>15:30</td>
     </tr>
     <tr>
       <td><strong>Resumen</strong></td>
@@ -959,7 +986,7 @@
   </table>
 
   <br>
-
+  
   ### 2.2.3. Análisis de entrevistas
   Segmento 01 (Administrativo / Toma de decisiones):
   La principal molestia de la gerencia es la pérdida de tiempo al investigar faltantes. La integración del sensor IoT con la plataforma web soluciona este problema al generar marcas de tiempo (timestamps) exactas que dirigen la revisión del video CCTV al minuto preciso del evento. 
@@ -1112,6 +1139,9 @@
   ## 2.5. Ubiquitous Language
 
   ![Ubiquitous Language](./images/2.5.png)
+
+<div style="page-break-after: always;"></div>
+
 # Capítulo III: Requirements Specification
 
 En esta sección, el equipo define los requisitos funcionales y técnicos de la plataforma NodeSecure a partir del análisis de las entrevistas y el modelo de negocio. Se inicia con la especificación de User Stories y sus Criterios de Aceptación, se continúa con el Impact Mapping para alinear los objetivos de negocio con el desarrollo, y se finaliza con el Product Backlog estimado y priorizado para los primeros Sprints.
@@ -1135,7 +1165,7 @@ A continuación, se presentan las épicas y User Stories definidos para el desar
 | **US11** | Exportar reporte de incidentes | Como administrador, quiero descargar un reporte PDF/Excel mensual de mermas y alertas para presentarlo a gerencia. | **Given** existen datos en el rango seleccionado, **When** el usuario da clic en "Exportar Reporte", **Then** el sistema descarga el archivo estructurado.<br>**Given** un mes sin incidencias, **When** se exporta, **Then** el documento refleja "Cero Incidentes Registrados". | EP04 |
 | **US12** | Acceso y navegación móvil | Como dueño de PYME, quiero acceder al dashboard de NodeSecure desde mi smartphone para vigilar mi negocio en movimiento. | **Given** el usuario ingresa desde un móvil, **When** carga la interfaz web, **Then** el layout se adapta a componentes táctiles (Bottom Navigation).<br>**Given** la revisión de alertas en móvil, **When** navega, **Then** no hay pérdida de funcionalidad frente a Desktop. | EP10 |
 | **US13** | Autenticación Segura (Login) | Como jefe de operaciones, quiero iniciar sesión de forma segura para proteger la información logística de la empresa. | **Given** el usuario ingresa email y password correctos, **When** hace clic en entrar, **Then** el sistema valida y redirige al dashboard.<br>**Given** credenciales erróneas, **When** intenta ingresar, **Then** se muestra un mensaje de "Credenciales inválidas". | EP09 |
-| **US14** | Visualizar Landing Page | Como visitante (potencial cliente), quiero acceder a la Landing Page para conocer cómo NodeSecure elimina el robo hormiga. | **Given** el usuario entra a la URL raíz, **When** la página carga, **Then** se muestra la propuesta de valor y las llamadas a la acción.<br>**Given** navegación por la página, **When** hace scroll, **Then** descubre las características de la tecnología IoT. | EP06 |
+| **US14** | Visualizar Landing Page | Como visitante (potencial cliente), quiero acceder a la Landing Page para conocer cómo NodeSecure ayuda a prevenir el robo hormiga. | **Given** el usuario entra a la URL raíz, **When** la página carga, **Then** se muestra la propuesta de valor y las llamadas a la acción.<br>**Given** navegación por la página, **When** hace scroll, **Then** descubre las características de la tecnología IoT. | EP06 |
 | **US15** | Comparativa de Planes SaaS | Como dueño de PYME (visitante), quiero ver los precios y límites operativos (sensores/almacenes) para elegir mi suscripción. | **Given** el usuario se encuentra en la Landing Page, **When** navega a la sección de Pricing, **Then** observa los planes Básico, Premium y Corporativo.<br>**Given** clic en "Contratar", **When** interactúa, **Then** es redirigido al flujo de registro de empresa. | EP06, EP07 |
 | **US16** | Suscripción y Facturación | Como dueño de PYME, quiero registrar mi método de pago para activar mi plan y expandir mis límites de sensores IoT. | **Given** el usuario completa sus datos de tarjeta, **When** procesa el pago, **Then** NodeSecure actualiza su plan y libera la cuota de hardware.<br>**Given** fondos insuficientes, **When** procesa, **Then** la pasarela retorna error y el plan no se activa. | EP07 |
 | **US17** | Gestión de Roles (RBAC) | Como dueño de PYME, quiero asignar roles (Administrador, Almacenero, Auditor) para restringir quién puede editar la infraestructura. | **Given** el dueño invita a un empleado, **When** le asigna el rol "Almacenero", **Then** el empleado solo puede visualizar su zona sin editar hardware.<br>**Given** un almacenero intenta borrar un sensor, **When** interactúa, **Then** el sistema deniega el acceso. | EP02, EP09 |
@@ -1173,7 +1203,7 @@ A continuación, se presenta el Product Backlog inicial de NodeSecure, priorizad
 
 | Orden | User Story ID | Título | Descripción | Story Points |
 |:---:|:---|:---|:---|:---:|
-| 1 | US14 | Visualizar Landing Page | Como visitante, quiero acceder a la Landing Page para conocer cómo NodeSecure elimina el robo hormiga. | 3 |
+| 1 | US14 | Visualizar Landing Page | Como visitante, quiero acceder a la Landing Page para conocer cómo NodeSecure ayuda a prevenir el robo hormiga. | 3 |
 | 2 | US15 | Comparativa de Planes SaaS | Como dueño de PYME (visitante), quiero ver los precios y límites operativos para elegir mi suscripción. | 2 |
 | 3 | US13 | Autenticación Segura (Login) | Como jefe de operaciones, quiero iniciar sesión de forma segura para proteger la información de la empresa. | 5 |
 | 4 | TS18 | Generación de Tokens JWT | Como developer, quiero implementar JWT en la API para mantener sesiones seguras y escalables. | 5 |
@@ -1192,6 +1222,7 @@ A continuación, se presenta el Product Backlog inicial de NodeSecure, priorizad
 | 17 | US12 | Acceso y navegación móvil | Como dueño de PYME, quiero acceder al dashboard desde mi smartphone (Bottom Navigation). | 3 |
 
 ---
+<div style="page-break-after: always;"></div>
 
 # Capítulo IV: Product Design
 
@@ -1271,8 +1302,8 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
 
   ## 4.4. Web Applications UX/UI Design.
 
-  El diseño de la experiencia de usuario (UX) y de la interfaz (UI) de la plataforma NodeSecure se ha centrado en la operatividad bajo presión. Entendemos que un jefe de seguridad o un dueño de negocio entra a la aplicación web buscando respuestas rápidas: "¿Coincide mi inventario digital con la mercadería física?", "¿Hubo alguna salida de stock no registrada?". Por ello, la UX prioriza la conciliación del inventario en tiempo real, la gestión de entradas/salidas y la visualización de discrepancias detectadas por los sensores IoT. La UI, basada en Material Design, utiliza una estética limpia y profesional que reduce la carga cognitiva, permitiendo que el usuario identifique anomalías de stock o accesos mediante el uso estratégico de colores semánticos (rojo para discrepancias, verde para stock conciliado).
-
+  El diseño de la experiencia de usuario (UX) y de la interfaz (UI) de la plataforma NodeSecure se orienta a la operatividad en escenarios de supervisión logística. La propuesta busca responder con rapidez a consultas operativas clave: "¿Existe correspondencia entre el inventario digital y las aperturas físicas?", "¿Se produjo alguna salida de stock sin movimiento asociado?". Por ello, la UX prioriza la visualización de discrepancias detectadas mediante sensores IoT y el acceso ágil a las marcas de tiempo (timestamps). La UI, basada en Material Design, emplea una estética limpia y colores semánticos (rojo para discrepancias críticas, amarillo para advertencias operativas y verde para estados conciliados) con el objetivo de facilitar la identificación visual de anomalías.
+  
   ### 4.4.1. Web Applications Wireframes.
 
   En esta sección se presentan los wireframes diseñados para las versiones desktop y mobile de la plataforma. Estos modelos estructurales establecen la arquitectura de la información, la jerarquía visual y los flujos de interacción principales sin la distracción de elementos gráficos complejos. Los wireframes detallan la experiencia del usuario administrador a través de los módulos críticos del sistema, como lo es el dashboard de discrepancias, la gestión de inventario (entradas y salidas), el historial de trazabilidad y el ecosistema de facturación. El objetivo de esta etapa es validar la usabilidad y la eficiencia de las tareas operativas antes de transicionar al diseño de alta fidelidad.
@@ -1480,7 +1511,7 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
   ![Logical Flow - User Goal 4](images/ug4-wireflow-logical.png)
 
   **Diagrama Visual (Wireflow):**
-  ![Visual Wireflow - User Goal 4](images/ug4-wireflow-visual.png)git checkout -b feature/ux-wireflow-ug5-update
+  ![Visual Wireflow - User Goal 4](images/ug4-wireflow-visual.png)
 
   #### 5. User Goal: Gestión de personal y accesos
 
@@ -1539,9 +1570,19 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
 
   **Desktop**
 
-  Los mockups de la versión de escritorio presentan un sistema de diseño moderno y coherente, con una paleta de colores oscuros que ayuda a reducir la fatiga visual durante largos periodos de monitoreo. La arquitectura de información se organiza a través de una barra lateral persistente que facilita la navegación entre módulos clave como el panel de almacenes, el historial de eventos y la configuración. Además, el uso consistente de tipografías legibles y componentes estandarizados, como tarjetas y botones en tonos azules, permite mantener una jerarquía visual clara y fácil de seguir.
+  Los mockups de la versión de escritorio aplican un sistema de diseño coherente basado en una paleta de tonos oscuros (Dark Mode), seleccionado como principio de diseño ergonómico para entornos de monitoreo continuo en almacenes, buscando disminuir el deslumbramiento en pantallas operativas. La arquitectura de información se organiza mediante una barra lateral persistente que conecta el panel de almacenes, la gestión de dispositivos IoT, la bitácora de trazabilidad y la configuración de accesos.
 
-  Con respecto a usabilidad e inclusión, la interfaz prioriza la prevención de errores y la retroalimentación constante. Las acciones críticas están protegidas mediante ventanas emergentes con alertas de alto contraste que advierten sobre sus consecuencias, mientras que los estados del sistema combinan iconos y texto para asegurar una comprensión clara. Esto permite que la información sea accesible para distintos tipos de usuarios y garantiza que tanto los flujos principales como los de error sean intuitivos.
+  Para cubrir las condiciones reales de operación logística e integración con hardware, las interfaces y flujos contemplan los siguientes **estados críticos del dominio**:
+
+  | Estado Crítico del Dominio | Representación en UI / Comportamiento del Sistema | User Goal / Vista Asociada |
+  |---|---|---|
+  | **Sensor Offline** | Badge semántico en rojo (`Offline`), borde de alerta en la tarjeta del dispositivo y bloqueo de lectura en vivo hasta reconexión. | UG3: Dispositivos IoT (`mobile-mockup-03.png` / `desktop-mockup-06.png`) |
+  | **Discrepancia sin movimiento asociado** | Tarjeta de alerta crítica resaltada en rojo ("Salida física sin registro") indicando el sensor activado y el timestamp exacto sin guía de salida vinculada. | UG4: Auditoría y Trazabilidad (`mobile-mockup-04.png` / `desktop-mockup-05.png`) |
+  | **Alerta ya atendida (Archivada)** | Cambio de estado del evento a "Evento Archivado / Falsa Alarma" con confirmación visual en verde, retirándolo de la bandeja de incidentes pendientes. | UG4: Detalle del Evento (`mobile-mockup-04.png` / `desktop-mockup-05.png`) |
+  | **Usuario sin permiso (RBAC)** | Restricción de vistas de configuración y segmentación por zonas asignadas (ej. rol Almacenero limitado a Zona A y C, sin acceso a facturación ni borrado de nodos). | UG5: Equipo y Accesos (`mobile-mockup-05.png`, `mobile-mockup-06.png`) |
+  | **Pérdida de conectividad** | Indicador de estado de red en el panel del almacén y modal de espera (`Activando Dispositivo...`) con opción de cancelación ante timeout de conexión. | UG2 y UG3 (`mobile-mockup-03.png` / ` mobile-mockup-04.png`) |
+  | **Retraso de telemetría (Latencia)** | Indicador temporal del último evento reportado (`Hace 5 min - Lectura estable`) en la tarjeta de cada sucursal para advertir desfases de sincronización. | UG2: Mis Almacenes (`mobile-mockup-02.png`) |
+  | **Evento duplicado (Debounce)** | Agrupación lógica en el Console Log por ventana de tiempo e identificador de sensor para evitar múltiples alertas por una misma apertura física continua. | UG4: Auditoría en Tiempo Real (`mobile-mockup-04.png` / `desktop-mockup-03.png`) |
 
   #### Módulo de Autenticación y Acceso
   ![Login y Recuperación](images/desktop-mockup-01.png)
@@ -1633,11 +1674,11 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
   * **Confirmación** ➔ Hace clic en "Guardar Almacén".
   * **Fin del flujo** ➔ El sistema valida la información, muestra la ventana de "Registro Exitoso" y Roberto vuelve al dashboard donde la nueva sucursal ya figura en estado "Auditando".
 
-  **El unhappy path: Límite de Plan Alcanzado**
-  * **Inicio** ➔ Roberto presiona "+ Registrar nuevo almacén".
-  * **Intercepción** ➔ El sistema verifica la suscripción y detecta que la empresa ya alcanzó el límite máximo de almacenes.
-  * **Notificación** ➔ En lugar de abrir el formulario, se despliega la ventana "Límite de Almacenes", bloqueando el registro.
-  * **Fin del flujo** ➔ Roberto debe decidir: presionar "Mejorar a Plan Premium" para escalar la cuenta, o "Quizás más tarde" para regresar al dashboard sin cambios.
+  **El unhappy path (Estado crítico): Retraso de telemetría en sucursal**
+  * **Inicio** ➔ Roberto ingresa a la vista principal de "Mis Almacenes" para supervisar sus sedes.
+  * **Detección** ➔ El sistema identifica que el gateway de "Almacén Sur" supera el umbral de tiempo esperado sin emitir paquetes de actualización.
+  * **Notificación visual** ➔ La tarjeta de la sucursal cambia su indicador semántico a ámbar con el estado "Retraso de telemetría", mostrando la marca del último reporte recibido.
+  * **Fin del flujo** ➔ Roberto ingresa al detalle del almacén advirtiendo que las lecturas presentan latencia antes de ejecutar una conciliación manual.
 
   ![User Flow - User Goal 2](images/ug2-userflow.png)
 
@@ -1653,6 +1694,12 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
   * **Procesamiento** ➔ Presiona "Vincular Dispositivo". Se muestra un modal de espera "Activando Dispositivo...".
   * **Fin del flujo** ➔ Se confirma con "Dispositivo en línea" y Roberto regresa al panel donde el nuevo sensor aparece "Online".
 
+  **El unhappy path (Estado crítico): Sensor Offline y Pérdida de Conectividad**
+  * **Inicio** ➔ Roberto revisa la lista de "Dispositivos IoT" y el estado de red del "Almacén Central".
+  * **Intercepción** ➔ El sistema detecta que el nodo "M1-Pasillo Central" dejó de responder al health-check y se registra una caída en la conexión de red local.
+  * **Alerta de estado** ➔ La tarjeta del nodo se resalta con borde rojo bajo la etiqueta "Offline", mientras el panel del almacén advierte "Pérdida de conectividad (Cola local)".
+  * **Fin del flujo** ➔ Roberto selecciona el dispositivo desconectado para reintentar la sincronización ("Activando Dispositivo...") hasta restablecer su estado a "Online".
+
   ![User Flow - User Goal 3](images/ug3-userflow.png)
 
   #### User Goal 4: Auditoría de Eventos y Discrepancias
@@ -1667,6 +1714,11 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
   * **Decisión** ➔ Al confirmar la merma, presiona el botón "Reportar Merma".
   * **Fin del flujo** ➔ El sistema muestra el modal "Contactar a Supervisor". Roberto presiona "Sí, Llamar" para escalar el incidente de inventario.
 
+  **Comportamiento ante estados críticos: Discrepancia sin movimiento, Evento duplicado y Alerta atendida**
+  * **Discrepancia sin movimiento asociado** ➔ Cuando el sensor magnético reporta una apertura física y el backend no halla una orden de salida digital en la ventana de tiempo, se genera la tarjeta roja "Salida física sin registro".
+  * **Filtrado de evento duplicado** ➔ Durante el monitoreo en vivo ("Auditoría en Tiempo Real"), si el sensor emite señales repetidas por rebote físico de la puerta, el Console Log agrupa la señal y registra "Evento duplicado omitido" para no saturar la bandeja de alertas.
+  * **Alerta ya atendida** ➔ Tras auditar el "Detalle del Evento", si Roberto presiona "Marcar como Falsa Alarma", el sistema despliega el modal de confirmación "Evento Archivado", cambiando su estado en la bitácora para evitar doble gestión del incidente.
+
   ![User Flow - User Goal 4](images/ug4-userflow.png)
 
   #### User Goal 5: Gestión de Equipo y Accesos
@@ -1679,6 +1731,12 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
   * **Ingreso de datos** ➔ Escribe el correo del empleado, selecciona el rol (Almacenero) y las zonas asignadas.
   * **Confirmación** ➔ Presiona "Enviar Invitación".
   * **Fin del flujo** ➔ El sistema despliega "Invitación Enviada" y Francisco regresa a la lista donde el correo figura como "Pendiente".
+
+  **El unhappy path (Estado crítico): Usuario sin permiso**
+  * **Inicio** ➔ Un operador con rol de "Almacenero" ingresa al módulo de "Equipo y Accesos" e intenta modificar la configuración de zonas o invitar personal.
+  * **Intercepción RBAC** ➔ El sistema valida los permisos del token JWT y verifica que el rol carece de privilegios administrativos.
+  * **Bloqueo** ➔ Se despliega el modal "Usuario sin permiso", informando que su cuenta está limitada a la auditoría de sus zonas asignadas.
+  * **Fin del flujo** ➔ El usuario presiona "Entendido" y retorna a la vista sin alterar la configuración de seguridad.
 
   ![User Flow - User Goal 5](images/ug5-userflow.png)
 
@@ -1709,11 +1767,42 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
 
   ![User Flow - User Goal 7](images/ug7-userflow.png)
 
+  #### Matriz de Trazabilidad de Diseño UX/UI (User Goals vs. User Stories)
+
+  Para garantizar la consistencia entre la especificación de requisitos y el diseño de interacción, la siguiente tabla vincula cada flujo de usuario con las Epics y User Stories del Product Backlog:
+
+  | User Goal (UX/UI) | Epic Asociada | User Stories Cubiertas | Artefactos de Evidencia (Wireframe / Wireflow / Mockup) |
+  |---|---|---|---|
+  | **UG1: Acceso e Inicio en el Sistema** | EP02, EP09 | US19, US25, TS27 | `ug1-wireframe-*`, `ug1-wireflow-*`, `desktop-mockup-01`, `mobile-mockup-01`, `ug1-userflow` |
+  | **UG2: Registro y Monitoreo de Almacenes** | EP01, EP02 | US01, US02, US04, US05, US13, US28 | `ug2-wireframe-*`, `ug2-wireflow-*`, `desktop-mockup-03`, `mobile-mockup-02`, `ug2-userflow` |
+  | **UG3: Gestión de Dispositivos IoT** | EP03, EP08 | US39, US40, US41, US50, US60 | `ug3-wireframe-*`, `ug3-wireflow-*`, `desktop-mockup-06`, `desktop-mockup-07`, `mobile-mockup-03`, `ug3-userflow` |
+  | **UG4: Auditoría de Eventos y Discrepancias** | EP01, EP03, EP04 | US03, US06, US07, US08, US10, US11, US12, US15, US29, US30 | `ug4-wireframe-*`, `ug4-wireflow-*`, `desktop-mockup-04`, `desktop-mockup-05`, `mobile-mockup-04`, `ug4-userflow` |
+  | **UG5: Gestión de Equipo y Accesos** | EP02, EP09 | US26, US33, US43 | `ug5-wireframe-*`, `ug5-wireflow-*`, `desktop-mockup-08`, `desktop-mockup-09`, `mobile-mockup-05`, `ug5-userflow` |
+  | **UG6: Suscripción y Facturación** | EP06, EP07 | US36, US37, US38, US42, US58, US59 | `ug6-wireframe-*`, `ug6-wireflow-*`, `desktop-mockup-02`, `desktop-mockup-10`, `mobile-mockup-06`, `ug6-userflow` |
+  | **UG7: Configuración y Notificaciones** | EP03, EP09 | US16, US20, US53 | `ug7-wireframe-*`, `ug7-wireflow-*`, `desktop-mockup-11`, `desktop-mockup-12`, `mobile-mockup-07`, `mobile-mockup-08`, `ug7-userflow` |
+
+  ### 4.5. Web Applications Prototyping
+
+  El prototipado interactivo de NodeSecure materializa los flujos de usuario y la arquitectura de información definidos en las fases previas, permitiendo simular la experiencia real de la plataforma antes de su etapa de codificación. Utilizando Figma, se han interconectado las pantallas de alta fidelidad (mockups) para los entornos de escritorio y móvil, aplicando transiciones y microinteracciones que imitan el comportamiento del sistema final. 
+
+  Este artefacto permite validar la usabilidad de las tareas críticas, como el registro de un nuevo almacén, la detección de discrepancias mediante notificaciones simuladas, y el recorrido de escalabilidad en el módulo de facturación.
+
+  * **Enlace al Prototipo Interactivo (Desktop y Mobile):** [Ver Prototipo en Figma][https://www.figma.com/design/Mjmfv8zXHB753QKMcfucH2/Sin-t%C3%ADtulo?node-id=0-1&t=OpYw1NIg0EhggkLC-1]
+
   ## 4.6. Domain-Driven Software Architecture
 
-  En esta sección se presenta la arquitectura de software de NodeSecure desde el enfoque de Domain-Driven Design (DDD), mostrando la organización del sistema, sus principales dominios, componentes y las relaciones entre los diferentes elementos que participan en la solución.
+  La arquitectura de software orientada al dominio (DDD) es el enfoque de diseño que estructura Locksight entorno a los procesos clave del negocio de seguridad y almacenamiento. Este método permite que el softwarerefleje con precisión las reglas de negocio, como la gestión de permisos por zonas o la activación automáticade alertas. Al aplicar DDD, logramos un sistema robusto, escalable y fácil de mantener, donde cadacomponente técnico está alineado con los objetivos de seguridad y eficiencia operativa de nuestros clientes.
 
-  ### 4.6.1. Software Architecture Context Diagram
+  ### 4.6.1 Domain-Driven Software Architecture
+  
+  En esta parte se puede ver detalladamente el desarollo del Design Level Storming
+
+  <div align="center">
+    <img src="images/event_storming_nodesecure.png" alt="repositorio">
+  </div>
+
+
+  ### 4.6.2. Software Architecture Context Diagram
 
   El Software Architecture Context Diagram presenta una visión general del sistema NodeSecure y su interacción con los principales actores y sistemas externos. El diagrama permite identificar a los usuarios que utilizan la plataforma y los servicios externos con los que el sistema se comunica, como el servicio de pagos, el servicio de correo electrónico y la API de inteligencia artificial.
 
@@ -1784,7 +1873,66 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
     <img src="images/c4/06_component_subscription_billing_service.png" alt="repositorio">
   </div>
 
-  # 5. Product Implementation, Validation & Deployment
+  <div align="center">
+    <img src="images/c4/02_component_inventory_service.png" alt="repositorio">
+  </div>
+
+  IoT Integration Service
+
+  El diagrama de componentes del IoT Integration Service muestra los componentes responsables de recibir y procesar los eventos provenientes de los dispositivos IoT. El servicio permite gestionar los dispositivos, recibir eventos físicos provenientes de sensores, ESP32 y RFID, procesar y normalizar dichos eventos y mantener el estado de los dispositivos. La información procesada se almacena para posteriormente ser utilizada por los servicios de detección de discrepancias y trazabilidad.
+
+  <div align="center">
+    <img src="images/c4/03_component_iot_integration_service.png" alt="repositorio">
+  </div>
+
+  Alert & Discrepancy Service
+
+  El diagrama de componentes del Alert & Discrepancy Service representa la estructura encargada de analizar y correlacionar los eventos físicos registrados por los dispositivos IoT con las operaciones digitales del inventario. Sus componentes permiten aplicar reglas de negocio, identificar posibles discrepancias y gestionar las alertas generadas. La información resultante se almacena para mantener un registro de las discrepancias y alertas detectadas.
+
+  <div align="center">
+    <img src="images/c4/04_component_alert_discrepancy_service.png" alt="repositorio">
+  </div>
+
+  Audit & Traceability Service
+
+  El diagrama de componentes del Audit & Traceability Service muestra los componentes encargados de mantener el historial y la trazabilidad de las operaciones realizadas en la plataforma. Permite registrar y consultar movimientos de inventario, eventos, alertas y demás información relevante para las auditorías. Los registros generados son almacenados en la base de datos de auditoría y trazabilidad para facilitar su consulta y seguimiento.
+
+  <div align="center">
+    <img src="images/c4/05_component_audit_traceability_service.png" alt="repositorio">
+  </div>
+
+  Subscription & Billing Service
+
+  El diagrama de componentes del Subscription & Billing Service representa la estructura encargada de gestionar los planes y suscripciones de NodeSecure. Sus componentes permiten administrar los planes disponibles, las suscripciones de los clientes, los pagos y la facturación, además de controlar los límites asociados a cada plan. El servicio mantiene esta información en su base de datos y se comunica con el Payment Gateway para procesar los pagos correspondientes.
+
+  <div align="center">
+    <img src="images/c4/06_component_subscription_billing_service.png" alt="repositorio">
+  </div>
+
+ ## 4.7. Software Object-Oriented Design
+ El diseño orientado a objetos es fundamental para estructurar NodeSecure de manera modular. A través de este diseño, definimos las clases y métodos que dan vida a las funcionalidades, aprovechando principios de reutilización de código y mantenimiento. Esto nos permite modelar entidades del mundo real (sensores,usuarios, almacenes) dentro del código de forma lógica, facilitando que el sistema crezca y se adapte a nuevasnecesidades de seguridad industrial sin comprometer la estabilidad actual.
+
+ ### 4.7.1. Class Diagram
+
+  El diagrama de clases busca reflejar el enfoque DDD de NodeSecure. Se separan los principales bounded contexts del sistema, como Inventory Management, Warehouse Management, Access & Security, IoT Integration, Subscription & Billing, Audit & Traceability, Alerts & Discrepancies y Landing Page. Asimismo, se evidencian entidades y Value Objects como Address, OperatingShift y Money, utilizados para representar conceptos específicos del dominio y encapsular información relevante de las reglas del negocio.
+
+  <div align="center">
+    <img src="images/class_diagram_nodesecure.png" alt="repositorio">
+  </div>
+
+ ## 4.8. DataBase Diagrams
+
+  El diseño de la base de datos proporciona la estructura necesaria para almacenar y gestionar toda lainformación operativa de Locksight de forma segura y eficiente. Se ha modelado un esquema relacional queorganiza las tablas, relaciones y restricciones necesarias para garantizar la integridad de los datos de sensores,historiales de acceso y perfiles de usuario. Un diseño de base de datos sólido permite que el sistema respondacon rapidez ante consultas históricas y guarde cada evento de seguridad con precisión milimétrica.
+
+  ### 4.8.1. Data Base Diagram
+
+  <div align="center">
+    <img src="images/nodesecure_erd.png" alt="repositorio">
+  </div>
+
+<div style="page-break-after: always;"></div>
+
+ # Capítulo V: Product Implementation, Validation & Deployment
 
 
   ## 5.1. Software Configuration Management
@@ -2255,7 +2403,7 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
   ### 5.2.1.3. Sprint Backlog 1
 
 
-  El objetivo principal del Sprint 1 es implementar y desplegar la primera versión funcional de la Landing Page de NodeSecure. Para alcanzar este objetivo, las User Stories seleccionadas fueron descompuestas en Engineering Tasks relacionadas con la estructura, diseño, contenido, responsividad y despliegue de la Landing Page.
+El objetivo principal del Sprint 1 es implementar y desplegar la primera versión funcional de la Landing Page de NodeSecure. Las User Stories se descomponen en Engineering Tasks con estimaciones entre 4 y 8 horas, manteniendo la trazabilidad con los identificadores y títulos definidos en el Product Backlog.
 
 
   ### Sprint Backlog
@@ -2267,7 +2415,7 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
   > **Evidencia del Board:** 
 
   <td align="center">
-        <img src="images/sprint-foto.png" width="600" alt="Foto de Fernando">
+        <img src="images/sprint.png" width="600" alt="Foto de Fernando">
   </td>
   
   <br>
@@ -2296,7 +2444,7 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
 
   <tr>
   <td>Sprint 1</td>
-  <td>US21</td>
+  <td>US14</td>
   <td>Visualizar landing page</td>
   <td>T01</td>
   <td>Estructura HTML y entorno de desarrollo</td>
@@ -2309,7 +2457,7 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
 
   <tr>
   <td>Sprint 1</td>
-  <td>US21</td>
+  <td>US14</td>
   <td>Visualizar landing page</td>
   <td>T02</td>
   <td>Implementación del Hero Section y Navbar</td>
@@ -2322,7 +2470,7 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
 
   <tr>
   <td>Sprint 1</td>
-  <td>US21</td>
+  <td>US14</td>
   <td>Visualizar landing page</td>
   <td>T03</td>
   <td>Desarrollo técnico de la sección Features</td>
@@ -2335,7 +2483,7 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
 
   <tr>
   <td>Sprint 1</td>
-  <td>US23</td>
+  <td>US14</td>
   <td>Visualizar información del equipo</td>
   <td>T04</td>
   <td>Maquetación del módulo About y Team</td>
@@ -2348,7 +2496,7 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
 
   <tr>
   <td>Sprint 1</td>
-  <td>US58</td>
+  <td>US15</td>
   <td>Ver planes y precios desde landing page</td>
   <td>T05</td>
   <td>Implementación de Pricing Cards</td>
@@ -2361,7 +2509,7 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
 
   <tr>
   <td>Sprint 1</td>
-  <td>US57</td>
+  <td>US14</td>
   <td>Visualizar testimonios de la comunidad</td>
   <td>T06</td>
   <td>Construcción del grid de Testimonials</td>
@@ -2374,7 +2522,7 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
 
   <tr>
   <td>Sprint 1</td>
-  <td>US24</td>
+  <td>US14</td>
   <td>Contactar desde la landing page</td>
   <td>T07</td>
   <td>Desarrollo de Contacto y Footer</td>
@@ -2387,7 +2535,7 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
 
   <tr>
   <td>Sprint 1</td>
-  <td>US22</td>
+  <td>US14</td>
   <td>Visualizar video del producto</td>
   <td>T08</td>
   <td>Integración de Video y Media</td>
@@ -2400,7 +2548,7 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
 
   <tr>
   <td>Sprint 1</td>
-  <td>US21</td>
+  <td>US14</td>
   <td>Visualizar landing page</td>
   <td>T09</td>
   <td>Refactorización de Media Queries</td>
@@ -2413,7 +2561,7 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
 
   <tr>
   <td>Sprint 1</td>
-  <td>US21</td>
+  <td>US14</td>
   <td>Visualizar landing page</td>
   <td>T10</td>
   <td>Configuración de CI/CD en GitHub Pages</td>
@@ -2465,27 +2613,6 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
   <td>2026-09-11</td>
   </tr>
 
-
-  <tr>
-  <td>NodeSecure-Landing-Page</td>
-  <td>main</td>
-  <td>571582a</td>
-  <td>Delete CNAME</td>
-  <td>—</td>
-  <td>2026-09-11</td>
-  </tr>
-
-
-  <tr>
-  <td>NodeSecure-Landing-Page</td>
-  <td>main</td>
-  <td>7bff9d3</td>
-  <td>Create CNAME</td>
-  <td>—</td>
-  <td>2026-09-11</td>
-  </tr>
-
-
   <tr>
   <td>NodeSecure-Landing-Page</td>
   <td>develop</td>
@@ -2530,7 +2657,7 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
   <td>NodeSecure-Landing-Page</td>
   <td>develop</td>
   <td>201a1af</td>
-  <td>fear: implementacion de la seccion de contacto</td>
+  <td>feat: implementacion de la seccion de contacto</td>
   <td>—</td>
   <td>2026-09-11</td>
   </tr>
@@ -2633,16 +2760,6 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
   <td>feat: creacion inicial de la estructura de la landing page</td>
   <td>—</td>
   <td>2026-09-10</td>
-  </tr>
-
-
-  <tr>
-  <td>NodeSecure-Landing-Page</td>
-  <td>develop</td>
-  <td>602656d</td>
-  <td>--INSERT-- ASDcrear</td>
-  <td>—</td>
-  <td>2026-09-09</td>
   </tr>
 
 
@@ -2968,9 +3085,406 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
   </tr>
   </table>
 
+  <div style="page-break-after: always;"></div>
+
+  ### 5.2.2 Sprint 2
+
+  ### 5.2.2.1. Sprint Planning 2
+
+En esta sección se documenta el Sprint Planning Meeting correspondiente al Sprint 2, donde el equipo de NodeSecure estableció el objetivo del sprint, definió el alcance de trabajo y distribuyó las tareas necesarias para desarrollar la primera versión funcional de la Web Application.
+
+## Sprint Planning
+
+| Campo | Información |
+|---|---|
+| Sprint # | Sprint 2 |
+| Sprint Planning Background | Primera versión funcional de la Web Application de NodeSecure - FrontEnd|
+| Date | 2026-10-03 |
+| Time | 16:00 PM |
+| Location | Meet |
+| Prepared By | Fernando Sebastián Pérez |
+
+## Sprint Goal & User Stories
+
+El objetivo del Sprint 2 fue desarrollar la primera versión funcional de la Web Application de NodeSecure, permitiendo a los usuarios interactuar con las principales funcionalidades de la plataforma.
+
+La Web Application contempla las interfaces de autenticación, gestión de usuarios y permisos, administración de almacenes, dispositivos IoT, auditoría y trazabilidad, así como suscripción y facturación.
+
+| Campo | Valor |
+|---|---|
+| Sprint 2 Goal | Implementar la primera versión funcional de la Web Application de NodeSecure (FrontEnd). |
+| Esfuerzo / Capacidad del equipo | 72 horas |
+| Sum of Estimation (Hours) | 72 horas |
+
+
+
+### 5.2.2.2. Aspect Leaders and Collaborators
+
+Para el Sprint 2 se establecieron los responsables y colaboradores para los diferentes aspectos relacionados con la implementación de la Web Application de NodeSecure. La distribución considera las principales funcionalidades desarrolladas durante el sprint, incluyendo autenticación, gestión de almacenes, dispositivos IoT, equipo y permisos, auditoría y trazabilidad, suscripción y facturación, así como las actividades de integración, pruebas y calidad del Frontend.
+
+| Team Member | GitHub Username | Authentication & Account | Warehouses & IoT | Team & Access | Audit & Traceability | Subscription & Billing | Integration & QA |
+|---|---|---|---|---|---|---|---|
+| Fernando Sebastián Pérez Bellido | Fern.bellido22 | L | L | C | L | C | L |
+| Anahua Ancachi, Liz Maribel | lizzanahua-rgb | C | C | L | C | L | C |
+| Sandoval Aiquipa, Kelber Yamir | Kyesei | C | L | C | C | C | L |
+| Ravello Cárdenas, Luciana Angielina | Lucyrcar-ID | C | C | L | L | C | C |
+
+Leyenda:
+
+- L = Aspect Leader.
+- C = Collaborator.
+
+### 5.2.2.3. Sprint Backlog 2
+
+El objetivo principal del Sprint 2 es desarrollar la primera versión funcional del Frontend de la Web Application de NodeSecure. Para alcanzar este objetivo, las User Stories seleccionadas fueron descompuestas en Engineering Tasks relacionadas con la implementación de las interfaces y flujos de interacción de autenticación, gestión de usuarios y permisos, almacenes, dispositivos IoT, auditoría y trazabilidad, suscripción y facturación y configuración de notificaciones.
+
+#### Sprint Backlog
+
+A continuación, se presenta el Sprint Backlog correspondiente al Sprint 2, incluyendo las User Stories seleccionadas, las tareas derivadas de cada una, su descripción, estimación, responsable y estado de ejecución.
+
+**Evidencia del Board:**
+
+<div align="center">
+    <img src="images/sprint 2.png" alt="repositorio">
+</div>
+
+**URL público del Board:**
+
+https://trello.com/b/kkcLSErp/nodesecure
+
+| Sprint # | User Story ID | User Story Title | Task ID | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
+|---|---|---|---|---|---|---:|---|---|
+| Sprint 2 | US13 | Autenticación Segura (Login) | T01 | Implementación de Login | Desarrollar la interfaz de acceso al sistema con correo electrónico y contraseña. | 4 | Fernando Sebastián Pérez Bellido | Done |
+| Sprint 2 | US13 | Autenticación Segura (Login) | T02 | Implementación de Crear Cuenta | Desarrollar la interfaz de registro de nuevos usuarios. | 4 | Fernando Sebastián Pérez Bellido | Done |
+| Sprint 2 | US13 | Autenticación Segura (Login) | T03 | Implementación de Recuperar Contraseña | Desarrollar la interfaz para solicitar la recuperación de contraseña. | 4 | Fernando Sebastián Pérez Bellido | Done |
+| Sprint 2 | US01 | Visualizar red de almacenes | T04 | Implementación de vista de almacenes | Desarrollar la interfaz para visualizar la información principal del almacén. | 4 | Sandoval Aiquipa, Kelber Yamir | Done |
+| Sprint 2 | US19 | Vincular Sensor IoT a Zona | T05 | Implementación de dispositivos IoT | Desarrollar la interfaz para visualizar los dispositivos IoT y su estado. | 4 | Sandoval Aiquipa, Kelber Yamir | Done |
+| Sprint 2 | US19 | Vincular Sensor IoT a Zona | T06 | Vinculación de dispositivo IoT | Implementar el formulario para vincular un dispositivo IoT con una zona. | 4 | Sandoval Aiquipa, Kelber Yamir | Done |
+| Sprint 2 | US17 | Gestión de Roles (RBAC) | T07 | Implementación de gestión de usuarios | Desarrollar la interfaz para visualizar, invitar y administrar usuarios. | 4 | Anahua Ancachi, Liz Maribel | Done |
+| Sprint 2 | US17 | Gestión de Roles (RBAC) | T08 | Implementación de gestión de permisos | Desarrollar la interfaz para editar permisos y asignar zonas de acceso. | 4 | Anahua Ancachi, Liz Maribel | Done |
+| Sprint 2 | US03 | Auditoría de discrepancias (R-T) | T09 | Implementación de auditoría en tiempo real | Desarrollar la interfaz para visualizar eventos y actividad del almacén. | 4 | Ravello Cárdenas, Luciana Angielina | Done |
+| Sprint 2 | US03 | Auditoría de discrepancias (R-T) | T10 | Implementación de detalle de discrepancias | Desarrollar la vista de detalle de eventos y acciones sobre discrepancias. | 4 | Ravello Cárdenas, Luciana Angielina | Done |
+| Sprint 2 | US08 | Bitácora de trazabilidad | T11 | Implementación de historial de eventos | Desarrollar la interfaz para consultar el historial de eventos registrados. | 4 | Ravello Cárdenas, Luciana Angielina | Done |
+| Sprint 2 | US10 | Filtros avanzados de auditoría | T12 | Implementación de filtros de eventos | Implementar filtros por tipo de evento y rango de fechas. | 4 | Ravello Cárdenas, Luciana Angielina | Done |
+| Sprint 2 | US16 | Suscripción y Facturación | T13 | Implementación de vista de suscripción | Desarrollar la interfaz para visualizar el plan, límites y estado de la suscripción. | 4 | Anahua Ancachi, Liz Maribel | Done |
+| Sprint 2 | US16 | Suscripción y Facturación | T14 | Implementación de selección de planes | Desarrollar la interfaz para visualizar y seleccionar los planes disponibles. | 4 | Anahua Ancachi, Liz Maribel | Done |
+| Sprint 2 | US16 | Suscripción y Facturación | T15 | Implementación del flujo de pago | Desarrollar las interfaces de resumen, personalización y confirmación de pago. | 4 | Anahua Ancachi, Liz Maribel | Done |
+| Sprint 2 | US06 | Notificaciones Push de seguridad | T16 | Implementación de configuración de notificaciones | Desarrollar la interfaz para configurar las preferencias de notificaciones. | 4 | Anahua Ancachi, Liz Maribel | Done |
+| Sprint 2 | TS18 | Generación de Tokens JWT | T17 | Preparación del flujo de autenticación | Preparar el Frontend para su futura integración con autenticación mediante JWT. | 4 | Fernando Sebastián Pérez Bellido | Done |
+| Sprint 2 | TS09 | Recepción de payloads IoT (API) | T18 | Preparación de integración IoT | Preparar el Frontend para su futura integración con eventos IoT mediante API REST. | 4 | Sandoval Aiquipa, Kelber Yamir | Done |
+
+### 5.2.2.4. Development Evidence for Sprint Review.
+
+Durante el Sprint 2, el equipo trabajó colaborativamente en el repositorio **NodeSecure-website**, aplicando GitFlow y utilizando la convención de Conventional Commits para registrar los cambios realizados durante la implementación de la primera versión de la Web Application.
+
+
+
+  <table>
+  <tr>
+  <th>Repository</th>
+  <th>Branch</th>
+  <th>Commit ID</th>
+  <th>Commit Message</th>
+  <th>Commit Message Body</th>
+  <th>Committed On (Date)</th>
+  </tr>
+
+
+  <tr>
+  <td>NodeSecure-website</td>
+  <td>develop</td>
+  <td>02fa57a</td>
+  <td>add new</td>
+  <td>—</td>
+  <td>6-10-2026</td>
+  </tr>
+
+  <tr>
+  <td>NodeSecure-website</td>
+  <td>develop</td>
+  <td>ab66567</td>
+  <td>feat: add version 1.0 WebSite FrontEnd</td>
+  <td>—</td>
+  <td>6-10-2026</td>
+  </tr>
+
+
+  <tr>
+  <td>NodeSecure-website</td>
+  <td>develop</td>
+  <td>100be06</td>
+  <td>fix: add data on db.json</td>
+  <td>—</td>
+  <td>6-10-2026</td>
+  </tr>
+
+
+  <tr>
+  <td>NodeSecure-website</td>
+  <td>develop</td>
+  <td>213b94b</td>
+  <td>fix: styles</td>
+  <td>—</td>
+  <td>6-10-2026</td>
+  </tr>
+
+
+  <tr>
+  <td>NodeSecure-website</td>
+  <td>develop</td>
+  <td>729d693</td>
+  <td>Merge branch 'develop' of https://github.com/SecureZoneTeam/SafeZone-website into develop</td>
+  <td>—</td>
+  <td>6-10-2026</td>
+  </tr>
+
+  </table>
+
+### 5.2.2.5. Execution Evidence for Sprint Review.
+
+En esta sección se explican y presentan los avances de implementación correspondientes al Sprint 2, cuyo alcance principal fue el desarrollo de la primera versión de la Frontend Web Application. A lo largo de este sprint, el equipo colaboró de forma estructurada para lograr la implementación de distintas pestañas de la aplicación como el dashboard de los almacenes, el historial para la auditoria, entre otros.
+
+A continuación, se presentan las evidencias de ejecución de las principales funcionalidades y secciones implementadas durante el Sprint 2.
+
+### Ingreso de sesión
+
+<div align="center">
+    <img src="images/registro-usuario-es.png" alt="repositorio">
+</div>
+
+En esta pantalla se le da la opción al usuario a ingresar con sus credenciales si es que ya tiene una cuenta creada para acceder a nuestro servicio.
+
+<br>
+
+
+<div align="center">
+    <img src="images/crear-usuario.png" alt="repositorio">
+</div>
+
+Para caso contrario, se le da opción de registrarse por primera vez llenando los presentes campos y dándole al botón correspondiente.
+
+<br>
+
+### Pantalla de Inicio
+
+<div align="center">
+    <img src="images/pantalla-inicio.png" alt="repositorio">
+</div>
+
+Aquí se le permirte al usuario visualizar sus almacenes ya registrados y agregar nuevos según lo desee.
+
+<div align="center">
+    <img src="images/registrar-almacen.png" alt="repositorio">
+</div>
+
+<br>
+
+### Pestaña sobre los sensores IoT
+
+<div align="center">
+    <img src="images/sensores-iot.png" alt="repositorio">
+</div>
+
+Aquí se le permirte al usuario visualizar los dispositivos IoT vinculados a la aplicación y a agregar nuevos según lo desee.
+
+<div align="center">
+    <img src="images/registrar-sensor-iot.png" alt="repositorio">
+</div>
+
+<br>
+
+### Team and access
+
+<div align="center">
+    <img src="images/team-and-access.png" alt="repositorio">
+</div>
+
+Aquí se le permirte al usuario visualizar los trabajadores y sus usuarios registrados en el servicio para la administración de roles. Además, le permite agregar nuevos según lo desee.
+
+<div align="center">
+    <img src="images/registrar-nuevo-trabajador.png" alt="repositorio">
+</div>
+
+<br>
+
+### Historial
+
+<div align="center">
+    <img src="images/historial.png" alt="repositorio">
+</div>
+
+<br>
+
+### Suscripciones
+
+<div align="center">
+    <img src="images/suscripciones.png" alt="repositorio">
+</div>
+
+<br>
+
+
+### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+<p>Durante el Sprint 2, el alcance de implementación se concentró en el desarrollo de la aplicación web y la integración de una <strong>Fake API utilizando json-server</strong> para simular la persistencia y la gestión de datos del sistema NodeSecure.</p>
+
+<p>En este Sprint no se implementó el backend final con servicios REST en .NET Core o Spring Boot con Swagger/OpenAPI, por lo que se habilitó un entorno simulado local mediante <code>json-server</code> para exponer endpoints de prueba que permiten validar las operaciones del frontend.</p>
+
+<p>La documentación y el estado de los servicios REST simulados para este Sprint se presentan a continuación:</p>
+
+<h3>Services Documentation</h3>
+
+<table>
+  <tr>
+    <th>Elemento</th>
+    <th>Estado en Sprint 2</th>
+    <th>Evidencia</th>
+  </tr>
+  <tr>
+    <td>RESTful Web Services</td>
+    <td>Simulados mediante Fake API (json-server)</td>
+    <td>Archivo <code>db.json</code> con colecciones locales</td>
+  </tr>
+  <tr>
+    <td>Swagger / OpenAPI</td>
+    <td>No implementado con herramientas de framework</td>
+    <td>No aplica (Sustituido por endpoints de json-server)</td>
+  </tr>
+  <tr>
+    <td>API Endpoints</td>
+    <td>Implementados para consumo local (GET, POST, PUT, DELETE)</td>
+    <td>Rutas de recursos configuradas en el servidor local</td>
+  </tr>
+  <tr>
+    <td>API Documentation</td>
+    <td>Documentación esquemática de los recursos JSON locales</td>
+    <td>Endpoints activos en entorno de desarrollo local</td>
+  </tr>
+</table>
+
+
+<h3>5.2.2.8. Team Collaboration Insights during Sprint</h3>
+
+<p>Durante el Sprint 2, el equipo de NodeSecure trabajó de manera colaborativa para desarrollar la aplicación web y conectar los componentes con la <strong>Fake API mediante json-server</strong>. La organización del trabajo se realizó mediante la distribución de responsabilidades entre los integrantes y el uso de GitHub como plataforma para gestionar el código fuente, controlar las versiones y coordinar la integración de los cambios de la interfaz con los servicios simulados.</p>
+
+<p>El desarrollo se ejecutó de forma iterativa, asignando responsabilidades específicas relacionadas con los módulos clave del sistema (como la autenticación, la gestión de almacenes, el panel de control y la vinculación de dispositivos IoT).</p>
+
+<p>Asimismo, el equipo mantuvo el uso de ramas de trabajo dedicadas para desarrollar las funcionalidades de la aplicación web y posteriormente integrar los cambios mediante Pull Requests hacia la rama de desarrollo. Esta dinámica permitió mantener el aislamiento de los componentes durante su programación y facilitar su correcta integración con los endpoints locales.</p>
+
+<p>Durante el Sprint también se aplicaron mensajes estructurados mediante Conventional Commits para registrar las modificaciones y asegurar la trazabilidad técnica de las implementaciones realizadas en el repositorio.</p>
+
+<h3>Collaboration Practices</h3>
+
+<table>
+  <tr>
+    <th>Aspect</th>
+    <th>Collaboration Practice</th>
+  </tr>
+  <tr>
+    <td>Task Distribution</td>
+    <td>Las actividades del Sprint fueron distribuidas entre los integrantes según los módulos de la aplicación web y la configuración de la Fake API.</td>
+  </tr>
+  <tr>
+    <td>Version Control</td>
+    <td>Se utilizó Git y GitHub para gestionar el control de versiones del código fuente del frontend y los esquemas de datos locales.</td>
+  </tr>
+  <tr>
+    <td>Branching</td>
+    <td>Se utilizaron ramas de tipo feature para desarrollar los componentes de la interfaz y la lógica de consumo HTTP de manera aislada antes de su integración.</td>
+  </tr> 
+  <tr>
+    <td>Commits</td>
+    <td>Se registraron los cambios utilizando Conventional Commits para mantener la trazabilidad de las tareas desarrolladas.</td>
+  </tr>
+  <tr>
+    <td>Integration</td>
+    <td>Los componentes desarrollados fueron integrados al flujo principal mediante revisiones de código y el flujo de trabajo establecido para el repositorio.</td>
+  </tr>
+  <tr>
+    <td>Deployment</td>
+    <td>El equipo coordinó la configuración, ejecución local y validación conjunta del servidor de datos (json-server) y la aplicación web.</td>
+  </tr>
+</table>
+
+<div style="page-break-after: always;"></div>
+
+### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+Durante el **Sprint 2**, se realizó el despliegue en producción de la **Web Application (Frontend) de NodeSecure**, complementando la Landing Page desarrollada durante el Sprint 1. La Web Application incorpora los principales flujos funcionales de la plataforma, incluyendo el acceso mediante autenticación y la navegación hacia los módulos protegidos del sistema.
+
+La implementación actual de la Web Application fue desarrollada utilizando **Angular y TypeScript**, empleando **Angular Material** para los componentes de interfaz, **Angular Router** para la navegación y **ngx-translate** para la internacionalización de la aplicación.
+
+El proceso de despliegue se automatizó mediante **GitHub Actions**, encargado de instalar las dependencias, construir la aplicación Angular y generar el artefacto de producción. Posteriormente, dicho artefacto es publicado mediante **GitHub Pages**, permitiendo acceder a la aplicación desde una URL pública.
+
+Para garantizar el funcionamiento de las rutas de la aplicación en producción, se configuró el proceso de build con el **base-href correspondiente al repositorio**, además de incorporar un archivo `404.html` generado a partir del `index.html` para permitir la recuperación de las rutas de la aplicación en GitHub Pages.
+
+#### Deployment Configuration
+
+La siguiente tabla presenta la configuración de despliegue utilizada para los componentes digitales del proyecto:
+
+| Componente | Repositorio | Tecnología | Entorno de despliegue | URL pública |
+|---|---|---|---|---|
+| Landing Page | NodeSecure-Landing-Page | HTML5, CSS3, JavaScript | GitHub Pages | https://securezoneteam.github.io/NodeSecure-Landing-Page/ |
+| Frontend Web Application | SafeZone-website | Angular, TypeScript, Angular Material | GitHub Pages mediante GitHub Actions | https://securezoneteam.github.io/SafeZone-website/ |
+| Web Application – Sign In | SafeZone-website | Angular, Angular Router, ngx-translate | GitHub Pages | https://securezoneteam.github.io/SafeZone-website/sign-in |
+
+La primera versión funcional de la Landing Page fue desplegada mediante GitHub Pages durante el Sprint 1, mientras que durante el Sprint 2 se incorporó la Web Application como el componente interactivo de la solución.
+
+#### Deployment Evidence
+
+A continuación, se presentan las evidencias correspondientes a la configuración del pipeline de despliegue y a la disponibilidad de los componentes web para los usuarios finales.
+
+**1. Configuración del despliegue mediante GitHub Actions**
+
+La siguiente captura muestra la configuración del pipeline de **GitHub Actions**, utilizado para automatizar el proceso de construcción y publicación de la Web Application.
+
+El workflow ejecuta la instalación de dependencias, genera el build de producción de Angular y posteriormente publica el artefacto generado en **GitHub Pages**. De esta manera, cada actualización realizada sobre la rama `main` puede ser procesada y desplegada automáticamente en el entorno de producción.
+
+<div align="center">
+  <img src="images/sprint2-deployment-config.png" alt="Configuración del despliegue de NodeSecure Web Application mediante GitHub Actions">
+</div>
+
+**Figura X.** Configuración del pipeline de despliegue de NodeSecure Web Application mediante GitHub Actions y GitHub Pages.
+
+**2. Web Application en producción**
+
+La siguiente evidencia muestra la **Web Application de NodeSecure desplegada y accesible públicamente** mediante GitHub Pages.
+
+La aplicación permite acceder al flujo de autenticación y posteriormente navegar hacia las funcionalidades protegidas de la plataforma. La navegación interna se gestiona mediante **Angular Router**, mientras que la interfaz utiliza los componentes definidos en Angular Material.
+
+<div align="center">
+  <img src="images/sprint2-webapp-live.png" alt="NodeSecure Web Application desplegada en producción">
+</div>
+
+**Figura X.** Web Application de NodeSecure desplegada y accesible desde su URL pública.
+
+**Public Access:**  
+La Web Application puede ser consultada mediante:
+
+https://securezoneteam.github.io/SafeZone-website/
+
+El flujo de autenticación se encuentra disponible en:
+
+https://securezoneteam.github.io/SafeZone-website/sign-in
+
+**3. Landing Page actualizada**
+
+La siguiente evidencia muestra la Landing Page de NodeSecure desplegada mediante GitHub Pages. Esta página funciona como el punto de entrada público de la solución y presenta la propuesta de valor, funcionalidades y planes del producto, además de proporcionar acceso al flujo de registro de la plataforma.
+
+<div align="center">
+  <img src="images/sprint2-landing-live.png" alt="Landing Page de NodeSecure desplegada">
+</div>
+
+**Figura X.** Landing Page de NodeSecure actualizada y disponible públicamente.
+
+**Public Access:**  
+La Landing Page puede ser consultada mediante:
+
+https://securezoneteam.github.io/NodeSecure-Landing-Page/
+
+
   # Conclusiones
 
-  Al finalizar este primer avance (AV1) y el primer Sprint del proyecto SafeZone, el equipo ha llegado a las siguientes conclusiones fundamentales:
       
   1. **Validación de la Problemática Logística:** A través de la investigación de mercado y el análisis de competidores, se ha confirmado que la "merma desconocida" y el "robo hormiga" representan puntos de dolor críticos y costosos para el sector comercial en el Perú. La dependencia de sistemas pasivos (como la revisión manual de CCTV) genera un desgaste operativo severo, lo que valida la necesidad de una solución como NodeSecure, capaz de integrar evidencia física IoT (sensores) con el registro digital de inventario en tiempo real.
 
@@ -2978,9 +3492,27 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
 
   3. **Arquitectura de Información y Diseño B2B:** El diseño de la experiencia de usuario (UX) y la interfaz (UI) para la plataforma web y móvil ha demostrado que la adopción de un modelo B2B en "Dark Mode" no responde únicamente a una tendencia estética, sino a una necesidad operativa. Este esquema reduce la fatiga visual en entornos de monitoreo prolongado, mientras que el diseño responsivo basado en *bottom-sheets* y la estricta jerarquía de información previenen errores humanos al realizar tareas críticas, como la asignación de permisos y el control de discrepancias.
 
-  4. **Éxito del Despliegue Inicial (Sprint 1):** La adopción de GitFlow, el uso de Conventional Commits y las prácticas de configuración y despliegue continuo (CI/CD) han permitido al equipo trabajar de forma organizada y paralela. El resultado de este esfuerzo técnico se materializa en el despliegue exitoso de la Landing Page de NodeSecure en GitHub Pages, logrando comunicar eficientemente nuestra propuesta de valor al mercado y sentando una base tecnológica sólida para los próximos Sprints de desarrollo de la plataforma core.
+  4. **Éxito del Despliegue Inicial (Sprint 1):** La adopción de GitFlow, el uso de Conventional Commits y las prácticas de configuración y despliegue continuo (CI/CD) han permitido al equipo trabajar de forma organizada y sparalela. El resultado de este esfuerzo técnico se materializa en el despliegue exitoso de la Landing Page de NodeSecure en GitHub Pages, logrando comunicar eficientemente nuestra propuesta de valor al mercado y sentando una base tecnológica sólida para los próximos Sprints de desarrollo de la plataforma core.
 
-  ## Bibliografía
+
+  5. **Validación del Problema Logístico:** Se corrobora que las mermas desconocidas y el "robo hormiga" representan pérdidas críticas para el sector comercial en el Perú (estimadas entre S/ 700 y S/ 1,000 millones anuales). La dependencia de sistemas pasivos (como la revisión manual de cámaras de vigilancia) demuestra la necesidad imperativa de un ecosistema que relacione los movimientos digitales de inventario con los eventos físicos de los sensores IoT en tiempo real.
+  
+  
+  6. **Efectividad del Enfoque Lean UX y Entrevistas:** La aplicación de la metodología Lean UX y el levantamiento de información (*Needfinding*) permitieron segmentar adecuadamente a los usuarios (administradores y personal operativo). Esto facilitó el diseño de un *Product Backlog* ajustado a exigencias reales: el personal de campo requiere un registro ágil (menores a 30 segundos), mientras que la gerencia exige trazabilidad mediante marcas de tiempo (*timestamps*) para optimizar las auditorías con CCTV.
+  
+  
+  7. **Coherencia en la Arquitectura de Información y UI:** El diseño B2B bajo un esquema de *Dark Mode* y componentes adaptados (como *bottom-sheets* y una estructura responsiva) mitiga la fatiga visual en turnos prolongados de monitoreo y reduce drásticamente el margen de error humano al gestionar permisos o alertas de discrepancias físicas.
+  
+  
+  8. **Progreso y Despliegue Técnico (Sprints 1 y 2):**
+  * Durante el **Sprint 1**, se concretó el desarrollo e implementación de la primera versión de la *Landing Page* utilizando HTML5, CSS3 y JavaScript, logrando su despliegue público exitoso mediante GitHub Pages.
+  
+  
+  * Durante el **Sprint 2**, se avanzó en la construcción del *Frontend* de la *Web Application* —cubriendo vistas clave como autenticación, gestión de almacenes, dispositivos IoT, equipo y accesos, y trazabilidad— apoyándose de una *Fake API* local (*json-server*) para simular la persistencia y validar los flujos operativos antes de la integración con el *backend* definitivo.
+  
+<div style="page-break-after: always;"></div>
+
+  # Bibliografía
 
 Cohn, M. (2004). *User stories applied: For agile software development*. Addison-Wesley Professional.
 
