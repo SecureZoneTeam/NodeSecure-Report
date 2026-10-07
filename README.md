@@ -3372,6 +3372,80 @@ Aquí se le permirte al usuario visualizar los trabajadores y sus usuarios regis
 
 <div style="page-break-after: always;"></div>
 
+### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+Durante el **Sprint 2**, se realizó el despliegue en producción de la **Web Application (Frontend) de NodeSecure**, complementando la Landing Page desarrollada durante el Sprint 1. La Web Application incorpora los principales flujos funcionales de la plataforma, incluyendo el acceso mediante autenticación y la navegación hacia los módulos protegidos del sistema.
+
+La implementación actual de la Web Application fue desarrollada utilizando **Angular y TypeScript**, empleando **Angular Material** para los componentes de interfaz, **Angular Router** para la navegación y **ngx-translate** para la internacionalización de la aplicación.
+
+El proceso de despliegue se automatizó mediante **GitHub Actions**, encargado de instalar las dependencias, construir la aplicación Angular y generar el artefacto de producción. Posteriormente, dicho artefacto es publicado mediante **GitHub Pages**, permitiendo acceder a la aplicación desde una URL pública.
+
+Para garantizar el funcionamiento de las rutas de la aplicación en producción, se configuró el proceso de build con el **base-href correspondiente al repositorio**, además de incorporar un archivo `404.html` generado a partir del `index.html` para permitir la recuperación de las rutas de la aplicación en GitHub Pages.
+
+#### Deployment Configuration
+
+La siguiente tabla presenta la configuración de despliegue utilizada para los componentes digitales del proyecto:
+
+| Componente | Repositorio | Tecnología | Entorno de despliegue | URL pública |
+|---|---|---|---|---|
+| Landing Page | NodeSecure-Landing-Page | HTML5, CSS3, JavaScript | GitHub Pages | https://securezoneteam.github.io/NodeSecure-Landing-Page/ |
+| Frontend Web Application | SafeZone-website | Angular, TypeScript, Angular Material | GitHub Pages mediante GitHub Actions | https://securezoneteam.github.io/SafeZone-website/ |
+| Web Application – Sign In | SafeZone-website | Angular, Angular Router, ngx-translate | GitHub Pages | https://securezoneteam.github.io/SafeZone-website/sign-in |
+
+La primera versión funcional de la Landing Page fue desplegada mediante GitHub Pages durante el Sprint 1, mientras que durante el Sprint 2 se incorporó la Web Application como el componente interactivo de la solución.
+
+#### Deployment Evidence
+
+A continuación, se presentan las evidencias correspondientes a la configuración del pipeline de despliegue y a la disponibilidad de los componentes web para los usuarios finales.
+
+**1. Configuración del despliegue mediante GitHub Actions**
+
+La siguiente captura muestra la configuración del pipeline de **GitHub Actions**, utilizado para automatizar el proceso de construcción y publicación de la Web Application.
+
+El workflow ejecuta la instalación de dependencias, genera el build de producción de Angular y posteriormente publica el artefacto generado en **GitHub Pages**. De esta manera, cada actualización realizada sobre la rama `main` puede ser procesada y desplegada automáticamente en el entorno de producción.
+
+<div align="center">
+  <img src="images/sprint2-deployment-config.png" alt="Configuración del despliegue de NodeSecure Web Application mediante GitHub Actions">
+</div>
+
+**Figura X.** Configuración del pipeline de despliegue de NodeSecure Web Application mediante GitHub Actions y GitHub Pages.
+
+**2. Web Application en producción**
+
+La siguiente evidencia muestra la **Web Application de NodeSecure desplegada y accesible públicamente** mediante GitHub Pages.
+
+La aplicación permite acceder al flujo de autenticación y posteriormente navegar hacia las funcionalidades protegidas de la plataforma. La navegación interna se gestiona mediante **Angular Router**, mientras que la interfaz utiliza los componentes definidos en Angular Material.
+
+<div align="center">
+  <img src="images/sprint2-webapp-live.png" alt="NodeSecure Web Application desplegada en producción">
+</div>
+
+**Figura X.** Web Application de NodeSecure desplegada y accesible desde su URL pública.
+
+**Public Access:**  
+La Web Application puede ser consultada mediante:
+
+https://securezoneteam.github.io/SafeZone-website/
+
+El flujo de autenticación se encuentra disponible en:
+
+https://securezoneteam.github.io/SafeZone-website/sign-in
+
+**3. Landing Page actualizada**
+
+La siguiente evidencia muestra la Landing Page de NodeSecure desplegada mediante GitHub Pages. Esta página funciona como el punto de entrada público de la solución y presenta la propuesta de valor, funcionalidades y planes del producto, además de proporcionar acceso al flujo de registro de la plataforma.
+
+<div align="center">
+  <img src="images/sprint2-landing-live.png" alt="Landing Page de NodeSecure desplegada">
+</div>
+
+**Figura X.** Landing Page de NodeSecure actualizada y disponible públicamente.
+
+**Public Access:**  
+La Landing Page puede ser consultada mediante:
+
+https://securezoneteam.github.io/NodeSecure-Landing-Page/
+
 
   # Conclusiones
 
