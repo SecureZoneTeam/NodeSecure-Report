@@ -1748,8 +1748,8 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
   ### 4.6.1 Domain-Driven Software Architecture
 
     <div align="center">
-    <img src="images/event_storming_nodesecure.png" alt="repositorio">
-  </div>
+      <img src="images/event_storming_nodesecure.png" alt="repositorio">
+    </div>
 
 
   ### 4.6.2. Software Architecture Context Diagram
