@@ -10,7 +10,7 @@
   **DOCENTE**<br>
   Iván Robles Fernandez<br><br>
 
-  **Informe AV1 Sprint Review**<br><br>
+  **Informe TB1**<br><br>
 
   **Nombre Start up:** SafeZone<br>
   **Nombre Producto:** NodeSecure<br><br>
@@ -52,7 +52,11 @@
   </div>
   <br><br><br><br><br><br>
 
+  <div style="page-break-after: always;"></div>
+  
   ## Registro de versiones del informe
+  
+  
 
   <table>
     <thead>
@@ -78,7 +82,7 @@
       <tr>
         <td><b>TB1</b></td>
         <td>-</td>
-        <td>-</td>
+        <td></td>
         <td>En proceso</td>
       </tr>
       <tr>
@@ -95,8 +99,10 @@
       </tr>
     </tbody>
   </table>
+  <br><br>
+  
 
-  <br><br><br><br>
+  <div style="page-break-after: always;"></div>
 
   # Contenido
   [**Capítulo I: Introducción**](#capítulo-i-introducción)<br>
@@ -178,7 +184,8 @@
   [Bibliografía](#bibliografía)<br>
   [Anexos](#anexos)<br><br><br>
 
-
+  <div style="page-break-after: always;"></div>
+  
   # Student Outcome
   En esta sección se detalla la contribución de cada integrante del equipo para explicar cómo las actividades y entregables del trabajo final han ayudado a desarrollar las dimensiones del Student Outcome correspondiente a la competencia de Comunicación. En esta sección se describe la relación entre el outcome, sus criterios y el trabajo colaborativo e individual realizado a lo largo del proyecto. Esto se complementa con lo reflejado en los testimonios expuestos que forman parte del video acerca del equipo.
 
@@ -207,7 +214,10 @@
       </td>
     </tr>
     <tr>
-      <td><b>TB1</b></td>
+      <td><b>TB1</b>
+      <p><b>Anahua Ancachi, Liz Maribel:</b> Durante las sesiones de planificación y revisión del Sprint, explicó al equipo de manera sencilla cómo se estructurarían los datos simulados (mocks) como paso previo a la integración del backend real. También lideró los debates sobre el rendimiento grupal, compartiendo verbalmente los análisis de colaboración para identificar áreas de mejora..</p>
+      <p><b>Ravello Cárdenas, Luciana Angielina:</b> Expuso de forma clara en las reuniones de coordinación el progreso visual del frontend y la Landing Page. Explicó a sus compañeros qué capturas de pantalla y evidencias debían priorizarse para el informe, adaptando su lenguaje para asegurar que todo el equipo comprendiera el avance del desarrollo y los objetivos logrados en este Sprint.</p>
+      </td>
       <td><b>TB1</b></td>
     </tr>
     <tr>
@@ -233,7 +243,10 @@
       </td>
     </tr>
     <tr>
-      <td><b>TB1</b></td>
+      <td><b>TB1</b>
+      <p><b>Anahua Ancachi, Liz Maribel:</b> Documentó por escrito la estrategia de servicios del sistema (5.2.2.6), redactando de forma clara y estructurada cómo se están simulando los endpoints iniciales del proyecto. Además, elaboró el reporte escrito de colaboración del equipo (5.2.2.8), resumiendo las métricas y la dinámica de trabajo con un lenguaje profesional y analítico adecuado para la evaluación académica.</p>
+      <p><b>Ravello Cárdenas, Luciana Angielina:</b> Redactó las secciones de evidencias de desarrollo y ejecución (5.2.2.4 y 5.2.2.5). Se encargó de elaborar explicaciones detalladas y fáciles de entender para cada captura de pantalla del frontend, logrando que el lector comprenda la interacción del usuario. Además, documentó de forma clara y organizada la tabla de commits de GitHub, asegurando un registro profesional del esfuerzo del equipo.</p>
+      </td>
       <td><b>TB1</b></td>
     </tr>
     <tr>
@@ -246,6 +259,8 @@
     </tr>
   </tbody>
   </table>
+
+  <div style="page-break-after: always;"></div>
 
   # Capítulo I: Introducción
 
@@ -535,7 +550,7 @@
 
   **Dato estadístico:** La modernización logística es clave para la rentabilidad corporativa. Mientras un 30% de empresas aún opera con procesos convencionales y riesgos elevados (Aguilar y Chingay, 2025), la automatización mediante sensores IoT ha demostrado elevar la exactitud del inventario del 33% al 94% y la eficiencia operativa hasta en un 90% (Cespedes y Ponce, 2025). Esta integración minimiza pérdidas y optimiza la seguridad, reduciendo drásticamente los errores de supervisión.<br><br><br><br>
 
-
+  <div style="page-break-after: always;"></div>
 
   # Capítulo II: Requirements Elicitation & Analysis 
   ## 2.1. Competidores
@@ -688,38 +703,43 @@
   Construir la propuesta de valor alrededor de la generación de evidencia verificable sobre las operaciones realizadas. La plataforma debe permitir identificar quién realizó una operación, qué movimiento efectuó y cuándo ocurrió, complementando esta información con los eventos físicos registrados por los sensores.
   Táctica: utilizar dashboards, alertas, historial de eventos y marcas de tiempo para facilitar la supervisión y las posteriores auditorías. 
 
-  ## 2.2.1. Diseño de entrevistas
+## 2.2.1. Diseño de entrevistas
   Para comprender a fondo los dolores y validar las necesidades de nuestro público y  levantar los requerimientos del sistema SafeZone (NodeSecure), se diseñaron dos guiones de entrevistas semiestructuradas enfocados en nuestros dos segmentos de usuario objetivo.
 
   Entrevista - Segmento 1: Dueños de PYMES y Jefes de Operaciones / Almacén 
 
-  ¿Cuáles son los principales problemas o pérdidas que ha detectado en el control diario de su almacén o negocio?
-  ¿Ha tenido problemas con robos, pérdidas o faltantes de mercadería? ¿Qué suele ocurrir cuando se presenta alguno de estos casos?
-  ¿Cómo realizan actualmente el registro y control de las entradas, salidas y del stock disponible de mercadería?
-  ¿Con qué mecanismos cuentan actualmente para supervisar quién entra o sale de las zonas de almacenamiento?
-  Por ejemplo, cámaras y registros
-  ¿Con qué frecuencia encuentran diferencias entre el stock que tienen registrado y la mercadería que realmente tienen físicamente?
-  Cuando detectan un faltante, ¿qué tan difícil les resulta determinar qué ocurrió y quiénes estuvieron presentes en ese momento?
-  ¿Qué tan útil sería para usted recibir una alerta en su celular cuando ocurra algo fuera de lo normal, como una apertura de puerta fuera de horario o una posible discrepancia de inventario?
-  Si pudiera consultar la fecha y hora exacta en que ocurrió un incidente, ¿consideraría útil esa información para revisar directamente ese momento en sus cámaras o registros? ¿Por qué?
-  Pensando en una herramienta que ayude a controlar el inventario y detectar este tipo de situaciones, ¿qué características considera más importantes para que realmente le resulte útil en su negocio?
-  ¿Estaría dispuesto a utilizar una solución de este tipo en su negocio? ¿Qué factores tendría en cuenta para decidir adoptarla?
+¿Cuáles son los principales problemas o pérdidas que ha detectado en el control diario de su almacén o negocio?
+¿Ha tenido problemas con robos, pérdidas o faltantes de mercadería? ¿Qué suele ocurrir cuando se presenta alguno de estos casos?
+¿Cómo realizan actualmente el registro y control de las entradas, salidas y del stock disponible de mercadería?
+¿Con qué mecanismos cuentan actualmente para supervisar quién entra o sale de las zonas de almacenamiento? (Por ejemplo, cámaras y registros)
+¿Con qué frecuencia encuentran diferencias entre el stock que tienen registrado y la mercadería que realmente tienen físicamente?
+Cuando detectan un faltante, ¿qué tan difícil les resulta determinar qué ocurrió y quiénes estuvieron presentes en ese momento?
+Cuando ocurre una apertura no autorizada o un incidente fuera de horario en su almacén, ¿cómo se entera actualmente y cuánto tiempo pasa hasta que lo descubre?
+¿Qué métodos o pasos sigue hoy en día cuando necesita investigar cuándo ocurrió exactamente una pérdida de mercadería en sus instalaciones?
+Cuando no se encuentra físicamente en el local o almacén, ¿de qué manera vigila o controla que las operaciones y los accesos se realicen de forma correcta?
+¿Qué tan útil sería para usted recibir una alerta en su celular cuando ocurra algo fuera de lo normal, como una apertura de puerta fuera de horario o una posible discrepancia de inventario?
+Si pudiera consultar la fecha y hora exacta en que ocurrió un incidente, ¿consideraría útil esa información para revisar directamente ese momento en sus cámaras o registros? ¿Por qué?
+Pensando en una herramienta que ayude a controlar el inventario y detectar este tipo de situaciones, ¿qué características considera más importantes para que realmente le resulte útil en su negocio?
+¿Estaría dispuesto a utilizar una solución de este tipo en su negocio? ¿Qué factores tendría en cuenta para decidir adoptarla?
 
 
   Entrevista - Segmento 2: Encargados de Logística y Personal Operativo 
 
-  ¿Cómo es normalmente el proceso cuando realizas una entrada o salida de productos en el almacén?
-  ¿Qué herramientas utilizas habitualmente para registrar los movimientos de productos?
-  Por ejemplo: computadora, celular, tablet, Excel u otro sistema.
-  ¿Cuánto tiempo aproximadamente te toma registrar una entrada o salida de productos?
-  ¿Qué dificultades encuentras actualmente al registrar y controlar el inventario?
-  ¿Qué ocurre cuando necesitas registrar una salida rápidamente y el sistema resulta lento o complicado de utilizar?
-  ¿Con qué frecuencia se presentan descuadres entre el stock registrado y la cantidad de productos que realmente tienen?
-  Cuando ocurre un descuadre de stock, ¿qué tan fácil o difícil es identificar quién realizó el movimiento y cuándo ocurrió?
-  ¿Qué características consideras indispensables en una aplicación para registrar los movimientos de productos de forma rápida y sencilla?
-  ¿Qué tan útil sería para ti que la plataforma genere automáticamente un registro de la fecha y hora del evento?
-  ¿Crees que contar con este tipo de registros te ayudaría a identificar mejor qué ocurrió cuando se presenta un descuadre de inventario?
-  ¿Te gustaría controlar toda la información importante de manera remota?
+¿Cómo es normalmente el proceso cuando realizas una entrada o salida de productos en el almacén?
+¿Qué herramientas utilizas habitualmente para registrar los movimientos de productos? (Por ejemplo: computadora, celular, tablet, Excel u otro sistema)
+¿Cuánto tiempo aproximadamente le toma registrar una entrada o salida de productos?
+¿Qué dificultades encuentras actualmente al registrar y controlar el inventario?
+¿Qué ocurre cuando necesitas registrar una salida rápidamente y el sistema resulta lento o complicado de utilizar?
+¿Con qué frecuencia se presentan descuadres entre el stock registrado y la cantidad de productos que realmente tienen?
+Cuando ocurre un descuadre de stock, ¿qué tan fácil o difícil es identificar quién realizó el movimiento y cuándo ocurrió?
+Cuando detecta que la mercadería física no coincide con lo registrado, ¿qué acciones toma de inmediato para identificar en qué momento del turno ocurrió el error o faltante?
+¿De qué manera maneja actualmente la revisión de los momentos exactos en los que se movilizó un producto cuando surge un reclamo o descuadre?
+Cuando se presentan demoras o congestión en el área de despacho o recepción, ¿cómo maneja el registro de los productos para evitar errores en las anotaciones?
+¿Qué características consideras indispensables en una aplicación para registrar los movimientos de productos de forma rápida y sencilla?
+¿Qué tan útil sería para ti que la plataforma genere automáticamente un registro de la fecha y hora del evento?
+¿Crees que contar con este tipo de registros te ayudaría a identificar mejor qué ocurrió cuando se presenta un descuadre de inventario?
+¿Te gustaría controlar toda la información importante de manera remota?
+
 
   <h3>Segmento 01: Dueños y Administradores de Almacén</h3>
 
@@ -759,14 +779,15 @@
     <tr>
       <td width="20%"><strong>Entrevistador</strong></td>
       <td>Sandoval Aiquipa, Kelber Yamir</td>
+      <td>Fernando Sebastián Pérez Bellido</td>
     </tr>
     <tr>
       <td><strong>Entrevistado</strong></td>
-      <td>Jose Miguel</td>
+      <td>Francisco Robles Mendoza</td>
     </tr>
     <tr>
       <td><strong>Edad</strong></td>
-      <td>28 años</td>
+      <td>35 años</td>
     </tr>
     <tr>
       <td><strong>Distrito</strong></td>
@@ -778,7 +799,7 @@
     </tr>
       <tr>
       <td><strong>Inicio</strong></td>
-      <td> </td>
+      <td>00:00 </td>
     </tr>
     <tr>
       <td><strong>Resumen</strong></td>
@@ -791,15 +812,15 @@
   <table>
     <tr>
       <td width="20%"><strong>Entrevistador</strong></td>
-      <td>Sandoval Aiquipa, Kelber Yamir</td>
+      <td>Kelber Yamir Sandoval Aiquipa</td>
     </tr>
     <tr>
       <td><strong>Entrevistado</strong></td>
-      <td>Diego Campoblanco</td>
+      <td>Diego Campoblanco Torres</td>
     </tr>
     <tr>
       <td><strong>Edad</strong></td>
-      <td>25 años</td>
+      <td>30 años</td>
     </tr>
     <tr>
       <td><strong>Distrito</strong></td>
@@ -811,11 +832,11 @@
     </tr>
     <tr>
       <td><strong>Inicio</strong></td>
-      <td> </td>
+      <td>00:10</td>
     </tr>
     <tr>
       <td><strong>Resumen</strong></td>
-      <td>Dueña de una distribuidora de abarrotes al por mayor. Presenta problemas con el "robo hormiga" y desbalances de productos no anotados a tiempo. Actualmente utiliza un cuaderno físico y control visual. Destaca que recibir alertas remotas en el celular le daría un control absoluto para supervisar su negocio a distancia y cruzar la hora de apertura de puertas con las ventas realizadas.</td>
+      <td>Dueño de una distribuidora de abarrotes al por mayor. Presenta problemas con el "robo hormiga" y desbalances de productos no anotados a tiempo. Actualmente utiliza un cuaderno físico y control visual. Destaca que recibir alertas remotas en el celular le daría un control absoluto para supervisar su negocio a distancia y cruzar la hora de apertura de puertas con las ventas realizadas.</td>
     </tr>
   </table>
 
@@ -824,15 +845,15 @@
   <table>
     <tr>
       <td width="20%"><strong>Entrevistador</strong></td>
-      <td>[Nombre del Entrevistador]</td>
+      <td>Kelber Yamir Sandoval Aiquipa</td>
     </tr>
     <tr>
       <td><strong>Entrevistado</strong></td>
-      <td>Patricia Sofía Ramos Vílchez</td>
+      <td>Jose Miguel Gutiérrez Farfán</td>
     </tr>
     <tr>
       <td><strong>Edad</strong></td>
-      <td>45 años</td>
+      <td>32 años</td>
     </tr>
     <tr>
       <td><strong>Distrito</strong></td>
@@ -844,40 +865,7 @@
     </tr>
     <tr>
       <td><strong>Inicio</strong></td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td><strong>Resumen</strong></td>
-      <td>Dueña de una distribuidora de abarrotes al por mayor. Presenta problemas con el "robo hormiga" y desbalances de productos no anotados a tiempo. Actualmente utiliza un cuaderno físico y control visual. Destaca que recibir alertas remotas en el celular le daría un control absoluto para supervisar su negocio a distancia y cruzar la hora de apertura de puertas con las ventas realizadas.</td>
-    </tr>
-  </table>
-
-  <br>
-
-  <table>
-    <tr>
-      <td width="20%"><strong>Entrevistador</strong></td>
-      <td>[Nombre del Entrevistador]</td>
-    </tr>
-    <tr>
-      <td><strong>Entrevistado</strong></td>
-      <td>Roberto Alonzo Gutiérrez Farfán</td>
-    </tr>
-    <tr>
-      <td><strong>Edad</strong></td>
-      <td>48 años</td>
-    </tr>
-    <tr>
-      <td><strong>Distrito</strong></td>
-      <td>San Luis, Lima</td>
-    </tr>
-    <tr>
-      <td><strong>Evidencia</strong></td>
-      <td><a href="https://canva.link/9w4klnpwqeadxqt" target="_blank">Ver Evidencia</a></td>
-    </tr>
-      <tr>
-      <td><strong>Inicio</strong></td>
-      <td> </td>
+      <td>02:50</td>
     </tr>
     <tr>
       <td><strong>Resumen</strong></td>
@@ -915,7 +903,7 @@
     </tr>
       <tr>
       <td><strong>Inicio</strong></td>
-      <td> 30 s </td>
+      <td>06:44</td>
     </tr>
     <tr>
       <td><strong>Resumen</strong></td>
@@ -949,7 +937,7 @@
     </tr>
       <tr>
       <td><strong>Inicio</strong></td>
-      <td> 4:30 </td>
+      <td>12:20</td>
     </tr>
     <tr>
       <td><strong>Resumen</strong></td>
@@ -982,7 +970,7 @@
     </tr>
     <tr>
       <td><strong>Inicio</strong></td>
-      <td> 7:40 </td>
+      <td>15:30</td>
     </tr>
     <tr>
       <td><strong>Resumen</strong></td>
@@ -991,7 +979,7 @@
   </table>
 
   <br>
-
+  
   ### 2.2.3. Análisis de entrevistas
   Segmento 01 (Administrativo / Toma de decisiones):
   La principal molestia de la gerencia es la pérdida de tiempo al investigar faltantes. La integración del sensor IoT con la plataforma web soluciona este problema al generar marcas de tiempo (timestamps) exactas que dirigen la revisión del video CCTV al minuto preciso del evento. 
@@ -1144,6 +1132,9 @@
   ## 2.5. Ubiquitous Language
 
   ![Ubiquitous Language](./images/2.5.png)
+
+<div style="page-break-after: always;"></div>
+
 # Capítulo III: Requirements Specification
 
 En esta sección, el equipo define los requisitos funcionales y técnicos de la plataforma NodeSecure a partir del análisis de las entrevistas y el modelo de negocio. Se inicia con la especificación de User Stories y sus Criterios de Aceptación, se continúa con el Impact Mapping para alinear los objetivos de negocio con el desarrollo, y se finaliza con el Product Backlog estimado y priorizado para los primeros Sprints.
@@ -1167,7 +1158,7 @@ A continuación, se presentan las épicas y User Stories definidos para el desar
 | **US11** | Exportar reporte de incidentes | Como administrador, quiero descargar un reporte PDF/Excel mensual de mermas y alertas para presentarlo a gerencia. | **Given** existen datos en el rango seleccionado, **When** el usuario da clic en "Exportar Reporte", **Then** el sistema descarga el archivo estructurado.<br>**Given** un mes sin incidencias, **When** se exporta, **Then** el documento refleja "Cero Incidentes Registrados". | EP04 |
 | **US12** | Acceso y navegación móvil | Como dueño de PYME, quiero acceder al dashboard de NodeSecure desde mi smartphone para vigilar mi negocio en movimiento. | **Given** el usuario ingresa desde un móvil, **When** carga la interfaz web, **Then** el layout se adapta a componentes táctiles (Bottom Navigation).<br>**Given** la revisión de alertas en móvil, **When** navega, **Then** no hay pérdida de funcionalidad frente a Desktop. | EP10 |
 | **US13** | Autenticación Segura (Login) | Como jefe de operaciones, quiero iniciar sesión de forma segura para proteger la información logística de la empresa. | **Given** el usuario ingresa email y password correctos, **When** hace clic en entrar, **Then** el sistema valida y redirige al dashboard.<br>**Given** credenciales erróneas, **When** intenta ingresar, **Then** se muestra un mensaje de "Credenciales inválidas". | EP09 |
-| **US14** | Visualizar Landing Page | Como visitante (potencial cliente), quiero acceder a la Landing Page para conocer cómo NodeSecure elimina el robo hormiga. | **Given** el usuario entra a la URL raíz, **When** la página carga, **Then** se muestra la propuesta de valor y las llamadas a la acción.<br>**Given** navegación por la página, **When** hace scroll, **Then** descubre las características de la tecnología IoT. | EP06 |
+| **US14** | Visualizar Landing Page | Como visitante (potencial cliente), quiero acceder a la Landing Page para conocer cómo NodeSecure ayuda a prevenir el robo hormiga. | **Given** el usuario entra a la URL raíz, **When** la página carga, **Then** se muestra la propuesta de valor y las llamadas a la acción.<br>**Given** navegación por la página, **When** hace scroll, **Then** descubre las características de la tecnología IoT. | EP06 |
 | **US15** | Comparativa de Planes SaaS | Como dueño de PYME (visitante), quiero ver los precios y límites operativos (sensores/almacenes) para elegir mi suscripción. | **Given** el usuario se encuentra en la Landing Page, **When** navega a la sección de Pricing, **Then** observa los planes Básico, Premium y Corporativo.<br>**Given** clic en "Contratar", **When** interactúa, **Then** es redirigido al flujo de registro de empresa. | EP06, EP07 |
 | **US16** | Suscripción y Facturación | Como dueño de PYME, quiero registrar mi método de pago para activar mi plan y expandir mis límites de sensores IoT. | **Given** el usuario completa sus datos de tarjeta, **When** procesa el pago, **Then** NodeSecure actualiza su plan y libera la cuota de hardware.<br>**Given** fondos insuficientes, **When** procesa, **Then** la pasarela retorna error y el plan no se activa. | EP07 |
 | **US17** | Gestión de Roles (RBAC) | Como dueño de PYME, quiero asignar roles (Administrador, Almacenero, Auditor) para restringir quién puede editar la infraestructura. | **Given** el dueño invita a un empleado, **When** le asigna el rol "Almacenero", **Then** el empleado solo puede visualizar su zona sin editar hardware.<br>**Given** un almacenero intenta borrar un sensor, **When** interactúa, **Then** el sistema deniega el acceso. | EP02, EP09 |
@@ -1205,7 +1196,7 @@ A continuación, se presenta el Product Backlog inicial de NodeSecure, priorizad
 
 | Orden | User Story ID | Título | Descripción | Story Points |
 |:---:|:---|:---|:---|:---:|
-| 1 | US14 | Visualizar Landing Page | Como visitante, quiero acceder a la Landing Page para conocer cómo NodeSecure elimina el robo hormiga. | 3 |
+| 1 | US14 | Visualizar Landing Page | Como visitante, quiero acceder a la Landing Page para conocer cómo NodeSecure ayuda a prevenir el robo hormiga. | 3 |
 | 2 | US15 | Comparativa de Planes SaaS | Como dueño de PYME (visitante), quiero ver los precios y límites operativos para elegir mi suscripción. | 2 |
 | 3 | US13 | Autenticación Segura (Login) | Como jefe de operaciones, quiero iniciar sesión de forma segura para proteger la información de la empresa. | 5 |
 | 4 | TS18 | Generación de Tokens JWT | Como developer, quiero implementar JWT en la API para mantener sesiones seguras y escalables. | 5 |
@@ -1224,6 +1215,7 @@ A continuación, se presenta el Product Backlog inicial de NodeSecure, priorizad
 | 17 | US12 | Acceso y navegación móvil | Como dueño de PYME, quiero acceder al dashboard desde mi smartphone (Bottom Navigation). | 3 |
 
 ---
+<div style="page-break-after: always;"></div>
 
 # Capítulo IV: Product Design
 
@@ -1844,7 +1836,9 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
     <img src="images/nodesecure_erd.png" alt="repositorio">
   </div>
 
- # 5. Product Implementation, Validation & Deployment
+<div style="page-break-after: always;"></div>
+
+ # Capítulo V: Product Implementation, Validation & Deployment
 
 
   ## 5.1. Software Configuration Management
@@ -2525,27 +2519,6 @@ El objetivo principal del Sprint 1 es implementar y desplegar la primera versió
   <td>2026-09-11</td>
   </tr>
 
-
-  <tr>
-  <td>NodeSecure-Landing-Page</td>
-  <td>main</td>
-  <td>571582a</td>
-  <td>Delete CNAME</td>
-  <td>—</td>
-  <td>2026-09-11</td>
-  </tr>
-
-
-  <tr>
-  <td>NodeSecure-Landing-Page</td>
-  <td>main</td>
-  <td>7bff9d3</td>
-  <td>Create CNAME</td>
-  <td>—</td>
-  <td>2026-09-11</td>
-  </tr>
-
-
   <tr>
   <td>NodeSecure-Landing-Page</td>
   <td>develop</td>
@@ -2590,7 +2563,7 @@ El objetivo principal del Sprint 1 es implementar y desplegar la primera versió
   <td>NodeSecure-Landing-Page</td>
   <td>develop</td>
   <td>201a1af</td>
-  <td>fear: implementacion de la seccion de contacto</td>
+  <td>feat: implementacion de la seccion de contacto</td>
   <td>—</td>
   <td>2026-09-11</td>
   </tr>
@@ -2693,16 +2666,6 @@ El objetivo principal del Sprint 1 es implementar y desplegar la primera versió
   <td>feat: creacion inicial de la estructura de la landing page</td>
   <td>—</td>
   <td>2026-09-10</td>
-  </tr>
-
-
-  <tr>
-  <td>NodeSecure-Landing-Page</td>
-  <td>develop</td>
-  <td>602656d</td>
-  <td>--INSERT-- ASDcrear</td>
-  <td>—</td>
-  <td>2026-09-09</td>
   </tr>
 
 
@@ -3028,6 +2991,8 @@ El objetivo principal del Sprint 1 es implementar y desplegar la primera versió
   </tr>
   </table>
 
+  <div style="page-break-after: always;"></div>
+
   # Conclusiones
 
   Al finalizar este primer avance (AV1) y el primer Sprint del proyecto SafeZone, el equipo ha llegado a las siguientes conclusiones fundamentales:
@@ -3038,9 +3003,11 @@ El objetivo principal del Sprint 1 es implementar y desplegar la primera versió
 
   3. **Arquitectura de Información y Diseño B2B:** El diseño de la experiencia de usuario (UX) y la interfaz (UI) para la plataforma web y móvil ha demostrado que la adopción de un modelo B2B en "Dark Mode" no responde únicamente a una tendencia estética, sino a una necesidad operativa. Este esquema reduce la fatiga visual en entornos de monitoreo prolongado, mientras que el diseño responsivo basado en *bottom-sheets* y la estricta jerarquía de información previenen errores humanos al realizar tareas críticas, como la asignación de permisos y el control de discrepancias.
 
-  4. **Éxito del Despliegue Inicial (Sprint 1):** La adopción de GitFlow, el uso de Conventional Commits y las prácticas de configuración y despliegue continuo (CI/CD) han permitido al equipo trabajar de forma organizada y paralela. El resultado de este esfuerzo técnico se materializa en el despliegue exitoso de la Landing Page de NodeSecure en GitHub Pages, logrando comunicar eficientemente nuestra propuesta de valor al mercado y sentando una base tecnológica sólida para los próximos Sprints de desarrollo de la plataforma core.
+  4. **Éxito del Despliegue Inicial (Sprint 1):** La adopción de GitFlow, el uso de Conventional Commits y las prácticas de configuración y despliegue continuo (CI/CD) han permitido al equipo trabajar de forma organizada y sparalela. El resultado de este esfuerzo técnico se materializa en el despliegue exitoso de la Landing Page de NodeSecure en GitHub Pages, logrando comunicar eficientemente nuestra propuesta de valor al mercado y sentando una base tecnológica sólida para los próximos Sprints de desarrollo de la plataforma core.
 
-  ## Bibliografía
+<div style="page-break-after: always;"></div>
+
+  # Bibliografía
 
 Cohn, M. (2004). *User stories applied: For agile software development*. Addison-Wesley Professional.
 
