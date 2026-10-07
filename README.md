@@ -3327,7 +3327,50 @@ Aquí se le permirte al usuario visualizar los trabajadores y sus usuarios regis
 </table>
 
 
+<h3>5.2.2.8. Team Collaboration Insights during Sprint</h3>
 
+<p>Durante el Sprint 2, el equipo de NodeSecure trabajó de manera colaborativa para desarrollar la aplicación web y conectar los componentes con la <strong>Fake API mediante json-server</strong>. La organización del trabajo se realizó mediante la distribución de responsabilidades entre los integrantes y el uso de GitHub como plataforma para gestionar el código fuente, controlar las versiones y coordinar la integración de los cambios de la interfaz con los servicios simulados.</p>
+
+<p>El desarrollo se ejecutó de forma iterativa, asignando responsabilidades específicas relacionadas con los módulos clave del sistema (como la autenticación, la gestión de almacenes, el panel de control y la vinculación de dispositivos IoT).</p>
+
+<p>Asimismo, el equipo mantuvo el uso de ramas de trabajo dedicadas para desarrollar las funcionalidades de la aplicación web y posteriormente integrar los cambios mediante Pull Requests hacia la rama de desarrollo. Esta dinámica permitió mantener el aislamiento de los componentes durante su programación y facilitar su correcta integración con los endpoints locales.</p>
+
+<p>Durante el Sprint también se aplicaron mensajes estructurados mediante Conventional Commits para registrar las modificaciones y asegurar la trazabilidad técnica de las implementaciones realizadas en el repositorio.</p>
+
+<h3>Collaboration Practices</h3>
+
+<table>
+  <tr>
+    <th>Aspect</th>
+    <th>Collaboration Practice</th>
+  </tr>
+  <tr>
+    <td>Task Distribution</td>
+    <td>Las actividades del Sprint fueron distribuidas entre los integrantes según los módulos de la aplicación web y la configuración de la Fake API.</td>
+  </tr>
+  <tr>
+    <td>Version Control</td>
+    <td>Se utilizó Git y GitHub para gestionar el control de versiones del código fuente del frontend y los esquemas de datos locales.</td>
+  </tr>
+  <tr>
+    <td>Branching</td>
+    <td>Se utilizaron ramas de tipo feature para desarrollar los componentes de la interfaz y la lógica de consumo HTTP de manera aislada antes de su integración.</td>
+  </tr> 
+  <tr>
+    <td>Commits</td>
+    <td>Se registraron los cambios utilizando Conventional Commits para mantener la trazabilidad de las tareas desarrolladas.</td>
+  </tr>
+  <tr>
+    <td>Integration</td>
+    <td>Los componentes desarrollados fueron integrados al flujo principal mediante revisiones de código y el flujo de trabajo establecido para el repositorio.</td>
+  </tr>
+  <tr>
+    <td>Deployment</td>
+    <td>El equipo coordinó la configuración, ejecución local y validación conjunta del servidor de datos (json-server) y la aplicación web.</td>
+  </tr>
+</table>
+
+<div style="page-break-after: always;"></div>
 
 
   # Conclusiones
