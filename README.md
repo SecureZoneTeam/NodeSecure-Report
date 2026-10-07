@@ -3288,7 +3288,43 @@ Aquí se le permirte al usuario visualizar los trabajadores y sus usuarios regis
 <br>
 
 
+### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
+<p>Durante el Sprint 2, el alcance de implementación se concentró en el desarrollo de la aplicación web y la integración de una <strong>Fake API utilizando json-server</strong> para simular la persistencia y la gestión de datos del sistema NodeSecure.</p>
+
+<p>En este Sprint no se implementó el backend final con servicios REST en .NET Core o Spring Boot con Swagger/OpenAPI, por lo que se habilitó un entorno simulado local mediante <code>json-server</code> para exponer endpoints de prueba que permiten validar las operaciones del frontend.</p>
+
+<p>La documentación y el estado de los servicios REST simulados para este Sprint se presentan a continuación:</p>
+
+<h3>Services Documentation</h3>
+
+<table>
+  <tr>
+    <th>Elemento</th>
+    <th>Estado en Sprint 2</th>
+    <th>Evidencia</th>
+  </tr>
+  <tr>
+    <td>RESTful Web Services</td>
+    <td>Simulados mediante Fake API (json-server)</td>
+    <td>Archivo <code>db.json</code> con colecciones locales</td>
+  </tr>
+  <tr>
+    <td>Swagger / OpenAPI</td>
+    <td>No implementado con herramientas de framework</td>
+    <td>No aplica (Sustituido por endpoints de json-server)</td>
+  </tr>
+  <tr>
+    <td>API Endpoints</td>
+    <td>Implementados para consumo local (GET, POST, PUT, DELETE)</td>
+    <td>Rutas de recursos configuradas en el servidor local</td>
+  </tr>
+  <tr>
+    <td>API Documentation</td>
+    <td>Documentación esquemática de los recursos JSON locales</td>
+    <td>Endpoints activos en entorno de desarrollo local</td>
+  </tr>
+</table>
 
 
 
