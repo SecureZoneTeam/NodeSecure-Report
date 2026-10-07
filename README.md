@@ -2995,6 +2995,8 @@ El objetivo principal del Sprint 1 es implementar y desplegar la primera versió
 
   <div style="page-break-after: always;"></div>
 
+  ### 5.2.2 Sprint 2
+
   ### 5.2.2.1. Sprint Planning 2
 
 En esta sección se documenta el Sprint Planning Meeting correspondiente al Sprint 2, donde el equipo de NodeSecure estableció el objetivo del sprint, definió el alcance de trabajo y distribuyó las tareas necesarias para desarrollar la primera versión funcional de la Web Application.
@@ -3078,6 +3080,97 @@ https://trello.com/b/kkcLSErp/nodesecure
 | Sprint 2 | US06 | Notificaciones Push de seguridad | T16 | Implementación de configuración de notificaciones | Desarrollar la interfaz para configurar las preferencias de notificaciones. | 4 | Anahua Ancachi, Liz Maribel | Done |
 | Sprint 2 | TS18 | Generación de Tokens JWT | T17 | Preparación del flujo de autenticación | Preparar el Frontend para su futura integración con autenticación mediante JWT. | 4 | Fernando Sebastián Pérez Bellido | Done |
 | Sprint 2 | TS09 | Recepción de payloads IoT (API) | T18 | Preparación de integración IoT | Preparar el Frontend para su futura integración con eventos IoT mediante API REST. | 4 | Sandoval Aiquipa, Kelber Yamir | Done |
+
+### 5.2.2.4. Development Evidence for Sprint Review.
+
+### 5.2.2.5. Execution Evidence for Sprint Review.
+
+En esta sección se explican y presentan los avances de implementación correspondientes al Sprint 2, cuyo alcance principal fue el desarrollo de la primera versión de la Frontend Web Application. A lo largo de este sprint, el equipo colaboró de forma estructurada para lograr la implementación de distintas pestañas de la aplicación como el dashboard de los almacenes, el historial para la auditoria, entre otros.
+
+A continuación, se presentan las evidencias de ejecución de las principales funcionalidades y secciones implementadas durante el Sprint 2.
+
+### Ingreso de sesión
+
+<div align="center">
+    <img src="images/registro-usuario-es.png" alt="repositorio">
+</div>
+
+En esta pantalla se le da la opción al usuario a ingresar con sus credenciales si es que ya tiene una cuenta creada para acceder a nuestro servicio.
+
+<br>
+
+
+<div align="center">
+    <img src="images/crear-usuario.png" alt="repositorio">
+</div>
+
+Para caso contrario, se le da opción de registrarse por primera vez llenando los presentes campos y dándole al botón correspondiente.
+
+<br>
+
+### Pantalla de Inicio
+
+<div align="center">
+    <img src="images/pantalla-inicio.png" alt="repositorio">
+</div>
+
+Aquí se le permirte al usuario visualizar sus almacenes ya registrados y agregar nuevos según lo desee.
+
+<div align="center">
+    <img src="images/registrar-almacen.png" alt="repositorio">
+</div>
+
+<br>
+
+### Pestaña sobre los sensores IoT
+
+<div align="center">
+    <img src="images/sensores-iot.png" alt="repositorio">
+</div>
+
+Aquí se le permirte al usuario visualizar los dispositivos IoT vinculados a la aplicación y a agregar nuevos según lo desee.
+
+<div align="center">
+    <img src="images/registrar-sensor-iot.png" alt="repositorio">
+</div>
+
+<br>
+
+### Team and access
+
+<div align="center">
+    <img src="images/team-and-access.png" alt="repositorio">
+</div>
+
+Aquí se le permirte al usuario visualizar los trabajadores y sus usuarios registrados en el servicio para la administración de roles. Además, le permite agregar nuevos según lo desee.
+
+<div align="center">
+    <img src="images/registrar-nuevo-trabajador.png" alt="repositorio">
+</div>
+
+<br>
+
+### Historial
+
+<div align="center">
+    <img src="images/historial.png" alt="repositorio">
+</div>
+
+<br>
+
+### Suscripciones
+
+<div align="center">
+    <img src="images/suscripciones.png" alt="repositorio">
+</div>
+
+<br>
+
+
+
+
+
+
 
 
   # Conclusiones
