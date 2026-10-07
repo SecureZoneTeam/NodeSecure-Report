@@ -3375,7 +3375,6 @@ Aquí se le permirte al usuario visualizar los trabajadores y sus usuarios regis
 
   # Conclusiones
 
-  Al finalizar este primer avance (AV1) y el primer Sprint del proyecto SafeZone, el equipo ha llegado a las siguientes conclusiones fundamentales:
       
   1. **Validación de la Problemática Logística:** A través de la investigación de mercado y el análisis de competidores, se ha confirmado que la "merma desconocida" y el "robo hormiga" representan puntos de dolor críticos y costosos para el sector comercial en el Perú. La dependencia de sistemas pasivos (como la revisión manual de CCTV) genera un desgaste operativo severo, lo que valida la necesidad de una solución como NodeSecure, capaz de integrar evidencia física IoT (sensores) con el registro digital de inventario en tiempo real.
 
@@ -3385,6 +3384,22 @@ Aquí se le permirte al usuario visualizar los trabajadores y sus usuarios regis
 
   4. **Éxito del Despliegue Inicial (Sprint 1):** La adopción de GitFlow, el uso de Conventional Commits y las prácticas de configuración y despliegue continuo (CI/CD) han permitido al equipo trabajar de forma organizada y sparalela. El resultado de este esfuerzo técnico se materializa en el despliegue exitoso de la Landing Page de NodeSecure en GitHub Pages, logrando comunicar eficientemente nuestra propuesta de valor al mercado y sentando una base tecnológica sólida para los próximos Sprints de desarrollo de la plataforma core.
 
+
+  5. **Validación del Problema Logístico:** Se corrobora que las mermas desconocidas y el "robo hormiga" representan pérdidas críticas para el sector comercial en el Perú (estimadas entre S/ 700 y S/ 1,000 millones anuales). La dependencia de sistemas pasivos (como la revisión manual de cámaras de vigilancia) demuestra la necesidad imperativa de un ecosistema que relacione los movimientos digitales de inventario con los eventos físicos de los sensores IoT en tiempo real.
+  
+  
+  6. **Efectividad del Enfoque Lean UX y Entrevistas:** La aplicación de la metodología Lean UX y el levantamiento de información (*Needfinding*) permitieron segmentar adecuadamente a los usuarios (administradores y personal operativo). Esto facilitó el diseño de un *Product Backlog* ajustado a exigencias reales: el personal de campo requiere un registro ágil (menores a 30 segundos), mientras que la gerencia exige trazabilidad mediante marcas de tiempo (*timestamps*) para optimizar las auditorías con CCTV.
+  
+  
+  7. **Coherencia en la Arquitectura de Información y UI:** El diseño B2B bajo un esquema de *Dark Mode* y componentes adaptados (como *bottom-sheets* y una estructura responsiva) mitiga la fatiga visual en turnos prolongados de monitoreo y reduce drásticamente el margen de error humano al gestionar permisos o alertas de discrepancias físicas.
+  
+  
+  8. **Progreso y Despliegue Técnico (Sprints 1 y 2):**
+  * Durante el **Sprint 1**, se concretó el desarrollo e implementación de la primera versión de la *Landing Page* utilizando HTML5, CSS3 y JavaScript, logrando su despliegue público exitoso mediante GitHub Pages.
+  
+  
+  * Durante el **Sprint 2**, se avanzó en la construcción del *Frontend* de la *Web Application* —cubriendo vistas clave como autenticación, gestión de almacenes, dispositivos IoT, equipo y accesos, y trazabilidad— apoyándose de una *Fake API* local (*json-server*) para simular la persistencia y validar los flujos operativos antes de la integración con el *backend* definitivo.
+  
 <div style="page-break-after: always;"></div>
 
   # Bibliografía
