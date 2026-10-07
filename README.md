@@ -47,7 +47,7 @@
   </table>
   <br>
 
-  **Lima, 16 de Setiembre del 2026**
+  **Lima, 06 de Octubre del 2026**
 
   </div>
   <br><br><br><br><br><br>
@@ -55,52 +55,53 @@
   <div style="page-break-after: always;"></div>
   
   ## Registro de versiones del informe
-  
-  
 
-  <table>
-    <thead>
-      <tr>
-        <th>Versión</th>
-        <th>Fecha</th>
-        <th>Autor</th>
-        <th>Descripción de modificación</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td valign="top"><b>AV1</b></td>
-        <td valign="top">16/09/2026</td>
-        <td valign="top">
-          Anahua Ancachi, Liz Maribel<br>
-          Sandoval Aiquipa, Kelber Yamir<br>
-          Pérez Bellido, Fernando Sebastián<br>
-          Ravello Cárdenas, Luciana Angielina
-        </td>
-        <td valign="top">Se realizó todo lo detallado en la primera entrega de AV1 – Sprint Review, que consiste desde el capítulo 1 hasta el punto 5.2.1.8. Team Collaboration Insights during Sprint. A esto se le agregó la primera versión de las conclusiones, la bibliografía y los anexos.</td>
-      </tr>
-      <tr>
-        <td><b>TB1</b></td>
-        <td>-</td>
-        <td></td>
-        <td>En proceso</td>
-      </tr>
-      <tr>
-        <td><b>AV2</b></td>
-        <td>-</td>
-        <td>-</td>
-        <td>En proceso</td>
-      </tr>
-      <tr>
-        <td><b>TF1</b></td>
-        <td>-</td>
-        <td>-</td>
-        <td>En proceso</td>
-      </tr>
-    </tbody>
-  </table>
-  <br><br>
-  
+<table>
+  <thead>
+    <tr>
+      <th>Versión</th>
+      <th>Fecha</th>
+      <th>Autor</th>
+      <th>Descripción de modificación</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td valign="top"><b>AV1</b></td>
+      <td valign="top">16/09/2026</td>
+      <td valign="top">
+        Anahua Ancachi, Liz Maribel<br>
+        Sandoval Aiquipa, Kelber Yamir<br>
+        Pérez Bellido, Fernando Sebastián<br>
+        Ravello Cárdenas, Luciana Angielina
+      </td>
+      <td valign="top">Se realizó todo lo detallado en la primera entrega de AV1 – Sprint Review, que consiste desde el capítulo 1 hasta el punto 5.2.1.8. Team Collaboration Insights during Sprint. A esto se le agregó la primera versión de las conclusiones, la bibliografía y los anexos.</td>
+    </tr>
+    <tr>
+      <td valign="top"><b>TB1</b></td>
+      <td valign="top">06/10/2026</td>
+      <td valign="top">
+        Anahua Ancachi, Liz Maribel<br>
+        Sandoval Aiquipa, Kelber Yamir<br>
+        Pérez Bellido, Fernando Sebastián<br>
+        Ravello Cárdenas, Luciana Angielina
+      </td>
+      <td valign="top">Se agregaron las evidencias y documentación correspondientes al Sprint 2 (5.2.2), incluyendo el despliegue del Frontend Web App con Angular, la implementación de la Fake API, la actualización del Student Outcome y las métricas del equipo.</td>
+    </tr>
+    <tr>
+      <td><b>AV2</b></td>
+      <td>-</td>
+      <td>-</td>
+      <td>En proceso</td>
+    </tr>
+    <tr>
+      <td><b>TF1</b></td>
+      <td>-</td>
+      <td>-</td>
+      <td>En proceso</td>
+    </tr>
+  </tbody>
+</table>
 
   <div style="page-break-after: always;"></div>
 
@@ -133,7 +134,7 @@
   &nbsp;&nbsp;&nbsp;&nbsp;[2.4. Big Picture Event Storming](#24-big-picture-event-storming)<br>
   &nbsp;&nbsp;&nbsp;&nbsp;[2.5. Ubiquitous Language](#25-ubiquitous-language)<br><br>
   [**Capítulo III: Requirements Specification**](#capítulo-iii-requirements-specification)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;[3.1. User Stories](#31-user-stories)<br>s
+  &nbsp;&nbsp;&nbsp;&nbsp;[3.1. User Stories](#31-user-stories)<br>
   &nbsp;&nbsp;&nbsp;&nbsp;[3.2. Impact Mapping](#32-impact-mapping)<br>
   &nbsp;&nbsp;&nbsp;&nbsp;[3.3. Product Backlog](#33-product-backlog)<br><br>
   [**Capítulo IV: Product Design**](#capítulo-iv-product-design)<br>
@@ -180,13 +181,22 @@
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)<br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)<br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)<br><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.2.2. Sprint 2](#522-sprint-2)<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.2.2.3. Sprint Backlog 2](#5223-sprint-backlog-2)<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.2.2.4. Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)<br><br>
   [Conclusiones](#conclusiones)<br>
   [Bibliografía](#bibliografía)<br>
   [Anexos](#anexos)<br><br><br>
 
   <div style="page-break-after: always;"></div>
   
-# Student Outcome
+  # Student Outcome
 En esta sección se detalla la contribución de cada integrante del equipo para explicar cómo las actividades y entregables del trabajo final han ayudado a desarrollar las dimensiones del Student Outcome correspondiente a la competencia de Comunicación. En esta sección se describe la relación entre el outcome, sus criterios y el trabajo colaborativo e individual realizado a lo largo del proyecto. Esto se complementa con lo reflejado en los testimonios expuestos que forman parte del video acerca del equipo.
 
 <table>
@@ -216,6 +226,7 @@ En esta sección se detalla la contribución de cada integrante del equipo para 
     <tr>
       <td valign="top"><b>TB1</b><br><br>
       <b>Anahua Ancachi, Liz Maribel:</b> Durante las sesiones de planificación y revisión del Sprint, explicó al equipo de manera sencilla cómo se estructurarían los datos simulados (mocks) como paso previo a la integración del backend real. También lideró los debates sobre el rendimiento grupal, compartiendo verbalmente los análisis de colaboración para identificar áreas de mejora.<br><br>
+      <b>Pérez Bellido, Fernando Sebastián:</b> Durante las sesiones de Sprint Planning, expuso las prioridades de desarrollo y la asignación de tareas. Además, comunicó al equipo de manera clara la distribución en el Board y resolvió dudas sobre la estructura de la aplicación.<br><br>
       <b>Sandoval Aiquipa, Kelber Yamir:</b> Sustenté las correcciones aplicadas al diseño UX/UI de NodeSecure y expliqué el flujo de despliegue del Frontend Web App durante las reuniones de validación del Sprint 2. Utilicé un lenguaje técnico claro para asegurar que el equipo comprendiera la configuración de enrutamiento necesaria para pasar a producción sin errores.<br><br>
       <b>Ravello Cárdenas, Luciana Angielina:</b> Expuso de forma clara en las reuniones de coordinación el progreso visual del frontend y la Landing Page. Explicó a sus compañeros qué capturas de pantalla y evidencias debían priorizarse para el informe, adaptando su lenguaje para asegurar que todo el equipo comprendiera el avance del desarrollo y los objetivos logrados en este Sprint.
       </td>
@@ -249,6 +260,7 @@ En esta sección se detalla la contribución de cada integrante del equipo para 
     <tr>
       <td valign="top"><b>TB1</b><br><br>
       <b>Anahua Ancachi, Liz Maribel:</b> Documentó por escrito la estrategia de servicios del sistema (5.2.2.6), redactando de forma clara y estructurada cómo se están simulando los endpoints iniciales del proyecto. Además, elaboró el reporte escrito de colaboración del equipo (5.2.2.8), resumiendo las métricas y la dinámica de trabajo con un lenguaje profesional y analítico adecuado para la evaluación académica.<br><br>
+      <b>Pérez Bellido, Fernando Sebastián:</b> Redactó estructuradamente las secciones 5.2.2.1 y 5.2.2.3, documentando el Sprint Goal, la velocidad del equipo y el Sprint Backlog. Utilizó un lenguaje preciso para asegurar que las historias de usuario y las horas estimadas quedaran registradas de forma auditable.<br><br>
       <b>Sandoval Aiquipa, Kelber Yamir:</b> Redacté y estructuré la sección 5.2.2.7 (Software Deployment Evidence), documentando la configuración, los entornos de alojamiento y las URLs públicas de la Web Application y la Landing Page. Empleé un formato tabular ordenado y descripciones técnicas precisas para evidenciar el éxito del pase a producción.<br><br>
       <b>Ravello Cárdenas, Luciana Angielina:</b> Redactó las secciones de evidencias de desarrollo y ejecución (5.2.2.4 y 5.2.2.5). Se encargó de elaborar explicaciones detalladas y fáciles de entender para cada captura de pantalla del frontend, logrando que el lector comprenda la interacción del usuario. Además, documentó de forma clara y organizada la tabla de commits de GitHub, asegurando un registro profesional del esfuerzo del equipo.
       </td>
@@ -465,7 +477,7 @@ En esta sección se detalla la contribución de cada integrante del equipo para 
         <td valign="top">
           <b>5. Solutions</b><br>
           <ul>
-            <li>Plataforma Web SPA (Angular + Spring Boot) para gestión de inventario, movimientos y stock.</li>
+            <li>Plataforma Web SPA (Angular + ASP.NET Core) para gestión de inventario, movimientos y stock.</li>
             <li>Integración IoT inicial (Uso de un microcontrolador ESP32 con sensores magnéticos en puertas) para registrar aperturas físicas en un entorno controlado. </li>
             <li>Motor de detección automática de discrepancias entre aperturas físicas y registros.</li>
             <li>Registro histórico con timestamps para servir de índice en auditorías con CCTV.</li>
@@ -640,7 +652,7 @@ En esta sección se detalla la contribución de cada integrante del equipo para 
         <td colspan="4"><b>Productos & Servicios</b></td>
       </tr>
       <tr>
-        <td>Aplicación Web (Vue.js + ASP.NET Core), registro de entradas/salidas, alertas de discrepancia, índice de auditoría temporal y conexión IoT (ESP32).</td>
+        <td>Aplicación Web (Angular + ASP.NET Core), registro de entradas/salidas, alertas de discrepancia, índice de auditoría temporal y conexión IoT (ESP32).</td>
         <td>Cámaras IP, controladores de acceso, sensores ambientales, intercomunicadores y consola Command.</td>
         <td>Desarrollo de ERP/CRM a medida, módulos de inventario, auditoría de operaciones y servicios de consultoría IT.</td>
         <td>Sensores IoT de entorno y puertas, rastreadores de activos, cámaras con IA y software de gestión operativa.</td>
@@ -1254,7 +1266,7 @@ La paleta de NodeSecure transmite autoridad, seguridad y alerta temprana:
 El lenguaje de NodeSecure es **Profesional, Directo y Preventivo**. Nos dirigimos a dueños de PYMES y jefes de seguridad, por lo que evitamos tecnicismos excesivos sobre hardware, enfocándonos en el valor: control, prevención de mermas y auditoría exacta.
 
 ### 4.1.2. Web Style Guidelines
-La plataforma NodeSecure adoptará **Material Design** como lenguaje base, apoyado por bibliotecas de componentes como Vuetify o PrimeVue. Se priorizará un diseño **Dark Mode nativo**, esencial en entornos de vigilancia para reducir el deslumbramiento. Los componentes utilizarán elevaciones (sombras sutiles) para jerarquizar modales de alertas y tarjetas de almacenes, garantizando un feedback visual instantáneo (ej. *snackbars* o *toasts*) al registrar sensores IoT o reportar discrepancias.
+La plataforma NodeSecure adoptará **Material Design** como lenguaje base, apoyado por la biblioteca de componentes Angular Material. Se priorizará un diseño **Dark Mode nativo**, esencial en entornos de vigilancia para reducir el deslumbramiento. Los componentes utilizarán elevaciones (sombras sutiles) para jerarquizar modales de alertas y tarjetas de almacenes, garantizando un feedback visual instantáneo (ej. *snackbars* o *toasts*) al registrar sensores IoT o reportar discrepancias.
 
 ## 4.2. Information Architecture
 
@@ -1791,7 +1803,7 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
 
   ## 4.6. Domain-Driven Software Architecture
 
-  La arquitectura de software orientada al dominio (DDD) es el enfoque de diseño que estructura Locksight entorno a los procesos clave del negocio de seguridad y almacenamiento. Este método permite que el softwarerefleje con precisión las reglas de negocio, como la gestión de permisos por zonas o la activación automáticade alertas. Al aplicar DDD, logramos un sistema robusto, escalable y fácil de mantener, donde cadacomponente técnico está alineado con los objetivos de seguridad y eficiencia operativa de nuestros clientes.
+  La arquitectura de software orientada al dominio (DDD) es el enfoque de diseño que estructura NodeSecure entorno a los procesos clave del negocio de seguridad y almacenamiento. Este método permite que el softwarerefleje con precisión las reglas de negocio, como la gestión de permisos por zonas o la activación automáticade alertas. Al aplicar DDD, logramos un sistema robusto, escalable y fácil de mantener, donde cadacomponente técnico está alineado con los objetivos de seguridad y eficiencia operativa de nuestros clientes.
 
   ### 4.6.1 Domain-Driven Software Architecture
   
@@ -1873,42 +1885,6 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
     <img src="images/c4/06_component_subscription_billing_service.png" alt="repositorio">
   </div>
 
-  <div align="center">
-    <img src="images/c4/02_component_inventory_service.png" alt="repositorio">
-  </div>
-
-  IoT Integration Service
-
-  El diagrama de componentes del IoT Integration Service muestra los componentes responsables de recibir y procesar los eventos provenientes de los dispositivos IoT. El servicio permite gestionar los dispositivos, recibir eventos físicos provenientes de sensores, ESP32 y RFID, procesar y normalizar dichos eventos y mantener el estado de los dispositivos. La información procesada se almacena para posteriormente ser utilizada por los servicios de detección de discrepancias y trazabilidad.
-
-  <div align="center">
-    <img src="images/c4/03_component_iot_integration_service.png" alt="repositorio">
-  </div>
-
-  Alert & Discrepancy Service
-
-  El diagrama de componentes del Alert & Discrepancy Service representa la estructura encargada de analizar y correlacionar los eventos físicos registrados por los dispositivos IoT con las operaciones digitales del inventario. Sus componentes permiten aplicar reglas de negocio, identificar posibles discrepancias y gestionar las alertas generadas. La información resultante se almacena para mantener un registro de las discrepancias y alertas detectadas.
-
-  <div align="center">
-    <img src="images/c4/04_component_alert_discrepancy_service.png" alt="repositorio">
-  </div>
-
-  Audit & Traceability Service
-
-  El diagrama de componentes del Audit & Traceability Service muestra los componentes encargados de mantener el historial y la trazabilidad de las operaciones realizadas en la plataforma. Permite registrar y consultar movimientos de inventario, eventos, alertas y demás información relevante para las auditorías. Los registros generados son almacenados en la base de datos de auditoría y trazabilidad para facilitar su consulta y seguimiento.
-
-  <div align="center">
-    <img src="images/c4/05_component_audit_traceability_service.png" alt="repositorio">
-  </div>
-
-  Subscription & Billing Service
-
-  El diagrama de componentes del Subscription & Billing Service representa la estructura encargada de gestionar los planes y suscripciones de NodeSecure. Sus componentes permiten administrar los planes disponibles, las suscripciones de los clientes, los pagos y la facturación, además de controlar los límites asociados a cada plan. El servicio mantiene esta información en su base de datos y se comunica con el Payment Gateway para procesar los pagos correspondientes.
-
-  <div align="center">
-    <img src="images/c4/06_component_subscription_billing_service.png" alt="repositorio">
-  </div>
-
  ## 4.7. Software Object-Oriented Design
  El diseño orientado a objetos es fundamental para estructurar NodeSecure de manera modular. A través de este diseño, definimos las clases y métodos que dan vida a las funcionalidades, aprovechando principios de reutilización de código y mantenimiento. Esto nos permite modelar entidades del mundo real (sensores,usuarios, almacenes) dentro del código de forma lógica, facilitando que el sistema crezca y se adapte a nuevasnecesidades de seguridad industrial sin comprometer la estabilidad actual.
 
@@ -1922,7 +1898,7 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
 
  ## 4.8. DataBase Diagrams
 
-  El diseño de la base de datos proporciona la estructura necesaria para almacenar y gestionar toda lainformación operativa de Locksight de forma segura y eficiente. Se ha modelado un esquema relacional queorganiza las tablas, relaciones y restricciones necesarias para garantizar la integridad de los datos de sensores,historiales de acceso y perfiles de usuario. Un diseño de base de datos sólido permite que el sistema respondacon rapidez ante consultas históricas y guarde cada evento de seguridad con precisión milimétrica.
+  El diseño de la base de datos proporciona la estructura necesaria para almacenar y gestionar toda lainformación operativa de NodeSecure de forma segura y eficiente. Se ha modelado un esquema relacional queorganiza las tablas, relaciones y restricciones necesarias para garantizar la integridad de los datos de sensores,historiales de acceso y perfiles de usuario. Un diseño de base de datos sólido permite que el sistema respondacon rapidez ante consultas históricas y guarde cada evento de seguridad con precisión milimétrica.
 
   ### 4.8.1. Data Base Diagram
 
@@ -3532,7 +3508,7 @@ Nielsen Norman Group. (2022). *Empathy mapping: The first step in design thinkin
 
 Semver.org. (2023). *Semantic Versioning 2.0.0*. https://semver.org/
 
-Vue.js. (2023). *Vue style guide*. https://vuejs.org/style-guide/
+Angular. (2023). *Angular Style Guide*. [https://angular.io/guide/styleguide](https://angular.io/guide/styleguide)
 
 Conexión ESAN. (2026). *El impacto de la merma en el retail y cómo combatirlo.* ESAN Graduate School of Business.
 
@@ -3543,7 +3519,8 @@ Conexión ESAN. (2026). *El impacto de la merma en el retail y cómo combatirlo.
 ### LINKS IMPORTANTES:
 
 * **URL LANDING PAGE DESPLEGADA:** [https://securezoneteam.github.io/NodeSecure-Landing-Page/](https://securezoneteam.github.io/NodeSecure-Landing-Page/)
+* **URL WEB APPLICATION (FRONTEND):** [https://securezoneteam.github.io/SafeZone-website/](https://securezoneteam.github.io/SafeZone-website/)
 * **REPOSITORIO PROJECT REPORT:** [https://github.com/SecureZoneTeam/NodeSecure-Report](https://github.com/SecureZoneTeam/NodeSecure-Report)
-* **REPOSITORIO LANDING PAGE:** [https://github.com/SecureZoneTeam/NodeSecure-Landing-Page](https://github.com/SecureZoneTeam/NodeSecure-Landing-Page)
+* **REPOSITORIO FRONTEND & FAKE API:** [https://github.com/SecureZoneTeam/SafeZone-website](https://github.com/SecureZoneTeam/SafeZone-website)
 * **URL DEL FIGMA (UX/UI & PROTOTIPOS):** [https://www.figma.com/design/Mjmfv8zXHB753QKMcfucH2/Sin-t%C3%ADtulo?node-id=0-1&t=OpYw1NIg0EhggkLC-1](https://www.figma.com/design/Mjmfv8zXHB753QKMcfucH2/Sin-t%C3%ADtulo?node-id=0-1&t=OpYw1NIg0EhggkLC-1)
-* **URL VIDEO DE EXPOSICIÓN (AV1):** *(Inserta aquí el enlace a Microsoft Stream / YouTube con la exposición del AV1)*
+* **URL VIDEO DE EXPOSICIÓN (TB1):** *(Inserta aquí el enlace de YouTube o Microsoft Stream del video de sustentación de este hito)*
