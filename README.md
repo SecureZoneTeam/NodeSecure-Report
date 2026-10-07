@@ -1774,6 +1774,14 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
   | **UG6: Suscripción y Facturación** | EP06, EP07 | US36, US37, US38, US42, US58, US59 | `ug6-wireframe-*`, `ug6-wireflow-*`, `desktop-mockup-02`, `desktop-mockup-10`, `mobile-mockup-06`, `ug6-userflow` |
   | **UG7: Configuración y Notificaciones** | EP03, EP09 | US16, US20, US53 | `ug7-wireframe-*`, `ug7-wireflow-*`, `desktop-mockup-11`, `desktop-mockup-12`, `mobile-mockup-07`, `mobile-mockup-08`, `ug7-userflow` |
 
+  ### 4.5. Web Applications Prototyping
+
+  El prototipado interactivo de NodeSecure materializa los flujos de usuario y la arquitectura de información definidos en las fases previas, permitiendo simular la experiencia real de la plataforma antes de su etapa de codificación. Utilizando Figma, se han interconectado las pantallas de alta fidelidad (mockups) para los entornos de escritorio y móvil, aplicando transiciones y microinteracciones que imitan el comportamiento del sistema final. 
+
+  Este artefacto permite validar la usabilidad de las tareas críticas, como el registro de un nuevo almacén, la detección de discrepancias mediante notificaciones simuladas, y el recorrido de escalabilidad en el módulo de facturación.
+
+  * **Enlace al Prototipo Interactivo (Desktop y Mobile):** [Ver Prototipo en Figma][https://www.figma.com/design/Mjmfv8zXHB753QKMcfucH2/Sin-t%C3%ADtulo?node-id=0-1&t=OpYw1NIg0EhggkLC-1]
+
   ## 4.6. Domain-Driven Software Architecture
 
   La arquitectura de software orientada al dominio (DDD) es el enfoque de diseño que estructura Locksight entorno a los procesos clave del negocio de seguridad y almacenamiento. Este método permite que el softwarerefleje con precisión las reglas de negocio, como la gestión de permisos por zonas o la activación automáticade alertas. Al aplicar DDD, logramos un sistema robusto, escalable y fácil de mantener, donde cadacomponente técnico está alineado con los objetivos de seguridad y eficiencia operativa de nuestros clientes.
