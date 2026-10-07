@@ -1738,10 +1738,12 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
   La arquitectura de software orientada al dominio (DDD) es el enfoque de diseño que estructura Locksight entorno a los procesos clave del negocio de seguridad y almacenamiento. Este método permite que el softwarerefleje con precisión las reglas de negocio, como la gestión de permisos por zonas o la activación automáticade alertas. Al aplicar DDD, logramos un sistema robusto, escalable y fácil de mantener, donde cadacomponente técnico está alineado con los objetivos de seguridad y eficiencia operativa de nuestros clientes.
 
   ### 4.6.1 Domain-Driven Software Architecture
+  
+  En esta parte se puede ver detalladamente el desarollo del Design Level Storming
 
-    <div align="center">
-      <img src="images/event_storming_nodesecure.png" alt="repositorio">
-    </div>
+  <div align="center">
+    <img src="images/event_storming_nodesecure.png" alt="repositorio">
+  </div>
 
 
   ### 4.6.2. Software Architecture Context Diagram
