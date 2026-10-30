@@ -1171,6 +1171,9 @@ A continuación, se presentan las épicas y User Stories definidos para el desar
 | **US17** | Gestión de Roles (RBAC) | Como dueño de PYME, quiero asignar roles (Administrador, Almacenero, Auditor) para restringir quién puede editar la infraestructura. | **Given** el dueño invita a un empleado, **When** le asigna el rol "Almacenero", **Then** el empleado solo puede visualizar su zona sin editar hardware.<br>**Given** un almacenero intenta borrar un sensor, **When** interactúa, **Then** el sistema deniega el acceso. | EP02, EP09 |
 | **TS18** | Generación de Tokens JWT | Como developer, quiero implementar JWT en la API para mantener sesiones seguras y escalables sin sobrecargar la base de datos. | **Given** un login exitoso, **When** la API responde, **Then** adjunta un token Bearer firmado con expiración.<br>**Given** una petición a ruta protegida con token expirado, **When** la API recibe el request, **Then** responde HTTP 401. | EP05, EP09 |
 | **US19** | Vincular Sensor IoT a Zona | Como instalador/jefe de seguridad, quiero ingresar el MAC Address del ESP32 en el sistema para asociarlo a una puerta específica. | **Given** el usuario ingresa la MAC y la Zona, **When** da clic en vincular, **Then** NodeSecure registra el nodo y espera su primer "Ping".<br>**Given** una MAC ya registrada en otra cuenta, **When** se intenta vincular, **Then** el sistema bloquea por seguridad. | EP08 |
+| **US20** | Crear catálogo de productos | Como dueño de PYME, quiero registrar los datos de mis productos en el sistema para tener una base digital sobre la cual monitorear mi stock físico. | **Given** el usuario accede al módulo de inventario, **When** ingresa los datos de un nuevo producto (nombre, SKU, categoría) y guarda, **Then** el producto se añade al catálogo con un stock inicial de cero. | EP11 |
+| **US21** | Registro ágil de entradas de stock | Como almacenero, quiero registrar el ingreso de lotes de mercadería de forma sencilla para mantener el inventario digital actualizado al iniciar mi turno. | **Given** el almacenero recibe nueva mercadería, **When** registra la cantidad ingresada en el sistema, **Then** el stock digital aumenta y se genera un registro inalterable con la fecha, hora y usuario. | EP11 |
+| **US22** | Salida rápida de productos (Mobile) | Como encargado de despacho, quiero registrar la salida de productos en menos de 30 segundos desde una tablet o celular para no generar cuellos de botella operativos. | **Given** el almacenero está en la rampa de despacho, **When** confirma la salida del producto en la app móvil, **Then** el sistema descuenta el stock en menos de 30 segundos y asocia el evento al usuario. | EP11, EP10 |
 
 ### Relación de Epics y User Stories – NodeSecure
 
@@ -1184,6 +1187,8 @@ A continuación, se presentan las épicas y User Stories definidos para el desar
 * **Epic 08: Integración de Hardware (Sensores):** US02, TS09, US19.
 * **Epic 09: Identidad y Control de Accesos (IAM):** US13, US17, TS18.
 * **Epic 10: Experiencia de Usuario Móvil:** US12.
+* **Epic 11: Gestión de Catálogo e Inventario:** US20, US21, US22, US23, US24.
+
 
 ## 3.2. Impact Mapping.
 
