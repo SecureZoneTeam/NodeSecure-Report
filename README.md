@@ -3144,6 +3144,12 @@ https://trello.com/b/kkcLSErp/nodesecure
 | Sprint 2 | US06 | Notificaciones Push de seguridad | T16 | Implementación de configuración de notificaciones | Desarrollar la interfaz para configurar las preferencias de notificaciones. | 4 | Anahua Ancachi, Liz Maribel | Done |
 | Sprint 2 | TS18 | Generación de Tokens JWT | T17 | Preparación del flujo de autenticación | Preparar el Frontend para su futura integración con autenticación mediante JWT. | 4 | Fernando Sebastián Pérez Bellido | Done |
 | Sprint 2 | TS09 | Recepción de payloads IoT (API) | T18 | Preparación de integración IoT | Preparar el Frontend para su futura integración con eventos IoT mediante API REST. | 4 | Sandoval Aiquipa, Kelber Yamir | Done |
+| Sprint 2 | US20 | Crear catálogo de productos | T19 | Diseño UX/UI del catálogo | Diseñar wireframes y mockups en Figma para la gestión de productos. | 2 | Anahua Ancachi, Liz Maribel | Done |
+| Sprint 2 | US20 | Crear catálogo de productos | T20 | Desarrollo Frontend del catálogo | Codificar la interfaz de catálogo utilizando Angular y Angular Material. | 3 | Fernando Sebastián Pérez Bellido | Done |
+| Sprint 2 | US21 | Registro ágil de entradas | T21 | Diseño UX/UI de ingresos | Crear las pantallas para el registro de lotes de mercadería. | 2 | Ravello Cárdenas, Luciana Angielina | Done |
+| Sprint 2 | US21 | Registro ágil de entradas | T22 | Implementación Frontend de ingresos | Construir los formularios reactivos en Angular para el ingreso de stock. | 3 | Sandoval Aiquipa, Kelber Yamir | Done |
+| Sprint 2 | US22 | Salida rápida (Mobile) | T23 | Diseño responsivo de despacho | Diseñar la vista móvil con botones grandes y Bottom Navigation. | 2 | Anahua Ancachi, Liz Maribel | Done |
+| Sprint 2 | US22 | Salida rápida (Mobile) | T24 | Desarrollo Frontend Mobile | Implementar y optimizar la vista móvil en Angular para despachos rápidos. | 5 | Fernando Sebastián Pérez Bellido | Done |
 
 ### 5.2.2.4. Development Evidence for Sprint Review.
 
