@@ -1220,11 +1220,14 @@ A continuación, se presenta el Product Backlog inicial de NodeSecure, priorizad
 | 10 | US08 | Bitácora de trazabilidad | Como auditor, quiero consultar un historial detallado de eventos físicos para auditorías de CCTV. | 5 |
 | 11 | US10 | Filtros avanzados de auditoría | Como jefe de seguridad, quiero filtrar el historial por fecha y tipo de evento. | 3 |
 | 12 | US06 | Notificaciones Push de seguridad| Como jefe de seguridad, quiero recibir notificaciones Push ante aperturas no autorizadas. | 5 |
-| 13 | US16 | Suscripción y Facturación | Como dueño de PYME, quiero registrar mi método de pago para activar mi plan y límites. | 8 |
-| 14 | US11 | Exportar reporte de incidentes | Como administrador, quiero descargar un reporte PDF/Excel mensual de mermas y alertas. | 3 |
-| 15 | US07 | Justificar falsas alarmas | Como jefe de operaciones, quiero poder marcar una alerta como "Falsa Alarma" con justificación. | 3 |
-| 16 | US17 | Gestión de Roles (RBAC) | Como dueño de PYME, quiero asignar roles (Administrador, Almacenero, Auditor). | 5 |
-| 17 | US12 | Acceso y navegación móvil | Como dueño de PYME, quiero acceder al dashboard desde mi smartphone (Bottom Navigation). | 3 |
+| 13 | US20 | Crear catálogo de productos | Como dueño de PYME, quiero registrar los datos de mis productos en el sistema para tener una base digital. | 3 |
+| 14 | US21 | Registro ágil de entradas de stock | Como almacenero, quiero registrar el ingreso de lotes de mercadería de forma sencilla para mantener el inventario digital actualizado al iniciar mi turno. | 5 |
+| 15 | US22 | Salida rápida de productos (Mobile) | Como encargado de despacho, quiero registrar la salida de productos en menos de 30 segundos desde una tablet o celular para no generar cuellos de botella operativos. | 5 |
+| 18 | US16 | Suscripción y Facturación | Como dueño de PYME, quiero registrar mi método de pago para activar mi plan y límites. | 8 |
+| 20 | US11 | Exportar reporte de incidentes | Como administrador, quiero descargar un reporte PDF/Excel mensual de mermas y alertas. | 3 |
+| 21 | US07 | Justificar falsas alarmas | Como jefe de operaciones, quiero poder marcar una alerta como "Falsa Alarma" con justificación. | 3 |
+| 22 | US17 | Gestión de Roles (RBAC) | Como dueño de PYME, quiero asignar roles (Administrador, Almacenero, Auditor). | 5 |
+| 23 | US12 | Acceso y navegación móvil | Como dueño de PYME, quiero acceder al dashboard desde mi smartphone (Bottom Navigation). | 3 |
 
 ---
 <div style="page-break-after: always;"></div>
