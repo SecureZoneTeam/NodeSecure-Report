@@ -1816,7 +1816,7 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
 
   Los Software Architecture Container Diagrams muestran la estructura interna de la plataforma NodeSecure a nivel de contenedores. Se representan la aplicación web, el API Gateway y los diferentes servicios que conforman la solución, además de las bases de datos y los sistemas externos con los que interactúan.
 
-  Los contenedores se organizan de acuerdo con las principales capacidades funcionales de la plataforma, incluyendo autenticación, evaluaciones, planificación de carrera, facturación, comunidad, servicios de asesoría y Analytics & AI.
+  Los contenedores se organizan de acuerdo con las principales capacidades funcionales de la plataforma, incluyendo autenticación, gestión de inventario, integración de los servicios IoT, servicio de alertas y discrepancias, servicio de auditoría y trazabilidad, y servicio de suscripción y pagos.
 
 
   <div align="center">
