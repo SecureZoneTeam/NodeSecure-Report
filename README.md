@@ -3154,6 +3154,10 @@ https://trello.com/b/kkcLSErp/nodesecure
 | Sprint 2 | US21 | Registro ágil de entradas | T22 | Implementación Frontend de ingresos | Construir los formularios reactivos en Angular para el ingreso de stock. | 3 | Sandoval Aiquipa, Kelber Yamir | Done |
 | Sprint 2 | US22 | Salida rápida (Mobile) | T23 | Diseño responsivo de despacho | Diseñar la vista móvil con botones grandes y Bottom Navigation. | 2 | Anahua Ancachi, Liz Maribel | Done |
 | Sprint 2 | US22 | Salida rápida (Mobile) | T24 | Desarrollo Frontend Mobile | Implementar y optimizar la vista móvil en Angular para despachos rápidos. | 5 | Fernando Sebastián Pérez Bellido | Done |
+| Sprint 2 | US23 | Conciliación manual | T25 | Diseño UX/UI de ajustes de stock | Diseñar el modal y flujos de justificación para el ajuste de inventario. | 2 | Ravello Cárdenas, Luciana Angielina | Done |
+| Sprint 2 | US23 | Conciliación manual | T26 | Lógica Frontend de conciliación | Codificar la vista y la validación del formulario de ajuste de stock. | 3 | Sandoval Aiquipa, Kelber Yamir | Done |
+| Sprint 2 | US24 | Dashboard de inventario | T27 | Diseño UX/UI del Dashboard | Diseñar los componentes gráficos y métricas del inventario. | 3 | Anahua Ancachi, Liz Maribel | Done |
+| Sprint 2 | US24 | Dashboard de inventario | T28 | Desarrollo Frontend del Dashboard | Implementar las gráficas y maquetación general del dashboard en Angular. | 5 | Fernando Sebastián Pérez Bellido | Done |
 
 ### 5.2.2.4. Development Evidence for Sprint Review.
 
