@@ -1225,6 +1225,8 @@ A continuación, se presenta el Product Backlog inicial de NodeSecure, priorizad
 | 13 | US20 | Crear catálogo de productos | Como dueño de PYME, quiero registrar los datos de mis productos en el sistema para tener una base digital. | 3 |
 | 14 | US21 | Registro ágil de entradas de stock | Como almacenero, quiero registrar el ingreso de lotes de mercadería de forma sencilla para mantener el inventario digital actualizado al iniciar mi turno. | 5 |
 | 15 | US22 | Salida rápida de productos (Mobile) | Como encargado de despacho, quiero registrar la salida de productos en menos de 30 segundos desde una tablet o celular para no generar cuellos de botella operativos. | 5 |
+| 16 | US23 | Conciliación manual de stock | Como jefe de operaciones, quiero poder realizar un ajuste manual del stock físico frente al digital para corregir diferencias tras una alerta de discrepancia. | 3 |
+| 17 | US24 | Dashboard de estado de inventario | Como dueño de PYME, quiero visualizar un resumen de mi inventario actual para saber qué productos tienen mayor rotación sin necesidad de cruzar hojas de Excel. | 5 |
 | 18 | US16 | Suscripción y Facturación | Como dueño de PYME, quiero registrar mi método de pago para activar mi plan y límites. | 8 |
 | 20 | US11 | Exportar reporte de incidentes | Como administrador, quiero descargar un reporte PDF/Excel mensual de mermas y alertas. | 3 |
 | 21 | US07 | Justificar falsas alarmas | Como jefe de operaciones, quiero poder marcar una alerta como "Falsa Alarma" con justificación. | 3 |
