@@ -1228,10 +1228,10 @@ A continuación, se presenta el Product Backlog inicial de NodeSecure, priorizad
 | 16 | US23 | Conciliación manual de stock | Como jefe de operaciones, quiero poder realizar un ajuste manual del stock físico frente al digital para corregir diferencias tras una alerta de discrepancia. | 3 |
 | 17 | US24 | Dashboard de estado de inventario | Como dueño de PYME, quiero visualizar un resumen de mi inventario actual para saber qué productos tienen mayor rotación sin necesidad de cruzar hojas de Excel. | 5 |
 | 18 | US16 | Suscripción y Facturación | Como dueño de PYME, quiero registrar mi método de pago para activar mi plan y límites. | 8 |
-| 20 | US11 | Exportar reporte de incidentes | Como administrador, quiero descargar un reporte PDF/Excel mensual de mermas y alertas. | 3 |
-| 21 | US07 | Justificar falsas alarmas | Como jefe de operaciones, quiero poder marcar una alerta como "Falsa Alarma" con justificación. | 3 |
-| 22 | US17 | Gestión de Roles (RBAC) | Como dueño de PYME, quiero asignar roles (Administrador, Almacenero, Auditor). | 5 |
-| 23 | US12 | Acceso y navegación móvil | Como dueño de PYME, quiero acceder al dashboard desde mi smartphone (Bottom Navigation). | 3 |
+| 19 | US11 | Exportar reporte de incidentes | Como administrador, quiero descargar un reporte PDF/Excel mensual de mermas y alertas. | 3 |
+| 20 | US07 | Justificar falsas alarmas | Como jefe de operaciones, quiero poder marcar una alerta como "Falsa Alarma" con justificación. | 3 |
+| 21 | US17 | Gestión de Roles (RBAC) | Como dueño de PYME, quiero asignar roles (Administrador, Almacenero, Auditor). | 5 |
+| 22 | US12 | Acceso y navegación móvil | Como dueño de PYME, quiero acceder al dashboard desde mi smartphone (Bottom Navigation). | 3 |
 
 ---
 <div style="page-break-after: always;"></div>
