@@ -1384,80 +1384,6 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
 ![Dashboard](images/inventario-dashboard-mobile.png)
 
 
-Ahora, el wireflow diagrama para la sección de inventario y administración de stock:
-Este flujo ilustra cómo un usuario gestiona las operaciones de stock desde el panel principal del "Inventory Dashboard". Tras ingresar, el usuario evalúa las métricas y decide qué acción ejecutar desde las opciones disponibles. Tomando como ejemplo el registro de un nuevo ítem, el usuario selecciona "Register new product" y procede a completar la información requerida. Si los datos ingresados no son válidos (por errores o campos faltantes), el sistema bloquea el avance y redirige al usuario de vuelta al paso de completar la información. Una vez que la validación de los datos es exitosa, el sistema confirma la operación desplegando un mensaje de éxito y el proceso finaliza.
-
-**El happy path (Registro de Nuevo Producto):**
-
-* **Inicio:** El usuario se encuentra en el "Inventory Dashboard", visualizando las métricas de unidades físicas, productos, falta de stock y movimientos recientes.
-
-* **Acción:** A partir del nodo de decisión ("Seleccionar acción"), el usuario hace clic en el botón "+ New product".
-
-* **Ingreso de datos:** El usuario entra a la vista de "Complete informacion" y llena todos los campos solicitados de forma correcta a la primera.
-
-* **Validación interna:** El sistema verifica los datos ingresados de forma interna ("Valid data?") y aprueba que cumplen con todos los requisitos.
-
-* **Confirmación:** La plataforma muestra una alerta ("Show success message") confirmando que el registro se llevó a cabo sin problemas.
-* **Fin del flujo:** El subproceso termina ("End"), y el usuario puede seguir operando en el panel con la información de su nuevo producto ya integrada.
-
-<br>
-
-**El happy path (Registro Nuevo):**
-
-* **Inicio:** El usuario se encuentra en el "Inventory Dashboard", visualizando las métricas de unidades físicas, productos, falta de stock y movimientos recientes.
-
-* **Acción:** A partir del nodo de decisión ("Seleccionar acción"), el usuario hace clic en el botón "Register Entry".
-
-* **Ingreso de datos:** El usuario entra a la vista de "Complete informacion" y llena todos los campos solicitados de forma correcta a la primera.
-
-* **Validación interna:** El sistema verifica los datos ingresados de forma interna ("Valid data?") y aprueba que cumplen con todos los requisitos.
-
-* **Confirmación:** La plataforma muestra una alerta ("Show success message") confirmando que el registro se llevó a cabo sin problemas.
-* **Fin del flujo:** El subproceso termina ("End"), y el usuario puede seguir operando en el panel con la información de su nuevo registro ya integrado.
-
-<br>
-
-**El happy path (Despacho rápido):**
-* **Inicio:** El usuario se encuentra en el "Inventory Dashboard", visualizando las métricas de unidades físicas, productos, falta de stock y movimientos recientes.
-
-* **Acción:** A partir del nodo de decisión ("Seleccionar acción"), el usuario hace clic en el botón "Quick Dispatch".
-
-* **Ingreso de datos:** El usuario entra a la vista de "Complete informacion" y llena todos los campos solicitados de forma correcta a la primera.
-
-* **Validación interna:** El sistema verifica los datos ingresados de forma interna ("Valid data?") y aprueba que cumplen con todos los requisitos.
-
-* **Confirmación:** La plataforma muestra una alerta ("Show success message") confirmando que el registro se llevó a cabo sin problemas.
-* **Fin del flujo:** El subproceso termina ("End"), y el usuario puede seguir operando en el panel con la información del despacho ya integrado.
-
-<br>
-
-
-**El happy path (Conciliación de Stock):**
-* **Inicio:** El usuario se encuentra en el "Inventory Dashboard", visualizando las métricas de unidades físicas, productos, falta de stock y movimientos recientes.
-
-* **Acción:** A partir del nodo de decisión ("Seleccionar acción"), el usuario hace clic en el botón "Reconcile Stock".
-
-* **Ingreso de datos:** El usuario entra a la vista de "Complete informacion" y llena todos los campos solicitados de forma correcta a la primera.
-
-* **Validación interna:** El sistema verifica los datos ingresados de forma interna ("Valid data?") y aprueba que cumplen con todos los requisitos.
-
-* **Confirmación:** La plataforma muestra una alerta ("Show success message") confirmando que el registro se llevó a cabo sin problemas.
-* **Fin del flujo:** El subproceso termina ("End"), y el usuario puede visualizar la pantalla de resumen de todos los procesos y movimientos para su comparación.
-
-<br>
-
-**Diagrama lógico:**
-![Diagrama](images/diagrama-inventario.png)
-
-<br>
-
-**Diagrama Visual: (Wireflow)**
-![Diagrama](images/mobilewireflow.png)
-
-
-<br>
-<br>
-
   #### 3. User Goal: Administración de dispositivos IoT
 
   Facilitar la vinculación de nuevos sensores IoT a zonas específicas del almacén para la recolección de evidencia física, visualizar su estado de conexión y controlar los límites de uso según la suscripción.
@@ -1589,6 +1515,79 @@ Este flujo ilustra cómo un usuario gestiona las operaciones de stock desde el p
 
   **Diagrama Visual (Wireflow):**
   ![Visual Wireflow - User Goal 2](images/ug2-wireflow-visual.png)
+
+  Ahora, el wireflow diagrama para la sección de inventario y administración de stock:
+Este flujo ilustra cómo un usuario gestiona las operaciones de stock desde el panel principal del "Inventory Dashboard". Tras ingresar, el usuario evalúa las métricas y decide qué acción ejecutar desde las opciones disponibles. Tomando como ejemplo el registro de un nuevo ítem, el usuario selecciona "Register new product" y procede a completar la información requerida. Si los datos ingresados no son válidos (por errores o campos faltantes), el sistema bloquea el avance y redirige al usuario de vuelta al paso de completar la información. Una vez que la validación de los datos es exitosa, el sistema confirma la operación desplegando un mensaje de éxito y el proceso finaliza.
+
+**El happy path (Registro de Nuevo Producto):**
+
+* **Inicio:** El usuario se encuentra en el "Inventory Dashboard", visualizando las métricas de unidades físicas, productos, falta de stock y movimientos recientes.
+
+* **Acción:** A partir del nodo de decisión ("Seleccionar acción"), el usuario hace clic en el botón "+ New product".
+
+* **Ingreso de datos:** El usuario entra a la vista de "Complete informacion" y llena todos los campos solicitados de forma correcta a la primera.
+
+* **Validación interna:** El sistema verifica los datos ingresados de forma interna ("Valid data?") y aprueba que cumplen con todos los requisitos.
+
+* **Confirmación:** La plataforma muestra una alerta ("Show success message") confirmando que el registro se llevó a cabo sin problemas.
+* **Fin del flujo:** El subproceso termina ("End"), y el usuario puede seguir operando en el panel con la información de su nuevo producto ya integrada.
+
+<br>
+
+**El happy path (Registro Nuevo):**
+
+* **Inicio:** El usuario se encuentra en el "Inventory Dashboard", visualizando las métricas de unidades físicas, productos, falta de stock y movimientos recientes.
+
+* **Acción:** A partir del nodo de decisión ("Seleccionar acción"), el usuario hace clic en el botón "Register Entry".
+
+* **Ingreso de datos:** El usuario entra a la vista de "Complete informacion" y llena todos los campos solicitados de forma correcta a la primera.
+
+* **Validación interna:** El sistema verifica los datos ingresados de forma interna ("Valid data?") y aprueba que cumplen con todos los requisitos.
+
+* **Confirmación:** La plataforma muestra una alerta ("Show success message") confirmando que el registro se llevó a cabo sin problemas.
+* **Fin del flujo:** El subproceso termina ("End"), y el usuario puede seguir operando en el panel con la información de su nuevo registro ya integrado.
+
+<br>
+
+**El happy path (Despacho rápido):**
+* **Inicio:** El usuario se encuentra en el "Inventory Dashboard", visualizando las métricas de unidades físicas, productos, falta de stock y movimientos recientes.
+
+* **Acción:** A partir del nodo de decisión ("Seleccionar acción"), el usuario hace clic en el botón "Quick Dispatch".
+
+* **Ingreso de datos:** El usuario entra a la vista de "Complete informacion" y llena todos los campos solicitados de forma correcta a la primera.
+
+* **Validación interna:** El sistema verifica los datos ingresados de forma interna ("Valid data?") y aprueba que cumplen con todos los requisitos.
+
+* **Confirmación:** La plataforma muestra una alerta ("Show success message") confirmando que el registro se llevó a cabo sin problemas.
+* **Fin del flujo:** El subproceso termina ("End"), y el usuario puede seguir operando en el panel con la información del despacho ya integrado.
+
+<br>
+
+
+**El happy path (Conciliación de Stock):**
+* **Inicio:** El usuario se encuentra en el "Inventory Dashboard", visualizando las métricas de unidades físicas, productos, falta de stock y movimientos recientes.
+
+* **Acción:** A partir del nodo de decisión ("Seleccionar acción"), el usuario hace clic en el botón "Reconcile Stock".
+
+* **Ingreso de datos:** El usuario entra a la vista de "Complete informacion" y llena todos los campos solicitados de forma correcta a la primera.
+
+* **Validación interna:** El sistema verifica los datos ingresados de forma interna ("Valid data?") y aprueba que cumplen con todos los requisitos.
+
+* **Confirmación:** La plataforma muestra una alerta ("Show success message") confirmando que el registro se llevó a cabo sin problemas.
+* **Fin del flujo:** El subproceso termina ("End"), y el usuario puede visualizar la pantalla de resumen de todos los movimientos para su comparación.
+
+<br>
+
+**Diagrama lógico:**
+![Diagrama](images/diagrama-inventario.png)
+
+<br>
+
+**Diagrama Visual: (Wireflow)**
+![Diagrama](images/mobilewireflow.png)
+
+
+<br>
 
   #### 3. User Goal: Administración de dispositivos IoT
 
