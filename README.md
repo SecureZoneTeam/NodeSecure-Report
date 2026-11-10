@@ -1354,6 +1354,25 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
   **Desktop**
   ![Desktop Wireframes - User Goal 2](images/ug2-wireframe-desktop.png)
 
+  ![Conciliar Stock](images/wireframe-inventario-conciliar-stock.png)
+*Conciliar Stock*
+
+![Registrar Entrada](images/wireframe-inventario-registrar-entrada-stock.png)
+*Registrar Entrada*
+
+![Salida Rápida](images/wireframe-inventario-salida-rapida.png)
+*Salida Rápida*
+
+![Nuevo Producto](images/wireframe-inventario-nuevo-producto.png)
+*Nuevo Producto*
+
+![Catálogo](images/wireframe-inventario-catalogo-productos.png)
+*Catálogo de Productos*
+
+![Dashboard](images/wireframe-inventario-dashboard.png)
+*Dashboard*
+
+
   **Mobile**
   ![Mobile Wireframes - User Goal 2](images/ug2-wireframe-mobile.png)
 
