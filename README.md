@@ -1734,6 +1734,9 @@ Este flujo ilustra cómo un usuario gestiona las operaciones de stock desde el p
   #### Módulo de Monitoreo de Almacenes (Mobile)
   ![Gestión de Sucursales](images/mobile-mockup-02.png)
 
+  #### Módulo de Manejo de Inventario y Stock (Mobile)
+  ![Gestión de Inventario, Stock y Entradas](images/mockupsmobile.png)
+
   #### Módulo de Dispositivos IoT (Mobile)
   ![Hardware y Conectividad](images/mobile-mockup-03.png)
 
