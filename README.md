@@ -1375,6 +1375,15 @@ El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El
 
   **Mobile**
   ![Mobile Wireframes - User Goal 2](images/ug2-wireframe-mobile.png)
+![Conciliar Stock](images/inventario-conciliarstock-mobile.png)
+![Salida Rápida](images/inventario-salidarapida-mobile.png)
+![Registrar Entrada](images/inventario-registrarentrada-mobile.png)
+![Nuevo Producto](images/inventario-nuevoproducto-mobile.png)
+![Catálogo](images/inventario-catalogo-mobile.png)
+![Dashboard 2](images/inventario-dashboard2-mobile.png)
+![Dashboard](images/inventario-dashboard-mobile.png)
+
+
 
   #### 3. User Goal: Administración de dispositivos IoT
 
