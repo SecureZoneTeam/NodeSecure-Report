@@ -1777,7 +1777,7 @@ Este flujo ilustra cómo un usuario gestiona las operaciones de stock desde el p
 
   ![User Flow - User Goal 1](images/ug1-userflow.png)
 
-  #### User Goal 2: Registro y Monitoreo de Almacenes
+  #### User Goal 2: Registro y Monitoreo de Almacenes e Inventario
   Como Jefe de Operaciones, Roberto quiere registrar nuevas sucursales y ver el estado de conciliación de todos los almacenes de la empresa en una sola plataforma para detectar rápidamente cualquier incidente.
   En este escenario, Roberto agrega una nueva sucursal desde el panel principal. El flujo le solicita datos básicos y horarios de operación, incorporando validaciones en tiempo real (campos obligatorios en rojo) para evitar errores. Además, el sistema controla los límites del plan, mostrando una alerta restrictiva si ya alcanzó la cantidad máxima de almacenes permitidos.
 
@@ -1796,6 +1796,167 @@ Este flujo ilustra cómo un usuario gestiona las operaciones de stock desde el p
   * **Fin del flujo** ➔ Roberto ingresa al detalle del almacén advirtiendo que las lecturas presentan latencia antes de ejecutar una conciliación manual.
 
   ![User Flow - User Goal 2](images/ug2-userflow.png)
+
+  **Creación de Nuevo Producto en el Catálogo**
+Como Jefe de Operaciones, Roberto necesita registrar nuevos ítems tecnológicos (como cables o routers) en la plataforma móvil para poder gestionar sus movimientos posteriores.
+
+**El happy path: Registro de producto exitoso**
+
+* **Inicio** ➔ Roberto se encuentra en la vista "Inventory dashboard" o navegando en el "Product catalog".
+
+
+* **Acción** ➔ Presiona el botón "+ New product".
+
+
+* **Navegación** ➔ El sistema despliega el formulario "New product".
+
+
+* **Ingreso de datos** ➔ Completa correctamente los campos de nombre, SKU, categoría y unidad.
+
+
+* **Confirmación** ➔ Presiona el botón azul principal "+ Save product".
+
+
+* **Fin del flujo** ➔ El sistema valida los datos y Roberto es redirigido al catálogo, visualizando su nuevo producto en la lista.
+
+
+
+**El unhappy path (Estado de bloqueo): Campos obligatorios faltantes**
+
+* **Inicio** ➔ Roberto ingresa a la vista "New product" para registrar un ítem urgente.
+
+
+* **Ingreso de datos** ➔ Llena el nombre pero olvida asignar un SKU o categoría.
+
+
+* **Acción** ➔ Intenta presionar "+ Save product".
+
+
+* **Notificación visual** ➔ El sistema bloquea la acción y resalta en rojo los campos omitidos, indicando que son requeridos.
+* **Fin del flujo** ➔ Roberto permanece en la pantalla de registro, debiendo completar la información faltante para poder avanzar.
+
+<br>
+
+<br>
+
+
+**Ingreso de Mercadería (Register Stock Entry)**
+Al recibir un lote de productos de un proveedor, Roberto debe registrar inmediatamente la entrada al almacén para que el stock digital refleje las unidades físicas entrantes.
+
+**El happy path: Ingreso de stock exitoso**
+
+* **Inicio** ➔ Roberto se encuentra en el "Inventory dashboard".
+
+
+* **Acción** ➔ Presiona el botón "Register entry".
+
+
+* **Navegación** ➔ El sistema abre la vista "Register stock entry".
+
+
+* **Ingreso de datos** ➔ Selecciona el almacén de destino, elige el producto del catálogo desplegable e ingresa la cantidad recibida.
+
+
+* **Confirmación** ➔ Revisa la proyección del nuevo stock y confirma la entrada.
+
+
+* **Fin del flujo** ➔ El inventario se actualiza y Roberto vuelve al dashboard, viendo el impacto en las métricas de "Physical units".
+
+
+
+**El unhappy path (Estado crítico): Error de sincronización de red**
+
+* **Inicio** ➔ Roberto ingresa los datos de un lote grande en "Register stock entry".
+
+
+* **Acción** ➔ Confirma la entrada, pero pierde la conexión a internet en el almacén.
+* **Notificación visual** ➔ La aplicación muestra un indicador de carga prolongado seguido de una alerta de "Error de conexión: El ingreso no pudo registrarse".
+* **Fin del flujo** ➔ Los datos del formulario se mantienen guardados localmente para que Roberto pueda reintentar la operación una vez recupere la señal, evitando que tenga que digitar todo de nuevo.
+
+<br>
+
+<br>
+
+
+**Salida Ágil de Inventario (Quick Dispatch)**
+Para evitar cuellos de botella en la rampa de carga, el personal operativo necesita descontar el stock de manera fluida y en pocos segundos desde su celular.
+
+**El happy path: Despacho rápido exitoso**
+
+* **Inicio** ➔ El operario está en el "Inventory dashboard".
+
+
+* **Acción** ➔ Presiona el botón "Quick dispatch".
+
+
+* **Navegación** ➔ Se abre la lista interactiva de productos disponibles para despacho rápido.
+
+
+* **Ingreso de datos** ➔ Usa la barra superior "Search by product name or SKU" para encontrar el ítem (ej. Cable UTP Cat6 305m), lo selecciona y define la cantidad a retirar.
+
+
+* **Confirmación** ➔ Confirma la salida con un solo toque.
+* **Fin del flujo** ➔ El inventario se descuenta de inmediato y el movimiento se registra en la sección "Recent movements".
+
+
+
+**El unhappy path (Estado de bloqueo): Stock insuficiente**
+
+* **Inicio** ➔ El operario busca despachar 10 unidades de un "Router Wi-Fi 6".
+
+
+* **Detección** ➔ Al seleccionarlo en la lista de "Quick dispatch", el sistema detecta que el stock digital actual es menor a 10 unidades.
+
+
+* **Notificación visual** ➔ La aplicación deshabilita el botón de despacho y muestra una advertencia indicando que no hay saldo suficiente para cubrir la salida.
+* **Fin del flujo** ➔ El operario debe cancelar el despacho o escalar el problema a Roberto para realizar una conciliación de inventario.
+
+<br>
+<br>
+
+
+**Ajuste y Conciliación (Reconcile Stock)**
+Cuando se detecta una discrepancia entre el conteo físico y el sistema (ej. por mermas o robos hormiga detectados por loT), Roberto debe ajustar los números manualmente dejando constancia del motivo.
+
+**El happy path: Conciliación guardada exitosamente**
+
+* **Inicio** ➔ Roberto está en el "Inventory dashboard".
+
+
+* **Acción** ➔ Presiona el botón "Reconcile stock".
+
+
+* **Navegación** ➔ Se despliega el modal o vista de conciliación.
+
+
+* **Ingreso de datos** ➔ Selecciona el producto y el almacén. El sistema muestra el "Digital stock", Roberto ingresa el "Physical count" y el sistema calcula la diferencia automáticamente.
+
+
+* **Justificación** ➔ Escribe el motivo del descuadre en el campo de justificación.
+
+
+* **Confirmación** ➔ Presiona guardar.
+* **Fin del flujo** ➔ El nuevo saldo sobreescribe el anterior, y el evento queda registrado inmutablemente en la lista de "Recent reconciliations" del dashboard principal.
+
+
+
+**El unhappy path (Estado de bloqueo): Omisión de justificación de auditoría**
+
+* **Inicio** ➔ Roberto ingresa a "Reconcile stock" para ajustar una merma detectada.
+
+
+* **Ingreso de datos** ➔ Ingresa la cantidad física real, pero deja en blanco el campo de justificación.
+
+
+* **Acción** ➔ Intenta guardar el ajuste.
+* **Detección** ➔ Al tratarse de un movimiento crítico de auditoría, el sistema prohíbe ajustes silenciosos.
+
+
+* **Notificación visual** ➔ El campo de justificación se resalta indicando "Este campo es obligatorio para auditoría".
+* **Fin del flujo** ➔ Roberto no puede completar la conciliación hasta que redacte un motivo válido, asegurando la transparencia del proceso.
+
+
+![User Flow - User Goal 2](images/user-flow.png)
 
   #### User Goal 3: Gestión de Dispositivos IoT
   Roberto necesita registrar, vincular y administrar los sensores magnéticos y lectores RFID de cada almacén para cruzar la evidencia física con los registros de inventario.
