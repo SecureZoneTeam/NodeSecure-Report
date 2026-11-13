@@ -47,7 +47,7 @@
   </table>
   <br>
 
-  **Lima, 16 de Setiembre del 2026**
+  **Lima, 06 de Octubre del 2026**
 
   </div>
   <br><br><br><br><br><br>
@@ -55,52 +55,53 @@
   <div style="page-break-after: always;"></div>
   
   ## Registro de versiones del informe
-  
-  
 
-  <table>
-    <thead>
-      <tr>
-        <th>Versión</th>
-        <th>Fecha</th>
-        <th>Autor</th>
-        <th>Descripción de modificación</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td valign="top"><b>AV1</b></td>
-        <td valign="top">16/09/2026</td>
-        <td valign="top">
-          Anahua Ancachi, Liz Maribel<br>
-          Sandoval Aiquipa, Kelber Yamir<br>
-          Pérez Bellido, Fernando Sebastián<br>
-          Ravello Cárdenas, Luciana Angielina
-        </td>
-        <td valign="top">Se realizó todo lo detallado en la primera entrega de AV1 – Sprint Review, que consiste desde el capítulo 1 hasta el punto 5.2.1.8. Team Collaboration Insights during Sprint. A esto se le agregó la primera versión de las conclusiones, la bibliografía y los anexos.</td>
-      </tr>
-      <tr>
-        <td><b>TB1</b></td>
-        <td>-</td>
-        <td></td>
-        <td>En proceso</td>
-      </tr>
-      <tr>
-        <td><b>AV2</b></td>
-        <td>-</td>
-        <td>-</td>
-        <td>En proceso</td>
-      </tr>
-      <tr>
-        <td><b>TF1</b></td>
-        <td>-</td>
-        <td>-</td>
-        <td>En proceso</td>
-      </tr>
-    </tbody>
-  </table>
-  <br><br>
-  
+<table>
+  <thead>
+    <tr>
+      <th>Versión</th>
+      <th>Fecha</th>
+      <th>Autor</th>
+      <th>Descripción de modificación</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td valign="top"><b>AV1</b></td>
+      <td valign="top">16/09/2026</td>
+      <td valign="top">
+        Anahua Ancachi, Liz Maribel<br>
+        Sandoval Aiquipa, Kelber Yamir<br>
+        Pérez Bellido, Fernando Sebastián<br>
+        Ravello Cárdenas, Luciana Angielina
+      </td>
+      <td valign="top">Se realizó todo lo detallado en la primera entrega de AV1 – Sprint Review, que consiste desde el capítulo 1 hasta el punto 5.2.1.8. Team Collaboration Insights during Sprint. A esto se le agregó la primera versión de las conclusiones, la bibliografía y los anexos.</td>
+    </tr>
+    <tr>
+      <td valign="top"><b>TB1</b></td>
+      <td valign="top">06/10/2026</td>
+      <td valign="top">
+        Anahua Ancachi, Liz Maribel<br>
+        Sandoval Aiquipa, Kelber Yamir<br>
+        Pérez Bellido, Fernando Sebastián<br>
+        Ravello Cárdenas, Luciana Angielina
+      </td>
+      <td valign="top">Se agregaron las evidencias y documentación correspondientes al Sprint 2 (5.2.2), incluyendo el despliegue del Frontend Web App con Angular, la implementación de la Fake API, la actualización del Student Outcome y las métricas del equipo.</td>
+    </tr>
+    <tr>
+      <td><b>AV2</b></td>
+      <td>-</td>
+      <td>-</td>
+      <td>En proceso</td>
+    </tr>
+    <tr>
+      <td><b>TF1</b></td>
+      <td>-</td>
+      <td>-</td>
+      <td>En proceso</td>
+    </tr>
+  </tbody>
+</table>
 
   <div style="page-break-after: always;"></div>
 
@@ -133,7 +134,7 @@
   &nbsp;&nbsp;&nbsp;&nbsp;[2.4. Big Picture Event Storming](#24-big-picture-event-storming)<br>
   &nbsp;&nbsp;&nbsp;&nbsp;[2.5. Ubiquitous Language](#25-ubiquitous-language)<br><br>
   [**Capítulo III: Requirements Specification**](#capítulo-iii-requirements-specification)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;[3.1. User Stories](#31-user-stories)<br>s
+  &nbsp;&nbsp;&nbsp;&nbsp;[3.1. User Stories](#31-user-stories)<br>
   &nbsp;&nbsp;&nbsp;&nbsp;[3.2. Impact Mapping](#32-impact-mapping)<br>
   &nbsp;&nbsp;&nbsp;&nbsp;[3.3. Product Backlog](#33-product-backlog)<br><br>
   [**Capítulo IV: Product Design**](#capítulo-iv-product-design)<br>
@@ -180,13 +181,22 @@
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)<br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)<br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)<br><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.2.2. Sprint 2](#522-sprint-2)<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.2.2.3. Sprint Backlog 2](#5223-sprint-backlog-2)<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.2.2.4. Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)<br><br>
   [Conclusiones](#conclusiones)<br>
   [Bibliografía](#bibliografía)<br>
   [Anexos](#anexos)<br><br><br>
 
   <div style="page-break-after: always;"></div>
   
-# Student Outcome
+  # Student Outcome
 En esta sección se detalla la contribución de cada integrante del equipo para explicar cómo las actividades y entregables del trabajo final han ayudado a desarrollar las dimensiones del Student Outcome correspondiente a la competencia de Comunicación. En esta sección se describe la relación entre el outcome, sus criterios y el trabajo colaborativo e individual realizado a lo largo del proyecto. Esto se complementa con lo reflejado en los testimonios expuestos que forman parte del video acerca del equipo.
 
 <table>
@@ -216,6 +226,7 @@ En esta sección se detalla la contribución de cada integrante del equipo para 
     <tr>
       <td valign="top"><b>TB1</b><br><br>
       <b>Anahua Ancachi, Liz Maribel:</b> Durante las sesiones de planificación y revisión del Sprint, explicó al equipo de manera sencilla cómo se estructurarían los datos simulados (mocks) como paso previo a la integración del backend real. También lideró los debates sobre el rendimiento grupal, compartiendo verbalmente los análisis de colaboración para identificar áreas de mejora.<br><br>
+      <b>Pérez Bellido, Fernando Sebastián:</b> Durante las sesiones de Sprint Planning, expuso las prioridades de desarrollo y la asignación de tareas. Además, comunicó al equipo de manera clara la distribución en el Board y resolvió dudas sobre la estructura de la aplicación.<br><br>
       <b>Sandoval Aiquipa, Kelber Yamir:</b> Sustenté las correcciones aplicadas al diseño UX/UI de NodeSecure y expliqué el flujo de despliegue del Frontend Web App durante las reuniones de validación del Sprint 2. Utilicé un lenguaje técnico claro para asegurar que el equipo comprendiera la configuración de enrutamiento necesaria para pasar a producción sin errores.<br><br>
       <b>Ravello Cárdenas, Luciana Angielina:</b> Expuso de forma clara en las reuniones de coordinación el progreso visual del frontend y la Landing Page. Explicó a sus compañeros qué capturas de pantalla y evidencias debían priorizarse para el informe, adaptando su lenguaje para asegurar que todo el equipo comprendiera el avance del desarrollo y los objetivos logrados en este Sprint.
       </td>
@@ -249,6 +260,7 @@ En esta sección se detalla la contribución de cada integrante del equipo para 
     <tr>
       <td valign="top"><b>TB1</b><br><br>
       <b>Anahua Ancachi, Liz Maribel:</b> Documentó por escrito la estrategia de servicios del sistema (5.2.2.6), redactando de forma clara y estructurada cómo se están simulando los endpoints iniciales del proyecto. Además, elaboró el reporte escrito de colaboración del equipo (5.2.2.8), resumiendo las métricas y la dinámica de trabajo con un lenguaje profesional y analítico adecuado para la evaluación académica.<br><br>
+      <b>Pérez Bellido, Fernando Sebastián:</b> Redactó estructuradamente las secciones 5.2.2.1 y 5.2.2.3, documentando el Sprint Goal, la velocidad del equipo y el Sprint Backlog. Utilizó un lenguaje preciso para asegurar que las historias de usuario y las horas estimadas quedaran registradas de forma auditable.<br><br>
       <b>Sandoval Aiquipa, Kelber Yamir:</b> Redacté y estructuré la sección 5.2.2.7 (Software Deployment Evidence), documentando la configuración, los entornos de alojamiento y las URLs públicas de la Web Application y la Landing Page. Empleé un formato tabular ordenado y descripciones técnicas precisas para evidenciar el éxito del pase a producción.<br><br>
       <b>Ravello Cárdenas, Luciana Angielina:</b> Redactó las secciones de evidencias de desarrollo y ejecución (5.2.2.4 y 5.2.2.5). Se encargó de elaborar explicaciones detalladas y fáciles de entender para cada captura de pantalla del frontend, logrando que el lector comprenda la interacción del usuario. Además, documentó de forma clara y organizada la tabla de commits de GitHub, asegurando un registro profesional del esfuerzo del equipo.
       </td>
@@ -465,7 +477,7 @@ En esta sección se detalla la contribución de cada integrante del equipo para 
         <td valign="top">
           <b>5. Solutions</b><br>
           <ul>
-            <li>Plataforma Web SPA (Angular + Spring Boot) para gestión de inventario, movimientos y stock.</li>
+            <li>Plataforma Web SPA (Angular + ASP.NET Core) para gestión de inventario, movimientos y stock.</li>
             <li>Integración IoT inicial (Uso de un microcontrolador ESP32 con sensores magnéticos en puertas) para registrar aperturas físicas en un entorno controlado. </li>
             <li>Motor de detección automática de discrepancias entre aperturas físicas y registros.</li>
             <li>Registro histórico con timestamps para servir de índice en auditorías con CCTV.</li>
@@ -640,7 +652,7 @@ En esta sección se detalla la contribución de cada integrante del equipo para 
         <td colspan="4"><b>Productos & Servicios</b></td>
       </tr>
       <tr>
-        <td>Aplicación Web (Vue.js + ASP.NET Core), registro de entradas/salidas, alertas de discrepancia, índice de auditoría temporal y conexión IoT (ESP32).</td>
+        <td>Aplicación Web (Angular + ASP.NET Core), registro de entradas/salidas, alertas de discrepancia, índice de auditoría temporal y conexión IoT (ESP32).</td>
         <td>Cámaras IP, controladores de acceso, sensores ambientales, intercomunicadores y consola Command.</td>
         <td>Desarrollo de ERP/CRM a medida, módulos de inventario, auditoría de operaciones y servicios de consultoría IT.</td>
         <td>Sensores IoT de entorno y puertas, rastreadores de activos, cámaras con IA y software de gestión operativa.</td>
@@ -1266,7 +1278,7 @@ La paleta de NodeSecure transmite autoridad, seguridad y alerta temprana:
 El lenguaje de NodeSecure es **Profesional, Directo y Preventivo**. Nos dirigimos a dueños de PYMES y jefes de seguridad, por lo que evitamos tecnicismos excesivos sobre hardware, enfocándonos en el valor: control, prevención de mermas y auditoría exacta.
 
 ### 4.1.2. Web Style Guidelines
-La plataforma NodeSecure adoptará **Material Design** como lenguaje base, apoyado por bibliotecas de componentes como Vuetify o PrimeVue. Se priorizará un diseño **Dark Mode nativo**, esencial en entornos de vigilancia para reducir el deslumbramiento. Los componentes utilizarán elevaciones (sombras sutiles) para jerarquizar modales de alertas y tarjetas de almacenes, garantizando un feedback visual instantáneo (ej. *snackbars* o *toasts*) al registrar sensores IoT o reportar discrepancias.
+La plataforma NodeSecure adoptará **Material Design** como lenguaje base, apoyado por la biblioteca de componentes Angular Material. Se priorizará un diseño **Dark Mode nativo**, esencial en entornos de vigilancia para reducir el deslumbramiento. Los componentes utilizarán elevaciones (sombras sutiles) para jerarquizar modales de alertas y tarjetas de almacenes, garantizando un feedback visual instantáneo (ej. *snackbars* o *toasts*) al registrar sensores IoT o reportar discrepancias.
 
 ## 4.2. Information Architecture
 
@@ -2067,7 +2079,7 @@ Cuando se detecta una discrepancia entre el conteo físico y el sistema (ej. por
 
   ## 4.6. Domain-Driven Software Architecture
 
-  La arquitectura de software orientada al dominio (DDD) es el enfoque de diseño que estructura Locksight entorno a los procesos clave del negocio de seguridad y almacenamiento. Este método permite que el softwarerefleje con precisión las reglas de negocio, como la gestión de permisos por zonas o la activación automáticade alertas. Al aplicar DDD, logramos un sistema robusto, escalable y fácil de mantener, donde cadacomponente técnico está alineado con los objetivos de seguridad y eficiencia operativa de nuestros clientes.
+  La arquitectura de software orientada al dominio (DDD) es el enfoque de diseño que estructura NodeSecure entorno a los procesos clave del negocio de seguridad y almacenamiento. Este método permite que el softwarerefleje con precisión las reglas de negocio, como la gestión de permisos por zonas o la activación automáticade alertas. Al aplicar DDD, logramos un sistema robusto, escalable y fácil de mantener, donde cadacomponente técnico está alineado con los objetivos de seguridad y eficiencia operativa de nuestros clientes.
 
   ### 4.6.1 Domain-Driven Software Architecture
   
@@ -2109,7 +2121,7 @@ Cuando se detecta una discrepancia entre el conteo físico y el sistema (ej. por
     <img src="images/c4/01_component_iam_service.png" alt="repositorio">
   </div>
 
-  Inventiory Service
+  Inventory Service
 
   El diagrama de componentes del Inventory Service representa la estructura interna encargada de gestionar los recursos principales del inventario. Sus componentes permiten administrar productos y categorías, controlar el stock y los movimientos de entrada y salida, y gestionar los almacenes y zonas. Los componentes acceden al repositorio de inventario para almacenar y consultar la información correspondiente en la base de datos.
 
@@ -2140,7 +2152,7 @@ Cuando se detecta una discrepancia entre el conteo físico y el sistema (ej. por
   <div align="center">
     <img src="images/c4/05_component_audit_traceability_service.png" alt="repositorio">
   </div>
-
+  
   Subscription & Billing Service
 
   El diagrama de componentes del Subscription & Billing Service representa la estructura encargada de gestionar los planes y suscripciones de NodeSecure. Sus componentes permiten administrar los planes disponibles, las suscripciones de los clientes, los pagos y la facturación, además de controlar los límites asociados a cada plan. El servicio mantiene esta información en su base de datos y se comunica con el Payment Gateway para procesar los pagos correspondientes.
@@ -2162,7 +2174,7 @@ Cuando se detecta una discrepancia entre el conteo físico y el sistema (ej. por
 
  ## 4.8. DataBase Diagrams
 
-  El diseño de la base de datos proporciona la estructura necesaria para almacenar y gestionar toda lainformación operativa de Locksight de forma segura y eficiente. Se ha modelado un esquema relacional queorganiza las tablas, relaciones y restricciones necesarias para garantizar la integridad de los datos de sensores,historiales de acceso y perfiles de usuario. Un diseño de base de datos sólido permite que el sistema respondacon rapidez ante consultas históricas y guarde cada evento de seguridad con precisión milimétrica.
+  El diseño de la base de datos proporciona la estructura necesaria para almacenar y gestionar toda lainformación operativa de NodeSecure de forma segura y eficiente. Se ha modelado un esquema relacional queorganiza las tablas, relaciones y restricciones necesarias para garantizar la integridad de los datos de sensores,historiales de acceso y perfiles de usuario. Un diseño de base de datos sólido permite que el sistema respondacon rapidez ante consultas históricas y guarde cada evento de seguridad con precisión milimétrica.
 
   ### 4.8.1. Data Base Diagram
 
@@ -3732,6 +3744,597 @@ La Landing Page puede ser consultada mediante:
 
 https://securezoneteam.github.io/NodeSecure-Landing-Page/
 
+### 5.2.3. Sprint 3
+
+El objetivo del Sprint 3 fue desarrollar la primera versión de los servicios web RESTful de NodeSecure, estableciendo una base funcional para la gestión de los recursos del sistema y la comunicación entre los diferentes módulos de la plataforma.
+
+Durante este Sprint se inició y desarrolló la implementación del backend utilizando Java 21 y Spring Boot 3.5.7, incorporando una arquitectura basada en Domain-Driven Design (DDD), separación por bounded contexts y organización en capas.
+
+La implementación contempla los módulos de autenticación y gestión de usuarios, administración de almacenes, integración con sensores IoT, control de inventario y gestión de alertas de seguridad. Asimismo, se incorporaron mecanismos de persistencia mediante MySQL, autenticación mediante JSON Web Tokens (JWT) y documentación de servicios mediante Swagger/OpenAPI.
+
+El desarrollo se realizó de manera incremental, distribuyendo las responsabilidades entre los integrantes del equipo de acuerdo con los bounded contexts asignados.
+
+### 5.2.3.1. Sprint Planning 3
+
+Durante la reunión de planificación del Sprint 3, el equipo de NodeSecure estableció como objetivo principal desarrollar la primera versión del backend de la plataforma, permitiendo implementar servicios RESTful que gestionen las operaciones principales del negocio y preparen la integración con la Web Application.
+
+#### Sprint Planning
+
+| Campo | Información |
+|---|---|
+| Sprint # | Sprint 3 |
+| Sprint Planning Background | Implementación de la primera versión de los RESTful Web Services de NodeSecure. |
+| Date | [Fecha real de la reunión] |
+| Time | [Hora real] |
+| Location | [Meet / modalidad utilizada] |
+| Prepared By | Fernando Sebastián Pérez Bellido |
+
+#### Sprint Goal & User Stories
+
+El objetivo del Sprint 3 fue implementar la primera versión funcional del backend de NodeSecure, proporcionando servicios RESTful para la autenticación, gestión de almacenes, integración IoT, inventario y alertas de seguridad.
+
+La solución contempla una arquitectura organizada mediante bounded contexts, permitiendo separar las responsabilidades del negocio y facilitar la evolución de los servicios.
+
+| Campo | Valor |
+|---|---|
+| Sprint 3 Goal | Implementar la primera versión de los RESTful Web Services de NodeSecure mediante Spring Boot. |
+| Main Technology | Java 21, Spring Boot 3.5.7 y MySQL 8. |
+| API Documentation | Swagger / OpenAPI 3. |
+| Persistence | Spring Data JPA. |
+| Authentication | Spring Security y JWT. |
+| Architecture | Domain-Driven Design (DDD). |
+
+#### Alcance funcional del Sprint
+
+Se consideran los siguientes grupos de funcionalidades:
+
+- Autenticación, registro y administración de usuarios.
+- Gestión de empresas, perfiles y suscripciones.
+- Administración de almacenes y zonas operativas.
+- Registro y vinculación de dispositivos IoT.
+- Recepción de eventos físicos provenientes de sensores ESP32.
+- Gestión de productos y movimientos de inventario.
+- Registro y gestión de alertas de seguridad.
+
+**Evidencia del Sprint Planning:**
+
+```markdown
+![Sprint Planning 3](images/av2/sprint-planning-3.png)
+```
+
+### 5.2.3.2. Aspect Leaders and Collaborators
+
+Durante el Sprint 3 se estableció una distribución de responsabilidades basada en los bounded contexts definidos para NodeSecure. Cada integrante asumió la responsabilidad principal de determinados módulos, manteniendo la colaboración necesaria para la integración entre los componentes.
+
+| Team Member | GitHub Username | IAM | Warehouses & IoT | Inventory & Alerts | Profiles & Subscriptions | Integration |
+|---|---|---|---|---|---|---|
+| Fernando Sebastián Pérez Bellido | Fern.bellido22 | L | C | C | C | L |
+| Anahua Ancachi, Liz Maribel | lizzanahua-rgb | C | C | C | L | C |
+| Sandoval Aiquipa, Kelber Yamir | Kyesei | C | L | C | C | C |
+| Ravello Cárdenas, Luciana Angielina | Lucyrcar-ID | C | C | L | C | C |
+
+**Leyenda:**
+- L = Aspect Leader.
+- C = Collaborator.
+
+La distribución permitió mantener una separación de responsabilidades por contexto, facilitando el desarrollo independiente de los componentes y su posterior integración.
+
+En particular, Kelber Yamir Sandoval Aiquipa estuvo a cargo de los bounded contexts **Warehouse Management** y **Sensor Integration**, incluyendo la implementación de los agregados, servicios de aplicación, persistencia y endpoints REST correspondientes.
+
+### 5.2.3.3. Sprint Backlog 3
+
+El Sprint Backlog 3 se estructuró a partir de las historias de usuario y tareas de ingeniería relacionadas con la implementación del backend.
+
+Las actividades se distribuyeron considerando los módulos de negocio y las responsabilidades asignadas a cada integrante.
+
+#### Sprint Backlog
+
+| Sprint | User Story | Engineering Task | Descripción | Responsable |
+|---|---|---|---|---|
+| Sprint 3 | US13, US17, TS18 | Implementación de autenticación | Desarrollar los servicios de registro, inicio de sesión y administración de usuarios mediante JWT. | Sebastián |
+| Sprint 3 | US01 | Consulta de almacenes | Implementar servicios para consultar los almacenes registrados por una empresa. | Kelber |
+| Sprint 3 | US02 | Consulta de sensores | Implementar servicios para consultar sensores y su estado de conexión. | Kelber |
+| Sprint 3 | US04 | Registro de almacenes | Desarrollar operaciones para registrar y administrar almacenes. | Kelber |
+| Sprint 3 | US05 | Configuración de zonas | Implementar la configuración de zonas, niveles de riesgo y turnos operativos. | Kelber |
+| Sprint 3 | US19 | Vinculación de sensores | Implementar el registro y vinculación de sensores IoT mediante su dirección MAC. | Kelber |
+| Sprint 3 | TS09 | Recepción de eventos IoT | Desarrollar el endpoint para recibir y almacenar eventos físicos provenientes de dispositivos ESP32. | Kelber |
+| Sprint 3 | US03, US07, US20–US24 | Gestión de inventario y alertas | Implementar servicios relacionados con productos, movimientos de inventario y alertas de seguridad. | Luciana |
+| Sprint 3 | US08, US10, US11, US15, US16 | Gestión de perfiles y suscripciones | Desarrollar los servicios relacionados con perfiles, suscripciones, reportes y facturación. | Liz |
+
+*Nota: Esta distribución refleja los responsables y el alcance identificados en la organización del equipo. Las estimaciones y estados deben completarse de acuerdo con el tablero real del Sprint 3.*
+
+#### Detalle de las actividades de Kelber
+
+| Task | Actividad | Resultado esperado |
+|---|---|---|
+| T01 | Implementación del agregado Warehouse | Gestión del almacén y sus zonas. |
+| T02 | Implementación de WarehouseZone | Configuración de zonas, riesgos y turnos. |
+| T03 | Implementación de SensorNode | Registro y administración de sensores. |
+| T04 | Implementación de PhysicalEvent | Registro de eventos físicos recibidos. |
+| T05 | Implementación de repositorios JPA | Persistencia de almacenes, zonas, sensores y eventos. |
+| T06 | Implementación de servicios de aplicación | Operaciones Command y Query. |
+| T07 | Implementación de controladores REST | Exposición de endpoints HTTP. |
+| T08 | Integración entre bounded contexts | Comunicación mediante ACL y validación de relaciones. |
+| T09 | Documentación de servicios | Documentación de endpoints mediante Swagger/OpenAPI. |
+| T10 | Pruebas unitarias | Validación de reglas de dominio. |
+
+### 5.2.3.4. Development Evidence for Sprint Review
+
+Durante el Sprint 3, el equipo trabajó en el repositorio **NodeSecure Platform Backend**, utilizando Java 21 y Spring Boot 3.5.7 para desarrollar los servicios RESTful de la plataforma.
+
+La implementación se organizó mediante bounded contexts, siguiendo los principios de Domain-Driven Design y manteniendo una separación entre las responsabilidades del dominio, aplicación, infraestructura e interfaces.
+
+#### Backend Architecture
+
+El backend se estructuró de la siguiente manera:
+
+```text
+com.safezone.nodesecure.platform/
+│
+├── iam/
+│   ├── application/
+│   ├── domain/
+│   ├── infrastructure/
+│   └── interfaces/
+│
+├── warehouses/
+│   ├── application/
+│   ├── domain/
+│   ├── infrastructure/
+│   └── interfaces/
+│
+├── sensors/
+│   ├── application/
+│   ├── domain/
+│   ├── infrastructure/
+│   └── interfaces/
+│
+├── inventory/
+│   ├── application/
+│   ├── domain/
+│   ├── infrastructure/
+│   └── interfaces/
+│
+├── alerts/
+│   ├── application/
+│   ├── domain/
+│   ├── infrastructure/
+│   └── interfaces/
+│
+├── profiles/
+├── subscriptions/
+├── reporting/
+│
+└── shared/
+    ├── application/
+    ├── domain/
+    ├── infrastructure/
+    └── interfaces/
+```
+
+Esta organización permite mantener los componentes independientes, facilitando su mantenimiento y evolución.
+
+#### Domain-Driven Design
+
+La implementación utiliza los siguientes elementos arquitectónicos:
+
+| Elemento | Aplicación en NodeSecure |
+|---|---|
+| Aggregates | Warehouse, SensorNode, PhysicalEvent, Product y SecurityAlert. |
+| Entities | WarehouseZone y entidades de persistencia relacionadas. |
+| Value Objects | StreetAddress, OperatingShift, MacAddress, SensorType y ConnectionStatus. |
+| Repositories | Interfaces de persistencia definidas en Domain. |
+| Application Services | Servicios de comandos y consultas. |
+| Domain Events | Eventos generados durante operaciones importantes. |
+| ACL | Comunicación controlada entre bounded contexts. |
+
+#### Implementación de Warehouse Management
+
+El contexto Warehouse Management permite administrar los almacenes y sus zonas operativas.
+
+El agregado principal es `Warehouse`, responsable de mantener la información del almacén y controlar las operaciones sobre sus zonas.
+
+Se implementaron los siguientes elementos:
+
+- `Warehouse`: agregado principal.
+- `WarehouseZone`: entidad perteneciente al agregado.
+- `StreetAddress`: objeto de valor para representar direcciones.
+- `OperatingShift`: objeto de valor para configurar horarios.
+- `WarehouseStatus`: estado del almacén.
+- `ZoneRiskLevel`: nivel de riesgo de las zonas.
+
+Entre las reglas de negocio implementadas se encuentran la unicidad de nombres de almacenes por empresa, la unicidad de códigos de zonas por almacén y la restricción de eliminación cuando existen zonas asociadas.
+
+#### Implementación de Sensor Integration
+
+El contexto Sensor Integration administra los dispositivos IoT registrados en los almacenes y los acontecimientos físicos recibidos.
+
+Se implementaron los siguientes elementos:
+
+- `SensorNode`: agregado que representa un dispositivo IoT.
+- `PhysicalEvent`: agregado que representa un acontecimiento físico.
+- `MacAddress`: objeto de valor para validar e identificar dispositivos.
+- `SensorType`: clasificación del sensor.
+- `ConnectionStatus`: estado de conexión.
+
+Los sensores se registran inicialmente como `OFFLINE`. Los eventos recibidos permiten actualizar su estado y registrar la fecha de la última comunicación.
+
+Asimismo, se implementó la validación de la dirección MAC y la vinculación del dispositivo con una zona perteneciente a la empresa autenticada.
+
+#### Integración entre bounded contexts
+
+Para evitar dependencias directas entre los módulos, se implementaron fachadas ACL:
+
+- `WarehouseContextFacade`: permite a Sensor Integration validar zonas y consultar su configuración.
+- `SensorContextFacade`: permite a Warehouse Management comprobar si una zona tiene sensores asociados antes de eliminarla.
+
+Esta comunicación mantiene la independencia de los contextos y protege sus respectivas reglas de negocio.
+
+#### Evidencias visuales
+
+```markdown
+#### Evidencia 1: Estructura del backend
+
+![Backend Architecture](images/av2/backend-structure.png)
+
+#### Evidencia 2: Implementación de Warehouse Management
+
+![Warehouse Management](images/av2/warehouse-implementation.png)
+
+#### Evidencia 3: Implementación de Sensor Integration
+
+![Sensor Integration](images/av2/sensor-implementation.png)
+
+#### Evidencia 4: Persistencia mediante JPA
+
+![JPA Persistence](images/av2/jpa-persistence.png)
+
+#### Evidencia 5: Comunicación entre bounded contexts
+
+![ACL Integration](images/av2/acl-integration.png)
+```
+
+### 5.2.3.5. Execution Evidence for Sprint Review
+
+Durante el Sprint 3 se incorporaron pruebas unitarias para validar el comportamiento de los agregados y las reglas de negocio de los diferentes bounded contexts.
+
+En particular, los contextos Warehouse Management y Sensor Integration cuentan con pruebas orientadas a verificar la creación de almacenes, configuración de turnos, validación de direcciones MAC y transiciones del estado de conexión de los sensores.
+
+También se incorporaron pruebas para los módulos de inventario, alertas y autenticación.
+
+#### Unit Testing
+
+| Bounded Context | Clase de prueba | Validación |
+|---|---|---|
+| IAM | `UserTest` | Reglas de creación y comportamiento de usuarios. |
+| Inventory | `ProductTest` | Reglas del agregado Product. |
+| Inventory | `StockMovementTest` | Reglas de movimientos de inventario. |
+| Alerts | `SecurityAlertTest` | Comportamiento de alertas de seguridad. |
+| Warehouses | `WarehouseTest` | Creación y administración de almacenes y zonas. |
+| Warehouses | `OperatingShiftTest` | Validación de turnos operativos. |
+| Sensors | `SensorNodeTest` | Registro y transiciones de conexión de sensores. |
+| Sensors | `PhysicalEventTest` | Creación y validación de eventos físicos. |
+| Sensors | `MacAddressTest` | Normalización y validación de direcciones MAC. |
+
+Adicionalmente, se cuenta con pruebas de servicios de aplicación para autenticación, movimientos de inventario y gestión de alertas.
+
+#### Evidencias de ejecución
+
+```markdown
+#### Ejecución de pruebas unitarias
+
+![Unit Tests](images/av2/unit-tests.png)
+
+#### Resultados de Maven
+
+![Maven Test Results](images/av2/maven-results.png)
+```
+
+**Comando de ejecución:**
+
+```bash
+./mvnw clean test
+```
+
+En Windows:
+
+```powershell
+.\mvnw.cmd clean test
+```
+
+*Nota: La existencia de las clases de prueba está documentada en el repositorio. La ejecución integral de Maven y la confirmación de que todas las pruebas pasan deben verificarse antes de registrar resultados exitosos.*
+
+### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 3 se desarrolló la primera versión de los RESTful Web Services de NodeSecure utilizando Spring Boot 3.5.7.
+
+A diferencia del Sprint 2, donde se utilizaron servicios simulados mediante `json-server`, en esta etapa se incorporó un backend basado en Java, responsable de procesar las operaciones de negocio y gestionar la persistencia de la información mediante MySQL.
+
+#### RESTful Web Services
+
+Los servicios fueron organizados mediante controladores REST, permitiendo acceder a los recursos del sistema utilizando métodos HTTP.
+
+Se implementaron los siguientes grupos de endpoints:
+
+| Bounded Context | Recurso | Operaciones principales |
+|---|---|---|
+| IAM | Authentication | Registro e inicio de sesión. |
+| IAM | Users | Consulta y administración de usuarios. |
+| Warehouses | Warehouses | Consulta, registro, actualización y eliminación de almacenes. |
+| Warehouses | Warehouse Zones | Consulta, creación, actualización y eliminación de zonas. |
+| Sensors | Sensor Nodes | Consulta, registro, actualización y eliminación de sensores. |
+| Sensors | Physical Events | Recepción de eventos físicos de dispositivos IoT. |
+| Inventory | Products | Administración de productos. |
+| Inventory | Stock Movements | Registro y consulta de movimientos de inventario. |
+| Alerts | Security Alerts | Registro, consulta y resolución de alertas. |
+
+#### Endpoints de Warehouse Management e IoT Integration
+
+Los endpoints implementados para los contextos desarrollados por Kelber son los siguientes:
+
+| Método | Endpoint | Descripción |
+|---|---|---|
+| GET | `/api/v1/warehouses` | Consultar almacenes. |
+| GET | `/api/v1/warehouses/{id}` | Consultar un almacén específico. |
+| POST | `/api/v1/warehouses` | Registrar un almacén. |
+| PUT | `/api/v1/warehouses/{id}` | Actualizar un almacén. |
+| DELETE | `/api/v1/warehouses/{id}` | Eliminar un almacén vacío. |
+| GET | `/api/v1/warehouse-zones` | Consultar zonas. |
+| GET | `/api/v1/warehouse-zones/{id}` | Consultar una zona específica. |
+| POST | `/api/v1/warehouse-zones` | Registrar una zona. |
+| PUT | `/api/v1/warehouse-zones/{id}` | Actualizar una zona. |
+| DELETE | `/api/v1/warehouse-zones/{id}` | Eliminar una zona. |
+| GET | `/api/v1/sensor-nodes` | Consultar sensores. |
+| GET | `/api/v1/sensor-nodes/{id}` | Consultar un sensor específico. |
+| POST | `/api/v1/sensor-nodes` | Registrar un sensor. |
+| PUT | `/api/v1/sensor-nodes/{id}` | Actualizar un sensor. |
+| DELETE | `/api/v1/sensor-nodes/{id}` | Eliminar un sensor sin historial de eventos. |
+| POST | `/api/v1/physical-events` | Recibir eventos físicos de sensores ESP32. |
+
+#### Integración con dispositivos IoT
+
+El endpoint de recepción de eventos físicos permite registrar acontecimientos enviados por los dispositivos ESP32.
+
+Para ello, se utiliza el recurso:
+
+`POST /api/v1/physical-events`
+
+El servicio recibe información como la dirección MAC del dispositivo, el tipo de evento y su fecha de ocurrencia.
+
+Ejemplo del payload:
+
+```json
+{
+  "mac": "A4:CF:12:9B:1E:44",
+  "state": "DOOR_OPENED",
+  "timestamp": "2026-11-11T22:30:00Z"
+}
+```
+
+Los tipos de eventos admitidos son:
+
+- `DOOR_OPENED`: apertura de puerta.
+- `DOOR_CLOSED`: cierre de puerta.
+- `NODE_DISCONNECTED`: desconexión del dispositivo.
+
+El backend identifica al sensor mediante su dirección MAC, obtiene la zona asociada y registra el acontecimiento físico. De esta manera, se evita que el dispositivo pueda asignar arbitrariamente un almacén o una zona mediante el payload.
+
+La recepción se protege mediante una API Key utilizando el encabezado `X-Device-Api-Key`, configurado mediante la variable de entorno `SENSOR_API_KEY`.
+
+#### API Documentation — Swagger / OpenAPI
+
+Para facilitar la documentación, consulta y validación de los servicios, se incorporó Swagger/OpenAPI mediante la dependencia `springdoc-openapi-starter-webmvc-ui` versión 2.8.13.
+
+La documentación permite visualizar los recursos disponibles, sus operaciones HTTP, parámetros, cuerpos de solicitud y respuestas.
+
+La interfaz se encuentra configurada en:
+
+`http://localhost:8080/swagger-ui.html`
+
+El documento OpenAPI se encuentra disponible en:
+
+`http://localhost:8080/v3/api-docs`
+
+Asimismo, el backend incorpora autenticación mediante JWT Bearer para los recursos administrativos, mientras que la recepción de eventos IoT utiliza autenticación mediante API Key.
+
+#### Tecnologías utilizadas
+
+| Tecnología | Versión / Función |
+|---|---|
+| Java | 21 |
+| Spring Boot | 3.5.7 |
+| Spring Web | Exposición de servicios REST. |
+| Spring Data JPA | Persistencia de entidades. |
+| Spring Security | Seguridad y control de acceso. |
+| MySQL | 8 |
+| Swagger / OpenAPI | 2.8.13 |
+| JWT | 0.12.6 |
+| Maven | 3.9.11 |
+
+#### Evidencias visuales
+
+```markdown
+#### Swagger UI — Documentación de servicios
+
+![Swagger UI](images/av2/swagger-ui.png)
+
+#### Endpoints de Warehouse Management
+
+![Warehouse Endpoints](images/av2/warehouse-endpoints.png)
+
+#### Endpoints de Sensor Integration
+
+![Sensor Endpoints](images/av2/sensor-endpoints.png)
+
+#### Recepción de eventos físicos IoT
+
+![Physical Events](images/av2/physical-events.png)
+```
+
+### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 3 se preparó la configuración necesaria para ejecutar y desplegar el backend de NodeSecure.
+
+El proyecto incorpora un `Dockerfile` que permite construir la aplicación utilizando Maven y ejecutar el servicio mediante el perfil de producción.
+
+Asimismo, se incorporaron archivos de configuración independientes para los entornos de desarrollo y producción.
+
+#### Deployment Configuration
+
+| Componente | Configuración |
+|---|---|
+| Backend | Spring Boot 3.5.7 |
+| Java Runtime | Java 21 |
+| Database | MySQL 8 |
+| Containerization | Docker |
+| Application Port | 8080 (configurable mediante `PORT`) |
+| Production Profile | `prod` |
+| Database Configuration | Variables de entorno |
+
+#### Variables de entorno
+
+| Variable | Descripción |
+|---|---|
+| `SPRING_PROFILES_ACTIVE` | Selecciona el perfil de ejecución. |
+| `DATABASE_URL` | Dirección de conexión a MySQL. |
+| `DATABASE_USER` | Usuario de la base de datos. |
+| `DATABASE_PASSWORD` | Contraseña de la base de datos. |
+| `JWT_SECRET` | Clave para firmar los tokens JWT. |
+| `CORS_ALLOWED_ORIGINS` | Orígenes autorizados para consumir la API. |
+| `SENSOR_API_KEY` | Clave de autenticación para dispositivos IoT. |
+| `SENSOR_CONNECTION_TIMEOUT_SECONDS` | Tiempo para considerar desconectado un sensor. |
+| `PORT` | Puerto de ejecución del backend. |
+
+#### Evidencias de despliegue
+
+El repositorio contiene configuración Docker y perfiles de ejecución, pero los archivos revisados no demuestran por sí solos que el backend esté publicado en un servidor accesible externamente.
+
+Por ello, deben incorporarse las siguientes evidencias únicamente si ya realizaron esas operaciones:
+
+```markdown
+#### Configuración Docker
+
+![Docker Configuration](images/av2/docker-configuration.png)
+
+#### Ejecución del backend
+
+![Backend Execution](images/av2/backend-execution.png)
+
+#### Configuración de producción
+
+![Production Configuration](images/av2/production-config.png)
+
+#### Backend desplegado
+
+![Backend Deployment](images/av2/backend-deployment.png)
+```
+
+Durante el Sprint 3 se preparó la configuración de ejecución y despliegue del backend mediante Docker, incluyendo perfiles diferenciados para desarrollo y producción. La publicación del servicio en un entorno remoto y su validación externa quedan como actividades pendientes de completar, si todavía no se han realizado.
+
+### 5.2.3.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 3, el equipo de NodeSecure trabajó colaborativamente en la implementación de los servicios backend, distribuyendo las responsabilidades según los bounded contexts establecidos en la arquitectura del sistema.
+
+El desarrollo se realizó sobre el repositorio NodeSecure Platform Backend, utilizando Git y GitHub para gestionar el código fuente, mantener la trazabilidad de los cambios y coordinar la integración de los diferentes módulos.
+
+Cada integrante asumió la responsabilidad principal de sus respectivos contextos, manteniendo una estructura de trabajo organizada que permitió desarrollar los componentes de forma independiente.
+
+Asimismo, se establecieron mecanismos de comunicación entre los módulos mediante interfaces ACL, evitando dependencias directas entre los repositorios internos de cada bounded context.
+
+#### Collaboration Practices
+
+| Aspect | Collaboration Practice |
+|---|---|
+| Task Distribution | Distribución de responsabilidades según los bounded contexts asignados a cada integrante. |
+| Version Control | Utilización de Git y GitHub para gestionar los cambios del backend. |
+| Branching | Desarrollo de funcionalidades mediante ramas de trabajo. |
+| Commits | Registro de modificaciones mediante commits. |
+| Integration | Integración de módulos mediante interfaces y contratos compartidos. |
+| Architecture | Aplicación de DDD y separación por capas. |
+| Documentation | Documentación de los servicios REST mediante Swagger/OpenAPI. |
+| Testing | Incorporación de pruebas unitarias para validar las reglas de negocio. |
+
+El desarrollo de los contextos Warehouse Management y Sensor Integration estuvo a cargo de Kelber Yamir Sandoval Aiquipa, quien implementó los componentes necesarios para la administración de almacenes, configuración de zonas, vinculación de sensores y recepción de eventos físicos.
+
+La colaboración entre los integrantes permitió establecer una base de servicios que posteriormente facilitará la integración completa con la Web Application.
+
+#### Evidencias de colaboración
+
+```markdown
+#### Actividad del equipo en GitHub
+
+![GitHub Contributors](images/av2/github-contributors.png)
+
+#### Historial de commits
+
+![GitHub Commits](images/av2/github-commits.png)
+
+#### Pull Requests
+
+![Pull Requests](images/av2/pull-requests.png)
+```
+
+---
+
+## 5.3. Validation Interviews
+
+Durante esta etapa se busca validar la solución NodeSecure mediante la interacción con usuarios pertenecientes a los segmentos objetivo del producto.
+
+Las entrevistas permiten recopilar información sobre la facilidad de uso, comprensión de las funcionalidades y adecuación de la solución frente a las necesidades identificadas durante las etapas anteriores del proyecto.
+
+### 5.3.1. Diseño de Entrevistas
+
+Las entrevistas se orientan a evaluar la experiencia de los usuarios al interactuar con NodeSecure, considerando las funcionalidades de gestión de almacenes, monitoreo de sensores IoT, administración de usuarios y seguimiento de eventos.
+
+Se consideran los siguientes objetivos:
+
+- Evaluar la facilidad de navegación por la Web Application.
+- Validar la comprensión de las funcionalidades principales.
+- Identificar dificultades durante el registro de almacenes y sensores.
+- Evaluar la utilidad de las alertas y la información presentada.
+- Recopilar oportunidades de mejora.
+
+#### Preguntas de validación
+
+1. ¿La plataforma permite comprender fácilmente el estado de los almacenes?
+2. ¿El proceso de registro de un sensor resulta claro?
+3. ¿La información de conexión de los sensores es suficiente?
+4. ¿La visualización de alertas permite identificar rápidamente posibles irregularidades?
+5. ¿Qué funcionalidades considera que deberían mejorarse?
+
+### 5.3.2. Registro de Entrevistas
+
+En esta sección se documentan las entrevistas realizadas a los usuarios de los segmentos objetivo de NodeSecure.
+
+| Entrevistado | Segmento | Fecha | Principales observaciones |
+|---|---|---|---|
+| Entrevistado 1 | Dueño / Administrador | [Fecha] | [Hallazgos obtenidos] |
+| Entrevistado 2 | Personal operativo | [Fecha] | [Hallazgos obtenidos] |
+| Entrevistado 3 | Responsable de seguridad | [Fecha] | [Hallazgos obtenidos] |
+
+*Los registros y resultados deben completarse utilizando las respuestas reales de los entrevistados.*
+
+### 5.3.3. Evaluaciones según heurísticas
+
+Se propone utilizar las heurísticas de usabilidad de Nielsen para evaluar la interacción con la plataforma.
+
+| Heurística | Aspecto evaluado | Observaciones |
+|---|---|---|
+| Visibilidad del estado del sistema | Estado de sensores y almacenes. | [Resultado] |
+| Correspondencia entre sistema y mundo real | Terminología utilizada en la plataforma. | [Resultado] |
+| Control y libertad del usuario | Posibilidad de cancelar o corregir operaciones. | [Resultado] |
+| Consistencia y estándares | Uniformidad de componentes y navegación. | [Resultado] |
+| Prevención de errores | Validación de formularios y datos. | [Resultado] |
+| Reconocimiento antes que recuerdo | Claridad de opciones y etiquetas. | [Resultado] |
+| Flexibilidad y eficiencia | Acceso a funcionalidades frecuentes. | [Resultado] |
+| Diseño estético y minimalista | Organización de la información. | [Resultado] |
+| Ayuda para reconocer errores | Mensajes y notificaciones. | [Resultado] |
+| Ayuda y documentación | Disponibilidad de información de soporte. | [Resultado] |
+
+Los resultados deben completarse después de realizar las evaluaciones correspondientes.
+
+---
+
 
   # Conclusiones
 
@@ -3782,7 +4385,7 @@ Nielsen Norman Group. (2022). *Empathy mapping: The first step in design thinkin
 
 Semver.org. (2023). *Semantic Versioning 2.0.0*. https://semver.org/
 
-Vue.js. (2023). *Vue style guide*. https://vuejs.org/style-guide/
+Angular. (2023). *Angular Style Guide*. [https://angular.io/guide/styleguide](https://angular.io/guide/styleguide)
 
 Conexión ESAN. (2026). *El impacto de la merma en el retail y cómo combatirlo.* ESAN Graduate School of Business.
 
@@ -3793,7 +4396,8 @@ Conexión ESAN. (2026). *El impacto de la merma en el retail y cómo combatirlo.
 ### LINKS IMPORTANTES:
 
 * **URL LANDING PAGE DESPLEGADA:** [https://securezoneteam.github.io/NodeSecure-Landing-Page/](https://securezoneteam.github.io/NodeSecure-Landing-Page/)
+* **URL WEB APPLICATION (FRONTEND):** [https://securezoneteam.github.io/SafeZone-website/](https://securezoneteam.github.io/SafeZone-website/)
 * **REPOSITORIO PROJECT REPORT:** [https://github.com/SecureZoneTeam/NodeSecure-Report](https://github.com/SecureZoneTeam/NodeSecure-Report)
-* **REPOSITORIO LANDING PAGE:** [https://github.com/SecureZoneTeam/NodeSecure-Landing-Page](https://github.com/SecureZoneTeam/NodeSecure-Landing-Page)
+* **REPOSITORIO FRONTEND & FAKE API:** [https://github.com/SecureZoneTeam/SafeZone-website](https://github.com/SecureZoneTeam/SafeZone-website)
 * **URL DEL FIGMA (UX/UI & PROTOTIPOS):** [https://www.figma.com/design/Mjmfv8zXHB753QKMcfucH2/Sin-t%C3%ADtulo?node-id=0-1&t=OpYw1NIg0EhggkLC-1](https://www.figma.com/design/Mjmfv8zXHB753QKMcfucH2/Sin-t%C3%ADtulo?node-id=0-1&t=OpYw1NIg0EhggkLC-1)
-* **URL VIDEO DE EXPOSICIÓN (AV1):** *(Inserta aquí el enlace a Microsoft Stream / YouTube con la exposición del AV1)*
+* **URL VIDEO DE EXPOSICIÓN (TB1):** *(Inserta aquí el enlace de YouTube o Microsoft Stream del video de sustentación de este hito)*
