@@ -3834,21 +3834,6 @@ Las actividades se distribuyeron considerando los módulos de negocio y las resp
 
 *Nota: Esta distribución refleja los responsables y el alcance identificados en la organización del equipo. Las estimaciones y estados deben completarse de acuerdo con el tablero real del Sprint 3.*
 
-#### Detalle de las actividades de Kelber
-
-| Task | Actividad | Resultado esperado |
-|---|---|---|
-| T01 | Implementación del agregado Warehouse | Gestión del almacén y sus zonas. |
-| T02 | Implementación de WarehouseZone | Configuración de zonas, riesgos y turnos. |
-| T03 | Implementación de SensorNode | Registro y administración de sensores. |
-| T04 | Implementación de PhysicalEvent | Registro de eventos físicos recibidos. |
-| T05 | Implementación de repositorios JPA | Persistencia de almacenes, zonas, sensores y eventos. |
-| T06 | Implementación de servicios de aplicación | Operaciones Command y Query. |
-| T07 | Implementación de controladores REST | Exposición de endpoints HTTP. |
-| T08 | Integración entre bounded contexts | Comunicación mediante ACL y validación de relaciones. |
-| T09 | Documentación de servicios | Documentación de endpoints mediante Swagger/OpenAPI. |
-| T10 | Pruebas unitarias | Validación de reglas de dominio. |
-
 ### 5.2.3.4. Development Evidence for Sprint Review
 
 Durante el Sprint 3, el equipo trabajó en el repositorio **NodeSecure Platform Backend**, utilizando Java 21 y Spring Boot 3.5.7 para desarrollar los servicios RESTful de la plataforma.
