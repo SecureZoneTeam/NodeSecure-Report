@@ -90,9 +90,12 @@
     </tr>
     <tr>
       <td><b>AV2</b></td>
-      <td>-</td>
-      <td>-</td>
-      <td>En proceso</td>
+      <td>13/11/2026</td>
+      <td>Anahua Ancachi, Liz Maribel<br>
+        Sandoval Aiquipa, Kelber Yamir<br>
+        Pérez Bellido, Fernando Sebastián<br>
+        Ravello Cárdenas, Luciana Angielina</td>
+      <td>Se agregaron las evidencias y documentación correspondientes al Sprint 3, incluyendo el despliegue de la primera versión del Web Service, su conexión a la Frontend Web App, la actualización del Student Outcome y las métricas del equipo.</td>
     </tr>
     <tr>
       <td><b>TF1</b></td>
@@ -235,7 +238,12 @@ En esta sección se detalla la contribución de cada integrante del equipo para 
       </td>
     </tr>
     <tr>
-      <td><b>AV2</b></td>
+      <td><b>AV2</b><br><br>
+      <b>Anahua Ancachi, Liz Maribel:</b>...<br><br>
+      <b>Pérez Bellido, Fernando Sebastián:</b>...<br><br>
+      <b>Sandoval Aiquipa, Kelber Yamir:</b>...<br><br>
+      <b>Ravello Cárdenas, Luciana Angielina:</b> Expuso de claramente en las reuniones de equipo el progreso y desarrollo del Bounded Context del Inventario. Explicó cómo se planeaba realizar el flujo, adaptando su lenguaje para asegurar que todo el equipo comprendiera el avance y los objetivos logrados en este Sprint.
+      </td>
       <td></td>
     </tr>
     <tr>
@@ -269,7 +277,12 @@ En esta sección se detalla la contribución de cada integrante del equipo para 
       </td>
     </tr>
     <tr>
-      <td><b>AV2</b></td>
+      <td><b>AV2</b>
+      <b>Anahua Ancachi, Liz Maribel:</b>...<br><br>
+      <b>Pérez Bellido, Fernando Sebastián:</b>...<br><br>
+      <b>Sandoval Aiquipa, Kelber Yamir:</b>...<br><br>
+      <b>Ravello Cárdenas, Luciana Angielina:</b> Redactó las secciones de 5.2.3.1.Sprint Planning 3 y 5.2.3.2. Aspect Leaders and Collaborators, definiendo el alcanze del sprint realizado para esta entrega en un lenguaje escrito fácil de entender, logrando que el lector comprenda la intención de lo que se quiere comentar.
+      </td>
       <td><b>AV2</b></td>
     </tr>
     <tr>
