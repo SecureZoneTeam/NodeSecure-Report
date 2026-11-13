@@ -3750,7 +3750,7 @@ El objetivo del Sprint 3 fue desarrollar la primera versión de los servicios we
 
 Durante este Sprint se inició y desarrolló la implementación del backend utilizando Java 21 y Spring Boot 3.5.7, incorporando una arquitectura basada en Domain-Driven Design (DDD), separación por bounded contexts y organización en capas.
 
-La implementación contempla los módulos de autenticación y gestión de usuarios, administración de almacenes, integración con sensores IoT, control de inventario y gestión de alertas de seguridad. Asimismo, se incorporaron mecanismos de persistencia mediante MySQL, autenticación mediante JSON Web Tokens (JWT) y documentación de servicios mediante Swagger/OpenAPI.
+La implementación contempla los módulos de autenticación y gestión de usuarios, administración de almacenes, integración con sensores IoT, control de inventario y gestión de alertas de seguridad. Asimismo, se incorporaron mecanismos de persistencia mediante MySQL, autenticación mediante JSON Web Tokens (JWT) y documentación de servicios mediante FreeDB.
 
 El desarrollo se realizó de manera incremental, distribuyendo las responsabilidades entre los integrantes del equipo de acuerdo con los bounded contexts asignados.
 
@@ -3764,9 +3764,9 @@ Durante la reunión de planificación del Sprint 3, el equipo de NodeSecure esta
 |---|---|
 | Sprint # | Sprint 3 |
 | Sprint Planning Background | Implementación de la primera versión de los RESTful Web Services de NodeSecure. |
-| Date | [Fecha real de la reunión] |
-| Time | [Hora real] |
-| Location | [Meet / modalidad utilizada] |
+| Date | 2026-11-05 |
+| Time | 17:00 |
+| Location | Modalidad a distancia mediante Google Meet |
 | Prepared By | Fernando Sebastián Pérez Bellido |
 
 #### Sprint Goal & User Stories
@@ -3778,11 +3778,8 @@ La solución contempla una arquitectura organizada mediante bounded contexts, pe
 | Campo | Valor |
 |---|---|
 | Sprint 3 Goal | Implementar la primera versión de los RESTful Web Services de NodeSecure mediante Spring Boot. |
-| Main Technology | Java 21, Spring Boot 3.5.7 y MySQL 8. |
-| API Documentation | Swagger / OpenAPI 3. |
-| Persistence | Spring Data JPA. |
-| Authentication | Spring Security y JWT. |
-| Architecture | Domain-Driven Design (DDD). |
+| Esfuerzo / Capacidad del equipo | 80 horas |
+| Sum of Estimation (Hours) | 80 horas |
 
 #### Alcance funcional del Sprint
 
@@ -3795,12 +3792,6 @@ Se consideran los siguientes grupos de funcionalidades:
 - Recepción de eventos físicos provenientes de sensores ESP32.
 - Gestión de productos y movimientos de inventario.
 - Registro y gestión de alertas de seguridad.
-
-**Evidencia del Sprint Planning:**
-
-```markdown
-![Sprint Planning 3](images/av2/sprint-planning-3.png)
-```
 
 ### 5.2.3.2. Aspect Leaders and Collaborators
 
@@ -3817,9 +3808,9 @@ Durante el Sprint 3 se estableció una distribución de responsabilidades basada
 - L = Aspect Leader.
 - C = Collaborator.
 
-La distribución permitió mantener una separación de responsabilidades por contexto, facilitando el desarrollo independiente de los componentes y su posterior integración.
+<br>
 
-En particular, Kelber Yamir Sandoval Aiquipa estuvo a cargo de los bounded contexts **Warehouse Management** y **Sensor Integration**, incluyendo la implementación de los agregados, servicios de aplicación, persistencia y endpoints REST correspondientes.
+La distribución permitió mantener una separación de responsabilidades por contexto, facilitando el desarrollo independiente de los componentes y su posterior integración.
 
 ### 5.2.3.3. Sprint Backlog 3
 
