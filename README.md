@@ -4374,6 +4374,138 @@ Durante el Sprint 3, el equipo trabajó colaborativamente en el repositorio **No
 | NodeSecure.Platform.BackEnd | develop | `3ac37d2` | `refactor(inventory): keep problem mapping within module` | — | `12-11-2026` |
 Los commits fueron seleccionados pertinentemente para el registro de la tabla.  
 ---
+### 5.2.3.5. Evidencia de ejecución para la revisión del sprint.
+
+En esta sección se explican y presentan los avances de implementación correspondientes al Sprint 3, cuyo alcance principal fue el desarrollo del **Backend** de la plataforma **NodeSecure** utilizando **Spring Boot** y **Java**, estructurado bajo los principios de *Domain-Driven Design* (DDD). 
+
+A lo largo de este sprint, el equipo colaboró de forma estructurada para implementar los contextos acotados correspondientes (incluyendo los módulos de `users/`, `products/`, `warehouses/`,  `profiles/`, `subscriptions/`, `reporting/`, etc), asegurando la correcta persistencia relacional en **MySQL**.
+
+A continuación, se presentan las evidencias de ejecución de las principales funcionalidades y componentes implementados:
+
+#### Arranque exitoso del Servidor
+Demostración de la inicialización correcta del contenedor de Spring Boot, la configuración del pool de conexiones con la base de datos y el levantamiento de los servicios REST sin errores de compilación.
+
+<div align="center">
+  <img src="images/5.2.3.png" alt="Arranque exitoso de Spring Boot">
+</div>
+
+**Figura X.** Consola de IntelliJ IDEA evidenciando el inicio exitoso de la aplicación Spring Boot.
+
+<br>
+
+A continuación se muestralas evidencias de ejecución exitosa de cada uno de los bounded context:
+<br>
+<div align="center">
+  <img src="images/5.2.3.1.2.png" alt="Arranque exitoso de Alerts">
+</div>
+**Figura X.** Ejecución exitosa de Bounded Context Alerts.
+
+<br>
+<div align="center">
+  <img src="images/5.2.3.1.3.png" alt="Arranque exitoso de iam">
+</div>
+**Figura X.** Ejecución exitosa de Bounded Context genérico iam.
+
+<br>
+<div align="center">
+  <img src="images/5.2.4.png" alt="Arranque exitoso de Inventory">
+</div>
+**Figura X.** Ejecución exitosa de Bounded Context Inventory.
+
+<br>
+<div align="center">
+  <img src="images/5.2.5.png" alt="Arranque exitoso de Profiles">
+</div>
+**Figura X.** Ejecución exitosa de Bounded Context Profiles.
+
+<br>
+<div align="center">
+  <img src="images/5.2.6.png" alt="Arranque exitoso de Reporting">
+</div>
+**Figura X.** Ejecución exitosa de Bounded Context Reporting.
+
+<br>
+<div align="center">
+  <img src="images/5.2.3.1.4.png" alt="Arranque exitoso de Sensors">
+</div>
+**Figura X.** Ejecución exitosa de Bounded Context Sensors.
+
+<br>
+<div align="center">
+  <img src="images/5.2.3.1.5.png" alt="Arranque exitoso de Shared">
+</div>
+**Figura X.** Ejecución exitosa de Shared.
+
+<br>
+<div align="center">
+  <img src="images/5.2.3.1.6.png" alt="Arranque exitoso de Subscriptions">
+</div>
+**Figura X.** Ejecución exitosa de Bounded Context Subcriptions.
+
+<br>
+<div align="center">
+  <img src="images/5.2.3.1.7.png" alt="Arranque exitoso de Warehouses">
+</div>
+**Figura X.** Ejecución exitosa de Bounded Context Warehouses.
+
+<br>
+<div align="center">
+  <img src="images/5.2.3.1.8.png" alt="Arranque exitoso de Warehouses">
+</div>
+**Figura X.** Ejecución exitosa de Bounded Context Warehouses.
+
+<br>
+
+#### Validación de Endpoints REST (Swagger UI)
+Prueba de ejecución y respuesta exitosa (`HTTP 200 OK` / `201 Created`) de los endpoints desarrollados para la gestión de perfiles, suscripciones y reportes de incidentes.
+
+<div align="center">
+  <img src="images/5.2.3.2.0.png" alt="Pruebas de Endpoints REST">
+</div>
+
+**Figura X.** Primera parte de Pruebas y respuestas de los servicios expuestos en el Backend.
+
+<div align="center">
+  <img src="images/5.2.3.2.1.png" alt="Pruebas de Endpoints REST">
+</div>
+
+**Figura X.** Segunda parte de Pruebas y respuestas de los servicios expuestos en el Backend.
+
+<div align="center">
+  <img src="images/5.2.3.2.2.png" alt="Pruebas de Endpoints REST">
+</div>
+
+**Figura X.** Tercera parte de Pruebas y respuestas de los servicios expuestos en el Backend.
+
+<div align="center">
+  <img src="images/5.2.3.2.3.png" alt="Pruebas de Endpoints REST">
+</div>
+
+**Figura X.** Cuerta parte de Pruebas y respuestas de los servicios expuestos en el Backend.
+
+<div align="center">
+  <img src="images/5.2.3.2.4.png" alt="Pruebas de Endpoints REST">
+</div>
+
+**Figura X.** Quinta parte de Pruebas y respuestas de los servicios expuestos en el Backend.
+
+<div align="center">
+  <img src="images/5.2.3.2.5.png" alt="Pruebas de Endpoints REST">
+</div>
+
+**Figura X.** Sexta parte de Pruebas y respuestas de los servicios expuestos en el Backend.
+
+<br>
+
+#### Persistencia en Base de Datos Relacional (MySQL)
+Verificación del esquema relacional generado automáticamente a través de JPA/Hibernate en MySQL Workbench, confirmando el almacenamiento íntegro de la información.
+
+<div align="center">
+  <img src="images/5.2.3.3.jpeg" alt="Persistencia en MySQL Workbench">
+</div>
+
+**Figura X.** Tablas generadas y registros almacenados en MySQL Workbench.
+---
 
   # Conclusiones
 
