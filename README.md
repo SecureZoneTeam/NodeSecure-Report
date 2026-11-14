@@ -3827,25 +3827,56 @@ La distribución permitió mantener una separación de responsabilidades por con
 
 ### 5.2.3.3. Sprint Backlog 3
 
-El Sprint Backlog 3 se estructuró a partir de las historias de usuario y tareas de ingeniería relacionadas con la implementación del backend.
-
-Las actividades se distribuyeron considerando los módulos de negocio y las responsabilidades asignadas a cada integrante.
+El objetivo principal del Sprint 3 es desarrollar la primera versión de los RESTful Web Services de NodeSecure. Para alcanzar este objetivo, las User Stories seleccionadas fueron descompuestas en Engineering Tasks relacionadas con la implementación de los servicios de autenticación y gestión de usuarios, almacenes y zonas operativas, integración de sensores IoT, inventario, alertas de seguridad, empresas, suscripción y facturación, y auditoría y trazabilidad, siguiendo una arquitectura basada en Domain-Driven Design con Java 21 y Spring Boot.
 
 #### Sprint Backlog
 
-| Sprint | User Story | Engineering Task | Descripción | Responsable |
-|---|---|---|---|---|
-| Sprint 3 | US13, US17, TS18 | Implementación de autenticación | Desarrollar los servicios de registro, inicio de sesión y administración de usuarios mediante JWT. | Sebastián |
-| Sprint 3 | US01 | Consulta de almacenes | Implementar servicios para consultar los almacenes registrados por una empresa. | Kelber |
-| Sprint 3 | US02 | Consulta de sensores | Implementar servicios para consultar sensores y su estado de conexión. | Kelber |
-| Sprint 3 | US04 | Registro de almacenes | Desarrollar operaciones para registrar y administrar almacenes. | Kelber |
-| Sprint 3 | US05 | Configuración de zonas | Implementar la configuración de zonas, niveles de riesgo y turnos operativos. | Kelber |
-| Sprint 3 | US19 | Vinculación de sensores | Implementar el registro y vinculación de sensores IoT mediante su dirección MAC. | Kelber |
-| Sprint 3 | TS09 | Recepción de eventos IoT | Desarrollar el endpoint para recibir y almacenar eventos físicos provenientes de dispositivos ESP32. | Kelber |
-| Sprint 3 | US03, US07, US20–US24 | Gestión de inventario y alertas | Implementar servicios relacionados con productos, movimientos de inventario y alertas de seguridad. | Luciana |
-| Sprint 3 | US08, US10, US11, US15, US16 | Gestión de perfiles y suscripciones | Desarrollar los servicios relacionados con perfiles, suscripciones, reportes y facturación. | Liz |
+A continuación, se presenta el Sprint Backlog correspondiente al Sprint 3, incluyendo las User Stories seleccionadas, las tareas derivadas de cada una, su descripción, estimación, responsable y estado de ejecución.
 
-*Nota: Esta distribución refleja los responsables y el alcance identificados en la organización del equipo. Las estimaciones y estados deben completarse de acuerdo con el tablero real del Sprint 3.*
+**Evidencia del Board:**
+
+<div align="center">
+    <img src="images/sprint 3.png" alt="repositorio">
+</div>
+
+**URL público del Board:**
+
+https://trello.com/b/7N3bqmPS/nodesecure-sprint-3
+
+| Sprint # | User Story ID | User Story Title | Task ID | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
+|---|---|---|---|---|---|---:|---|---|
+| Sprint 3 | TS18 | Generación de Tokens JWT | T01 | Configuración base del backend | Crear el proyecto Spring Boot con el shared kernel (Result, eventos de dominio, manejo de errores con ProblemDetail, mensajes en inglés y español), naming strategy, CORS y documentación OpenAPI. | 3 | Fernando Sebastián Pérez Bellido | Done |
+| Sprint 3 | US13 | Autenticación Segura (Login) | T02 | Servicio de inicio de sesión | Implementar el endpoint POST /api/v1/authentication/sign-in que valida las credenciales y devuelve el usuario autenticado con su token. | 3 | Fernando Sebastián Pérez Bellido | Done |
+| Sprint 3 | US13 | Autenticación Segura (Login) | T03 | Servicio de registro de cuentas | Implementar el endpoint POST /api/v1/authentication/sign-up con validación de username y email únicos y contraseñas cifradas con BCrypt. | 3 | Fernando Sebastián Pérez Bellido | Done |
+| Sprint 3 | TS18 | Generación de Tokens JWT | T04 | Generación y validación de JWT | Implementar la emisión y verificación de tokens JWT y el filtro Bearer para mantener sesiones stateless. | 4 | Fernando Sebastián Pérez Bellido | Done |
+| Sprint 3 | US17 | Gestión de Roles (RBAC) | T05 | Servicios de gestión de usuarios | Implementar los endpoints /api/v1/users para listar, consultar, invitar, actualizar y eliminar miembros del equipo. | 3 | Fernando Sebastián Pérez Bellido | Done |
+| Sprint 3 | US17 | Gestión de Roles (RBAC) | T06 | Autorización por roles | Configurar Spring Security y restringir los endpoints según los roles Administrador, Jefe de Seguridad, Almacenero y Auditor. | 2 | Fernando Sebastián Pérez Bellido | Done |
+| Sprint 3 | US13 | Autenticación Segura (Login) | T07 | Pruebas unitarias de IAM | Desarrollar pruebas unitarias del agregado User, sus value objects y el servicio de comandos de usuarios. | 2 | Fernando Sebastián Pérez Bellido | Done |
+| Sprint 3 | US04 | Registrar nueva infraestructura | T08 | Servicio de registro de almacenes | Implementar los endpoints /api/v1/warehouses para registrar, actualizar y eliminar almacenes. | 3 | Sandoval Aiquipa, Kelber Yamir | Done |
+| Sprint 3 | US01 | Visualizar red de almacenes | T09 | Servicio de consulta de almacenes | Implementar la consulta de la lista y el detalle de los almacenes registrados por la empresa. | 2 | Sandoval Aiquipa, Kelber Yamir | Done |
+| Sprint 3 | US05 | Configurar turnos operativos | T10 | Servicio de zonas y turnos operativos | Implementar los endpoints /api/v1/warehouse-zones con nivel de riesgo y horario de apertura autorizado. | 3 | Sandoval Aiquipa, Kelber Yamir | Done |
+| Sprint 3 | US19 | Vincular Sensor IoT a Zona | T11 | Servicio de vinculación de sensores | Implementar los endpoints /api/v1/sensor-nodes para vincular un sensor ESP32 a una zona mediante su dirección MAC única. | 3 | Sandoval Aiquipa, Kelber Yamir | Done |
+| Sprint 3 | US02 | Monitorear estado de conexión IoT | T12 | Estado de conexión de sensores | Registrar el último ping de cada sensor y exponer su estado Online u Offline. | 2 | Sandoval Aiquipa, Kelber Yamir | Done |
+| Sprint 3 | TS09 | Recepción de payloads IoT (API) | T13 | Endpoint de recepción de eventos IoT | Implementar el endpoint POST /api/v1/physical-events que recibe y almacena los eventos enviados por el ESP32. | 3 | Sandoval Aiquipa, Kelber Yamir | Done |
+| Sprint 3 | TS09 | Recepción de payloads IoT (API) | T14 | Consulta de eventos físicos | Implementar GET /api/v1/physical-events para que la Web Application liste los eventos registrados. | 2 | Sandoval Aiquipa, Kelber Yamir | In Progress |
+| Sprint 3 | US04 | Registrar nueva infraestructura | T15 | Pruebas unitarias de almacenes y sensores | Desarrollar pruebas unitarias de Warehouse, OperatingShift, SensorNode, MacAddress y PhysicalEvent. | 2 | Sandoval Aiquipa, Kelber Yamir | Done |
+| Sprint 3 | US20 | Crear catálogo de productos | T16 | Servicio de catálogo de productos | Implementar los endpoints /api/v1/products para registrar, consultar y actualizar productos con SKU único. | 3 | Ravello Cárdenas, Luciana Angielina | Done |
+| Sprint 3 | US21 | Registro ágil de entradas de stock | T17 | Servicio de registro de entradas | Registrar ingresos de mercadería en /api/v1/stock-movements calculando el stock resultante en el servidor. | 2 | Ravello Cárdenas, Luciana Angielina | Done |
+| Sprint 3 | US22 | Salida rápida de productos (Mobile) | T18 | Servicio de registro de salidas | Registrar despachos validando que el stock no quede negativo. | 2 | Ravello Cárdenas, Luciana Angielina | Done |
+| Sprint 3 | US23 | Conciliación manual de stock | T19 | Servicio de conciliación de stock | Registrar ajustes manuales de inventario con justificación obligatoria. | 2 | Ravello Cárdenas, Luciana Angielina | Done |
+| Sprint 3 | US24 | Dashboard de estado de inventario | T20 | Consulta de inventario y movimientos | Implementar la consulta de productos y del historial de movimientos de stock para el dashboard. | 2 | Ravello Cárdenas, Luciana Angielina | Done |
+| Sprint 3 | US03 | Auditoría de discrepancias en tiempo real | T21 | Servicio de alertas de seguridad | Implementar los endpoints /api/v1/security-alerts para registrar y consultar alertas de seguridad. | 3 | Ravello Cárdenas, Luciana Angielina | Done |
+| Sprint 3 | US07 | Justificar / Descartar falsas alarmas | T22 | Gestión de falsas alarmas | Implementar las operaciones para marcar una alerta como falsa alarma o conciliarla con su justificación. | 2 | Ravello Cárdenas, Luciana Angielina | Done |
+| Sprint 3 | US07 | Justificar / Descartar falsas alarmas | T23 | Actualización de alertas desde la Web App | Implementar PUT /api/v1/security-alerts/{id} para que la Web Application actualice el estado y la justificación de una alerta. | 2 | Ravello Cárdenas, Luciana Angielina | In Progress |
+| Sprint 3 | US20 | Crear catálogo de productos | T24 | Pruebas unitarias de inventario y alertas | Desarrollar pruebas unitarias de Product, Sku, StockMovement, SecurityAlert y sus servicios de comandos. | 2 | Ravello Cárdenas, Luciana Angielina | Done |
+| Sprint 3 | US16 | Suscripción y Facturación | T25 | Servicio de registro de empresas | Implementar los endpoints /api/v1/companies para registrar y consultar empresas con RUC único. | 3 | Anahua Ancachi, Liz Maribel | In Progress |
+| Sprint 3 | US15 | Comparativa de Planes SaaS | T26 | Servicio de catálogo de planes | Implementar GET /api/v1/subscription-plans con precios y límites de almacenes, sensores y usuarios. | 3 | Anahua Ancachi, Liz Maribel | In Progress |
+| Sprint 3 | US16 | Suscripción y Facturación | T27 | Servicio de suscripciones | Implementar los endpoints /api/v1/subscriptions para activar, cambiar de plan y cancelar una suscripción. | 3 | Anahua Ancachi, Liz Maribel | In Progress |
+| Sprint 3 | US16 | Suscripción y Facturación | T28 | Servicio de facturación | Implementar GET /api/v1/invoices y generar la factura al activar una suscripción. | 2 | Anahua Ancachi, Liz Maribel | In Progress |
+| Sprint 3 | US08 | Bitácora de trazabilidad inalterable | T29 | Registro automático de trazabilidad | Registrar en la bitácora los eventos de dominio de usuarios, sensores, inventario y alertas, sin permitir su modificación. | 3 | Anahua Ancachi, Liz Maribel | In Progress |
+| Sprint 3 | US10 | Filtros avanzados de auditoría | T30 | Consulta y filtros de trazabilidad | Implementar GET /api/v1/traceability-records con filtros por almacén, tipo de evento y rango de fechas. | 3 | Anahua Ancachi, Liz Maribel | In Progress |
+| Sprint 3 | US11 | Exportar reporte de incidentes | T31 | Servicio de reporte de incidentes | Generar el reporte de incidentes a partir de la bitácora de trazabilidad. | 2 | Anahua Ancachi, Liz Maribel | In Progress |
+| Sprint 3 | US16 | Suscripción y Facturación | T32 | Pruebas unitarias de empresas, suscripciones y trazabilidad | Desarrollar pruebas unitarias de Company, TaxId, Subscription, Money, PlanLimits y TraceabilityRecord. | 1 | Anahua Ancachi, Liz Maribel | To Do |
 
 ### 5.2.3.4. Development Evidence for Sprint Review
 
