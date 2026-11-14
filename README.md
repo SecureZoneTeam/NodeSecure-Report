@@ -3794,6 +3794,17 @@ La solución contempla una arquitectura organizada mediante bounded contexts, pe
 | Esfuerzo / Capacidad del equipo | 80 horas |
 | Sum of Estimation (Hours) | 80 horas |
 
+#### Alcance funcional del Sprint
+
+Se consideran los siguientes grupos de funcionalidades:
+
+- Autenticación, registro y administración de usuarios.
+- Gestión de empresas, perfiles y suscripciones.
+- Administración de almacenes y zonas operativas.
+- Registro y vinculación de dispositivos IoT.
+- Recepción de eventos físicos provenientes de sensores ESP32.
+- Gestión de productos y movimientos de inventario.
+- Registro y gestión de alertas de seguridad.
 
 ### 5.2.3.2. Aspect Leaders and Collaborators
 
