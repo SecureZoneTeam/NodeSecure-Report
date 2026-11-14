@@ -4341,7 +4341,7 @@ Durante el Sprint 3, el equipo trabajó colaborativamente en el repositorio **No
 | NodeSecure.Platform.BackEnd | develop | `266b620` | `chore: keep shared wrapper fix out of warehouse scope` | — | `12-11-2026` |
 | NodeSecure.Platform.BackEnd | develop | `e607e21` | `build: handle local Maven cache in PowerShell wrapper` | — | `12-11-2026` |
 | NodeSecure.Platform.BackEnd | develop | `3ac37d2` | `refactor(inventory): keep problem mapping within module` | — | `12-11-2026` |
-
+Los commits fueron seleccionados pertinentemente para el registro de la tabla.  
 ---
 
   # Conclusiones
