@@ -4323,7 +4323,26 @@ Se propone utilizar las heurísticas de usabilidad de Nielsen para evaluar la in
 Los resultados deben completarse después de realizar las evaluaciones correspondientes.
 
 ---
+### 5.2.3.4. Evidencia de desarrollo para la revisión del sprint.
 
+Durante el Sprint 3, el equipo trabajó colaborativamente en el repositorio **NodeSecure.Platform.BackEnd**, aplicando GitFlow y utilizando la convención de Conventional Commits para registrar los cambios realizados durante la implementación del servidor, la capa de persistencia y los módulos de dominio del backend.
+
+| Repositorio | Rama | ID de confirmación | Mensaje de confirmación | Cuerpo del mensaje de confirmación | Confirmado el (Fecha) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| NodeSecure.Platform.BackEnd | develop | `031a672` | `chore: initial project commit` | — | `11-11-2026` |
+| NodeSecure.Platform.BackEnd | develop | `6b76330` | `feat(sensors): add IoT Sensor Integration bounded context` | — | `12-11-2026` |
+| NodeSecure.Platform.BackEnd | develop | `35ab497` | `feat(warehouses): add Warehouse Management bounded context` | — | `12-11-2026` |
+| NodeSecure.Platform.BackEnd | develop | `453714d` | `docs: document warehouse and sensor integration` | — | `12-11-2026` |
+| NodeSecure.Platform.BackEnd | develop | `f79e3cc` | `fix(warehouses): handle unpersisted zone code checks` | — | `12-11-2026` |
+| NodeSecure.Platform.BackEnd | develop | `8903616` | `feat: add profiles subscriptions and reporting contexts` | — | `12-11-2026` |
+| NodeSecure.Platform.BackEnd | develop | `27b7329` | `feat(inventory): add product and stock movement context` | — | `12-11-2026` |
+| NodeSecure.Platform.BackEnd | develop | `6d45bf3` | `feat(alerts): add security alert context` | — | `12-11-2026` |
+| NodeSecure.Platform.BackEnd | develop | `52dd755` | `docs: remove trailing whitespace from sensor notes` | — | `12-11-2026` |
+| NodeSecure.Platform.BackEnd | develop | `266b620` | `chore: keep shared wrapper fix out of warehouse scope` | — | `12-11-2026` |
+| NodeSecure.Platform.BackEnd | develop | `e607e21` | `build: handle local Maven cache in PowerShell wrapper` | — | `12-11-2026` |
+| NodeSecure.Platform.BackEnd | develop | `3ac37d2` | `refactor(inventory): keep problem mapping within module` | — | `12-11-2026` |
+
+---
 
   # Conclusiones
 
