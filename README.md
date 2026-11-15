@@ -4161,63 +4161,181 @@ Asimismo, el backend incorpora autenticación mediante JWT Bearer para los recur
 
 ### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
-Durante el Sprint 3 se preparó la configuración necesaria para ejecutar y desplegar el backend de NodeSecure.
+Durante el **Sprint 3**, se realizó el despliegue del backend de NodeSecure, desarrollado mediante **Java 21 y Spring Boot 3.5.7**, utilizando **Render** como plataforma de alojamiento para los servicios REST. Asimismo, se configuró la conexión con una base de datos **MySQL 8**, mediante variables de entorno destinadas a gestionar los parámetros de conexión del entorno de producción.
 
-El proyecto incorpora un `Dockerfile` que permite construir la aplicación utilizando Maven y ejecutar el servicio mediante el perfil de producción.
+Este despliegue permitió disponer de una API accesible públicamente, estableciendo el servicio backend necesario para atender las solicitudes de la Frontend Web Application.
 
-Asimismo, se incorporaron archivos de configuración independientes para los entornos de desarrollo y producción.
+Adicionalmente, se habilitó la documentación de los servicios mediante **Swagger/OpenAPI 3.1**, permitiendo consultar los endpoints disponibles, sus operaciones HTTP, parámetros, esquemas de datos y mecanismos de autenticación.
 
 #### Deployment Configuration
 
-| Componente | Configuración |
-|---|---|
-| Backend | Spring Boot 3.5.7 |
-| Java Runtime | Java 21 |
-| Database | MySQL 8 |
-| Containerization | Docker |
-| Application Port | 8080 (configurable mediante `PORT`) |
-| Production Profile | `prod` |
-| Database Configuration | Variables de entorno |
+La siguiente tabla presenta la configuración de despliegue de los principales componentes de NodeSecure:
 
-#### Variables de entorno
+| Componente | Repositorio | Tecnología | Plataforma | URL |
+|---|---|---|---|---|
+| Landing Page | NodeSecure-Landing-Page | HTML5, CSS3, JavaScript | GitHub Pages | [NodeSecure Landing Page](https://securezoneteam.github.io/NodeSecure-Landing-Page/) |
+| Frontend Web Application | SafeZone-website | Angular, TypeScript, Angular Material | GitHub Pages | [NodeSecure Web Application](https://securezoneteam.github.io/SafeZone-website/) |
+| RESTful Web Services | NodeSecure Platform Backend | Java 21, Spring Boot 3.5.7, Spring Data JPA | Render | [NodeSecure Backend](https://nodesecure-backend.onrender.com) |
+| Database | MySQL | MySQL 8 | Servicio de base de datos configurado para producción | Conexión mediante variables de entorno |
 
-| Variable | Descripción |
-|---|---|
-| `SPRING_PROFILES_ACTIVE` | Selecciona el perfil de ejecución. |
-| `DATABASE_URL` | Dirección de conexión a MySQL. |
-| `DATABASE_USER` | Usuario de la base de datos. |
-| `DATABASE_PASSWORD` | Contraseña de la base de datos. |
-| `JWT_SECRET` | Clave para firmar los tokens JWT. |
-| `CORS_ALLOWED_ORIGINS` | Orígenes autorizados para consumir la API. |
-| `SENSOR_API_KEY` | Clave de autenticación para dispositivos IoT. |
-| `SENSOR_CONNECTION_TIMEOUT_SECONDS` | Tiempo para considerar desconectado un sensor. |
-| `PORT` | Puerto de ejecución del backend. |
+#### Backend Deployment
 
-#### Evidencias de despliegue
+El backend de NodeSecure se encuentra desplegado públicamente mediante Render, utilizando la siguiente dirección:
 
-El repositorio contiene configuración Docker y perfiles de ejecución, pero los archivos revisados no demuestran por sí solos que el backend esté publicado en un servidor accesible externamente.
+`https://nodesecure-backend.onrender.com`
 
-Por ello, deben incorporarse las siguientes evidencias únicamente si ya realizaron esas operaciones:
+El servicio utiliza un perfil de producción (`prod`) y obtiene los parámetros necesarios para su ejecución mediante variables de entorno. Entre las principales configuraciones se encuentran `DATABASE_URL`, `DATABASE_USER`, `DATABASE_PASSWORD`, `JWT_SECRET` y `SPRING_PROFILES_ACTIVE`.
 
-```markdown
-#### Configuración Docker
+Para facilitar la consulta y validación de los servicios REST, se habilitó Swagger UI mediante la siguiente dirección:
 
-![Docker Configuration](images/av2/docker-configuration.png)
+`https://nodesecure-backend.onrender.com/swagger-ui/index.html`
 
-#### Ejecución del backend
+La documentación identifica el servicio como **NodeSecure API**, versión **1.0.0**, y utiliza la especificación **OpenAPI 3.1**. Asimismo, presenta como servidor configurado la URL pública de Render.
 
-![Backend Execution](images/av2/backend-execution.png)
+El servicio expone funcionalidades correspondientes a los principales bounded contexts del sistema, organizadas en los siguientes grupos de recursos:
 
-#### Configuración de producción
+- **Authentication:** registro e inicio de sesión de usuarios mediante credenciales.
+- **Users:** consulta, registro, actualización y eliminación de usuarios.
+- **Warehouses:** registro, consulta, actualización y eliminación de almacenes.
+- **Warehouse Zones:** administración de zonas operativas y configuración de turnos.
+- **IoT Sensor Nodes:** registro, consulta, actualización y eliminación de dispositivos IoT.
+- **Physical IoT Events:** recepción de eventos físicos provenientes de dispositivos ESP32.
+- **Products:** creación, consulta y actualización de productos.
+- **Stock Movements:** consulta y registro de movimientos de inventario.
+- **Security Alerts:** creación, consulta y gestión de alertas de seguridad, incluyendo su reconciliación y clasificación como falsas alarmas.
+- **Profiles:** consulta y registro de perfiles.
+- **Reporting:** consulta y registro de información de auditoría.
+- **Subscriptions:** consulta y registro de suscripciones.
 
-![Production Configuration](images/av2/production-config.png)
+La documentación presenta las operaciones HTTP disponibles para cada recurso, incluyendo GET, POST, PUT, PATCH y DELETE, según la funcionalidad implementada.
 
-#### Backend desplegado
+Asimismo, Swagger UI permite identificar los mecanismos de protección de los endpoints y dispone de la opción **Authorize** para introducir las credenciales requeridas al probar las operaciones protegidas. Los recursos de gestión utilizan autenticación mediante JWT Bearer, mientras que la recepción de eventos IoT utiliza una clave de dispositivo mediante el encabezado `X-Device-Api-Key`.
 
-![Backend Deployment](images/av2/backend-deployment.png)
+#### Database Deployment
+
+Para la persistencia de información se utiliza **MySQL 8**, cuya conexión desde el backend se configura mediante las variables de entorno `DATABASE_URL`, `DATABASE_USER` y `DATABASE_PASSWORD`.
+
+La base de datos de producción presenta una estructura de **11 tablas**, correspondientes a los diferentes componentes del sistema:
+
+- `users`: información de los usuarios.
+- `warehouses`: información de los almacenes.
+- `warehouse_zones`: zonas operativas de los almacenes.
+- `sensor_nodes`: dispositivos IoT registrados.
+- `physical_events`: eventos físicos recibidos desde los sensores.
+- `products`: catálogo de productos.
+- `stock_movements`: movimientos de inventario.
+- `security_alerts`: alertas de seguridad.
+- `profiles`: perfiles de usuario.
+- `incident_reports`: informes de incidentes y auditoría.
+- `subscriptions`: información de suscripciones.
+
+La estructura permite mantener organizada la información correspondiente a los diferentes componentes del sistema. Durante la captura de evidencia, se identificaron **9 registros en la tabla `users`**, mientras que las demás tablas todavía no presentaban registros.
+
+#### Frontend and Backend Integration
+
+Como parte de la configuración del entorno de producción, la Frontend Web Application utiliza la dirección pública del backend mediante la variable `serverBaseUrl`, definida en el archivo `src/environments/environment.ts`.
+
+La configuración establecida es la siguiente:
+
+```typescript
+serverBaseUrl: 'https://nodesecure-backend.onrender.com/api/v1'
 ```
 
-Durante el Sprint 3 se preparó la configuración de ejecución y despliegue del backend mediante Docker, incluyendo perfiles diferenciados para desarrollo y producción. La publicación del servicio en un entorno remoto y su validación externa quedan como actividades pendientes de completar, si todavía no se han realizado.
+De esta manera, las solicitudes HTTP realizadas desde la aplicación web en producción se dirigen hacia los servicios REST desplegados en Render.
+
+Por otro lado, el archivo `environment.development.ts` conserva la dirección local de `json-server`, utilizada como Fake API durante el desarrollo. Esta separación permite utilizar una API simulada en el entorno local y el backend real en la configuración de producción.
+
+La Frontend Web Application también se encuentra publicada mediante GitHub Pages, permitiendo acceder a la interfaz web de NodeSecure desde su dirección pública.
+
+#### Deployment Evidence
+
+A continuación, se presentan las evidencias correspondientes al despliegue de los componentes de NodeSecure y su configuración para el entorno de producción.
+
+**1. Backend desplegado en Render**
+
+La siguiente evidencia muestra el servicio backend de NodeSecure en el panel de Render, donde se puede identificar su estado de despliegue y la dirección pública asignada al servicio.
+
+<div align="center">
+  <img src="images/av2/render-service-production.png" alt="Servicio backend de NodeSecure desplegado en Render">
+</div>
+
+**Figura X.** Servicio backend de NodeSecure publicado en Render.
+
+**Public Access:**
+
+[https://nodesecure-backend.onrender.com](https://nodesecure-backend.onrender.com)
+
+**2. Documentación Swagger/OpenAPI**
+
+La siguiente evidencia muestra la documentación de la API de NodeSecure mediante Swagger UI, accedida desde la dirección pública del servicio desplegado.
+
+La interfaz identifica la API como NodeSecure API, versión 1.0.0, bajo la especificación OpenAPI 3.1. Asimismo, permite visualizar los grupos de endpoints disponibles, sus operaciones HTTP y los mecanismos de autenticación configurados.
+
+La siguiente evidencia muestra los grupos de endpoints correspondientes a los distintos módulos funcionales del sistema, incluyendo almacenes, zonas operativas, sensores IoT, inventario, alertas, reportes y suscripciones.
+
+<div align="center">
+  <img src="images/av2/swagger-production-modules.png" alt="Grupos de endpoints de los módulos de NodeSecure">
+</div>
+
+**Figura X.** Grupos de endpoints documentados para los diferentes módulos de NodeSecure.
+
+**Public Access:**
+
+[https://nodesecure-backend.onrender.com/swagger-ui/index.html](https://nodesecure-backend.onrender.com/swagger-ui/index.html)
+
+**3. Base de datos MySQL en producción**
+
+La siguiente evidencia muestra la estructura de la base de datos de NodeSecure mediante phpMyAdmin, donde se identifican las 11 tablas correspondientes a los diferentes componentes del sistema.
+
+Asimismo, se observa la cantidad de registros almacenados en cada tabla, identificándose 9 registros en `users` durante la captura realizada.
+
+<div align="center">
+  <img src="images/database-production.png" alt="Estructura de la base de datos MySQL de NodeSecure en producción">
+</div>
+
+**Figura X.** Estructura de la base de datos MySQL de NodeSecure en producción, con 11 tablas y 9 registros en la tabla de usuarios.
+
+**4. Configuración de integración del Frontend con el Backend**
+
+La siguiente evidencia muestra la configuración de la dirección base utilizada por Angular en producción, mediante la variable `serverBaseUrl` definida en el archivo `src/environments/environment.ts`.
+
+Esta configuración permite que las solicitudes HTTP de la aplicación desplegada se dirijan hacia la API REST publicada en Render, utilizando la ruta base `/api/v1`.
+
+<div align="center">
+  <img src="images/frontend-api-config.png" alt="Configuración de integración entre Frontend y Backend">
+</div>
+
+**Figura X.** Configuración de la URL de producción del backend en el entorno de Angular.
+
+**5. Frontend Web Application desplegada**
+
+La siguiente evidencia muestra la Frontend Web Application de NodeSecure publicada mediante GitHub Pages, permitiendo acceder a la interfaz web y visualizar las funcionalidades disponibles desde su dirección pública.
+
+<div align="center">
+  <img src="images/frontend-production.png" alt="Frontend Web Application de NodeSecure desplegada">
+</div>
+
+**Figura X.** Frontend Web Application de NodeSecure disponible en GitHub Pages.
+
+**Public Access:**
+
+[https://securezoneteam.github.io/SafeZone-website/](https://securezoneteam.github.io/SafeZone-website/)
+
+**6. Landing Page desplegada**
+
+Finalmente, se presenta la evidencia de la Landing Page de NodeSecure, publicada mediante GitHub Pages como parte de los componentes digitales de la solución.
+
+<div align="center">
+  <img src="images/landing-page-production.png" alt="Landing Page de NodeSecure desplegada">
+</div>
+
+**Figura X.** Landing Page de NodeSecure disponible públicamente.
+
+**Public Access:**
+
+[https://securezoneteam.github.io/NodeSecure-Landing-Page/](https://securezoneteam.github.io/NodeSecure-Landing-Page/)
+
+En conjunto, las evidencias presentadas permiten documentar el despliegue del backend de NodeSecure, la disponibilidad de su documentación mediante Swagger/OpenAPI, la estructura de persistencia en MySQL y la configuración del entorno de producción de la Frontend Web Application. Asimismo, se evidencia la disponibilidad pública de la aplicación web y la Landing Page mediante GitHub Pages, estableciendo la infraestructura necesaria para continuar con la integración y validación de los componentes de la solución.
 
 ### 5.2.3.8. Team Collaboration Insights during Sprint
 
