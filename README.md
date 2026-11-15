@@ -3836,7 +3836,7 @@ A continuación, se presenta el Sprint Backlog correspondiente al Sprint 3, incl
 **Evidencia del Board:**
 
 <div align="center">
-    <img src="images/sprint 3.png" alt="repositorio">
+    <img src="images/sprint tabla.png" alt="repositorio">
 </div>
 
 **URL público del Board:**
