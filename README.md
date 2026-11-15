@@ -4056,108 +4056,67 @@ Se implementaron los siguientes grupos de endpoints:
 | Inventory | Stock Movements | Registro y consulta de movimientos de inventario. |
 | Alerts | Security Alerts | Registro, consulta y resolución de alertas. |
 
-#### Endpoints de Warehouse Management e IoT Integration
+Y a continuación, se coloca la documentación más detallada de cada endpoint:
 
-Los endpoints implementados para los contextos desarrollados por Kelber son los siguientes:
+| **Endpoint** | **Acción (HTTP)** | **Parámetros** | **Descripción del Response** |
+| :--- | :---: | :--- | :--- |
+| `/api/v1/physical-events` | POST | `X-Device-Api-Key` | `200 OK` con los datos del evento registrados. De haber un error, aparece el mensaje de `400 Bad Request`. |
+| `/api/v1/users` | GET | - | `200 OK` con la lista de usuarios incluida en formato json. De haber un error, aparece el mensaje de `400 Bad Request`  |
+| `/api/v1/users` | POST | `-` | `201 User Created` con los datos en formato json del nuevo usuario creado. De haber un error, aparece el mensaje `400 Invalid Request`. Además, de no estar con el usuario de un administrador, nos aparece el mensaje de `403 Not an Administrator`. Finalmente, en caso de que el usuario ya esté registrado, aparecerá el mensaje de `409 Username or email already registered `|
+| `/api/v1/users/{id}` | GET | `id` | `200` con la información del usuario en formato json. De no existir el usuario con el ID especificado, aparece el mensaje de `404 Not Found`|
+| `/api/v1/users/{id}` | DELETE | `id` | `204 User Removed` con el mensaje en formato json de la eliminación. |
+| `/api/v1/users/{id}` | PATCH | `id` | `200 User Updated` con los datos del usuario en formato json ya actualizados. Además, de no estar con el usuario de un administrador, nos aparece el mensaje de `403 Not an Administrator`. También en caso de que el usuario no exista, aparecerá un mensaje de `404 User Not Found`. Finalmente, en caso de que el usuario ya esté registrado, aparecerá el mensaje de `409 Username or email already registered`.  |
+| `/api/v1/security-alerts` | GET | `status`,`severity`,`warehouse` | `200 Alerts retrieved` con la lista de las alertas que coincidan con los valores colocados en los parámetros. |
+| `/api/v1/security-alerts` | POST | - | `201 Alert raised` con los datos de la alerta ingresada en formato json.|
+| `/api/v1/security-alerts/{id}/reconciliation` | POST | `id` | `200 Alert closed as reconciled` con la información de la justificación y el usuario que cerró el estado de la alerta. En caso de ingresar el ID de una alerta que no existe, se mostrará el mensaje de `404 Alert Not Found`. Finalmente, en caso de que la alerta con ese ID ya haya sido cerrada, se mostrará el mensaje de `409 Alert Conflict - the alert is already closed`|
+| `/api/v1/security-alerts/{id}/false-alarm` | POST | `id` | `200 Alert closed as false alarm` con la información de la justificación y el usuario que realizó la verificación. En caso de que no se coloque una justificación, se enviará un mensaje de `400 Bad request - missing justification`. En caso de no existir una alerta con el ID ingresado, aparecerá el mensaje de `404 Alert not found`. Finalmente, en caso de que la alerta ya haya sido cerrada, aparecerá un mensaje de`409 Conflict - the alert is already closed`  |
+| `/api/v1/security-alerts/{id}` | GET | `id` | `200 Alert found` con la información de la alerta en formato json. En caso de no existir una alerta con el ID ingresado, aparecerá el mensaje de `404 Alert not found`. |
+| `/api/v1/profiles` | GET | - | `200 OK` con la lista de perfiles creados. De haber un error, aparece el mensaje de `400 Bad Request`. |
+| `/api/v1/profiles` | POST | ` ` | `201 Created` con los datos del usuario creado en formato json. De haber un error, aparece el mensaje de `400 Bad Request` |
+| `/api/v1/profiles/{id}` | GET | `id` | `200 OK` con los datos de usuario en formato json. De haber un error, aparece el mensaje de `400 Bad Request` |
+| `/api/v1/reporting` | GET | - | `200 OK` con los datos de todos los reportes de incidentes en formato json. De haber un error, aparece el mensaje de `400 Bad Request`. Si hay algún conflicto de datos, aparece el mensaje de `409 Bad Conflict` |
+| `/api/v1/reporting` | POST | - | `200 OK` con los datos del reporte de incidente ya creado. De haber un error, aparece el mensaje de `400 Bad Request`. Si hay algún conflicto de datos, aparece el mensaje de `409 Bad Conflict` |
+| `/api/v1/sensor-nodes/{id}` | GET | `id` | `200 OK` con los datos del nodo registrado con ese ID en formato json. De haber un error, aparece el mensaje de `400 Bad Request`. Si hay algún conflicto de datos, aparece el mensaje de `409 Bad Conflict`. |
+| `/api/v1/sensor-nodes/{id}` | PUT | `id ` | `200 OK` con los datos actualizados del sensor con el ID ingresado. De haber un error, aparece el mensaje de `400 Bad Request`. Si hay algún conflicto de datos, aparece el mensaje de `409 Conflict`. |
+| `/api/v1/sensor-nodes/{id}` | DELETE | `id` | `200 OK` con el mensaje de eliminado respectivo en formato json. De haber un error, aparece el mensaje de `400 Bad Request`. Si hay algún conflicto de datos, aparece el mensaje de `409 Conflict`. |
+| `/api/v1/sensor-nodes` | GET | `-` | `200 OK` con los datos del sensor ingresado en formato json. De haber un error, aparece el mensaje de `400 Bad Request`. Si hay algún conflicto de datos, aparece el mensaje de `409 Conflict`. |
+| `/api/v1/sensor-nodes` | POST | `-` | `200 OK` con la lista con los sensores registrados y sus datos en formato json. De haber un error, aparece el mensaje de `400 Bad Request`. Si hay algún conflicto de datos, aparece el mensaje de `409 Conflict`. |
+| `/api/v1/subscriptions` | GET | `-` | `201 Created` con los datos de las suscripciones disponibles. De haber un error, aparece el mensaje de `400 Bad Request`. Si hay algún conflicto de datos, aparece el mensaje de `409 Bad Conflict` |
+| `/api/v1/subscriptions` | POST | ` ` | `201 Created` con los datos en formato json de la nueva suscripción registrada. De haber un error, aparece el mensaje de `400 Bad Request`. Si hay algún conflicto de datos, aparece el mensaje de `409 Bad Conflict`. |
+| `/api/v1/products/{id}` | GET | `id ` | `200 Product Found` con la lista de productos del catálogo.  De haber un error, aparece el mensaje de `400 Bad Request`, si el producto no es encontrado en la lista aparece el mensaje de `404 Product not found` y en el caso de conflicto se muestra el mensaje de `409 Conflict` |
+| `/api/v1/ products/{id}` | PUT | `id ` | `200 Product updated` con la lista de productos del catálogo actualizado.  De haber un error, aparece el mensaje de `400 Bad Request`, si el producto actualizado no es encontrado en la lista aparece el mensaje de `404 Product not found` y en el caso de conflicto se muestra el mensaje de `409 Conflict - the SKU already exists for the company ` |
+| `/api/v1/products` | GET | `companyId ` | `200 Products retrieved` con la lista de productos recuperados del catálogo en formato .json. De haber un error, aparece el mensaje de `400 Bad Request` y en el caso de conflicto se muestra el mensaje de `409 Conflict` |
+| `/api/v1/products` | POST | `-` | `201 Product created ` con la creación de lista de productos. De haber un error, aparece el mensaje de `400 Bad Request` y en el caso de conflicto se muestra el mensaje de `409 Conflict - the SKU already exists for the company` |
+| `/api/v1/warehouses-zones/{id}` | GET | `id ` | `200 OK` con la lista de zonas de almacenes registrados en formato .json. De haber un error, aparece el mensaje de `400 Bad Request`  y en el caso de conflicto se muestra el mensaje de `409 Conflict` |
+| `/api/v1/warehouses-zones/{id}` | PUT | `id ` | `200 OK` con la lista actualizada de zonas de almacenes registrados en formato .json. De haber un error, aparece el mensaje de `400 Bad Request` y en el caso de conflicto se muestra el mensaje de `409 Conflict` |
+| `/api/v1/warehouses-zones/{id}` | DELETE | `id ` | `200 OK` con la lista vacía de zonas de almacenes. De haber un error, aparece el mensaje de `400 Bad Request` y en el caso de conflicto se muestra el mensaje de `409 Conflict` |
+| `/api/v1/warehouses-zones` | GET | `- ` | `200 OK` con la lista de zonas de almacenes registrados en formato .json pertenecientes a una compañía. De haber un error, aparece el mensaje de `400 Bad Request`. En el caso de un conflicto con las zonas de almacenes registrados se mostrará un mensaje de  `409 Conflict` |
+| `/api/v1/warehouses-zones` | POST | `-` | `200 OK` con los campos listos para la creación de zonas de almacenes. De haber un error, aparece el mensaje de `400 Bad Request`. En el caso de un conflicto con la creación de nuevas zonas de almacenes se mostrará un mensaje de  `409 Conflict`|
+| `/api/v1/stock-movements` | GET | `productId` `warehouseId` `type` | `200 Stock movements retrieved ` con la lista de movimientos recuperados en formato .json. De haber un error, aparece el mensaje de `400 Bad Request`. En el caso de un conflicto con la recuperación del registro de movimientos se mostrará un mensaje de  `409 Conflict` |
+| `/api/v1/stock-movements` | POST | `-` | `200 Stock movement registered` con la lista del registro de creación de movimientos del stock en formato .json. De haber un error, aparece el mensaje de `400 Bad Request`. En el caso de que el producto no haya sido encontrado aparecerá el mensaje `404 Product not found` y en el caso de conflicto por stock insuficiente se muestra el mensaje de `409 Conflict - insufficient stock for an exit` |
+| `/api/v1/stock-movements/{id}` | GET | `id` | `200 Stock movement found` con la lista de movimientos del stock encontrados en formato .json. De haber un error, aparece el mensaje de `400 Bad Request`. Si el registro del movimiento no es encontrado se muestra el mensaje de `404 Stock movement not found` y en el caso de conflicto en el registro de movimientos del stock aparecerá el mensaje de `409 Conflict` |
+| `/api/v1/authentication/sign-up` | POST | `-` | `201 Account created ` en el caso exitoso del proceso de autenticación.  De haber un error, aparece el mensaje de `400 Invalid Request` y en el caso de conflicto por un nombre de usuario o email ya registrado se muestra el mensaje de `409 Username or email already registered ` |
+| `/api/v1/ authentication/sign-in` | POST | `-` | `200 Signed in` en el caso de registro exitoso del usuario. De haber un error, aparece el mensaje de `400 Invalid Request`. Si el registro detecta credenciales incorrectas o inválidas se muestra el mensaje de `400 Invalid Credentials` y en el caso de conflicto aparecerá el mensaje de `409 Conflict`.  |
 
-| Método | Endpoint | Descripción |
-|---|---|---|
-| GET | `/api/v1/warehouses` | Consultar almacenes. |
-| GET | `/api/v1/warehouses/{id}` | Consultar un almacén específico. |
-| POST | `/api/v1/warehouses` | Registrar un almacén. |
-| PUT | `/api/v1/warehouses/{id}` | Actualizar un almacén. |
-| DELETE | `/api/v1/warehouses/{id}` | Eliminar un almacén vacío. |
-| GET | `/api/v1/warehouse-zones` | Consultar zonas. |
-| GET | `/api/v1/warehouse-zones/{id}` | Consultar una zona específica. |
-| POST | `/api/v1/warehouse-zones` | Registrar una zona. |
-| PUT | `/api/v1/warehouse-zones/{id}` | Actualizar una zona. |
-| DELETE | `/api/v1/warehouse-zones/{id}` | Eliminar una zona. |
-| GET | `/api/v1/sensor-nodes` | Consultar sensores. |
-| GET | `/api/v1/sensor-nodes/{id}` | Consultar un sensor específico. |
-| POST | `/api/v1/sensor-nodes` | Registrar un sensor. |
-| PUT | `/api/v1/sensor-nodes/{id}` | Actualizar un sensor. |
-| DELETE | `/api/v1/sensor-nodes/{id}` | Eliminar un sensor sin historial de eventos. |
-| POST | `/api/v1/physical-events` | Recibir eventos físicos de sensores ESP32. |
 
-#### Integración con dispositivos IoT
 
-El endpoint de recepción de eventos físicos permite registrar acontecimientos enviados por los dispositivos ESP32.
 
-Para ello, se utiliza el recurso:
+#### API Documentation — Swagger
 
-`POST /api/v1/physical-events`
-
-El servicio recibe información como la dirección MAC del dispositivo, el tipo de evento y su fecha de ocurrencia.
-
-Ejemplo del payload:
-
-```json
-{
-  "mac": "A4:CF:12:9B:1E:44",
-  "state": "DOOR_OPENED",
-  "timestamp": "2026-11-11T22:30:00Z"
-}
-```
-
-Los tipos de eventos admitidos son:
-
-- `DOOR_OPENED`: apertura de puerta.
-- `DOOR_CLOSED`: cierre de puerta.
-- `NODE_DISCONNECTED`: desconexión del dispositivo.
-
-El backend identifica al sensor mediante su dirección MAC, obtiene la zona asociada y registra el acontecimiento físico. De esta manera, se evita que el dispositivo pueda asignar arbitrariamente un almacén o una zona mediante el payload.
-
-La recepción se protege mediante una API Key utilizando el encabezado `X-Device-Api-Key`, configurado mediante la variable de entorno `SENSOR_API_KEY`.
-
-#### API Documentation — Swagger / OpenAPI
-
-Para facilitar la documentación, consulta y validación de los servicios, se incorporó Swagger/OpenAPI mediante la dependencia `springdoc-openapi-starter-webmvc-ui` versión 2.8.13.
+Para facilitar la documentación, consulta y validación de los servicios, se incorporó Swagger.
 
 La documentación permite visualizar los recursos disponibles, sus operaciones HTTP, parámetros, cuerpos de solicitud y respuestas.
 
 La interfaz se encuentra configurada en:
 
-`http://localhost:8080/swagger-ui.html`
+https://nodesecure-backend.onrender.com/swagger-ui/index.html
 
-El documento OpenAPI se encuentra disponible en:
+Y en el link de nuestro repositorio es el siguiente:
 
-`http://localhost:8080/v3/api-docs`
+https://github.com/SecureZoneTeam/NodeSecure.Platform.BackEnd.git
+
 
 Asimismo, el backend incorpora autenticación mediante JWT Bearer para los recursos administrativos, mientras que la recepción de eventos IoT utiliza autenticación mediante API Key.
-
-#### Tecnologías utilizadas
-
-| Tecnología | Versión / Función |
-|---|---|
-| Java | 21 |
-| Spring Boot | 3.5.7 |
-| Spring Web | Exposición de servicios REST. |
-| Spring Data JPA | Persistencia de entidades. |
-| Spring Security | Seguridad y control de acceso. |
-| MySQL | 8 |
-| Swagger / OpenAPI | 2.8.13 |
-| JWT | 0.12.6 |
-| Maven | 3.9.11 |
-
-#### Evidencias visuales
-
-```markdown
-#### Swagger UI — Documentación de servicios
-
-![Swagger UI](images/av2/swagger-ui.png)
-
-#### Endpoints de Warehouse Management
-
-![Warehouse Endpoints](images/av2/warehouse-endpoints.png)
-
-#### Endpoints de Sensor Integration
-
-![Sensor Endpoints](images/av2/sensor-endpoints.png)
-
-#### Recepción de eventos físicos IoT
-
-![Physical Events](images/av2/physical-events.png)
-```
 
 ### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
