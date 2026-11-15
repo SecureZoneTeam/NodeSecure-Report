@@ -4298,48 +4298,97 @@ En conjunto, las evidencias presentadas permiten documentar el despliegue del ba
 
 ### 5.2.3.8. Team Collaboration Insights during Sprint
 
-Durante el Sprint 3, el equipo de NodeSecure trabajó colaborativamente en la implementación de los servicios backend, distribuyendo las responsabilidades según los bounded contexts establecidos en la arquitectura del sistema.
+Durante el **Sprint 3**, el equipo de NodeSecure trabajó colaborativamente en el desarrollo de la primera versión de los RESTful Web Services, distribuyendo las responsabilidades de acuerdo con los bounded contexts definidos para la arquitectura del sistema.
 
-El desarrollo se realizó sobre el repositorio NodeSecure Platform Backend, utilizando Git y GitHub para gestionar el código fuente, mantener la trazabilidad de los cambios y coordinar la integración de los diferentes módulos.
+El desarrollo se realizó principalmente sobre el repositorio **NodeSecure Platform Backend**, utilizando Git y GitHub para gestionar el código fuente, mantener la trazabilidad de las modificaciones y facilitar la integración de los diferentes módulos del sistema.
 
-Cada integrante asumió la responsabilidad principal de sus respectivos contextos, manteniendo una estructura de trabajo organizada que permitió desarrollar los componentes de forma independiente.
+La distribución de responsabilidades permitió que cada integrante asumiera la responsabilidad principal de determinados contextos del negocio, manteniendo la coordinación necesaria para establecer una estructura común y garantizar la comunicación entre los componentes del backend.
 
-Asimismo, se establecieron mecanismos de comunicación entre los módulos mediante interfaces ACL, evitando dependencias directas entre los repositorios internos de cada bounded context.
+Asimismo, se aplicó el enfoque de **Domain-Driven Design (DDD)** mediante la organización de los componentes en capas de dominio, aplicación, infraestructura e interfaces, de acuerdo con el nivel de implementación de cada bounded context.
+
+#### Task Distribution
+
+Durante el Sprint 3, las responsabilidades principales fueron distribuidas de la siguiente manera:
+
+| Team Member | GitHub Username | Main Responsibilities |
+|---|---|---|
+| Fernando Sebastián Pérez Bellido | Fern.bellido22 | Identity and Access Management (IAM), configuración inicial del backend e integración. |
+| Liz Maribel Anahua Ancachi | lizzanahua-rgb | Estructura inicial de Profiles, Subscriptions y Reporting. |
+| Kelber Yamir Sandoval Aiquipa | Kyesei | Warehouse Management y Sensor Integration. |
+| Luciana Angielina Ravello Cárdenas | Lucyrcar-ID | Inventory Management y Security Alerts. |
+
+Cada integrante asumió la responsabilidad principal de sus respectivos bounded contexts, participando también en las actividades de coordinación e integración necesarias para mantener la compatibilidad entre los módulos.
 
 #### Collaboration Practices
 
 | Aspect | Collaboration Practice |
 |---|---|
 | Task Distribution | Distribución de responsabilidades según los bounded contexts asignados a cada integrante. |
-| Version Control | Utilización de Git y GitHub para gestionar los cambios del backend. |
-| Branching | Desarrollo de funcionalidades mediante ramas de trabajo. |
-| Commits | Registro de modificaciones mediante commits. |
-| Integration | Integración de módulos mediante interfaces y contratos compartidos. |
-| Architecture | Aplicación de DDD y separación por capas. |
-| Documentation | Documentación de los servicios REST mediante Swagger/OpenAPI. |
-| Testing | Incorporación de pruebas unitarias para validar las reglas de negocio. |
+| Version Control | Utilización de Git y GitHub para gestionar los cambios del repositorio NodeSecure Platform Backend. |
+| Branching | Organización del desarrollo mediante ramas de trabajo independientes para los diferentes contextos. |
+| Commits | Registro de las modificaciones mediante commits, manteniendo la trazabilidad de los avances realizados. |
+| Integration | Coordinación entre módulos mediante interfaces compartidas y fachadas ACL para la comunicación entre bounded contexts. |
+| Architecture | Aplicación de Domain-Driven Design (DDD) y separación por capas para organizar las responsabilidades del backend. |
+| Documentation | Documentación de los servicios REST mediante Swagger/OpenAPI 3.1, facilitando la consulta de operaciones y esquemas de datos. |
+| Testing | Incorporación de pruebas unitarias en los componentes que cuentan con suites de pruebas, para validar reglas de negocio y comportamientos específicos. |
 
-El desarrollo de los contextos Warehouse Management y Sensor Integration estuvo a cargo de Kelber Yamir Sandoval Aiquipa, quien implementó los componentes necesarios para la administración de almacenes, configuración de zonas, vinculación de sensores y recepción de eventos físicos.
+#### Individual Contributions
 
-La colaboración entre los integrantes permitió establecer una base de servicios que posteriormente facilitará la integración completa con la Web Application.
+**Fernando Sebastián Pérez Bellido – Identity and Access Management (IAM) e integración**
+
+Estuvo a cargo del contexto Identity and Access Management (IAM), desarrollando los componentes relacionados con el registro, autenticación y administración de usuarios. También participó en la configuración inicial del backend y en las actividades de integración necesarias para establecer una estructura común entre los diferentes módulos.
+
+**Liz Maribel Anahua Ancachi – Profiles, Subscriptions y Reporting**
+
+Estuvo a cargo de los contextos Profiles, Subscriptions y Reporting, trabajando en la estructura inicial de sus componentes y en las operaciones básicas de consulta y registro. Estos módulos establecieron la base para la administración de perfiles, las suscripciones y la información relacionada con auditoría y reportes.
+
+**Kelber Yamir Sandoval Aiquipa – Warehouse Management y Sensor Integration**
+
+Estuvo a cargo de los contextos Warehouse Management y Sensor Integration, implementando los componentes necesarios para la administración de almacenes y zonas operativas, así como el registro, actualización y vinculación de dispositivos IoT.
+
+Asimismo, desarrolló la funcionalidad de recepción de eventos físicos provenientes de sensores ESP32, permitiendo registrar acontecimientos como aperturas y cierres de puertas, además de identificar la desconexión de los dispositivos.
+
+**Luciana Angielina Ravello Cárdenas – Inventory Management y Security Alerts**
+
+Estuvo a cargo de los contextos Inventory Management y Security Alerts, desarrollando los componentes relacionados con la administración de productos, el registro de movimientos de inventario y la gestión de alertas de seguridad.
 
 #### Evidencias de colaboración
 
-```markdown
-#### Actividad del equipo en GitHub
+A continuación, se presentan las evidencias relacionadas con la participación de los integrantes y el trabajo colaborativo realizado durante el Sprint 3.
 
-![GitHub Contributors](images/av2/github-contributors.png)
+**1. Actividad de los integrantes en GitHub**
 
-#### Historial de commits
+La siguiente evidencia permite visualizar la actividad registrada por los colaboradores en el repositorio del backend, mostrando la participación de los integrantes en el desarrollo del proyecto.
 
-![GitHub Commits](images/av2/github-commits.png)
+<div align="center">
+  <img src="images/av2/github-contributors.png" alt="Actividad de los integrantes en GitHub">
+</div>
 
-#### Pull Requests
+**Figura X.** Actividad de los colaboradores en el repositorio NodeSecure Platform Backend.
 
-![Pull Requests](images/av2/pull-requests.png)
-```
+**2. Historial de commits**
 
----
+La siguiente evidencia muestra los commits registrados en el repositorio, permitiendo identificar las modificaciones realizadas, sus autores, los mensajes asociados y las fechas de contribución.
+
+<div align="center">
+  <img src="images/av2/github-commits.png" alt="Historial de commits del backend">
+</div>
+
+**Figura X.** Historial de commits correspondientes al desarrollo del backend de NodeSecure.
+
+**3. Pull Requests e integración de cambios**
+
+La siguiente evidencia muestra las solicitudes de integración registradas en GitHub, utilizadas para revisar e incorporar los cambios desarrollados en las diferentes ramas de trabajo.
+
+<div align="center">
+  <img src="images/av2/pull-requests.png" alt="Pull Requests del repositorio backend">
+</div>
+
+**Figura X.** Pull Requests registrados para la revisión e integración de cambios del backend.
+
+En conjunto, estas evidencias permiten observar la distribución de responsabilidades, la actividad registrada en el repositorio y los mecanismos utilizados para organizar e integrar el desarrollo de los diferentes bounded contexts.
+
+La colaboración desarrollada durante el Sprint 3 permitió establecer una primera versión estructurada de los servicios backend de NodeSecure, sentando las bases para su integración con la Frontend Web Application.
 
 ## 5.3. Validation Interviews
 
