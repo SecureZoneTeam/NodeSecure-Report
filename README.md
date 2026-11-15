@@ -4514,4 +4514,4 @@ Oracle. (s. f.). *MySQL 8.0 Reference Manual*. https://dev.mysql.com/doc/refman/
 * **DOCUMENTACIÓN SWAGGER:** [https://nodesecure-backend.onrender.com/swagger-ui/index.html](https://nodesecure-backend.onrender.com/swagger-ui/index.html)
 * **ESPECIFICACIÓN OPENAPI:** [https://nodesecure-backend.onrender.com/v3/api-docs](https://nodesecure-backend.onrender.com/v3/api-docs)
 * **URL DEL FIGMA (UX/UI & PROTOTIPOS):** [https://www.figma.com/design/Mjmfv8zXHB753QKMcfucH2/Sin-t%C3%ADtulo?node-id=0-1&t=OpYw1NIg0EhggkLC-1](https://www.figma.com/design/Mjmfv8zXHB753QKMcfucH2/Sin-t%C3%ADtulo?node-id=0-1&t=OpYw1NIg0EhggkLC-1)
-* **URL VIDEO DE EXPOSICIÓN (AV2):** 
+* **URL VIDEO DE EXPOSICIÓN (AV2):**[https://upcedupe-my.sharepoint.com/:f:/g/personal/u202418645_upc_edu_pe/IgBKcsZC1XUpSoiozRNsS7upATay7qDjLfYMB9MmNnktNZc?e=HZtfwL](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202418645_upc_edu_pe/IgBKcsZC1XUpSoiozRNsS7upATay7qDjLfYMB9MmNnktNZc?e=HZtfwL)
