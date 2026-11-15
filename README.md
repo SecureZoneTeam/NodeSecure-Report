@@ -1,5 +1,4 @@
-
-  <div align="center">
+<div align="center">
   <img src="images/logo-upc.png" width="150" alt="Logo de la UPC"><br><br>
 
   **UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS**<br>
@@ -8,11 +7,11 @@
   **Desarrollo de Aplicaciones Open Source - 7800**<br><br>
 
   **DOCENTE**<br>
-  Iván Robles Fernandez<br><br>
+  Iván Robles Fernández<br><br>
 
-  **Informe TB1**<br><br>
+  **Informe AV2**<br><br>
 
-  **Nombre Start up:** SafeZone<br>
+  **Nombre de la Startup:** SafeZone<br>
   **Nombre Producto:** NodeSecure<br><br>
 
   **2026-02**<br><br>
@@ -47,7 +46,7 @@
   </table>
   <br>
 
-  **Lima, 06 de Octubre del 2026**
+  **Lima, 13 de noviembre de 2026**
 
   </div>
   <br><br><br><br><br><br>
@@ -86,7 +85,7 @@
         Pérez Bellido, Fernando Sebastián<br>
         Ravello Cárdenas, Luciana Angielina
       </td>
-      <td valign="top">Se agregaron las evidencias y documentación correspondientes al Sprint 2 (5.2.2), incluyendo el despliegue del Frontend Web App con Angular, la implementación de la Fake API, la actualización del Student Outcome y las métricas del equipo.</td>
+      <td valign="top">Se agregaron las evidencias y documentación correspondientes al Sprint 2 (5.2.2), incluyendo el despliegue del Frontend Web Application con Angular, la implementación de la Fake API, la actualización del Student Outcome y las métricas del equipo.</td>
     </tr>
     <tr>
       <td><b>AV2</b></td>
@@ -95,13 +94,7 @@
         Sandoval Aiquipa, Kelber Yamir<br>
         Pérez Bellido, Fernando Sebastián<br>
         Ravello Cárdenas, Luciana Angielina</td>
-      <td>Se agregaron las evidencias y documentación correspondientes al Sprint 3, incluyendo el despliegue de la primera versión del Web Service, su conexión a la Frontend Web App, la actualización del Student Outcome y las métricas del equipo.</td>
-    </tr>
-    <tr>
-      <td><b>TF1</b></td>
-      <td>-</td>
-      <td>-</td>
-      <td>En proceso</td>
+      <td>Se incorporó la documentación del Sprint 3: primera versión del backend REST con Spring Boot, persistencia MySQL, autenticación, integración IoT, documentación OpenAPI, evidencias de despliegue y colaboración. Se actualizaron las secciones de implementación y se identificaron los elementos de validación que requieren evidencia adicional.</td>
     </tr>
   </tbody>
 </table>
@@ -109,93 +102,108 @@
   <div style="page-break-after: always;"></div>
 
   # Contenido
-  [**Capítulo I: Introducción**](#capítulo-i-introducción)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;*[1.1. Startup Profile](#11-startup-profile)*<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.1.2. Perfiles de integrantes del equipo](#112-integrantes-del-equipo)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;*[1.2. Solution Profile](#12-solution-profile)*<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.2.2 Lean UX Process](#122-lean-ux-process)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statement)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statement)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;[1.3. Segmentos objetivo](#13-segmentos-objetivo)<br><br>
-  [**Capítulo II: Requirements Elicitation & Analysis**](#capítulo-ii-requirements-elicitation--analysis)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;[2.1. Competidores](#21-competidores)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.1.1. Análisis competitivo](#211-análisis-competitivo)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;[2.2. Entrevistas](#221-diseño-de-entrevistas)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.2.2. Registro de entrevistas](#segmento-01-dueños-y-administradores-de-almacén)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;[2.3. Needfinding](#23-needfinding)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.3.1. User Personas](#231-user-personas)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.3.2. User Task Matrix](#232-user-task-matrix)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.3.3. User Journey Mapping](#233-user-journey-mapping)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.3.4. Empathy Mapping](#234-empathy-mapping)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;[2.4. Big Picture Event Storming](#24-big-picture-event-storming)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;[2.5. Ubiquitous Language](#25-ubiquitous-language)<br><br>
-  [**Capítulo III: Requirements Specification**](#capítulo-iii-requirements-specification)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;[3.1. User Stories](#31-user-stories)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;[3.2. Impact Mapping](#32-impact-mapping)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;[3.3. Product Backlog](#33-product-backlog)<br><br>
-  [**Capítulo IV: Product Design**](#capítulo-iv-product-design)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;[4.1. Style Guidelines](#41-style-guidelines)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.1.1. General Style Guidelines](#411-general-style-guidelines)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.1.2. Web Style Guidelines](#412-web-style-guidelines)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;[4.2. Information Architecture](#42-information-architecture)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.2.1. Organization Systems](#421-organization-systems)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.2.2. Labeling Systems](#422-labeling-systems)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.2.4. Searching Systems](#424-searching-systems)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.2.5. Navigation Systems](#425-navigation-systems)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;[4.3. Landing Page UI Design](#43-landing-page-ui-design)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;[4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;[4.5. Web Applications Prototyping](#45-web-applications-prototyping)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;[4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.6.1. Design-Level Event Storming](#461-design-level-event-storming)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-diagram)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.6.3. Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;[4.7. Software Object-Oriented Design](#47-software-object-oriented-design)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.7.1. Class Diagrams](#471-class-diagrams)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;[4.8. Database Design](#48-database-design)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.8.1. Database Diagrams](#481-database-diagrams)<br><br>
-  [**Capítulo V: Product Implementation, Validation & Deployment**](#5-product-implementation-validation--deployment)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;[5.1. Software Configuration Management](#51-software-configuration-management)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.1.2. Source Code Management](#512-source-code-management)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;[5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.2.1. Sprint 1](#521-sprint-1)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)<br><br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.2.2. Sprint 2](#522-sprint-2)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.2.2.3. Sprint Backlog 2](#5223-sprint-backlog-2)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.2.2.4. Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)<br><br>
-  [Conclusiones](#conclusiones)<br>
-  [Bibliografía](#bibliografía)<br>
-  [Anexos](#anexos)<br><br><br>
+
+  - [Student Outcome](#student-outcome)
+  - [Capítulo I: Introducción](#capítulo-i-introducción)
+    - [1.1. Startup Profile](#11-startup-profile)
+      - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+      - [1.1.2. Integrantes del equipo](#112-integrantes-del-equipo)
+    - [1.2. Solution Profile](#12-solution-profile)
+      - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+      - [1.2.2. Lean UX Process](#122-lean-ux-process)
+        - [1.2.2.1. Lean UX Problem Statement](#1221-lean-ux-problem-statement)
+        - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+        - [1.2.2.3. Lean UX Hypothesis Statement](#1223-lean-ux-hypothesis-statement)
+        - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+    - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+  - [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
+    - [2.1. Competidores](#21-competidores)
+      - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+      - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+    - [2.2. Entrevistas](#22-entrevistas)
+      - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+      - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+      - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+    - [2.3. Needfinding](#23-needfinding)
+      - [2.3.1. User Personas](#231-user-personas)
+      - [2.3.2. User Task Matrix](#232-user-task-matrix)
+      - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+      - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+    - [2.4. Big Picture Event Storming](#24-big-picture-event-storming)
+    - [2.5. Ubiquitous Language](#25-ubiquitous-language)
+  - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+    - [3.1. User Stories](#31-user-stories)
+    - [3.2. Impact Mapping](#32-impact-mapping)
+    - [3.3. Product Backlog](#33-product-backlog)
+  - [Capítulo IV: Product Design](#capítulo-iv-product-design)
+    - [4.1. Style Guidelines](#41-style-guidelines)
+      - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
+      - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
+    - [4.2. Information Architecture](#42-information-architecture)
+      - [4.2.1. Organization Systems](#421-organization-systems)
+      - [4.2.2. Labeling Systems](#422-labeling-systems)
+      - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
+      - [4.2.4. Searching Systems](#424-searching-systems)
+      - [4.2.5. Navigation Systems](#425-navigation-systems)
+    - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
+      - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
+      - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
+    - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
+      - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
+      - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
+      - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
+      - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
+    - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
+    - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
+      - [4.6.1. Domain-Driven Software Architecture](#461-domain-driven-software-architecture)
+      - [4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-diagram)
+      - [4.6.3. Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)
+      - [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
+    - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
+      - [4.7.1. Class Diagram](#471-class-diagram)
+    - [4.8. Database Diagrams](#48-database-diagrams)
+      - [4.8.1. Database Diagram](#481-database-diagram)
+  - [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
+    - [5.1. Software Configuration Management](#51-software-configuration-management)
+      - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
+      - [5.1.2. Source Code Management](#512-source-code-management)
+      - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
+      - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
+    - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
+      - [5.2.1. Sprint 1](#521-sprint-1)
+        - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
+        - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
+        - [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
+        - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
+        - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
+        - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
+        - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
+        - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+      - [5.2.2. Sprint 2](#522-sprint-2)
+        - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
+        - [5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
+        - [5.2.2.3. Sprint Backlog 2](#5223-sprint-backlog-2)
+        - [5.2.2.4. Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
+        - [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
+        - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
+        - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
+        - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
+      - [5.2.3. Sprint 3](#523-sprint-3)
+        - [5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
+        - [5.2.3.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
+        - [5.2.3.3. Sprint Backlog 3](#5233-sprint-backlog-3)
+        - [5.2.3.4. Development Evidence for Sprint Review](#5234-evidencia-de-desarrollo-para-la-revisión-del-sprint)
+        - [5.2.3.5. Execution Evidence for Sprint Review](#5235-evidencia-de-ejecución-para-la-revisión-del-sprint)
+        - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
+        - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
+        - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
+    - [5.3. Validation Interviews](#53-validation-interviews)
+      - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
+      - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
+      - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
+  - [Conclusiones](#conclusiones)
+  - [Bibliografía](#bibliografía)
+  - [Anexos](#anexos)
 
   <div style="page-break-after: always;"></div>
   
@@ -213,7 +221,7 @@ En esta sección se detalla la contribución de cada integrante del equipo para 
   <tbody>
     <!-- Criterio 3.c1 -->
     <tr>
-      <td rowspan="4" valign="top"><b>3.c1. Comunica oralmente con efectividad a diferentes rangos de audiencia</b></td>
+      <td rowspan="3" valign="top"><b>3.c1. Comunica oralmente con efectividad a diferentes rangos de audiencia</b></td>
       <td valign="top">
         <b>AV1</b><br><br>
         <b>Anahua Ancachi, Liz Maribel:</b> Condujo y moderó oralmente las entrevistas semiestructuradas con los usuarios del segmento operativo (Segmento 2), transmitiendo las preguntas de manera clara y adaptando el lenguaje técnico a situaciones cotidianas de almacén. Asimismo, expuso y sustentó en las reuniones de equipo los hallazgos del Needfinding y los perfiles de User Personas desarrollados para el Capítulo II.<br><br>
@@ -230,7 +238,7 @@ En esta sección se detalla la contribución de cada integrante del equipo para 
       <td valign="top"><b>TB1</b><br><br>
       <b>Anahua Ancachi, Liz Maribel:</b> Durante las sesiones de planificación y revisión del Sprint, explicó al equipo de manera sencilla cómo se estructurarían los datos simulados (mocks) como paso previo a la integración del backend real. También lideró los debates sobre el rendimiento grupal, compartiendo verbalmente los análisis de colaboración para identificar áreas de mejora.<br><br>
       <b>Pérez Bellido, Fernando Sebastián:</b> Durante las sesiones de Sprint Planning, expuso las prioridades de desarrollo y la asignación de tareas. Además, comunicó al equipo de manera clara la distribución en el Board y resolvió dudas sobre la estructura de la aplicación.<br><br>
-      <b>Sandoval Aiquipa, Kelber Yamir:</b> Sustenté las correcciones aplicadas al diseño UX/UI de NodeSecure y expliqué el flujo de despliegue del Frontend Web App durante las reuniones de validación del Sprint 2. Utilicé un lenguaje técnico claro para asegurar que el equipo comprendiera la configuración de enrutamiento necesaria para pasar a producción sin errores.<br><br>
+      <b>Sandoval Aiquipa, Kelber Yamir:</b> Sustenté las correcciones aplicadas al diseño UX/UI de NodeSecure y expliqué el flujo de despliegue del Frontend Web Application durante las reuniones de validación del Sprint 2. Utilicé un lenguaje técnico claro para asegurar que el equipo comprendiera la configuración de enrutamiento necesaria para pasar a producción sin errores.<br><br>
       <b>Ravello Cárdenas, Luciana Angielina:</b> Expuso de forma clara en las reuniones de coordinación el progreso visual del frontend y la Landing Page. Explicó a sus compañeros qué capturas de pantalla y evidencias debían priorizarse para el informe, adaptando su lenguaje para asegurar que todo el equipo comprendiera el avance del desarrollo y los objetivos logrados en este Sprint.
       </td>
       <td valign="top"><b>TB1</b><br><br>
@@ -238,21 +246,19 @@ En esta sección se detalla la contribución de cada integrante del equipo para 
       </td>
     </tr>
     <tr>
-      <td><b>AV2</b><br><br>
-      <b>Anahua Ancachi, Liz Maribel:</b>...<br><br>
-      <b>Pérez Bellido, Fernando Sebastián:</b>...<br><br>
-      <b>Sandoval Aiquipa, Kelber Yamir:</b>...<br><br>
-      <b>Ravello Cárdenas, Luciana Angielina:</b> Expuso de claramente en las reuniones de equipo el progreso y desarrollo del Bounded Context del Inventario. Explicó cómo se planeaba realizar el flujo, adaptando su lenguaje para asegurar que todo el equipo comprendiera el avance y los objetivos logrados en este Sprint.
+      <td valign="top"><b>AV2</b><br><br>
+      <b>Anahua Ancachi, Liz Maribel:</b> Participó en la coordinación del alcance de los contextos Profiles, Subscriptions y Reporting, comunicando al equipo qué operaciones se encontraban en su estructura inicial y cuáles requerían continuidad de desarrollo.<br><br>
+      <b>Pérez Bellido, Fernando Sebastián:</b> Explicó las decisiones relacionadas con la configuración inicial del backend, IAM y autenticación, además de coordinar la integración de los módulos y la organización de tareas del Sprint 3.<br><br>
+      <b>Sandoval Aiquipa, Kelber Yamir:</b> Comunicó el avance de Warehouse Management y Sensor Integration, explicando el registro de almacenes y zonas, la vinculación de sensores y la recepción de eventos físicos desde dispositivos IoT.<br><br>
+      <b>Ravello Cárdenas, Luciana Angielina:</b> Explicó el avance de Inventory Management y Security Alerts, incluyendo la gestión de productos, movimientos de stock y las operaciones disponibles para la conciliación de alertas.
       </td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><b>VF1</b></td>
-      <td><b>VF1</b></td>
+      <td valign="top"><b>AV2</b><br><br>
+      Durante el Sprint 3, la comunicación oral permitió coordinar la implementación de los bounded contexts y resolver dependencias entre módulos. La explicación de las decisiones técnicas y del estado real de cada componente ayudó a distinguir las funcionalidades implementadas de aquellas que permanecían en desarrollo.
+      </td>
     </tr>
     <!-- Criterio 3.c2 -->
     <tr>
-      <td rowspan="4" valign="top"><b>3.c2. Comunica por escrito con efectividad a diferentes rangos de audiencia</b></td>
+      <td rowspan="3" valign="top"><b>3.c2. Comunica por escrito con efectividad a diferentes rangos de audiencia</b></td>
       <td valign="top">
         <b>AV1</b><br><br>
         <b>Anahua Ancachi, Liz Maribel:</b> Redactó las secciones principales del Capítulo II (Requirements Elicitation & Analysis), documentando el análisis competitivo, el diseño y registro de entrevistas, y el análisis de variables. Estructuró por escrito el Needfinding (necesidades identificadas), los artefactos UX (User Personas, User Task Matrix, User Journey Mapping y Empathy Mapping) de forma clara, técnica y profesional para la evaluación del informe.<br><br>
@@ -277,17 +283,15 @@ En esta sección se detalla la contribución de cada integrante del equipo para 
       </td>
     </tr>
     <tr>
-      <td><b>AV2</b>
-      <b>Anahua Ancachi, Liz Maribel:</b>...<br><br>
-      <b>Pérez Bellido, Fernando Sebastián:</b>...<br><br>
-      <b>Sandoval Aiquipa, Kelber Yamir:</b>...<br><br>
-      <b>Ravello Cárdenas, Luciana Angielina:</b> Redactó las secciones de 5.2.3.1.Sprint Planning 3 y 5.2.3.2. Aspect Leaders and Collaborators, definiendo el alcanze del sprint realizado para esta entrega en un lenguaje escrito fácil de entender, logrando que el lector comprenda la intención de lo que se quiere comentar.
+      <td valign="top"><b>AV2</b><br><br>
+      <b>Anahua Ancachi, Liz Maribel:</b> Documentó la estructura inicial y las operaciones básicas de consulta y registro de los contextos Profiles, Subscriptions y Reporting, procurando diferenciar su estado inicial de las funcionalidades aún pendientes.<br><br>
+      <b>Pérez Bellido, Fernando Sebastián:</b> Contribuyó a la documentación técnica del Sprint 3 mediante la descripción de la planificación, el backlog, la configuración inicial del backend y los componentes de autenticación e IAM.<br><br>
+      <b>Sandoval Aiquipa, Kelber Yamir:</b> Documentó las funcionalidades de Warehouse Management y Sensor Integration, así como la configuración de despliegue, las variables de entorno y las evidencias de integración del backend con el frontend.<br><br>
+      <b>Ravello Cárdenas, Luciana Angielina:</b> Documentó la planificación y distribución de responsabilidades del Sprint 3, además de los avances de Inventory Management y Security Alerts, utilizando descripciones funcionales para explicar las operaciones implementadas.
       </td>
-      <td><b>AV2</b></td>
-    </tr>
-    <tr>
-      <td><b>VF1</b></td>
-      <td><b>VF1</b></td>
+      <td valign="top"><b>AV2</b><br><br>
+      La documentación del Sprint 3 permitió registrar la evolución del backend mediante información de planificación, tareas, commits, servicios REST y despliegue. Para mantener su utilidad como evidencia, el equipo debe conservar la correspondencia entre lo descrito, el código disponible y los endpoints publicados.
+      </td>
     </tr>
   </tbody>
 </table>
@@ -375,7 +379,7 @@ En esta sección se detalla la contribución de cada integrante del equipo para 
 
   - **When? (¿Cuándo ocurre?):** Durante la gestión diaria de inventarios, especialmente cuando los procesos de vigilancia son pasivos o reactivos y no permiten una detección inmediata de irregularidades.
 
-  - **Why? (¿Por qué ocurre?):** Por la desconexión operativa entre los registros digitales y la realidad física del almacén, sumado a que las empresas perciben la tecnología IoT preventiva comos costosa o compleja de implementar.
+  - **Why? (¿Por qué ocurre?):** Por la desconexión operativa entre los registros digitales y la realidad física del almacén, sumado a que las empresas perciben la tecnología IoT preventiva como costosa o compleja de implementar.
 
   - **How? (¿Cómo se manifiesta?):** Mediante descuadres de inventario recurrentes, accesos físicos no detectados a tiempo (robo hormiga), revisiones manuales tardías y una pérdida total de trazabilidad operativa por la ausencia de sensores IoT que validen los registros digitales en tiempo real. 
 
@@ -467,7 +471,7 @@ En esta sección se detalla la contribución de cada integrante del equipo para 
 
 
   **Hypothesis Statement 4:**<br>
-  Creemos que lograremos que el 70% de los clientes en frase de prueba accedan a modernizar su seguridad definitavemente y pasen de un enfoque reactivo a uno puramente preventivo
+  Creemos que lograremos que el 70% de los clientes en fase de prueba accedan a modernizar su seguridad definitivamente y pasen de un enfoque reactivo a uno puramente preventivo
 
   Si el personal de seguridad y auditoría
   Obtiene notificaciones críticas exactas y una marca de tiempo confiable para buscar evidencias precisas en sus cámaras CCTV
@@ -490,7 +494,7 @@ En esta sección se detalla la contribución de cada integrante del equipo para 
         <td valign="top">
           <b>5. Solutions</b><br>
           <ul>
-            <li>Plataforma Web SPA (Angular + ASP.NET Core) para gestión de inventario, movimientos y stock.</li>
+            <li>Plataforma Web SPA (Angular + Java 21 / Spring Boot) para gestión de inventario, movimientos y stock.</li>
             <li>Integración IoT inicial (Uso de un microcontrolador ESP32 con sensores magnéticos en puertas) para registrar aperturas físicas en un entorno controlado. </li>
             <li>Motor de detección automática de discrepancias entre aperturas físicas y registros.</li>
             <li>Registro histórico con timestamps para servir de índice en auditorías con CCTV.</li>
@@ -665,7 +669,7 @@ En esta sección se detalla la contribución de cada integrante del equipo para 
         <td colspan="4"><b>Productos & Servicios</b></td>
       </tr>
       <tr>
-        <td>Aplicación Web (Angular + ASP.NET Core), registro de entradas/salidas, alertas de discrepancia, índice de auditoría temporal y conexión IoT (ESP32).</td>
+        <td>Aplicación Web (Angular + Java 21 / Spring Boot), registro de entradas/salidas, alertas de discrepancia, índice de auditoría temporal y conexión IoT (ESP32).</td>
         <td>Cámaras IP, controladores de acceso, sensores ambientales, intercomunicadores y consola Command.</td>
         <td>Desarrollo de ERP/CRM a medida, módulos de inventario, auditoría de operaciones y servicios de consultoría IT.</td>
         <td>Sensores IoT de entorno y puertas, rastreadores de activos, cámaras con IA y software de gestión operativa.</td>
@@ -773,7 +777,9 @@ Cuando se presentan demoras o congestión en el área de despacho o recepción, 
 ¿Te gustaría controlar toda la información importante de manera remota?
 
 
-  <h3>Segmento 01: Dueños y Administradores de Almacén</h3>
+  ### 2.2.2. Registro de entrevistas
+
+  #### Segmento 01: Dueños y Administradores de Almacén
 
   <table>
     <tr>
@@ -910,7 +916,7 @@ Cuando se presentan demoras o congestión en el área de despacho o recepción, 
   <!-- ========================================== -->
   <!-- REGISTRO DE ENTREVISTAS - SEGMENTO 02      -->
   <!-- ========================================== -->
-  <h3>Segmento 02: Personal Operativo y Almaceneros</h3>
+  #### Segmento 02: Personal Operativo y Almaceneros
 
   <table>
     <tr>
@@ -966,8 +972,7 @@ Cuando se presentan demoras o congestión en el área de despacho o recepción, 
       <td><strong>Evidencia</strong></td>
       <td><a href="https://canva.link/9w4klnpwqeadxqt" target="_blank">Ver Evidencia</a></td>
     </tr>
-    </tr>
-      <tr>
+    <tr>
       <td><strong>Inicio</strong></td>
       <td>12:20</td>
     </tr>
@@ -1185,7 +1190,7 @@ A continuación, se presentan las épicas y User Stories definidos para el desar
 | **US06** | Notificaciones Push de seguridad | Como jefe de seguridad, quiero recibir notificaciones Push en mi celular ante aperturas no autorizadas para reaccionar al instante. | **Given** ocurre una alerta crítica, **When** el sistema la procesa, **Then** NodeSecure envía una notificación Push al dispositivo del usuario.<br>**Given** permisos denegados en el navegador, **When** se intenta enviar, **Then** el sistema recurre al envío por Email. | EP03 |
 | **US07** | Justificar / Descartar falsas alarmas | Como jefe de operaciones, quiero poder marcar una alerta como "Falsa Alarma" si el movimiento de stock fue autorizado verbalmente. | **Given** existe una alerta activa, **When** el usuario selecciona "Marcar como Falsa Alarma", **Then** el sistema requiere un comentario de justificación.<br>**Given** la justificación guardada, **When** se revisa la bitácora, **Then** el evento cambia a estado "Conciliado". | EP03, EP04 |
 | **US08** | Bitácora de trazabilidad inalterable | Como auditor, quiero consultar un historial detallado de eventos físicos y lógicos para tener un índice exacto (Timestamps) al revisar el CCTV. | **Given** existen eventos físicos registrados, **When** el usuario abre la Trazabilidad, **Then** NodeSecure muestra la lista cronológica con timestamps exactos.<br>**Given** el usuario intenta borrar un evento, **When** hace clic, **Then** el sistema le deniega la acción por seguridad. | EP04 |
-| **TS09** | Recepción de payloads IoT (API) | Como developer, quiero exponer un endpoint en ASP.NET Core que reciba los eventos del ESP32 para procesar las aperturas físicas. | **Given** un payload JSON válido (MAC, estado, timestamp), **When** el ESP32 hace POST al endpoint, **Then** la API guarda el evento físico.<br>**Given** un payload malformado, **When** llega a la API, **Then** el sistema retorna HTTP 400 Bad Request. | EP05, EP08 |
+| **TS09** | Recepción de payloads IoT (API) | Como developer, quiero exponer un endpoint en Spring Boot que reciba los eventos del ESP32 para procesar las aperturas físicas. | **Given** un payload JSON válido (MAC, estado, timestamp), **When** el ESP32 hace POST al endpoint, **Then** la API guarda el evento físico.<br>**Given** un payload malformado, **When** llega a la API, **Then** el sistema retorna HTTP 400 Bad Request. | EP05, EP08 |
 | **US10** | Filtros avanzados de auditoría | Como jefe de seguridad, quiero filtrar el historial por fecha y tipo de evento (Merma, Acceso, Desconexión) para agilizar las investigaciones. | **Given** una bitácora con múltiples registros, **When** el usuario selecciona el filtro "Solo Discrepancias", **Then** el sistema oculta los accesos normales.<br>**Given** la selección de un rango de fechas, **When** aplica el filtro, **Then** muestra solo los eventos de ese lapso. | EP04 |
 | **US11** | Exportar reporte de incidentes | Como administrador, quiero descargar un reporte PDF/Excel mensual de mermas y alertas para presentarlo a gerencia. | **Given** existen datos en el rango seleccionado, **When** el usuario da clic en "Exportar Reporte", **Then** el sistema descarga el archivo estructurado.<br>**Given** un mes sin incidencias, **When** se exporta, **Then** el documento refleja "Cero Incidentes Registrados". | EP04 |
 | **US12** | Acceso y navegación móvil | Como dueño de PYME, quiero acceder al dashboard de NodeSecure desde mi smartphone para vigilar mi negocio en movimiento. | **Given** el usuario ingresa desde un móvil, **When** carga la interfaz web, **Then** el layout se adapta a componentes táctiles (Bottom Navigation).<br>**Given** la revisión de alertas en móvil, **When** navega, **Then** no hay pérdida de funcionalidad frente a Desktop. | EP10 |
@@ -1217,17 +1222,29 @@ A continuación, se presentan las épicas y User Stories definidos para el desar
 * **Epic 11: Gestión de Catálogo e Inventario:** US20, US21, US22, US23, US24.
 
 
-## 3.2. Impact Mapping.
+## 3.2. Impact Mapping
 
-El Impact Mapping nos permite visualizar la relación directa entre nuestras metas de negocio (Business Goals), los actores involucrados (User Personas), los cambios de comportamiento deseados (Impacts) y las funcionalidades del software que construirán ese puente (Deliverables/User Stories).
+El Impact Mapping relaciona las metas del negocio (*Business Goals*), los actores involucrados (*Actors*), los cambios de comportamiento esperados (*Impacts*) y las funcionalidades que pueden producir dichos cambios (*Deliverables*). A continuación, se presenta la trazabilidad en formato tabular para mantener el contenido disponible en el repositorio sin depender de imágenes externas que no forman parte de la carpeta `images/`.
 
-**Segmento 1: Dueños y Administradores de PYMES**  
-*(Insertar imagen del Impact Map para el Segmento 1)*  
-![Impact Mapping - Segmento 1](images/impact-mapping-seg1.png)
+**Business Goal general:** Reducir las mermas desconocidas y mejorar la trazabilidad de las operaciones de almacén mediante la relación entre los movimientos digitales de inventario y los eventos físicos registrados por sensores IoT.
 
-**Segmento 2: Jefes de Seguridad y Operaciones**  
-*(Insertar imagen del Impact Map para el Segmento 2)*  
-![Impact Mapping - Segmento 2](images/impact-mapping-seg2.png)
+**Segmento 1: Dueños y Administradores de PYMES**
+
+| Actor | Impacto esperado | Deliverables / User Stories relacionadas |
+|---|---|---|
+| Dueño o administrador de PYME | Supervisar uno o varios almacenes sin depender de una revisión manual constante. | Dashboard y consulta de almacenes (US01); registro de infraestructura (US04). |
+| Dueño o administrador de PYME | Identificar diferencias entre los movimientos digitales y los eventos físicos. | Detección de discrepancias (US03); recepción de eventos IoT (TS09); gestión de alertas (US07). |
+| Dueño o administrador de PYME | Disponer de información que facilite auditorías y decisiones operativas. | Bitácora de trazabilidad (US08); filtros de auditoría (US10); reportes de incidentes (US11). |
+| Dueño o administrador de PYME | Incorporar la solución de acuerdo con las necesidades y capacidad de su empresa. | Comparativa de planes (US15); suscripción (US16). |
+
+**Segmento 2: Jefes de Seguridad, Operaciones y Personal Operativo**
+
+| Actor | Impacto esperado | Deliverables / User Stories relacionadas |
+|---|---|---|
+| Jefe de seguridad u operaciones | Conocer el estado de conexión de los dispositivos IoT y detectar desconexiones. | Monitoreo IoT (US02); vinculación de sensores (US19). |
+| Jefe de seguridad u operaciones | Investigar una incidencia mediante registros de eventos y marcas de tiempo. | Auditoría de discrepancias (US03); bitácora (US08); filtros (US10). |
+| Almacenero o encargado de despacho | Registrar entradas y salidas de productos con menos pasos y menor demora. | Catálogo de productos (US20); entradas de stock (US21); salidas rápidas (US22). |
+| Almacenero o encargado de despacho | Mantener el stock digital alineado con el inventario físico. | Conciliación manual (US23); consulta del estado de inventario (US24). |
 
 ## 3.3. Product Backlog.
 
@@ -1291,7 +1308,7 @@ La paleta de NodeSecure transmite autoridad, seguridad y alerta temprana:
 El lenguaje de NodeSecure es **Profesional, Directo y Preventivo**. Nos dirigimos a dueños de PYMES y jefes de seguridad, por lo que evitamos tecnicismos excesivos sobre hardware, enfocándonos en el valor: control, prevención de mermas y auditoría exacta.
 
 ### 4.1.2. Web Style Guidelines
-La plataforma NodeSecure adoptará **Material Design** como lenguaje base, apoyado por la biblioteca de componentes Angular Material. Se priorizará un diseño **Dark Mode nativo**, esencial en entornos de vigilancia para reducir el deslumbramiento. Los componentes utilizarán elevaciones (sombras sutiles) para jerarquizar modales de alertas y tarjetas de almacenes, garantizando un feedback visual instantáneo (ej. *snackbars* o *toasts*) al registrar sensores IoT o reportar discrepancias.
+La plataforma NodeSecure adopta **Material Design** como lenguaje base, apoyado por la biblioteca de componentes Angular Material. Se priorizará un diseño **Dark Mode nativo**, esencial en entornos de vigilancia para reducir el deslumbramiento. Los componentes utilizarán elevaciones (sombras sutiles) para jerarquizar modales de alertas y tarjetas de almacenes, garantizando un feedback visual instantáneo (ej. *snackbars* o *toasts*) al registrar sensores IoT o reportar discrepancias.
 
 ## 4.2. Information Architecture
 
@@ -1329,12 +1346,11 @@ El wireframe de la Landing Page de NodeSecure traza un recorrido de conversión 
 * **About Us / Team:** Tarjetas con las fotos y perfiles del equipo SafeZone.
 * **Footer:** Formulario de contacto B2B y enlaces a documentación.
 
-*(Aquí debes insertar las imágenes de tus wireframes de la Landing Page de NodeSecure)*
+
 
 ### 4.3.2. Landing Page Mock-up
 El diseño de alta fidelidad (Mock-up) aplica las pautas de estilo Dark Mode. El azul marino domina el fondo, permitiendo que los botones de *Call to Action* en color cian destaquen significativamente. Se emplean mockups 3D de paneles web e íconos minimalistas para ilustrar la facilidad de conectar sensores a puertas físicas.
 
-*(Aquí debes insertar las imágenes de tus mock-ups finales de la Landing Page de NodeSecure)*
 
 
   ## 4.4. Web Applications UX/UI Design.
@@ -2088,15 +2104,15 @@ Cuando se detecta una discrepancia entre el conteo físico y el sistema (ej. por
 
   Este artefacto permite validar la usabilidad de las tareas críticas, como el registro de un nuevo almacén, la detección de discrepancias mediante notificaciones simuladas, y el recorrido de escalabilidad en el módulo de facturación.
 
-  * **Enlace al Prototipo Interactivo (Desktop y Mobile):** [Ver Prototipo en Figma][https://www.figma.com/design/Mjmfv8zXHB753QKMcfucH2/Sin-t%C3%ADtulo?node-id=0-1&t=OpYw1NIg0EhggkLC-1]
+  * **Enlace al Prototipo Interactivo (Desktop y Mobile):** [Ver Prototipo en Figma](https://www.figma.com/design/Mjmfv8zXHB753QKMcfucH2/Sin-t%C3%ADtulo?node-id=0-1&t=OpYw1NIg0EhggkLC-1)
 
   ## 4.6. Domain-Driven Software Architecture
 
-  La arquitectura de software orientada al dominio (DDD) es el enfoque de diseño que estructura NodeSecure entorno a los procesos clave del negocio de seguridad y almacenamiento. Este método permite que el softwarerefleje con precisión las reglas de negocio, como la gestión de permisos por zonas o la activación automáticade alertas. Al aplicar DDD, logramos un sistema robusto, escalable y fácil de mantener, donde cadacomponente técnico está alineado con los objetivos de seguridad y eficiencia operativa de nuestros clientes.
+  La arquitectura de software orientada al dominio (DDD) es el enfoque de diseño que estructura NodeSecure entorno a los procesos clave del negocio de seguridad y almacenamiento. Este método permite que el software refleje con precisión las reglas de negocio, como la gestión de permisos por zonas o la activación automática de alertas. Al aplicar DDD, logramos un sistema robusto, escalable y fácil de mantener, donde cada componente técnico está alineado con los objetivos de seguridad y eficiencia operativa de nuestros clientes.
 
   ### 4.6.1 Domain-Driven Software Architecture
   
-  En esta parte se puede ver detalladamente el desarollo del Design Level Storming
+  El siguiente artefacto presenta el resultado del Design-Level Event Storming y las relaciones identificadas entre los principales procesos del dominio.
 
   <div align="center">
     <img src="images/event_storming_nodesecure.png" alt="repositorio">
@@ -2171,11 +2187,11 @@ Cuando se detecta una discrepancia entre el conteo físico y el sistema (ej. por
   El diagrama de componentes del Subscription & Billing Service representa la estructura encargada de gestionar los planes y suscripciones de NodeSecure. Sus componentes permiten administrar los planes disponibles, las suscripciones de los clientes, los pagos y la facturación, además de controlar los límites asociados a cada plan. El servicio mantiene esta información en su base de datos y se comunica con el Payment Gateway para procesar los pagos correspondientes.
 
   <div align="center">
-    <img src="images/c4/06_component_subscription_billing_service.png" alt="repositorio">
+    <img src="images/c4/06_component_subscription_billing_service.png" alt="Diagrama de componentes de Subscription and Billing">
   </div>
 
  ## 4.7. Software Object-Oriented Design
- El diseño orientado a objetos es fundamental para estructurar NodeSecure de manera modular. A través de este diseño, definimos las clases y métodos que dan vida a las funcionalidades, aprovechando principios de reutilización de código y mantenimiento. Esto nos permite modelar entidades del mundo real (sensores,usuarios, almacenes) dentro del código de forma lógica, facilitando que el sistema crezca y se adapte a nuevasnecesidades de seguridad industrial sin comprometer la estabilidad actual.
+ El diseño orientado a objetos es fundamental para estructurar NodeSecure de manera modular. A través de este diseño, definimos las clases y métodos que dan vida a las funcionalidades, aprovechando principios de reutilización de código y mantenimiento. Esto nos permite modelar entidades del mundo real (sensores,usuarios, almacenes) dentro del código de forma lógica, facilitando que el sistema crezca y se adapte a nuevas necesidades de seguridad industrial sin comprometer la estabilidad actual.
 
  ### 4.7.1. Class Diagram
 
@@ -2185,11 +2201,11 @@ Cuando se detecta una discrepancia entre el conteo físico y el sistema (ej. por
     <img src="images/class_diagram_nodesecure.png" alt="repositorio">
   </div>
 
- ## 4.8. DataBase Diagrams
+ ## 4.8. Database Diagrams
 
-  El diseño de la base de datos proporciona la estructura necesaria para almacenar y gestionar toda lainformación operativa de NodeSecure de forma segura y eficiente. Se ha modelado un esquema relacional queorganiza las tablas, relaciones y restricciones necesarias para garantizar la integridad de los datos de sensores,historiales de acceso y perfiles de usuario. Un diseño de base de datos sólido permite que el sistema respondacon rapidez ante consultas históricas y guarde cada evento de seguridad con precisión milimétrica.
+  El diseño de la base de datos proporciona la estructura necesaria para almacenar y gestionar toda lainformación operativa de NodeSecure de forma segura y eficiente. Se ha modelado un esquema relacional que organiza las tablas, relaciones y restricciones necesarias para garantizar la integridad de los datos de sensores,historiales de acceso y perfiles de usuario. Un diseño de base de datos sólido permite que el sistema responda con rapidez ante consultas históricas y guarde cada evento de seguridad con precisión milimétrica.
 
-  ### 4.8.1. Data Base Diagram
+  ### 4.8.1. Database Diagram
 
   <div align="center">
     <img src="images/nodesecure_erd.png" alt="repositorio">
@@ -2201,7 +2217,7 @@ Cuando se detecta una discrepancia entre el conteo físico y el sistema (ej. por
 
 
   ## 5.1. Software Configuration Management
-  La gestión de configuración del software de NodeSecure permite organizar y controlar los artefactos generados durante el desarrollo, mantener trazabilidad de los cambios y facilitar el trabajo colaborativo. Para AV1, esta sección documenta las herramientas empleadas, la administración del código fuente, las convenciones adoptadas y la configuración de despliegue de la primera versión de la Landing Page.
+  La gestión de configuración del software de NodeSecure permite organizar y controlar los artefactos generados durante el desarrollo, mantener trazabilidad de los cambios y facilitar el trabajo colaborativo. Esta sección documenta las herramientas empleadas durante los tres sprints, la administración del código fuente, las convenciones adoptadas y la configuración de despliegue de la Landing Page, la Web Application y los servicios backend.
 
 
   ### 5.1.1. Software Development Environment Configuration
@@ -2281,7 +2297,7 @@ Cuando se detecta una discrepancia entre el conteo físico y el sistema (ej. por
   #### Software Development
 
 
-  Se refiere al marco de trabajo y a las herramientas empleadas para la creación del producto digital. Durante AV1, el alcance de implementación se concentra en la Landing Page de NodeSecure.
+  Se refiere al marco de trabajo y a las herramientas empleadas para la creación del producto digital. El entorno de desarrollo evolucionó por etapas: durante el Sprint 1 se trabajó en la Landing Page; durante el Sprint 2, en la Web Application Angular y la Fake API; y durante el Sprint 3, en los servicios REST con Java 21, Spring Boot y MySQL.
 
 
   <table>
@@ -2314,6 +2330,26 @@ Cuando se detecta una discrepancia entre el conteo físico y el sistema (ej. por
   <td>JavaScript</td>
   <td>Lenguaje utilizado para la interacción y comportamiento dinámico de la Landing Page.</td>
   <td>https://developer.mozilla.org/es/docs/Web/JavaScript</td>
+  </tr>
+  <tr>
+  <td>Angular y TypeScript</td>
+  <td>Framework y lenguaje utilizados para la Frontend Web Application.</td>
+  <td>https://angular.dev/</td>
+  </tr>
+  <tr>
+  <td>Java 21 y Spring Boot 3.5.7</td>
+  <td>Plataforma utilizada para implementar los servicios REST del backend.</td>
+  <td>https://docs.spring.io/spring-boot/3.5/reference/</td>
+  </tr>
+  <tr>
+  <td>Maven Wrapper</td>
+  <td>Herramienta de construcción y gestión de dependencias del backend.</td>
+  <td>https://maven.apache.org/wrapper/</td>
+  </tr>
+  <tr>
+  <td>MySQL 8</td>
+  <td>Sistema relacional utilizado para persistir la información del backend.</td>
+  <td>https://dev.mysql.com/doc/refman/8.0/en/</td>
   </tr>
   </table>
 
@@ -2361,6 +2397,14 @@ Cuando se detecta una discrepancia entre el conteo físico y el sistema (ej. por
   <tr>
   <td>Landing Page</td>
   <td>https://github.com/SecureZoneTeam/NodeSecure-Landing-Page</td>
+  </tr>
+  <tr>
+  <td>Frontend Web Application</td>
+  <td>https://github.com/SecureZoneTeam/SafeZone-website</td>
+  </tr>
+  <tr>
+  <td>Backend REST API</td>
+  <td>https://github.com/SecureZoneTeam/NodeSecure.Platform.BackEnd</td>
   </tr>
   </table>
 
@@ -2465,6 +2509,18 @@ Cuando se detecta una discrepancia entre el conteo físico y el sistema (ej. por
   - Mantener funciones y eventos con responsabilidades claras.
   - Usar punto y coma de manera consistente.
 
+  #### TypeScript y Angular
+  - Mantener componentes, servicios, modelos e interfaces separados según su responsabilidad.
+  - Utilizar nombres descriptivos en camelCase para propiedades y métodos, y PascalCase para clases, interfaces y componentes.
+  - Centralizar las URLs de servicios y configuraciones por ambiente en los archivos de environment; no incluir claves ni secretos en el frontend.
+  - Mantener los componentes reutilizables y utilizar los servicios Angular para encapsular las llamadas HTTP.
+
+  #### Java y Spring Boot
+  - Utilizar nombres de clases en PascalCase y métodos/variables en camelCase.
+  - Separar responsabilidades por bounded context y capas de dominio, aplicación, infraestructura e interfaces, según el nivel de implementación del módulo.
+  - Mantener las reglas de negocio en el dominio o aplicación, evitando duplicarlas en controladores.
+  - Validar entradas y respuestas mediante DTOs y utilizar códigos HTTP coherentes con el resultado de cada operación.
+  - Gestionar credenciales y configuraciones sensibles mediante variables de entorno; nunca versionar secretos.
 
   #### Gherkin (Acceptance Criteria)
   - Uso de Given, When, Then y And en inglés.
@@ -2480,7 +2536,7 @@ Cuando se detecta una discrepancia entre el conteo físico y el sistema (ej. por
   ### 5.1.4. Software Deployment Configuration
 
 
-  Para AV1, el componente que debe estar implementado y desplegado es la primera versión de la Landing Page de NodeSecure. El repositorio utilizado para este componente es NodeSecure-Landing-Page y el despliegue se realiza mediante GitHub Pages, siempre que esta configuración corresponda al despliegue real del equipo.
+  La configuración de despliegue evolucionó a lo largo de los sprints. La Landing Page y la Web Application se publican mediante GitHub Pages; el backend REST se despliega en Render y utiliza MySQL como sistema de persistencia. Las URLs y evidencias específicas se documentan en los apartados de despliegue de cada sprint.
 
 
   #### Creación de la Landing Page
@@ -2527,7 +2583,7 @@ Cuando se detecta una discrepancia entre el conteo físico y el sistema (ej. por
   ## 5.2. Landing Page, Services & Applications Implementation
 
 
-  Esta sección registra y explica el proceso de implementación, pruebas y despliegue de los productos digitales de NodeSecure organizados por Sprint. Para AV1 se documenta el Sprint 1, cuyo objetivo es entregar la primera versión funcional de la Landing Page. La Landing Page constituye el primer punto de contacto del producto con los segmentos objetivo: dueños y administradores de PYMES, así como responsables de seguridad y operaciones.
+  Esta sección registra y explica el proceso de implementación, pruebas y despliegue de los productos digitales de NodeSecure organizados por Sprint. Se documentan los avances de los Sprints 1, 2 y 3, desde la publicación de la Landing Page hasta la Web Application y la primera versión del backend REST. La Landing Page constituye el primer punto de contacto del producto con los segmentos objetivo: dueños y administradores de PYMES, así como responsables de seguridad y operaciones.
 
 
   ### 5.2.1. Sprint 1
@@ -3719,7 +3775,7 @@ El workflow ejecuta la instalación de dependencias, genera el build de producci
   <img src="images/sprint2-deployment-config.png" alt="Configuración del despliegue de NodeSecure Web Application mediante GitHub Actions">
 </div>
 
-**Figura X.** Configuración del pipeline de despliegue de NodeSecure Web Application mediante GitHub Actions y GitHub Pages.
+**Figura 1.** Configuración del pipeline de despliegue de NodeSecure Web Application mediante GitHub Actions y GitHub Pages.
 
 **2. Web Application en producción**
 
@@ -3731,7 +3787,7 @@ La aplicación permite acceder al flujo de autenticación y posteriormente naveg
   <img src="images/sprint2-webapp-live.png" alt="NodeSecure Web Application desplegada en producción">
 </div>
 
-**Figura X.** Web Application de NodeSecure desplegada y accesible desde su URL pública.
+**Figura 2.** Web Application de NodeSecure desplegada y accesible desde su URL pública.
 
 **Public Access:**  
 La Web Application puede ser consultada mediante:
@@ -3750,7 +3806,7 @@ La siguiente evidencia muestra la Landing Page de NodeSecure desplegada mediante
   <img src="images/sprint2-landing-live.png" alt="Landing Page de NodeSecure desplegada">
 </div>
 
-**Figura X.** Landing Page de NodeSecure actualizada y disponible públicamente.
+**Figura 3.** Landing Page de NodeSecure actualizada y disponible públicamente.
 
 **Public Access:**  
 La Landing Page puede ser consultada mediante:
@@ -3763,9 +3819,9 @@ El objetivo del Sprint 3 fue desarrollar la primera versión de los servicios we
 
 Durante este Sprint se inició y desarrolló la implementación del backend utilizando Java 21 y Spring Boot 3.5.7, incorporando una arquitectura basada en Domain-Driven Design (DDD), separación por bounded contexts y organización en capas.
 
-La implementación contempla los módulos de autenticación y gestión de usuarios, administración de almacenes, integración con sensores IoT, control de inventario y gestión de alertas de seguridad. Asimismo, se incorporaron mecanismos de persistencia mediante MySQL, autenticación mediante JSON Web Tokens (JWT) y documentación de servicios mediante FreeDB.
+La implementación contempla los módulos de autenticación y gestión de usuarios, administración de almacenes, integración con sensores IoT, control de inventario y gestión de alertas de seguridad. Asimismo, se incorporaron mecanismos de persistencia mediante MySQL, autenticación mediante JSON Web Tokens (JWT) y documentación de servicios mediante Swagger/OpenAPI con springdoc-openapi.
 
-El desarrollo se realizó de manera incremental, distribuyendo las responsabilidades entre los integrantes del equipo de acuerdo con los bounded contexts asignados.
+El desarrollo se realizó de manera incremental, distribuyendo las responsabilidades entre los integrantes del equipo de acuerdo con los bounded contexts asignados. Los contextos Profiles, Subscriptions y Reporting se encuentran en una fase inicial con operaciones básicas; no deben presentarse como módulos plenamente terminados.
 
 ### 5.2.3.1. Sprint Planning 3
 
@@ -3796,7 +3852,7 @@ La solución contempla una arquitectura organizada mediante bounded contexts, pe
 
 #### Alcance funcional del Sprint
 
-Se consideran los siguientes grupos de funcionalidades:
+El alcance planificado consideró los siguientes grupos de funcionalidades. El estado real de cada tarea se indica en el Sprint Backlog y la disponibilidad efectiva de los endpoints se contrasta en el apartado 5.2.3.6:
 
 - Autenticación, registro y administración de usuarios.
 - Gestión de empresas, perfiles y suscripciones.
@@ -3827,7 +3883,7 @@ La distribución permitió mantener una separación de responsabilidades por con
 
 ### 5.2.3.3. Sprint Backlog 3
 
-El objetivo principal del Sprint 3 es desarrollar la primera versión de los RESTful Web Services de NodeSecure. Para alcanzar este objetivo, las User Stories seleccionadas fueron descompuestas en Engineering Tasks relacionadas con la implementación de los servicios de autenticación y gestión de usuarios, almacenes y zonas operativas, integración de sensores IoT, inventario, alertas de seguridad, empresas, suscripción y facturación, y auditoría y trazabilidad, siguiendo una arquitectura basada en Domain-Driven Design con Java 21 y Spring Boot.
+El objetivo principal del Sprint 3 fue desarrollar la primera versión de los RESTful Web Services de NodeSecure. Para alcanzar este objetivo, las User Stories seleccionadas fueron descompuestas en Engineering Tasks relacionadas con la implementación de los servicios de autenticación y gestión de usuarios, almacenes y zonas operativas, integración de sensores IoT, inventario, alertas de seguridad, empresas, suscripción y facturación, y auditoría y trazabilidad, siguiendo una arquitectura basada en Domain-Driven Design con Java 21 y Spring Boot.
 
 #### Sprint Backlog
 
@@ -3878,6 +3934,10 @@ https://trello.com/b/7N3bqmPS/nodesecure-sprint-3
 | Sprint 3 | US11 | Exportar reporte de incidentes | T31 | Servicio de reporte de incidentes | Generar el reporte de incidentes a partir de la bitácora de trazabilidad. | 2 | Anahua Ancachi, Liz Maribel | In Progress |
 | Sprint 3 | US16 | Suscripción y Facturación | T32 | Pruebas unitarias de empresas, suscripciones y trazabilidad | Desarrollar pruebas unitarias de Company, TaxId, Subscription, Money, PlanLimits y TraceabilityRecord. | 1 | Anahua Ancachi, Liz Maribel | To Do |
 
+**Resumen del estado del backlog:** de acuerdo con la tabla registrada, se planificaron 32 tareas y 80 horas: 22 tareas (56 horas) figuran como Done, 9 tareas (23 horas) como In Progress y 1 tarea (1 hora) como To Do. Estos estados deben actualizarse desde el Board si hubo cambios posteriores a la captura.
+
+**Diferencia entre alcance planificado y API disponible:** algunas tareas en progreso describen endpoints que todavía no aparecen en la documentación OpenAPI consultada. En particular, T14 (`GET /api/v1/physical-events`) y T23 (`PUT /api/v1/security-alerts/{id}`) no deben presentarse como operaciones publicadas; la API documentada recibe eventos mediante POST y gestiona el cierre de alertas mediante las operaciones específicas de reconciliación y falsa alarma. Las tareas de empresas, catálogo de planes, facturación y trazabilidad avanzada se mantienen como trabajo en progreso y no forman parte del listado de endpoints publicados en esta versión.
+
 ---
 ### 5.2.3.4. Evidencia de desarrollo para la revisión del sprint.
 
@@ -3897,7 +3957,7 @@ Durante el Sprint 3, el equipo trabajó colaborativamente en el repositorio **No
 | NodeSecure.Platform.BackEnd | develop | `266b620` | `chore: keep shared wrapper fix out of warehouse scope` | — | `12-11-2026` |
 | NodeSecure.Platform.BackEnd | develop | `e607e21` | `build: handle local Maven cache in PowerShell wrapper` | — | `12-11-2026` |
 | NodeSecure.Platform.BackEnd | develop | `3ac37d2` | `refactor(inventory): keep problem mapping within module` | — | `12-11-2026` |
-Los commits fueron seleccionados pertinentemente para el registro de la tabla.  
+Los commits se seleccionaron para mostrar cambios representativos del backend durante el Sprint 3. La tabla registra los identificadores y mensajes visibles en el historial del repositorio; para auditar la autoría de cada cambio, debe consultarse el detalle del commit en GitHub.  
 ---
 ### 5.2.3.5. Evidencia de ejecución para la revisión del sprint.
 
@@ -3914,70 +3974,70 @@ Demostración de la inicialización correcta del contenedor de Spring Boot, la c
   <img src="images/5.2.3.png" alt="Arranque exitoso de Spring Boot">
 </div>
 
-**Figura X.** Consola de IntelliJ IDEA evidenciando el inicio exitoso de la aplicación Spring Boot.
+**Figura 4.** Consola de IntelliJ IDEA evidenciando el inicio exitoso de la aplicación Spring Boot.
 
 <br>
 
-A continuación se muestralas evidencias de ejecución exitosa de cada uno de los bounded context:
+A continuación se muestran evidencias de ejecución de los módulos y contextos del backend. La captura de arranque acredita la inicialización de la aplicación; no equivale por sí sola a una prueba integral de todas las reglas de negocio.
 <br>
 <div align="center">
   <img src="images/5.2.3.1.2.png" alt="Arranque exitoso de Alerts">
 </div>
-**Figura X.** Ejecución exitosa de Bounded Context Alerts.
+**Figura 5.** Ejecución exitosa de Bounded Context Alerts.
 
 <br>
 <div align="center">
   <img src="images/5.2.3.1.3.png" alt="Arranque exitoso de iam">
 </div>
-**Figura X.** Ejecución exitosa de Bounded Context genérico iam.
+**Figura 6.** Ejecución del módulo Identity and Access Management (IAM).
 
 <br>
 <div align="center">
   <img src="images/5.2.4.png" alt="Arranque exitoso de Inventory">
 </div>
-**Figura X.** Ejecución exitosa de Bounded Context Inventory.
+**Figura 7.** Ejecución exitosa de Bounded Context Inventory.
 
 <br>
 <div align="center">
   <img src="images/5.2.5.png" alt="Arranque exitoso de Profiles">
 </div>
-**Figura X.** Ejecución exitosa de Bounded Context Profiles.
+**Figura 8.** Ejecución de la estructura inicial del contexto Profiles.
 
 <br>
 <div align="center">
   <img src="images/5.2.6.png" alt="Arranque exitoso de Reporting">
 </div>
-**Figura X.** Ejecución exitosa de Bounded Context Reporting.
+**Figura 9.** Ejecución de la estructura inicial del contexto Reporting.
 
 <br>
 <div align="center">
   <img src="images/5.2.3.1.4.png" alt="Arranque exitoso de Sensors">
 </div>
-**Figura X.** Ejecución exitosa de Bounded Context Sensors.
+**Figura 10.** Ejecución del contexto Sensor Integration.
 
 <br>
 <div align="center">
   <img src="images/5.2.3.1.5.png" alt="Arranque exitoso de Shared">
 </div>
-**Figura X.** Ejecución exitosa de Shared.
+**Figura 11.** Ejecución del módulo compartido `shared/`; no constituye un bounded context de negocio.
 
 <br>
 <div align="center">
   <img src="images/5.2.3.1.6.png" alt="Arranque exitoso de Subscriptions">
 </div>
-**Figura X.** Ejecución exitosa de Bounded Context Subcriptions.
+**Figura 12*  * Ejecución de la estructura inicial del contexto Subscriptions.
 
 <br>
 <div align="center">
   <img src="images/5.2.3.1.7.png" alt="Arranque exitoso de Warehouses">
 </div>
-**Figura X.** Ejecución exitosa de Bounded Context Warehouses.
+**Figura 13.** Ejecución del contexto Warehouse Management: operaciones de almacenes.
 
 <br>
 <div align="center">
   <img src="images/5.2.3.1.8.png" alt="Arranque exitoso de Warehouses">
 </div>
-**Figura X.** Ejecución exitosa de Bounded Context Warehouses.
+**Figura 14.** Ejecución del contexto Warehouse Management: operaciones de zonas.
 
 <br>
 
@@ -3988,135 +4048,80 @@ Prueba de ejecución y respuesta exitosa (`HTTP 200 OK` / `201 Created`) de los 
   <img src="images/5.2.3.2.0.png" alt="Pruebas de Endpoints REST">
 </div>
 
-**Figura X.** Primera parte de Pruebas y respuestas de los servicios expuestos en el Backend.
+**Figura 15.** Primera parte de Pruebas y respuestas de los servicios expuestos en el Backend.
 
 <div align="center">
   <img src="images/5.2.3.2.1.png" alt="Pruebas de Endpoints REST">
 </div>
 
-**Figura X.** Segunda parte de Pruebas y respuestas de los servicios expuestos en el Backend.
+**Figura 16.** Segunda parte de Pruebas y respuestas de los servicios expuestos en el Backend.
 
 <div align="center">
   <img src="images/5.2.3.2.2.png" alt="Pruebas de Endpoints REST">
 </div>
 
-**Figura X.** Tercera parte de Pruebas y respuestas de los servicios expuestos en el Backend.
+**Figura 17.** Tercera parte de Pruebas y respuestas de los servicios expuestos en el Backend.
 
 <div align="center">
   <img src="images/5.2.3.2.3.png" alt="Pruebas de Endpoints REST">
 </div>
 
-**Figura X.** Cuerta parte de Pruebas y respuestas de los servicios expuestos en el Backend.
+**Figura 18.** Cuarta parte de las pruebas y respuestas de los servicios expuestos en el backend.
 
 <div align="center">
   <img src="images/5.2.3.2.4.png" alt="Pruebas de Endpoints REST">
 </div>
 
-**Figura X.** Quinta parte de Pruebas y respuestas de los servicios expuestos en el Backend.
+**Figura 19.** Quinta parte de Pruebas y respuestas de los servicios expuestos en el Backend.
 
 <div align="center">
   <img src="images/5.2.3.2.5.png" alt="Pruebas de Endpoints REST">
 </div>
 
-**Figura X.** Sexta parte de Pruebas y respuestas de los servicios expuestos en el Backend.
+**Figura 20.** Sexta parte de Pruebas y respuestas de los servicios expuestos en el Backend.
 
 <br>
 
 #### Persistencia en Base de Datos Relacional (MySQL)
-Verificación del esquema relacional generado automáticamente a través de JPA/Hibernate en MySQL Workbench, confirmando el almacenamiento íntegro de la información.
+Verificación visual del esquema relacional generado mediante JPA/Hibernate y consultado desde phpMyAdmin. La captura documenta la estructura y los registros visibles en el momento de la revisión.
 
 <div align="center">
-  <img src="images/5.2.3.3.jpeg" alt="Persistencia en MySQL Workbench">
+  <img src="images/5.2.3.3.jpeg" alt="Estructura de la base de datos consultada en phpMyAdmin">
 </div>
 
-**Figura X.** Tablas generadas y registros almacenados en MySQL Workbench.
+**Figura 21.** Tablas generadas y registros visualizados en phpMyAdmin.
 ---
 
 ### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
-Durante el Sprint 3 se desarrolló la primera versión de los RESTful Web Services de NodeSecure utilizando Spring Boot 3.5.7.
+Durante el Sprint 3 se incorporó documentación interactiva de los servicios REST mediante Swagger UI, generada a partir de la especificación OpenAPI 3.1. Esta documentación permite consultar los recursos publicados, métodos HTTP, parámetros, esquemas de solicitud y respuesta, así como los mecanismos de autenticación.
 
-A diferencia del Sprint 2, donde se utilizaron servicios simulados mediante `json-server`, en esta etapa se incorporó un backend basado en Java, responsable de procesar las operaciones de negocio y gestionar la persistencia de la información mediante MySQL.
+**Documentación pública:** [Swagger UI — NodeSecure API](https://nodesecure-backend.onrender.com/swagger-ui/index.html)  
+**Especificación OpenAPI:** [API Docs](https://nodesecure-backend.onrender.com/v3/api-docs)  
+**Repositorio del backend:** [NodeSecure.Platform.BackEnd](https://github.com/SecureZoneTeam/NodeSecure.Platform.BackEnd)
 
-#### RESTful Web Services
+#### RESTful Web Services disponibles
 
-Los servicios fueron organizados mediante controladores REST, permitiendo acceder a los recursos del sistema utilizando métodos HTTP.
+La siguiente tabla resume los recursos documentados en la versión del backend correspondiente a esta entrega. Para conocer los parámetros, DTOs y códigos de respuesta exactos debe consultarse Swagger, ya que la especificación publicada es la referencia técnica del contrato vigente.
 
-Se implementaron los siguientes grupos de endpoints:
-
-| Bounded Context | Recurso | Operaciones principales |
+| Recurso / Bounded Context | Operaciones documentadas | Descripción funcional |
 |---|---|---|
-| IAM | Authentication | Registro e inicio de sesión. |
-| IAM | Users | Consulta y administración de usuarios. |
-| Warehouses | Warehouses | Consulta, registro, actualización y eliminación de almacenes. |
-| Warehouses | Warehouse Zones | Consulta, creación, actualización y eliminación de zonas. |
-| Sensors | Sensor Nodes | Consulta, registro, actualización y eliminación de sensores. |
-| Sensors | Physical Events | Recepción de eventos físicos de dispositivos IoT. |
-| Inventory | Products | Administración de productos. |
-| Inventory | Stock Movements | Registro y consulta de movimientos de inventario. |
-| Alerts | Security Alerts | Registro, consulta y resolución de alertas. |
-
-Y a continuación, se coloca la documentación más detallada de cada endpoint:
-
-| **Endpoint** | **Acción (HTTP)** | **Parámetros** | **Descripción del Response** |
-| :--- | :---: | :--- | :--- |
-| `/api/v1/physical-events` | POST | `X-Device-Api-Key` | `200 OK` con los datos del evento registrados. De haber un error, aparece el mensaje de `400 Bad Request`. |
-| `/api/v1/users` | GET | - | `200 OK` con la lista de usuarios incluida en formato json. De haber un error, aparece el mensaje de `400 Bad Request`  |
-| `/api/v1/users` | POST | `-` | `201 User Created` con los datos en formato json del nuevo usuario creado. De haber un error, aparece el mensaje `400 Invalid Request`. Además, de no estar con el usuario de un administrador, nos aparece el mensaje de `403 Not an Administrator`. Finalmente, en caso de que el usuario ya esté registrado, aparecerá el mensaje de `409 Username or email already registered `|
-| `/api/v1/users/{id}` | GET | `id` | `200` con la información del usuario en formato json. De no existir el usuario con el ID especificado, aparece el mensaje de `404 Not Found`|
-| `/api/v1/users/{id}` | DELETE | `id` | `204 User Removed` con el mensaje en formato json de la eliminación. |
-| `/api/v1/users/{id}` | PATCH | `id` | `200 User Updated` con los datos del usuario en formato json ya actualizados. Además, de no estar con el usuario de un administrador, nos aparece el mensaje de `403 Not an Administrator`. También en caso de que el usuario no exista, aparecerá un mensaje de `404 User Not Found`. Finalmente, en caso de que el usuario ya esté registrado, aparecerá el mensaje de `409 Username or email already registered`.  |
-| `/api/v1/security-alerts` | GET | `status`,`severity`,`warehouse` | `200 Alerts retrieved` con la lista de las alertas que coincidan con los valores colocados en los parámetros. |
-| `/api/v1/security-alerts` | POST | - | `201 Alert raised` con los datos de la alerta ingresada en formato json.|
-| `/api/v1/security-alerts/{id}/reconciliation` | POST | `id` | `200 Alert closed as reconciled` con la información de la justificación y el usuario que cerró el estado de la alerta. En caso de ingresar el ID de una alerta que no existe, se mostrará el mensaje de `404 Alert Not Found`. Finalmente, en caso de que la alerta con ese ID ya haya sido cerrada, se mostrará el mensaje de `409 Alert Conflict - the alert is already closed`|
-| `/api/v1/security-alerts/{id}/false-alarm` | POST | `id` | `200 Alert closed as false alarm` con la información de la justificación y el usuario que realizó la verificación. En caso de que no se coloque una justificación, se enviará un mensaje de `400 Bad request - missing justification`. En caso de no existir una alerta con el ID ingresado, aparecerá el mensaje de `404 Alert not found`. Finalmente, en caso de que la alerta ya haya sido cerrada, aparecerá un mensaje de`409 Conflict - the alert is already closed`  |
-| `/api/v1/security-alerts/{id}` | GET | `id` | `200 Alert found` con la información de la alerta en formato json. En caso de no existir una alerta con el ID ingresado, aparecerá el mensaje de `404 Alert not found`. |
-| `/api/v1/profiles` | GET | - | `200 OK` con la lista de perfiles creados. De haber un error, aparece el mensaje de `400 Bad Request`. |
-| `/api/v1/profiles` | POST | ` ` | `201 Created` con los datos del usuario creado en formato json. De haber un error, aparece el mensaje de `400 Bad Request` |
-| `/api/v1/profiles/{id}` | GET | `id` | `200 OK` con los datos de usuario en formato json. De haber un error, aparece el mensaje de `400 Bad Request` |
-| `/api/v1/reporting` | GET | - | `200 OK` con los datos de todos los reportes de incidentes en formato json. De haber un error, aparece el mensaje de `400 Bad Request`. Si hay algún conflicto de datos, aparece el mensaje de `409 Bad Conflict` |
-| `/api/v1/reporting` | POST | - | `200 OK` con los datos del reporte de incidente ya creado. De haber un error, aparece el mensaje de `400 Bad Request`. Si hay algún conflicto de datos, aparece el mensaje de `409 Bad Conflict` |
-| `/api/v1/sensor-nodes/{id}` | GET | `id` | `200 OK` con los datos del nodo registrado con ese ID en formato json. De haber un error, aparece el mensaje de `400 Bad Request`. Si hay algún conflicto de datos, aparece el mensaje de `409 Bad Conflict`. |
-| `/api/v1/sensor-nodes/{id}` | PUT | `id ` | `200 OK` con los datos actualizados del sensor con el ID ingresado. De haber un error, aparece el mensaje de `400 Bad Request`. Si hay algún conflicto de datos, aparece el mensaje de `409 Conflict`. |
-| `/api/v1/sensor-nodes/{id}` | DELETE | `id` | `200 OK` con el mensaje de eliminado respectivo en formato json. De haber un error, aparece el mensaje de `400 Bad Request`. Si hay algún conflicto de datos, aparece el mensaje de `409 Conflict`. |
-| `/api/v1/sensor-nodes` | GET | `-` | `200 OK` con los datos del sensor ingresado en formato json. De haber un error, aparece el mensaje de `400 Bad Request`. Si hay algún conflicto de datos, aparece el mensaje de `409 Conflict`. |
-| `/api/v1/sensor-nodes` | POST | `-` | `200 OK` con la lista con los sensores registrados y sus datos en formato json. De haber un error, aparece el mensaje de `400 Bad Request`. Si hay algún conflicto de datos, aparece el mensaje de `409 Conflict`. |
-| `/api/v1/subscriptions` | GET | `-` | `201 Created` con los datos de las suscripciones disponibles. De haber un error, aparece el mensaje de `400 Bad Request`. Si hay algún conflicto de datos, aparece el mensaje de `409 Bad Conflict` |
-| `/api/v1/subscriptions` | POST | ` ` | `201 Created` con los datos en formato json de la nueva suscripción registrada. De haber un error, aparece el mensaje de `400 Bad Request`. Si hay algún conflicto de datos, aparece el mensaje de `409 Bad Conflict`. |
-| `/api/v1/products/{id}` | GET | `id ` | `200 Product Found` con la lista de productos del catálogo.  De haber un error, aparece el mensaje de `400 Bad Request`, si el producto no es encontrado en la lista aparece el mensaje de `404 Product not found` y en el caso de conflicto se muestra el mensaje de `409 Conflict` |
-| `/api/v1/ products/{id}` | PUT | `id ` | `200 Product updated` con la lista de productos del catálogo actualizado.  De haber un error, aparece el mensaje de `400 Bad Request`, si el producto actualizado no es encontrado en la lista aparece el mensaje de `404 Product not found` y en el caso de conflicto se muestra el mensaje de `409 Conflict - the SKU already exists for the company ` |
-| `/api/v1/products` | GET | `companyId ` | `200 Products retrieved` con la lista de productos recuperados del catálogo en formato .json. De haber un error, aparece el mensaje de `400 Bad Request` y en el caso de conflicto se muestra el mensaje de `409 Conflict` |
-| `/api/v1/products` | POST | `-` | `201 Product created ` con la creación de lista de productos. De haber un error, aparece el mensaje de `400 Bad Request` y en el caso de conflicto se muestra el mensaje de `409 Conflict - the SKU already exists for the company` |
-| `/api/v1/warehouses-zones/{id}` | GET | `id ` | `200 OK` con la lista de zonas de almacenes registrados en formato .json. De haber un error, aparece el mensaje de `400 Bad Request`  y en el caso de conflicto se muestra el mensaje de `409 Conflict` |
-| `/api/v1/warehouses-zones/{id}` | PUT | `id ` | `200 OK` con la lista actualizada de zonas de almacenes registrados en formato .json. De haber un error, aparece el mensaje de `400 Bad Request` y en el caso de conflicto se muestra el mensaje de `409 Conflict` |
-| `/api/v1/warehouses-zones/{id}` | DELETE | `id ` | `200 OK` con la lista vacía de zonas de almacenes. De haber un error, aparece el mensaje de `400 Bad Request` y en el caso de conflicto se muestra el mensaje de `409 Conflict` |
-| `/api/v1/warehouses-zones` | GET | `- ` | `200 OK` con la lista de zonas de almacenes registrados en formato .json pertenecientes a una compañía. De haber un error, aparece el mensaje de `400 Bad Request`. En el caso de un conflicto con las zonas de almacenes registrados se mostrará un mensaje de  `409 Conflict` |
-| `/api/v1/warehouses-zones` | POST | `-` | `200 OK` con los campos listos para la creación de zonas de almacenes. De haber un error, aparece el mensaje de `400 Bad Request`. En el caso de un conflicto con la creación de nuevas zonas de almacenes se mostrará un mensaje de  `409 Conflict`|
-| `/api/v1/stock-movements` | GET | `productId` `warehouseId` `type` | `200 Stock movements retrieved ` con la lista de movimientos recuperados en formato .json. De haber un error, aparece el mensaje de `400 Bad Request`. En el caso de un conflicto con la recuperación del registro de movimientos se mostrará un mensaje de  `409 Conflict` |
-| `/api/v1/stock-movements` | POST | `-` | `200 Stock movement registered` con la lista del registro de creación de movimientos del stock en formato .json. De haber un error, aparece el mensaje de `400 Bad Request`. En el caso de que el producto no haya sido encontrado aparecerá el mensaje `404 Product not found` y en el caso de conflicto por stock insuficiente se muestra el mensaje de `409 Conflict - insufficient stock for an exit` |
-| `/api/v1/stock-movements/{id}` | GET | `id` | `200 Stock movement found` con la lista de movimientos del stock encontrados en formato .json. De haber un error, aparece el mensaje de `400 Bad Request`. Si el registro del movimiento no es encontrado se muestra el mensaje de `404 Stock movement not found` y en el caso de conflicto en el registro de movimientos del stock aparecerá el mensaje de `409 Conflict` |
-| `/api/v1/authentication/sign-up` | POST | `-` | `201 Account created ` en el caso exitoso del proceso de autenticación.  De haber un error, aparece el mensaje de `400 Invalid Request` y en el caso de conflicto por un nombre de usuario o email ya registrado se muestra el mensaje de `409 Username or email already registered ` |
-| `/api/v1/ authentication/sign-in` | POST | `-` | `200 Signed in` en el caso de registro exitoso del usuario. De haber un error, aparece el mensaje de `400 Invalid Request`. Si el registro detecta credenciales incorrectas o inválidas se muestra el mensaje de `400 Invalid Credentials` y en el caso de conflicto aparecerá el mensaje de `409 Conflict`.  |
-
-
-
+| Authentication | `POST /api/v1/authentication/sign-up`; `POST /api/v1/authentication/sign-in` | Registro de cuenta e inicio de sesión. La autenticación emite el token utilizado por las operaciones protegidas. |
+| Users / IAM | `GET` y `POST /api/v1/users`; `GET`, `PUT` y `DELETE /api/v1/users/{id}` | Consulta y administración de usuarios dentro del alcance autorizado por la identidad autenticada. |
+| Warehouses | `GET` y `POST /api/v1/warehouses`; `GET`, `PUT` y `DELETE /api/v1/warehouses/{id}` | Registro, consulta, actualización y eliminación de almacenes, sujeto a las reglas de negocio del contexto. |
+| Warehouse Zones | `GET` y `POST /api/v1/warehouse-zones`; `GET`, `PUT` y `DELETE /api/v1/warehouse-zones/{id}` | Administración de zonas operativas, niveles de riesgo y turnos. |
+| IoT Sensor Nodes | `GET` y `POST /api/v1/sensor-nodes`; `GET`, `PUT` y `DELETE /api/v1/sensor-nodes/{id}` | Registro, consulta, actualización y eliminación de nodos IoT, incluida su vinculación a zonas. |
+| Physical IoT Events | `POST /api/v1/physical-events` | Recepción de eventos físicos enviados por dispositivos IoT. Esta versión documenta la recepción mediante POST; no se debe afirmar que existe un endpoint GET de consulta si no aparece en Swagger. |
+| Products | `GET` y `POST /api/v1/products`; `GET` y `PUT /api/v1/products/{id}` | Consulta, creación y actualización del catálogo de productos. |
+| Stock Movements | `GET` y `POST /api/v1/stock-movements`; `GET /api/v1/stock-movements/{id}` | Consulta y registro de movimientos de inventario. Las reglas de negocio validan la existencia del producto y el stock disponible para salidas. |
+| Security Alerts | `GET` y `POST /api/v1/security-alerts`; `GET /api/v1/security-alerts/{id}`; `POST /api/v1/security-alerts/{id}/reconciliation`; `POST /api/v1/security-alerts/{id}/false-alarm` | Consulta y registro de alertas, además de su cierre como reconciliadas o falsas alarmas con la justificación requerida. |
+| Profiles | `GET` y `POST /api/v1/profiles`; `GET /api/v1/profiles/{id}` | Operaciones iniciales de consulta y registro de perfiles. |
+| Reporting | `GET` y `POST /api/v1/reporting` | Operaciones iniciales de consulta y registro de información relacionada con reportes. |
+| Subscriptions | `GET` y `POST /api/v1/subscriptions` | Operaciones iniciales de consulta y registro de suscripciones. No equivale a disponer de facturación o pasarela de pagos completas. |
 
 #### API Documentation — Swagger
 
-Para facilitar la documentación, consulta y validación de los servicios, se incorporó Swagger.
-
-La documentación permite visualizar los recursos disponibles, sus operaciones HTTP, parámetros, cuerpos de solicitud y respuestas.
-
-La interfaz se encuentra configurada en:
-
-https://nodesecure-backend.onrender.com/swagger-ui/index.html
-
-Y en el link de nuestro repositorio es el siguiente:
-
-https://github.com/SecureZoneTeam/NodeSecure.Platform.BackEnd.git
-
-
-Asimismo, el backend incorpora autenticación mediante JWT Bearer para los recursos administrativos, mientras que la recepción de eventos IoT utiliza autenticación mediante API Key.
+Swagger UI permite inspeccionar las operaciones y utilizar la opción **Authorize** cuando el endpoint requiere autenticación Bearer. La recepción de eventos IoT utiliza el encabezado de API Key indicado anteriormente. La documentación debe utilizarse para comprobar los cuerpos de solicitud y las respuestas exactas antes de integrar cada operación desde la Web Application.
 
 ### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
@@ -4143,7 +4148,7 @@ El backend de NodeSecure se encuentra desplegado públicamente mediante Render, 
 
 `https://nodesecure-backend.onrender.com`
 
-El servicio utiliza un perfil de producción (`prod`) y obtiene los parámetros necesarios para su ejecución mediante variables de entorno. Entre las principales configuraciones se encuentran `DATABASE_URL`, `DATABASE_USER`, `DATABASE_PASSWORD`, `JWT_SECRET` y `SPRING_PROFILES_ACTIVE`.
+El servicio utiliza un perfil de producción (`prod`) y obtiene los parámetros necesarios para su ejecución mediante variables de entorno. Entre las principales configuraciones se encuentran `DATABASE_URL`, `DATABASE_USER`, `DATABASE_PASSWORD`, `JWT_SECRET`, `SPRING_PROFILES_ACTIVE` y `SENSOR_API_KEY`, según las funcionalidades habilitadas en producción. Los valores reales de estas variables son secretos y no deben incluirse en el informe.
 
 Para facilitar la consulta y validación de los servicios REST, se habilitó Swagger UI mediante la siguiente dirección:
 
@@ -4204,7 +4209,7 @@ De esta manera, las solicitudes HTTP realizadas desde la aplicación web en prod
 
 Por otro lado, el archivo `environment.development.ts` conserva la dirección local de `json-server`, utilizada como Fake API durante el desarrollo. Esta separación permite utilizar una API simulada en el entorno local y el backend real en la configuración de producción.
 
-La Frontend Web Application también se encuentra publicada mediante GitHub Pages, permitiendo acceder a la interfaz web de NodeSecure desde su dirección pública.
+La Frontend Web Application también se encuentra publicada mediante GitHub Pages. La publicación de ambos componentes no demuestra por sí sola que todos los flujos del frontend estén conectados al backend; la integración funcional debe validarse por operación.
 
 #### Deployment Evidence
 
@@ -4218,7 +4223,7 @@ La siguiente evidencia muestra el servicio backend de NodeSecure en el panel de 
   <img src="images/av2/render-service-production.png" alt="Servicio backend de NodeSecure desplegado en Render">
 </div>
 
-**Figura X.** Servicio backend de NodeSecure publicado en Render.
+**Figura 22.** Servicio backend de NodeSecure publicado en Render.
 
 **Public Access:**
 
@@ -4236,7 +4241,7 @@ La siguiente evidencia muestra los grupos de endpoints correspondientes a los di
   <img src="images/av2/swagger-production-modules.png" alt="Grupos de endpoints de los módulos de NodeSecure">
 </div>
 
-**Figura X.** Grupos de endpoints documentados para los diferentes módulos de NodeSecure.
+**Figura 23.** Grupos de endpoints documentados para los diferentes módulos de NodeSecure.
 
 **Public Access:**
 
@@ -4249,32 +4254,32 @@ La siguiente evidencia muestra la estructura de la base de datos de NodeSecure m
 Asimismo, se observa la cantidad de registros almacenados en cada tabla, identificándose 9 registros en `users` durante la captura realizada.
 
 <div align="center">
-  <img src="images/database-production.png" alt="Estructura de la base de datos MySQL de NodeSecure en producción">
+  <img src="images/av2/database-production.png" alt="Estructura de la base de datos MySQL de NodeSecure en producción">
 </div>
 
-**Figura X.** Estructura de la base de datos MySQL de NodeSecure en producción, con 11 tablas y 9 registros en la tabla de usuarios.
+**Figura 24.** Estructura de la base de datos MySQL de NodeSecure en producción, con 11 tablas y 9 registros en la tabla de usuarios.
 
 **4. Configuración de integración del Frontend con el Backend**
 
 La siguiente evidencia muestra la configuración de la dirección base utilizada por Angular en producción, mediante la variable `serverBaseUrl` definida en el archivo `src/environments/environment.ts`.
 
-Esta configuración permite que las solicitudes HTTP de la aplicación desplegada se dirijan hacia la API REST publicada en Render, utilizando la ruta base `/api/v1`.
+Esta configuración establece la URL base para las solicitudes HTTP del frontend hacia la API REST publicada en Render, utilizando la ruta `/api/v1`. La captura demuestra la configuración del destino; para afirmar que un flujo funcional quedó integrado también debe existir una prueba de una solicitud y respuesta satisfactoria desde la aplicación.
 
 <div align="center">
-  <img src="images/frontend-api-config.png" alt="Configuración de integración entre Frontend y Backend">
+  <img src="images/av2/frontend-api-config.png" alt="Configuración de integración entre Frontend y Backend">
 </div>
 
-**Figura X.** Configuración de la URL de producción del backend en el entorno de Angular.
+**Figura 25.** Configuración de la URL de producción del backend en el entorno de Angular.
 
 **5. Frontend Web Application desplegada**
 
 La siguiente evidencia muestra la Frontend Web Application de NodeSecure publicada mediante GitHub Pages, permitiendo acceder a la interfaz web y visualizar las funcionalidades disponibles desde su dirección pública.
 
 <div align="center">
-  <img src="images/frontend-production.png" alt="Frontend Web Application de NodeSecure desplegada">
+  <img src="images/av2/frontend-production.png" alt="Frontend Web Application de NodeSecure desplegada">
 </div>
 
-**Figura X.** Frontend Web Application de NodeSecure disponible en GitHub Pages.
+**Figura 26.** Frontend Web Application de NodeSecure disponible en GitHub Pages.
 
 **Public Access:**
 
@@ -4285,10 +4290,10 @@ La siguiente evidencia muestra la Frontend Web Application de NodeSecure publica
 Finalmente, se presenta la evidencia de la Landing Page de NodeSecure, publicada mediante GitHub Pages como parte de los componentes digitales de la solución.
 
 <div align="center">
-  <img src="images/landing-page-production.png" alt="Landing Page de NodeSecure desplegada">
+  <img src="images/av2/landing-page-production.png" alt="Landing Page de NodeSecure desplegada">
 </div>
 
-**Figura X.** Landing Page de NodeSecure disponible públicamente.
+**Figura 27.** Landing Page de NodeSecure disponible públicamente.
 
 **Public Access:**
 
@@ -4364,7 +4369,7 @@ La siguiente evidencia permite visualizar la actividad registrada por los colabo
   <img src="images/av2/github-contributors.png" alt="Actividad de los integrantes en GitHub">
 </div>
 
-**Figura X.** Actividad de los colaboradores en el repositorio NodeSecure Platform Backend.
+**Figura 28.** Actividad de los colaboradores en el repositorio NodeSecure Platform Backend.
 
 **2. Historial de commits**
 
@@ -4374,7 +4379,7 @@ La siguiente evidencia muestra los commits registrados en el repositorio, permit
   <img src="images/av2/github-commits.png" alt="Historial de commits del backend">
 </div>
 
-**Figura X.** Historial de commits correspondientes al desarrollo del backend de NodeSecure.
+**Figura 29.** Historial de commits correspondientes al desarrollo del backend de NodeSecure.
 
 **3. Pull Requests e integración de cambios**
 
@@ -4384,7 +4389,7 @@ La siguiente evidencia muestra las solicitudes de integración registradas en Gi
   <img src="images/av2/pull-requests.png" alt="Pull Requests del repositorio backend">
 </div>
 
-**Figura X.** Pull Requests registrados para la revisión e integración de cambios del backend.
+**Figura 30.** Pull Requests registrados para la revisión e integración de cambios del backend.
 
 En conjunto, estas evidencias permiten observar la distribución de responsabilidades, la actividad registrada en el repositorio y los mecanismos utilizados para organizar e integrar el desarrollo de los diferentes bounded contexts.
 
@@ -4392,95 +4397,56 @@ La colaboración desarrollada durante el Sprint 3 permitió establecer una prime
 
 ## 5.3. Validation Interviews
 
-Durante esta etapa se busca validar la solución NodeSecure mediante la interacción con usuarios pertenecientes a los segmentos objetivo del producto.
+La validación de NodeSecure busca comprobar si la solución responde a las necesidades identificadas durante el proceso de investigación y si los usuarios pueden completar las tareas previstas de manera comprensible. Esta etapa contempla entrevistas de validación y una evaluación de usabilidad mediante las heurísticas de Nielsen.
 
-Las entrevistas permiten recopilar información sobre la facilidad de uso, comprensión de las funcionalidades y adecuación de la solución frente a las necesidades identificadas durante las etapas anteriores del proyecto.
+**Estado de la evidencia en esta versión del informe:** el archivo proporcionado contiene el diseño de las preguntas y la matriz de evaluación, pero no incluye fechas, registros completos de entrevistas ni resultados documentados de las evaluaciones heurísticas. Por tanto, esta sección describe el instrumento de validación y deja explícito qué información falta; no se presentan resultados ficticios.
 
 ### 5.3.1. Diseño de Entrevistas
 
-Las entrevistas se orientan a evaluar la experiencia de los usuarios al interactuar con NodeSecure, considerando las funcionalidades de gestión de almacenes, monitoreo de sensores IoT, administración de usuarios y seguimiento de eventos.
+Las entrevistas de validación deben realizarse con usuarios pertenecientes a los segmentos objetivo de NodeSecure, utilizando una versión identificable de la Web Application. Se recomienda registrar la versión probada, las tareas que ejecutó cada participante, los problemas observados y sus comentarios posteriores.
 
-Se consideran los siguientes objetivos:
+**Objetivos:**
 
 - Evaluar la facilidad de navegación por la Web Application.
 - Validar la comprensión de las funcionalidades principales.
-- Identificar dificultades durante el registro de almacenes y sensores.
-- Evaluar la utilidad de las alertas y la información presentada.
-- Recopilar oportunidades de mejora.
+- Identificar dificultades durante el registro y consulta de almacenes, zonas y sensores.
+- Evaluar si la información de estado y las alertas resultan comprensibles.
+- Recopilar oportunidades de mejora y priorizarlas según su impacto.
 
 #### Preguntas de validación
 
-1. ¿La plataforma permite comprender fácilmente el estado de los almacenes?
-2. ¿El proceso de registro de un sensor resulta claro?
-3. ¿La información de conexión de los sensores es suficiente?
-4. ¿La visualización de alertas permite identificar rápidamente posibles irregularidades?
-5. ¿Qué funcionalidades considera que deberían mejorarse?
-
-### 5.3.2. Registro de Entrevistas
-
-En esta sección se documentan las entrevistas realizadas a los usuarios de los segmentos objetivo de NodeSecure.
-
-| Entrevistado | Segmento | Fecha | Principales observaciones |
-|---|---|---|---|
-| Entrevistado 1 | Dueño / Administrador | [Fecha] | [Hallazgos obtenidos] |
-| Entrevistado 2 | Personal operativo | [Fecha] | [Hallazgos obtenidos] |
-| Entrevistado 3 | Responsable de seguridad | [Fecha] | [Hallazgos obtenidos] |
-
-*Los registros y resultados deben completarse utilizando las respuestas reales de los entrevistados.*
-
-### 5.3.3. Evaluaciones según heurísticas
-
-Se propone utilizar las heurísticas de usabilidad de Nielsen para evaluar la interacción con la plataforma.
-
-| Heurística | Aspecto evaluado | Observaciones |
-|---|---|---|
-| Visibilidad del estado del sistema | Estado de sensores y almacenes. | [Resultado] |
-| Correspondencia entre sistema y mundo real | Terminología utilizada en la plataforma. | [Resultado] |
-| Control y libertad del usuario | Posibilidad de cancelar o corregir operaciones. | [Resultado] |
-| Consistencia y estándares | Uniformidad de componentes y navegación. | [Resultado] |
-| Prevención de errores | Validación de formularios y datos. | [Resultado] |
-| Reconocimiento antes que recuerdo | Claridad de opciones y etiquetas. | [Resultado] |
-| Flexibilidad y eficiencia | Acceso a funcionalidades frecuentes. | [Resultado] |
-| Diseño estético y minimalista | Organización de la información. | [Resultado] |
-| Ayuda para reconocer errores | Mensajes y notificaciones. | [Resultado] |
-| Ayuda y documentación | Disponibilidad de información de soporte. | [Resultado] |
-
-Los resultados deben completarse después de realizar las evaluaciones correspondientes.
+1. ¿La plataforma permite comprender fácilmente el estado de los almacenes y sus zonas?
+2. ¿El proceso de registro de un almacén o de una zona resulta claro?
+3. ¿El proceso para registrar y vincular un sensor IoT es comprensible?
+4. ¿La información de conexión del sensor permite identificar si está disponible o desconectado?
+5. ¿La visualización de alertas permite comprender qué ocurrió y qué acción se debe realizar?
+6. ¿La información de inventario y movimientos permite completar las tareas previstas?
+7. ¿Qué parte del proceso le generó mayor dificultad?
+8. ¿Qué cambio priorizaría para mejorar la plataforma?
 
 ---
 
----
+# Conclusiones
 
-  # Conclusiones
+1. **Problemática y propuesta de valor.** El análisis de los segmentos objetivo permitió identificar dificultades relacionadas con las mermas no explicadas, la revisión manual de evidencias y la falta de correspondencia entre los registros de inventario y los eventos físicos del almacén. NodeSecure plantea atender esta problemática mediante la integración de la gestión de inventario con información procedente de sensores IoT.
 
-      
-  1. **Validación de la Problemática Logística:** A través de la investigación de mercado y el análisis de competidores, se ha confirmado que la "merma desconocida" y el "robo hormiga" representan puntos de dolor críticos y costosos para el sector comercial en el Perú. La dependencia de sistemas pasivos (como la revisión manual de CCTV) genera un desgaste operativo severo, lo que valida la necesidad de una solución como NodeSecure, capaz de integrar evidencia física IoT (sensores) con el registro digital de inventario en tiempo real.
+2. **Investigación y requisitos.** Las entrevistas exploratorias y los artefactos de Needfinding permitieron organizar necesidades diferenciadas para administradores y personal operativo. Estas necesidades se tradujeron en historias de usuario relacionadas con la supervisión de almacenes, el registro de movimientos, la conexión de sensores y la trazabilidad. Las métricas de impacto planteadas en Lean UX deben tratarse como hipótesis hasta ser validadas con resultados medidos.
 
-  2. **Efectividad del Enfoque Lean UX:** La aplicación del proceso Lean UX y el desarrollo de entrevistas (Needfinding) han sido determinantes para definir los segmentos objetivo. Al empatizar tanto con los dueños de PYMES (enfoque gerencial) como con los operarios de almacén (enfoque de campo), se logró estructurar un Product Backlog alineado a necesidades reales. Se determinó que el personal operativo requiere rapidez extrema en el registro (menos de 30 segundos), mientras que la gerencia exige auditoría basada en marcas de tiempo (*timestamps*) inalterables.
+3. **Diseño de experiencia y arquitectura.** Los wireframes, wireflows, mockups y User Flows establecieron una propuesta de interacción para los principales objetivos de usuario. Los diagramas C4 y de clases describen la arquitectura lógica propuesta. Para evitar confusiones, el informe distingue esa arquitectura objetivo de la implementación disponible al cierre del Sprint 3.
 
-  3. **Arquitectura de Información y Diseño B2B:** El diseño de la experiencia de usuario (UX) y la interfaz (UI) para la plataforma web y móvil ha demostrado que la adopción de un modelo B2B en "Dark Mode" no responde únicamente a una tendencia estética, sino a una necesidad operativa. Este esquema reduce la fatiga visual en entornos de monitoreo prolongado, mientras que el diseño responsivo basado en *bottom-sheets* y la estricta jerarquía de información previenen errores humanos al realizar tareas críticas, como la asignación de permisos y el control de discrepancias.
+4. **Sprint 1 — Landing Page.** Se implementó y publicó la primera versión de la Landing Page utilizando HTML, CSS y JavaScript, con GitHub Pages como plataforma de despliegue. Este componente permite presentar públicamente la propuesta de valor de NodeSecure.
 
-  4. **Éxito del Despliegue Inicial (Sprint 1):** La adopción de GitFlow, el uso de Conventional Commits y las prácticas de configuración y despliegue continuo (CI/CD) han permitido al equipo trabajar de forma organizada y sparalela. El resultado de este esfuerzo técnico se materializa en el despliegue exitoso de la Landing Page de NodeSecure en GitHub Pages, logrando comunicar eficientemente nuestra propuesta de valor al mercado y sentando una base tecnológica sólida para los próximos Sprints de desarrollo de la plataforma core.
+5. **Sprint 2 — Web Application.** Se avanzó en la construcción del frontend con Angular y TypeScript, incorporando vistas de autenticación, almacenes, sensores, equipo, inventario y otras áreas de la solución. Durante esta etapa se utilizó `json-server` como Fake API para simular servicios mientras se preparaba el backend.
 
+6. **Sprint 3 — Backend REST.** Se desarrolló una primera versión del backend con Java 21 y Spring Boot 3.5.7, organizado por bounded contexts y capas. Se incorporaron capacidades de IAM, gestión de almacenes y zonas, integración de sensores, inventario y alertas, junto con persistencia MySQL y documentación Swagger/OpenAPI. La recepción de eventos IoT utiliza una API Key de dispositivo, mientras que los recursos administrativos emplean autenticación JWT.
 
-  5. **Validación del Problema Logístico:** Se corrobora que las mermas desconocidas y el "robo hormiga" representan pérdidas críticas para el sector comercial en el Perú (estimadas entre S/ 700 y S/ 1,000 millones anuales). La dependencia de sistemas pasivos (como la revisión manual de cámaras de vigilancia) demuestra la necesidad imperativa de un ecosistema que relacione los movimientos digitales de inventario con los eventos físicos de los sensores IoT en tiempo real.
-  
-  
-  6. **Efectividad del Enfoque Lean UX y Entrevistas:** La aplicación de la metodología Lean UX y el levantamiento de información (*Needfinding*) permitieron segmentar adecuadamente a los usuarios (administradores y personal operativo). Esto facilitó el diseño de un *Product Backlog* ajustado a exigencias reales: el personal de campo requiere un registro ágil (menores a 30 segundos), mientras que la gerencia exige trazabilidad mediante marcas de tiempo (*timestamps*) para optimizar las auditorías con CCTV.
-  
-  
-  7. **Coherencia en la Arquitectura de Información y UI:** El diseño B2B bajo un esquema de *Dark Mode* y componentes adaptados (como *bottom-sheets* y una estructura responsiva) mitiga la fatiga visual en turnos prolongados de monitoreo y reduce drásticamente el margen de error humano al gestionar permisos o alertas de discrepancias físicas.
-  
-  
-  8. **Progreso y Despliegue Técnico (Sprints 1 y 2):**
-  * Durante el **Sprint 1**, se concretó el desarrollo e implementación de la primera versión de la *Landing Page* utilizando HTML5, CSS3 y JavaScript, logrando su despliegue público exitoso mediante GitHub Pages.
-  
-  
-  * Durante el **Sprint 2**, se avanzó en la construcción del *Frontend* de la *Web Application* —cubriendo vistas clave como autenticación, gestión de almacenes, dispositivos IoT, equipo y accesos, y trazabilidad— apoyándose de una *Fake API* local (*json-server*) para simular la persistencia y validar los flujos operativos antes de la integración con el *backend* definitivo.
-  
-<div style="page-break-after: always;"></div>
+7. **Estado de implementación.** El backlog del Sprint 3 registra 32 tareas y 80 horas estimadas: 22 tareas (56 horas) aparecen como terminadas, 9 (23 horas) como en progreso y 1 (1 hora) como pendiente. Los contextos Profiles, Subscriptions y Reporting cuentan con una estructura inicial y operaciones básicas. Las funciones de facturación, catálogo de planes, trazabilidad avanzada y algunas consultas aún deben completarse o validarse; por ello no se presentan como capacidades plenamente terminadas.
 
-  # Bibliografía
+8. **Despliegue e integración.** La Landing Page y la Web Application se encuentran publicadas en GitHub Pages, mientras que el backend está desplegado en Render y utiliza una base de datos MySQL. La configuración del frontend apunta a la URL pública del backend. Esta configuración constituye un paso de integración, pero la validación end-to-end de cada flujo debe sustentarse con pruebas funcionales específicas.
+
+9. **Colaboración y continuidad.** La distribución del trabajo por bounded contexts y el uso de Git/GitHub facilitaron el desarrollo paralelo y el registro de cambios. Para el siguiente ciclo se recomienda priorizar la finalización de las tareas en progreso, ampliar las pruebas de integración y completar la validación con usuarios, registrando observaciones reales y mejoras derivadas de la evaluación.
+
+# Bibliografía
 
 Cohn, M. (2004). *User stories applied: For agile software development*. Addison-Wesley Professional.
 
@@ -4504,6 +4470,24 @@ Angular. (2023). *Angular Style Guide*. [https://angular.io/guide/styleguide](ht
 
 Conexión ESAN. (2026). *El impacto de la merma en el retail y cómo combatirlo.* ESAN Graduate School of Business.
 
+Angular. (s. f.). *Angular documentation*. https://angular.dev/
+
+GitHub. (s. f.). *GitHub Actions documentation*. https://docs.github.com/actions
+
+GitHub. (s. f.). *GitHub Pages documentation*. https://docs.github.com/pages
+
+Oracle. (2024). *Java Platform, Standard Edition 21 Documentation*. https://docs.oracle.com/en/java/javase/21/
+
+Spring. (s. f.). *Spring Boot 3.5 Reference Documentation*. https://docs.spring.io/spring-boot/3.5/reference/
+
+Spring. (s. f.). *Spring Security Reference*. https://docs.spring.io/spring-security/reference/
+
+springdoc-openapi. (s. f.). *springdoc-openapi documentation*. https://springdoc.org/
+
+OpenAPI Initiative. (2021). *OpenAPI Specification, Version 3.1.0*. https://spec.openapis.org/oas/v3.1.0.html
+
+Oracle. (s. f.). *MySQL 8.0 Reference Manual*. https://dev.mysql.com/doc/refman/8.0/en/
+
 ---
 
 ## Anexos
@@ -4514,5 +4498,9 @@ Conexión ESAN. (2026). *El impacto de la merma en el retail y cómo combatirlo.
 * **URL WEB APPLICATION (FRONTEND):** [https://securezoneteam.github.io/SafeZone-website/](https://securezoneteam.github.io/SafeZone-website/)
 * **REPOSITORIO PROJECT REPORT:** [https://github.com/SecureZoneTeam/NodeSecure-Report](https://github.com/SecureZoneTeam/NodeSecure-Report)
 * **REPOSITORIO FRONTEND & FAKE API:** [https://github.com/SecureZoneTeam/SafeZone-website](https://github.com/SecureZoneTeam/SafeZone-website)
+* **REPOSITORIO BACKEND REST:** [https://github.com/SecureZoneTeam/NodeSecure.Platform.BackEnd](https://github.com/SecureZoneTeam/NodeSecure.Platform.BackEnd)
+* **BACKEND EN PRODUCCIÓN:** [https://nodesecure-backend.onrender.com](https://nodesecure-backend.onrender.com)
+* **DOCUMENTACIÓN SWAGGER:** [https://nodesecure-backend.onrender.com/swagger-ui/index.html](https://nodesecure-backend.onrender.com/swagger-ui/index.html)
+* **ESPECIFICACIÓN OPENAPI:** [https://nodesecure-backend.onrender.com/v3/api-docs](https://nodesecure-backend.onrender.com/v3/api-docs)
 * **URL DEL FIGMA (UX/UI & PROTOTIPOS):** [https://www.figma.com/design/Mjmfv8zXHB753QKMcfucH2/Sin-t%C3%ADtulo?node-id=0-1&t=OpYw1NIg0EhggkLC-1](https://www.figma.com/design/Mjmfv8zXHB753QKMcfucH2/Sin-t%C3%ADtulo?node-id=0-1&t=OpYw1NIg0EhggkLC-1)
-* **URL VIDEO DE EXPOSICIÓN (TB1):** *(Inserta aquí el enlace de YouTube o Microsoft Stream del video de sustentación de este hito)*
+* **URL VIDEO DE EXPOSICIÓN (AV2):** Pendiente de incorporar el enlace definitivo del video de sustentación.
