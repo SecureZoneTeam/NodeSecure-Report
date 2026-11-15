@@ -1246,6 +1246,10 @@ El Impact Mapping relaciona las metas del negocio (*Business Goals*), los actore
 | Almacenero o encargado de despacho | Registrar entradas y salidas de productos con menos pasos y menor demora. | Catálogo de productos (US20); entradas de stock (US21); salidas rápidas (US22). |
 | Almacenero o encargado de despacho | Mantener el stock digital alineado con el inventario físico. | Conciliación manual (US23); consulta del estado de inventario (US24). |
 
+<div align="center">
+  <img src="images/impact-mapping.png" alt="impact-mapping.png">
+</div>
+
 ## 3.3. Product Backlog.
 
 A continuación, se presenta el Product Backlog inicial de NodeSecure, priorizado con base en el valor de negocio y estimado mediante Story Points (Sucesión de Fibonacci: 1, 2, 3, 5, 8). Las prioridades altas (Sprint 1 y 2) se centran en la Landing Page, la arquitectura base y la autenticación.
@@ -1346,6 +1350,13 @@ El wireframe de la Landing Page de NodeSecure traza un recorrido de conversión 
 * **About Us / Team:** Tarjetas con las fotos y perfiles del equipo SafeZone.
 * **Footer:** Formulario de contacto B2B y enlaces a documentación.
 
+<div align="center">
+  <img src="images/landing-wireframe-00.png" alt="landing-wireframe-00.png">
+</div>
+
+<div align="center">
+  <img src="images/landing-wireframe-01.png" alt="landing-wireframe-01.png">
+</div>
 
 
 ### 4.3.2. Landing Page Mock-up
@@ -4503,4 +4514,4 @@ Oracle. (s. f.). *MySQL 8.0 Reference Manual*. https://dev.mysql.com/doc/refman/
 * **DOCUMENTACIÓN SWAGGER:** [https://nodesecure-backend.onrender.com/swagger-ui/index.html](https://nodesecure-backend.onrender.com/swagger-ui/index.html)
 * **ESPECIFICACIÓN OPENAPI:** [https://nodesecure-backend.onrender.com/v3/api-docs](https://nodesecure-backend.onrender.com/v3/api-docs)
 * **URL DEL FIGMA (UX/UI & PROTOTIPOS):** [https://www.figma.com/design/Mjmfv8zXHB753QKMcfucH2/Sin-t%C3%ADtulo?node-id=0-1&t=OpYw1NIg0EhggkLC-1](https://www.figma.com/design/Mjmfv8zXHB753QKMcfucH2/Sin-t%C3%ADtulo?node-id=0-1&t=OpYw1NIg0EhggkLC-1)
-* **URL VIDEO DE EXPOSICIÓN (AV2):** Pendiente de incorporar el enlace definitivo del video de sustentación.
+* **URL VIDEO DE EXPOSICIÓN (AV2):** 
