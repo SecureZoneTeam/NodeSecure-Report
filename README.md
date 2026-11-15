@@ -3878,191 +3878,159 @@ https://trello.com/b/7N3bqmPS/nodesecure-sprint-3
 | Sprint 3 | US11 | Exportar reporte de incidentes | T31 | Servicio de reporte de incidentes | Generar el reporte de incidentes a partir de la bitácora de trazabilidad. | 2 | Anahua Ancachi, Liz Maribel | In Progress |
 | Sprint 3 | US16 | Suscripción y Facturación | T32 | Pruebas unitarias de empresas, suscripciones y trazabilidad | Desarrollar pruebas unitarias de Company, TaxId, Subscription, Money, PlanLimits y TraceabilityRecord. | 1 | Anahua Ancachi, Liz Maribel | To Do |
 
-### 5.2.3.4. Development Evidence for Sprint Review
+---
+### 5.2.3.4. Evidencia de desarrollo para la revisión del sprint.
 
-Durante el Sprint 3, el equipo trabajó en el repositorio **NodeSecure Platform Backend**, utilizando Java 21 y Spring Boot 3.5.7 para desarrollar los servicios RESTful de la plataforma.
+Durante el Sprint 3, el equipo trabajó colaborativamente en el repositorio **NodeSecure.Platform.BackEnd**, aplicando GitFlow y utilizando la convención de Conventional Commits para registrar los cambios realizados durante la implementación del servidor, la capa de persistencia y los módulos de dominio del backend.
 
-La implementación se organizó mediante bounded contexts, siguiendo los principios de Domain-Driven Design y manteniendo una separación entre las responsabilidades del dominio, aplicación, infraestructura e interfaces.
+| Repositorio | Rama | ID de confirmación | Mensaje de confirmación | Cuerpo del mensaje de confirmación | Confirmado el (Fecha) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| NodeSecure.Platform.BackEnd | develop | `031a672` | `chore: initial project commit` | — | `11-11-2026` |
+| NodeSecure.Platform.BackEnd | develop | `6b76330` | `feat(sensors): add IoT Sensor Integration bounded context` | — | `12-11-2026` |
+| NodeSecure.Platform.BackEnd | develop | `35ab497` | `feat(warehouses): add Warehouse Management bounded context` | — | `12-11-2026` |
+| NodeSecure.Platform.BackEnd | develop | `453714d` | `docs: document warehouse and sensor integration` | — | `12-11-2026` |
+| NodeSecure.Platform.BackEnd | develop | `f79e3cc` | `fix(warehouses): handle unpersisted zone code checks` | — | `12-11-2026` |
+| NodeSecure.Platform.BackEnd | develop | `8903616` | `feat: add profiles subscriptions and reporting contexts` | — | `12-11-2026` |
+| NodeSecure.Platform.BackEnd | develop | `27b7329` | `feat(inventory): add product and stock movement context` | — | `12-11-2026` |
+| NodeSecure.Platform.BackEnd | develop | `6d45bf3` | `feat(alerts): add security alert context` | — | `12-11-2026` |
+| NodeSecure.Platform.BackEnd | develop | `52dd755` | `docs: remove trailing whitespace from sensor notes` | — | `12-11-2026` |
+| NodeSecure.Platform.BackEnd | develop | `266b620` | `chore: keep shared wrapper fix out of warehouse scope` | — | `12-11-2026` |
+| NodeSecure.Platform.BackEnd | develop | `e607e21` | `build: handle local Maven cache in PowerShell wrapper` | — | `12-11-2026` |
+| NodeSecure.Platform.BackEnd | develop | `3ac37d2` | `refactor(inventory): keep problem mapping within module` | — | `12-11-2026` |
+Los commits fueron seleccionados pertinentemente para el registro de la tabla.  
+---
+### 5.2.3.5. Evidencia de ejecución para la revisión del sprint.
 
-#### Backend Architecture
+En esta sección se explican y presentan los avances de implementación correspondientes al Sprint 3, cuyo alcance principal fue el desarrollo del **Backend** de la plataforma **NodeSecure** utilizando **Spring Boot** y **Java**, estructurado bajo los principios de *Domain-Driven Design* (DDD). 
 
-El backend se estructuró de la siguiente manera:
+A lo largo de este sprint, el equipo colaboró de forma estructurada para implementar los contextos acotados correspondientes (incluyendo los módulos de `users/`, `products/`, `warehouses/`,  `profiles/`, `subscriptions/`, `reporting/`, etc), asegurando la correcta persistencia relacional en **MySQL**.
 
-```text
-com.safezone.nodesecure.platform/
-│
-├── iam/
-│   ├── application/
-│   ├── domain/
-│   ├── infrastructure/
-│   └── interfaces/
-│
-├── warehouses/
-│   ├── application/
-│   ├── domain/
-│   ├── infrastructure/
-│   └── interfaces/
-│
-├── sensors/
-│   ├── application/
-│   ├── domain/
-│   ├── infrastructure/
-│   └── interfaces/
-│
-├── inventory/
-│   ├── application/
-│   ├── domain/
-│   ├── infrastructure/
-│   └── interfaces/
-│
-├── alerts/
-│   ├── application/
-│   ├── domain/
-│   ├── infrastructure/
-│   └── interfaces/
-│
-├── profiles/
-├── subscriptions/
-├── reporting/
-│
-└── shared/
-    ├── application/
-    ├── domain/
-    ├── infrastructure/
-    └── interfaces/
-```
+A continuación, se presentan las evidencias de ejecución de las principales funcionalidades y componentes implementados:
 
-Esta organización permite mantener los componentes independientes, facilitando su mantenimiento y evolución.
+#### Arranque exitoso del Servidor
+Demostración de la inicialización correcta del contenedor de Spring Boot, la configuración del pool de conexiones con la base de datos y el levantamiento de los servicios REST sin errores de compilación.
 
-#### Domain-Driven Design
+<div align="center">
+  <img src="images/5.2.3.png" alt="Arranque exitoso de Spring Boot">
+</div>
 
-La implementación utiliza los siguientes elementos arquitectónicos:
+**Figura X.** Consola de IntelliJ IDEA evidenciando el inicio exitoso de la aplicación Spring Boot.
 
-| Elemento | Aplicación en NodeSecure |
-|---|---|
-| Aggregates | Warehouse, SensorNode, PhysicalEvent, Product y SecurityAlert. |
-| Entities | WarehouseZone y entidades de persistencia relacionadas. |
-| Value Objects | StreetAddress, OperatingShift, MacAddress, SensorType y ConnectionStatus. |
-| Repositories | Interfaces de persistencia definidas en Domain. |
-| Application Services | Servicios de comandos y consultas. |
-| Domain Events | Eventos generados durante operaciones importantes. |
-| ACL | Comunicación controlada entre bounded contexts. |
+<br>
 
-#### Implementación de Warehouse Management
+A continuación se muestralas evidencias de ejecución exitosa de cada uno de los bounded context:
+<br>
+<div align="center">
+  <img src="images/5.2.3.1.2.png" alt="Arranque exitoso de Alerts">
+</div>
+**Figura X.** Ejecución exitosa de Bounded Context Alerts.
 
-El contexto Warehouse Management permite administrar los almacenes y sus zonas operativas.
+<br>
+<div align="center">
+  <img src="images/5.2.3.1.3.png" alt="Arranque exitoso de iam">
+</div>
+**Figura X.** Ejecución exitosa de Bounded Context genérico iam.
 
-El agregado principal es `Warehouse`, responsable de mantener la información del almacén y controlar las operaciones sobre sus zonas.
+<br>
+<div align="center">
+  <img src="images/5.2.4.png" alt="Arranque exitoso de Inventory">
+</div>
+**Figura X.** Ejecución exitosa de Bounded Context Inventory.
 
-Se implementaron los siguientes elementos:
+<br>
+<div align="center">
+  <img src="images/5.2.5.png" alt="Arranque exitoso de Profiles">
+</div>
+**Figura X.** Ejecución exitosa de Bounded Context Profiles.
 
-- `Warehouse`: agregado principal.
-- `WarehouseZone`: entidad perteneciente al agregado.
-- `StreetAddress`: objeto de valor para representar direcciones.
-- `OperatingShift`: objeto de valor para configurar horarios.
-- `WarehouseStatus`: estado del almacén.
-- `ZoneRiskLevel`: nivel de riesgo de las zonas.
+<br>
+<div align="center">
+  <img src="images/5.2.6.png" alt="Arranque exitoso de Reporting">
+</div>
+**Figura X.** Ejecución exitosa de Bounded Context Reporting.
 
-Entre las reglas de negocio implementadas se encuentran la unicidad de nombres de almacenes por empresa, la unicidad de códigos de zonas por almacén y la restricción de eliminación cuando existen zonas asociadas.
+<br>
+<div align="center">
+  <img src="images/5.2.3.1.4.png" alt="Arranque exitoso de Sensors">
+</div>
+**Figura X.** Ejecución exitosa de Bounded Context Sensors.
 
-#### Implementación de Sensor Integration
+<br>
+<div align="center">
+  <img src="images/5.2.3.1.5.png" alt="Arranque exitoso de Shared">
+</div>
+**Figura X.** Ejecución exitosa de Shared.
 
-El contexto Sensor Integration administra los dispositivos IoT registrados en los almacenes y los acontecimientos físicos recibidos.
+<br>
+<div align="center">
+  <img src="images/5.2.3.1.6.png" alt="Arranque exitoso de Subscriptions">
+</div>
+**Figura X.** Ejecución exitosa de Bounded Context Subcriptions.
 
-Se implementaron los siguientes elementos:
+<br>
+<div align="center">
+  <img src="images/5.2.3.1.7.png" alt="Arranque exitoso de Warehouses">
+</div>
+**Figura X.** Ejecución exitosa de Bounded Context Warehouses.
 
-- `SensorNode`: agregado que representa un dispositivo IoT.
-- `PhysicalEvent`: agregado que representa un acontecimiento físico.
-- `MacAddress`: objeto de valor para validar e identificar dispositivos.
-- `SensorType`: clasificación del sensor.
-- `ConnectionStatus`: estado de conexión.
+<br>
+<div align="center">
+  <img src="images/5.2.3.1.8.png" alt="Arranque exitoso de Warehouses">
+</div>
+**Figura X.** Ejecución exitosa de Bounded Context Warehouses.
 
-Los sensores se registran inicialmente como `OFFLINE`. Los eventos recibidos permiten actualizar su estado y registrar la fecha de la última comunicación.
+<br>
 
-Asimismo, se implementó la validación de la dirección MAC y la vinculación del dispositivo con una zona perteneciente a la empresa autenticada.
+#### Validación de Endpoints REST (Swagger UI)
+Prueba de ejecución y respuesta exitosa (`HTTP 200 OK` / `201 Created`) de los endpoints desarrollados para la gestión de perfiles, suscripciones y reportes de incidentes.
 
-#### Integración entre bounded contexts
+<div align="center">
+  <img src="images/5.2.3.2.0.png" alt="Pruebas de Endpoints REST">
+</div>
 
-Para evitar dependencias directas entre los módulos, se implementaron fachadas ACL:
+**Figura X.** Primera parte de Pruebas y respuestas de los servicios expuestos en el Backend.
 
-- `WarehouseContextFacade`: permite a Sensor Integration validar zonas y consultar su configuración.
-- `SensorContextFacade`: permite a Warehouse Management comprobar si una zona tiene sensores asociados antes de eliminarla.
+<div align="center">
+  <img src="images/5.2.3.2.1.png" alt="Pruebas de Endpoints REST">
+</div>
 
-Esta comunicación mantiene la independencia de los contextos y protege sus respectivas reglas de negocio.
+**Figura X.** Segunda parte de Pruebas y respuestas de los servicios expuestos en el Backend.
 
-#### Evidencias visuales
+<div align="center">
+  <img src="images/5.2.3.2.2.png" alt="Pruebas de Endpoints REST">
+</div>
 
-```markdown
-#### Evidencia 1: Estructura del backend
+**Figura X.** Tercera parte de Pruebas y respuestas de los servicios expuestos en el Backend.
 
-![Backend Architecture](images/av2/backend-structure.png)
+<div align="center">
+  <img src="images/5.2.3.2.3.png" alt="Pruebas de Endpoints REST">
+</div>
 
-#### Evidencia 2: Implementación de Warehouse Management
+**Figura X.** Cuerta parte de Pruebas y respuestas de los servicios expuestos en el Backend.
 
-![Warehouse Management](images/av2/warehouse-implementation.png)
+<div align="center">
+  <img src="images/5.2.3.2.4.png" alt="Pruebas de Endpoints REST">
+</div>
 
-#### Evidencia 3: Implementación de Sensor Integration
+**Figura X.** Quinta parte de Pruebas y respuestas de los servicios expuestos en el Backend.
 
-![Sensor Integration](images/av2/sensor-implementation.png)
+<div align="center">
+  <img src="images/5.2.3.2.5.png" alt="Pruebas de Endpoints REST">
+</div>
 
-#### Evidencia 4: Persistencia mediante JPA
+**Figura X.** Sexta parte de Pruebas y respuestas de los servicios expuestos en el Backend.
 
-![JPA Persistence](images/av2/jpa-persistence.png)
+<br>
 
-#### Evidencia 5: Comunicación entre bounded contexts
+#### Persistencia en Base de Datos Relacional (MySQL)
+Verificación del esquema relacional generado automáticamente a través de JPA/Hibernate en MySQL Workbench, confirmando el almacenamiento íntegro de la información.
 
-![ACL Integration](images/av2/acl-integration.png)
-```
+<div align="center">
+  <img src="images/5.2.3.3.jpeg" alt="Persistencia en MySQL Workbench">
+</div>
 
-### 5.2.3.5. Execution Evidence for Sprint Review
-
-Durante el Sprint 3 se incorporaron pruebas unitarias para validar el comportamiento de los agregados y las reglas de negocio de los diferentes bounded contexts.
-
-En particular, los contextos Warehouse Management y Sensor Integration cuentan con pruebas orientadas a verificar la creación de almacenes, configuración de turnos, validación de direcciones MAC y transiciones del estado de conexión de los sensores.
-
-También se incorporaron pruebas para los módulos de inventario, alertas y autenticación.
-
-#### Unit Testing
-
-| Bounded Context | Clase de prueba | Validación |
-|---|---|---|
-| IAM | `UserTest` | Reglas de creación y comportamiento de usuarios. |
-| Inventory | `ProductTest` | Reglas del agregado Product. |
-| Inventory | `StockMovementTest` | Reglas de movimientos de inventario. |
-| Alerts | `SecurityAlertTest` | Comportamiento de alertas de seguridad. |
-| Warehouses | `WarehouseTest` | Creación y administración de almacenes y zonas. |
-| Warehouses | `OperatingShiftTest` | Validación de turnos operativos. |
-| Sensors | `SensorNodeTest` | Registro y transiciones de conexión de sensores. |
-| Sensors | `PhysicalEventTest` | Creación y validación de eventos físicos. |
-| Sensors | `MacAddressTest` | Normalización y validación de direcciones MAC. |
-
-Adicionalmente, se cuenta con pruebas de servicios de aplicación para autenticación, movimientos de inventario y gestión de alertas.
-
-#### Evidencias de ejecución
-
-```markdown
-#### Ejecución de pruebas unitarias
-
-![Unit Tests](images/av2/unit-tests.png)
-
-#### Resultados de Maven
-
-![Maven Test Results](images/av2/maven-results.png)
-```
-
-**Comando de ejecución:**
-
-```bash
-./mvnw clean test
-```
-
-En Windows:
-
-```powershell
-.\mvnw.cmd clean test
-```
-
-*Nota: La existencia de las clases de prueba está documentada en el repositorio. La ejecución integral de Maven y la confirmación de que todas las pruebas pasan deben verificarse antes de registrar resultados exitosos.*
+**Figura X.** Tablas generadas y registros almacenados en MySQL Workbench.
+---
 
 ### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
@@ -4354,25 +4322,7 @@ Se propone utilizar las heurísticas de usabilidad de Nielsen para evaluar la in
 Los resultados deben completarse después de realizar las evaluaciones correspondientes.
 
 ---
-### 5.2.3.4. Evidencia de desarrollo para la revisión del sprint.
 
-Durante el Sprint 3, el equipo trabajó colaborativamente en el repositorio **NodeSecure.Platform.BackEnd**, aplicando GitFlow y utilizando la convención de Conventional Commits para registrar los cambios realizados durante la implementación del servidor, la capa de persistencia y los módulos de dominio del backend.
-
-| Repositorio | Rama | ID de confirmación | Mensaje de confirmación | Cuerpo del mensaje de confirmación | Confirmado el (Fecha) |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| NodeSecure.Platform.BackEnd | develop | `031a672` | `chore: initial project commit` | — | `11-11-2026` |
-| NodeSecure.Platform.BackEnd | develop | `6b76330` | `feat(sensors): add IoT Sensor Integration bounded context` | — | `12-11-2026` |
-| NodeSecure.Platform.BackEnd | develop | `35ab497` | `feat(warehouses): add Warehouse Management bounded context` | — | `12-11-2026` |
-| NodeSecure.Platform.BackEnd | develop | `453714d` | `docs: document warehouse and sensor integration` | — | `12-11-2026` |
-| NodeSecure.Platform.BackEnd | develop | `f79e3cc` | `fix(warehouses): handle unpersisted zone code checks` | — | `12-11-2026` |
-| NodeSecure.Platform.BackEnd | develop | `8903616` | `feat: add profiles subscriptions and reporting contexts` | — | `12-11-2026` |
-| NodeSecure.Platform.BackEnd | develop | `27b7329` | `feat(inventory): add product and stock movement context` | — | `12-11-2026` |
-| NodeSecure.Platform.BackEnd | develop | `6d45bf3` | `feat(alerts): add security alert context` | — | `12-11-2026` |
-| NodeSecure.Platform.BackEnd | develop | `52dd755` | `docs: remove trailing whitespace from sensor notes` | — | `12-11-2026` |
-| NodeSecure.Platform.BackEnd | develop | `266b620` | `chore: keep shared wrapper fix out of warehouse scope` | — | `12-11-2026` |
-| NodeSecure.Platform.BackEnd | develop | `e607e21` | `build: handle local Maven cache in PowerShell wrapper` | — | `12-11-2026` |
-| NodeSecure.Platform.BackEnd | develop | `3ac37d2` | `refactor(inventory): keep problem mapping within module` | — | `12-11-2026` |
-Los commits fueron seleccionados pertinentemente para el registro de la tabla.  
 ---
 
   # Conclusiones
