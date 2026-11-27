@@ -4457,6 +4457,136 @@ Las entrevistas de validación deben realizarse con usuarios pertenecientes a lo
 
 9. **Colaboración y continuidad.** La distribución del trabajo por bounded contexts y el uso de Git/GitHub facilitaron el desarrollo paralelo y el registro de cambios. Para el siguiente ciclo se recomienda priorizar la finalización de las tareas en progreso, ampliar las pruebas de integración y completar la validación con usuarios, registrando observaciones reales y mejoras derivadas de la evaluación.
 
+<br>
+<br>
+
+# Video About-the-Team
+
+## Entrega AV2 (Semana 12)
+
+### Resumen de los aspectos más importantes
+
+**Contexto general del video**
+
+Equipo y proyecto: Nuestro equipo presenta los avances del Sprint 3 de su proyecto NodeSecure, desarrollado para el curso de Desarrollo de Aplicaciones Open Source.
+
+**Aportes por integrante**
+
+- **Liz Maribel Anahua Ancachi** 
+  - **Investigación y UX:** Moderó entrevistas con el segmento objetivo operativo (adaptando el lenguaje técnico a su contexto), realizó needfinding y elaboró artefactos como User Personas, Journey Maps y Empathy Maps.
+  - **Desarrollo Backend:** Modeló bajo Domain-Driven Design (DDD) los Bounded Contexts de Perfiles, Suscripciones y Reportes, y guió al equipo en la estructura inicial de datos simulados.
+  - **Gestión y seguimiento:** Contribuyó el análisis de rendimiento grupal y colaboró en la redacción del informe final para asegurar la trazabilidad y la mejora continua.
+
+<br>
+
+- **Fernando Sebastián Pérez Bellido**:
+  - **Desarrollo e integración:** Implementó el módulo de autenticación de usuarios y se encargó de integrar el código de todos los compañeros, verificando que el backend funcionara correctamente junto con el frontend.
+  - **Valoración del equipo:** Destacó la puntualidad en las entregas, la ausencia de complicaciones mayores y el cumplimiento de las expectativas iniciales.
+
+<br>
+
+- **Luciana Angielina Ravello Cárdenas Ravello:**
+  - **Desarrollo Backend:** Desarrolló el Bounded Context de Inventario, encargado de la gestión de inventarios, el registro de entradas y salidas, y la verificación de productos.
+  - **Fases previas y documentación:** Participó en el proceso Lean UX completo, las entrevistas y la documentación del planteamiento del Sprint.
+  - **Valoración:** Resaltó la buena comunicación oral y escrita del equipo, el cumplimiento de los outcomes del curso y el valor del proyecto para adquirir y reforzar conocimientos.
+
+<br>
+
+- **Kelber Yamir Sandoval Aiquipa:**
+  - **Diseño y despliegue (fases iniciales)**: Creó user flows, wireframes y mockups para asegurar una navegación clara; realizó correcciones UX/UI, explicó el despliegue de la aplicación web al equipo y configuró el enrutamiento para publicar el frontend en producción.
+  - **Desarrollo Backend**: Implementó los Bounded Contexts de Warehouse Management y Sensor Integration, permitiendo gestionar almacenes y zonas operativas.
+  - **Coordinación técnica:** Apoyó en la documentación técnica y coordinó los cambios en Git y GitHub para facilitar la integración entre módulos.
+
+<br>
+
+<br>
+
+
+**Tecnologías, metodologías y conclusiones clave**
+
+- **Recursos/metodologías usados mencionados en el video:** 
+  - Domain-Driven Design (DDD con Bounded Contexts)
+  - Lean UX
+  - Java
+  - Spring Boot
+  - APIs REST
+  - Git y GitHub.
+  
+<br>
+
+<br>
+
+
+**Conclusión del equipo:**
+<br>Todos coinciden en que lograron una colaboración efectiva y cumplieron los objetivos del sprint. En el cierre destacan que desarrollar un buen producto no consiste solo en programar funcionalidades, sino en diseñar pensando en el usuario, comunicar bien las decisiones técnicas y trabajar coordinadamente hacia una meta común.
+
+<br>
+
+### Pauta de secuencias de contenido
+
+#### SECCIONES
+
+A continuación, se lista cada sección del video dedicada al testimonio de cada estudiante. Además de su respectivo timestamp (siguiendo el formato de hh:mm:ss) y su respectiva evidencia. Finalmente, se adjunta el link del video publicado en Microsoft Stream (actualmente integrado en Microsoft SharePoint y Microsoft Climpchamp).
+
+**Estudiante 1: Liz Maribel Anahua Ancachi**
+- Timing (inicio): 00:00:03
+- Timing (final): 00:01:30
+
+<br>
+
+<div align="center">
+  <img src="images/evidencia-abouttheteam-liz-av2.png" alt="Evidencia Liz av2">
+  <p><em>Cuadro de video extraído del 00:01:00</em></p>
+</div>
+
+<br>
+<br>
+
+**Estudiante 2: Fernando Sebastian Perez Bellido**
+- Timing (inicio): 00:01:31
+- Timing (final): 00:02:09
+
+<br>
+
+<div align="center">
+  <img src="images/evidencia-abouttheteam-sebas-av2.png" alt="Evidencia Liz av2">
+  <p><em>Cuadro de video extraído del 00:02:07</em></p>
+</div>
+
+<br>
+<br>
+
+**Estudiante 3: Luciana Angielina Ravello Cárdenas**
+- Timing (inicio): 00:02:10
+- Timing (final): 00:03:07
+
+<br>
+
+<div align="center">
+  <img src="images/evidencia-abouttheteam-luciana-av2.png" alt="Evidencia Liz av2">
+  <p><em>Cuadro de video extraído del 00:02:27</em></p>
+</div>
+
+<br>
+<br>
+
+**Estudiante 4: Kelber Yamir Sandoval Aiquipa**
+- Timing (inicio): 00:03:07
+- Timing (final): 00:05:26
+
+<br>
+
+<div align="center">
+  <img src="images/evidencia-abouttheteam-kerbel-av2.png" alt="Evidencia Liz av2">
+  <p><em>Cuadro de video extraído del 00:03:22</em></p>
+</div>
+
+<br>
+
+### Link del video publicado
+
+**URL del video publicado en Microsoft Stream:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221f887_upc_edu_pe/IQACl8CsL3HOS6mADS02fTelAeWhU9P3esBGSRMGkZ9oN4Y?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=hI3NMO
+
 # Bibliografía
 
 Cohn, M. (2004). *User stories applied: For agile software development*. Addison-Wesley Professional.
